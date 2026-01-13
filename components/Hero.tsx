@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Desktop Video */}
       <video
         className="absolute inset-0 hidden h-full w-full object-cover md:block"
-        src="/videos/hero-desktop.mp4"
+        src="/videos/new-video.mp4"
         autoPlay
         muted
         loop
