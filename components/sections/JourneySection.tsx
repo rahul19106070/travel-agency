@@ -41,15 +41,19 @@ const steps: Step[] = [
 export default function JourneySection(): JSX.Element {
   return (
     <>
-   <section
-  className="relative h-screen w-full bg-contain bg-no-repeat bg-center flex items-center justify-center"
+ <section
+  className="
+    relative w-full
+    min-h-[50vh] lg:min-h-[100vh]
+    bg-center bg-no-repeat bg-contain
+  "
   style={{
     backgroundImage: "url('/images/subheading.png')",
   }}
 >
-  {/* Optional overlay */}
-  <div className="absolute inset-0 bg-black/30" />
+  <div className="absolute inset-0 bg-black/20 pointer-events-none" />
 </section>
+
 
 
 
