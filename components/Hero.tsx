@@ -45,7 +45,7 @@ export default function Hero() {
           TRAVELLERS SINCE 2005
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <button className="rounded-xs border border-white/70  sm:px-8 py-2 sm:py-3 
+          <button className="rounded-xs border border-white/70  sm:px-8 px-4 py-2 sm:py-3 
   text-[11px] leading-[12px] font-bold tracking-[1.2px] transition hover:bg-white hover:text-black">
            JOURNEYS THAT INSPIRE
           </button>

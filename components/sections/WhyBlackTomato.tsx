@@ -32,7 +32,7 @@ const features: Feature[] = [
   {
     title: "Expert private guides",
     color: "text-purple-500",
-    icon: "/images/icons-comp/ico.svg",
+    icon: "/images/icons-comp/Icons.svg",
   },
 ];
 

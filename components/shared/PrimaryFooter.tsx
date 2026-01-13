@@ -28,13 +28,14 @@ export default function PrimaryFooter(): JSX.Element {
         <div className="hidden lg:grid lg:grid-cols-5 gap-8">
           {/* BLACK TOMATO */}
           <div className="space-y-3 sm:space-y-4">
-            <h4 className="text-xs tracking-widest text-white font-semibold">
+            <p className="font-brandon text-xs tracking-widest text-white font-semibold">
               BLACK TOMATO
-            </h4>
+            </p>
+
             <ul className="space-y-1.5 text-sm">
               <li>
                 <Link href="#" className="hover:text-white transition">
-                  Speak To An Expert
+                  Speak To An Expert 
                 </Link>
               </li>
               <li>
@@ -50,7 +51,7 @@ export default function PrimaryFooter(): JSX.Element {
             </ul>
 
             <div className="mt-6 sm:mt-8">
-              <h4 className="text-xs tracking-widest text-white font-semibold mb-3">
+              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-3">
                 SIGN UP TO OUR NEWSLETTER
               </h4>
               <div className="flex border border-white/20 bg-white/5">
@@ -68,7 +69,7 @@ export default function PrimaryFooter(): JSX.Element {
 
           {/* USEFUL INFORMATION */}
           <div>
-            <h4 className="text-xs tracking-widest text-white font-semibold mb-4">
+            <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-4">
               USEFUL INFORMATION
             </h4>
             <ul className="space-y-1.5 text-sm">
@@ -95,7 +96,7 @@ export default function PrimaryFooter(): JSX.Element {
 
           {/* POPULAR DESTINATIONS */}
           <div>
-            <h4 className="text-xs tracking-widest text-white font-semibold mb-4">
+            <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-4">
               POPULAR DESTINATIONS
             </h4>
             <ul className="space-y-1.5 text-sm">
@@ -123,7 +124,7 @@ export default function PrimaryFooter(): JSX.Element {
 
           {/* WHO */}
           <div>
-            <h4 className="text-xs tracking-widest text-white font-semibold mb-4">
+            <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-4">
               WHO
             </h4>
             <ul className="space-y-1.5 text-sm">
@@ -139,7 +140,7 @@ export default function PrimaryFooter(): JSX.Element {
 
           {/* WHAT */}
           <div>
-            <h4 className="text-xs tracking-widest text-white font-semibold mb-4">
+            <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-4">
               WHAT
             </h4>
             <ul className="space-y-1.5 text-sm">
@@ -180,7 +181,7 @@ export default function PrimaryFooter(): JSX.Element {
               onClick={() => toggleSection("blacktomato")}
               className="w-full flex items-center justify-between py-5 text-left"
             >
-              <h4 className="text-xs tracking-widest text-white font-semibold">
+              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold">
                 BLACK TOMATO
               </h4>
               {openSection === "blacktomato" ? (
@@ -209,7 +210,7 @@ export default function PrimaryFooter(): JSX.Element {
                   </li>
                 </ul>
                 <div>
-                  <h4 className="text-xs tracking-widest text-white font-semibold mb-3">
+                  <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-3">
                     SIGN UP TO OUR NEWSLETTER
                   </h4>
                   <div className="flex border border-white/20 bg-white/5">
@@ -233,7 +234,7 @@ export default function PrimaryFooter(): JSX.Element {
               onClick={() => toggleSection("useful")}
               className="w-full flex items-center justify-between py-5 text-left"
             >
-              <h4 className="text-xs tracking-widest text-white font-semibold">
+              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold">
                 USEFUL INFORMATION
               </h4>
               {openSection === "useful" ? (
@@ -272,7 +273,7 @@ export default function PrimaryFooter(): JSX.Element {
               onClick={() => toggleSection("destinations")}
               className="w-full flex items-center justify-between py-5 text-left"
             >
-              <h4 className="text-xs tracking-widest text-white font-semibold">
+              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold">
                 POPULAR DESTINATIONS
               </h4>
               {openSection === "destinations" ? (
@@ -312,7 +313,7 @@ export default function PrimaryFooter(): JSX.Element {
               onClick={() => toggleSection("who")}
               className="w-full flex items-center justify-between py-5 text-left"
             >
-              <h4 className="text-xs tracking-widest text-white font-semibold">
+              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold">
                 WHO
               </h4>
               {openSection === "who" ? (
@@ -340,7 +341,7 @@ export default function PrimaryFooter(): JSX.Element {
               onClick={() => toggleSection("what")}
               className="w-full flex items-center justify-between py-5 text-left"
             >
-              <h4 className="text-xs tracking-widest text-white font-semibold">
+              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold">
                 WHAT
               </h4>
               {openSection === "what" ? (

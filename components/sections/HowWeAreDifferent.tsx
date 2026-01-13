@@ -35,7 +35,7 @@ export default function HowWeAreDifferent() {
           </p>
 
           <p className="mt-6 md:text-md font-brandon2 md:font-light font-light text-lg leading-7 text-gray-500">
-           Travel should feel inspiring, never overwhelming. We believe exceptional journeys begin with understanding what truly matters to you - not just the destination, but the feeling you want to arrive with. That’s why we take the time to listen first. We thoughtfully handle every detail, offering considered insights drawn from our own experiences, and curate journeys that feel deeply personal. No pressure, no templates - just discreet guidance and seamless planning, shaped around your story.
+            Travel should feel inspiring, never overwhelming. We believe exceptional journeys begin with understanding what truly matters to you - not just the destination, but the feeling you want to arrive with. That’s why we take the time to listen first. We thoughtfully handle every detail, offering considered insights drawn from our own experiences, and curate journeys that feel deeply personal. No pressure, no templates - just discreet guidance and seamless planning, shaped around your story.
           </p>
 
          
@@ -63,17 +63,13 @@ export default function HowWeAreDifferent() {
               />
 
               <h3
-                className={`md:mt-4 mt-2 lg:text-md text-md font-semibold font-brandon   tracking-[1.5] ${
-                  index === 0 ? "text-left" : index === 1 ? "text-center" : "text-right"
-                }`}
+                className="md:mt-4 mt-2 lg:text-md text-md font-semibold font-brandon text-center  tracking-[1.5]"
               >
                 {card.title}
               </h3>
 
               <p
-                className={`mt-2 text-md leading-6 text-gray-500 font-brandon2 ${
-                  index === 0 ? "text-left" : index === 1 ? "text-center" : "text-right"
-                }`}
+                className="mt-2 text-md leading-6 text-gray-500 font-brandon2 text-left"
               >
                 {card.description}
               </p>

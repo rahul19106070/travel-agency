@@ -9,7 +9,7 @@ export default function ReadyToStart() {
           SO, READY TO START?
         </h2>
 
-        <button className="sm:mt-4 bg-black px-6 sm:px-8 py-2 sm:py-3 text-xs tracking-widest text-white hover:bg-black/80 transition">
+        <button className="sm:mt-4 bg-black px-6 sm:px-8 py-2 my-3 sm:py-3 text-xs tracking-widest text-white hover:bg-black/80 transition">
           GET IN TOUCH
         </button>
       </div>

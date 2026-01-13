@@ -11,11 +11,11 @@ interface TravelItem {
 
 /* ---------- Data ---------- */
 const BY_TRAVELLER: TravelItem[] = [
-  { title: " FAMILY ADVENTURES", imageUrl: "/images/dest.png" },
-  { title: "ROMANTIC ESCAPES", imageUrl: "/images/dest.png" },
-  { title: "GROUP TRAVEL", imageUrl: "/images/dest.png" },
-  { title: "HONEYMOON DREAMS", imageUrl: "/images/dest.png" },
-  { title: " SELF TRAVEL", imageUrl: "/images/dest.png" },
+  { title: " FAMILY ADVENTURES", imageUrl: "/images/Family.png" },
+  { title: "ROMANTIC ESCAPES", imageUrl: "/images/COUPLE.png" },
+  { title: "GROUP TRAVEL", imageUrl: "/images/GroupTour.png" },
+  { title: "HONEYMOON DREAMS", imageUrl: "/images/HONEYMOON.png" },
+  { title: " SELF TRAVEL", imageUrl: "/images/SOLO.png" },
 ];
 
 const BY_MONTH: TravelItem[] = [

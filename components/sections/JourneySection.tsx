@@ -40,47 +40,61 @@ const steps: Step[] = [
 
 export default function JourneySection(): JSX.Element {
   return (
-    <section className="w-full bg-gray-100 py-12 px-6">
-      <div className="max-w-7xl mx-auto">
+    <>
+   <section
+  className="relative h-screen w-full bg-contain bg-no-repeat bg-center flex items-center justify-center"
+  style={{
+    backgroundImage: "url('/images/subheading.png')",
+  }}
+>
+  {/* Optional overlay */}
+  <div className="absolute inset-0 bg-black/30" />
+</section>
+
+
+
+    {/* <section className="w-full bg-gray-100 py-12 px-6">
+      <div className="max-w-7xl mx-auto"> */}
         {/* Heading */}
-        <h2 className="text-center text-5xl tracking-wider font-medium mb-8 font-alternate">
+        {/* <h2 className="text-center text-5xl tracking-wider font-medium mb-8 font-alternate">
           YOUR JOURNEY TO REMARKABLE TRAVEL
-        </h2>
+        </h2> */}
 
         {/* Steps */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
+        {/* <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
           {steps.map((step) => (
             <div key={step.number} className="text-center">
-              {/* Number */}
+              Number
               <div
                 className={`font-alternate mb-6 ${step.color} leading-tight h-24 lg:h-32 flex items-center justify-center`}
                 style={{ fontSize: "160px" }}
-              >
+                >
                 {step.number}
               </div>
 
-              {/* Title */}
+              Title
               <h3
                 className={`text-xl tracking-wide font-semibold pt-4 mb-4 font-brandon ${step.color}`}
-              >
+                >
                 {step.title}
               </h3>
 
-              {/* Description */}
+              Description
               <p className="text-md text-gray-500 leading-relaxed max-w-xs mx-auto font-normal">
                 {step.description}
               </p>
-            </div>
+              </div>
           ))}
-        </div>
+        </div> */}
 
         {/* CTA */}
-        <div className="flex justify-center mt-20">
+        {/* <div className="flex justify-center mt-20">
           <button className="border border-black px-8 py-3 text-xs rounded-xs font-bold tracking-widest hover:bg-black hover:text-white transition">
             START YOUR FREE CONSULTATION
           </button>
         </div>
       </div>
-    </section>
+    </section> */}
+ </>
   );
 }
