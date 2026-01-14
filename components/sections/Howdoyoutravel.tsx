@@ -7,14 +7,15 @@ import Image from "next/image";
 interface TravelItem {
   title: string;
   imageUrl: string;
+  pos?:string;
 }
 
 /* ---------- Data ---------- */
 const BY_TRAVELLER: TravelItem[] = [
   { title: " FAMILY ADVENTURES", imageUrl: "/images/Family.png" },
-  { title: "ROMANTIC ESCAPES", imageUrl: "/images/COUPLE.png" },
-  { title: "GROUP TRAVEL", imageUrl: "/images/GroupTour.png" },
-  { title: "HONEYMOON DREAMS", imageUrl: "/images/HONEYMOON.png" },
+  { title: "ROMANTIC ESCAPES", imageUrl: "/images/COUPLE.png" ,pos: "object-[50%_70%]"},
+  { title: "GROUP TRAVEL", imageUrl: "/images/GroupTour.png", pos: "object-[50%_60%]" },
+  { title: "HONEYMOON DREAMS", imageUrl: "/images/HONEYMOON.png", pos: "object-[10%_90%]"},
   { title: " SELF TRAVEL", imageUrl: "/images/SOLO.png" },
 ];
 
@@ -141,7 +142,7 @@ export default function HowDoYouTravel() {
                     src={item.imageUrl}
                     alt={item.title}
                     fill
-                    className="object-cover"
+                    className={`object-cover ${item.pos ?? "object-center"}`}
                   />
 
                   {/* Darken on hover */}
