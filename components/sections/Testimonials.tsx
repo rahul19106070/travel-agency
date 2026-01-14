@@ -13,33 +13,47 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    id: 1,
+   id: 1,
+   image: "/images/triple-creek-ranch.avif",
+   quote: "“",
+   text: "Our 14-year-old actually put down his phone during the cooking class. The hotels worked for everyone, and we got real couple time. That alone was a miracle.",
+   author: " - Family of 4 with Teens",
+ },
+  {
+   id: 2,
+   image: "/images/triple-creek-ranch.avif",
+   quote: "“",
+   text: "Honestly, it was perfect. The overwater villa, that restaurant everyone raves about—somehow they got us in. We didn't lift a finger. Just pure honeymoon bliss",
+   author: " - Newly Married",
+ },
+  {
+    id: 3,
     image: "/images/triple-creek-ranch.avif",
     quote: "“",
     text: "Hands down this was the most amazing travel experience our family has ever done together.",
     author: "Brett, Middle East",
   },
   {
-    id: 2,
+    id: 4,
     image: "/images/triple-creek-ranch.avif",
     quote: "“",
     text: "We have explored some incredible places and had unique adventures only possible with Black Tomato.",
     author: "Ike & Alex, Italy",
   },
-  {
-    id: 3,
-    image: "/images/triple-creek-ranch.avif",
-    quote: "“",
-    text: "Every detail felt intentional and personal. Truly once in a lifetime.",
-    author: "Sarah, USA",
-  },
-  {
-    id: 4,
-    image: "/images/triple-creek-ranch.avif",
-    quote: "“",
-    text: "A seamless blend of luxury and adventure.",
-    author: "Daniel, France",
-  },
+  // {
+  //   id: 3,
+  //   image: "/images/triple-creek-ranch.avif",
+  //   quote: "“",
+  //   text: "Every detail felt intentional and personal. Truly once in a lifetime.",
+  //   author: "Sarah, USA",
+  // },
+  // {
+  //   id: 6,
+  //   image: "/images/triple-creek-ranch.avif",
+  //   quote: "“",
+  //   text: "A seamless blend of luxury and adventure.",
+  //   author: "Daniel, France",
+  // },
   {
     id: 5,
     image: "/images/triple-creek-ranch.avif",
@@ -48,11 +62,18 @@ const testimonials: Testimonial[] = [
     author: "Anita, India",
   },
   {
-    id: 6,
+   id: 6,
+   image: "/images/triple-creek-ranch.avif",
+   quote: "“",
+   text: "Six of us with different budgets and tastes—it could've been a disaster. The riad was stunning, the desert felt genuine, not staged. Everyone left happy",
+   author: "- A Group of Friends",
+ },
+   {
+    id: 7,
     image: "/images/triple-creek-ranch.avif",
     quote: "“",
-    text: "Every moment felt curated just for us.",
-    author: "Leo, Australia",
+    text: "They just got it. Ground floor room, extra time at each stop, a driver who never rushed us. We felt looked after, not just booked",
+    author: "- Couple in their 70's",
   },
 ];
 
