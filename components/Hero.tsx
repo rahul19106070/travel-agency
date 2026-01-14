@@ -48,8 +48,7 @@ export default function Hero() {
       />
 
       {/* Mobile Video */}
-      <video
-        className="absolute inset-0 block h-full w-full object-cover md:hidden"
+      <video className="absolute inset-0 block h-full w-full object-cover object-[50%_65%] md:hidden"
         src="/videos/new-video.mp4"
         autoPlay
         muted
