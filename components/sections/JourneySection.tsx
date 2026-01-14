@@ -54,7 +54,7 @@ export default function JourneySection(): JSX.Element {
             <div key={step.number} className="text-center">
               Number
               <div
-                className={`font-alternate mt-2 mb-6 ${step.color} leading-tight h-24 lg:h-32 flex items-center justify-center`}
+                className={`font-alternate mb-6 ${step.color} leading-tight h-24 lg:h-32 flex items-center justify-center`}
                 style={{ fontSize: "160px" }}
                 >
                 {step.number}
