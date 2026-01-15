@@ -71,8 +71,8 @@ export default function OurPurpose() {
               <Image
                 src="/images/about/image.jpg"
                 alt="Dramatic mountain landscape"
-                height={800}
-                width={500}
+                height={10000}
+                width={1000}
                 className="object-contain"
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
 

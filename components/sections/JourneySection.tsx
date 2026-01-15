@@ -41,15 +41,15 @@ const steps: Step[] = [
 export default function JourneySection(): JSX.Element {
   return (
     <>
-    <section className="w-full bg-gray-100 py-12 px-6">
-      <div className="max-w-7xl mx-auto"> 
+    {/* <section className="w-full bg-gray-100 py-12 px-6">
+      <div className="max-w-7xl mx-auto">  */}
         {/* Heading */}
-        <h2 className="text-center text-5xl tracking-wider font-medium mb-8 font-alternate">
+        {/* <h2 className="text-center text-5xl tracking-wider font-medium mb-8 font-alternate">
           YOUR JOURNEY TO REMARKABLE TRAVEL
-        </h2>
+        </h2> */}
 
         {/* Steps */}
-         <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
+         {/* <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
           {steps.map((step) => (
             <div key={step.number} className="text-center">
               Number
@@ -72,16 +72,16 @@ export default function JourneySection(): JSX.Element {
               </p>
               </div>
           ))}
-        </div> 
+        </div>  */}
 
         {/* CTA */}
-         <div className="flex justify-center mt-20">
+         {/* <div className="flex justify-center mt-20">
           <button className="border border-black px-8 py-3 text-xs rounded-xs font-bold tracking-widest hover:bg-black hover:text-white transition">
             START YOUR FREE CONSULTATION
           </button>
-        </div> 
-      </div>
-    </section>
+        </div>  */}
+      {/* </div>
+    </section> */}
  </>
   );
 }

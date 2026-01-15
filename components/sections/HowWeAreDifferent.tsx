@@ -40,9 +40,27 @@ export default function HowWeAreDifferent() {
 
          
 
-          <button className="mt-4 bg-black px-6 py-3 text-xs font-semibold tracking-widest text-white hover:bg-gray-800">
-            START YOUR JOURNEY
-          </button>
+          <button
+  className="
+    relative overflow-hidden
+    rounded-xs border border-black/70 bg-black
+    sm:px-8 px-4 py-2 sm:py-3 mt-5
+    text-[11px] leading-[12px] font-bold tracking-[1.2px]
+
+    text-white
+    transition-all duration-300 ease-in-out
+    hover:text-black hover:scale-[1.02]
+
+    before:absolute before:inset-0
+    before:bg-white
+    before:opacity-0
+    before:transition-opacity before:duration-300 before:ease-in-out
+    hover:before:opacity-100
+  "
+>
+  <span className="relative z-10">START YOUR JOURNEY</span>
+</button>
+
         </div>
 
         {/* Section Title */}
@@ -79,9 +97,31 @@ export default function HowWeAreDifferent() {
 
         {/* Bottom CTA */}
         <div className="mt-12 flex justify-center">
-          <button className="border border-black px-6 py-3 text-xs font-semibold tracking-widest hover:bg-black hover:text-white">
-            LEARN ABOUT OUR PROCESS
-          </button>
+       <button
+  className="
+    relative overflow-hidden
+    rounded-xs border border-black
+    bg-white
+    sm:px-8 px-4 py-2 sm:py-3
+    text-[11px] leading-[12px] font-bold tracking-[1.2px]
+
+    text-black
+    transition-all duration-300 ease-in-out
+    hover:text-white
+
+    before:absolute before:inset-0
+    before:bg-black
+    before:opacity-0
+    before:transition-opacity before:duration-300 before:ease-in-out
+    hover:before:opacity-100
+  "
+>
+  <span className="relative z-10">
+    LEARN ABOUT OUR PROCESS
+  </span>
+</button>
+
+
         </div>
       </div>
     </section>

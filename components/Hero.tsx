@@ -1,10 +1,11 @@
 "use client";
-
+import { useRouter } from "next/navigation";
 import { ChevronDown } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const router = useRouter();
   const [fadeIn, setFadeIn] = useState(false);
 
   const handleScroll = () => {
@@ -71,9 +72,30 @@ export default function Hero() {
           TRAVELLERS SINCE 2005
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <button className="rounded-xs border border-white/70 sm:px-8 px-4 py-2 sm:py-3 text-[11px] leading-[12px] font-bold tracking-[1.2px] transition hover:bg-white hover:text-black">
-            JOURNEYS THAT INSPIRE
-          </button>
+          <button onClick={() => {
+    const el = document.getElementById("journey");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  }}
+              className="
+                relative overflow-hidden
+                rounded-xs border border-white/70
+                sm:px-8 px-4 py-2 sm:py-3
+                text-[11px] leading-[12px] font-bold tracking-[1.2px]
+                text-white
+
+                transition-all duration-300 ease-in-out
+                hover:text-black hover:scale-[1.02]
+
+                before:absolute before:inset-0
+                before:bg-white
+                before:opacity-0
+                before:transition-opacity before:duration-300 before:ease-in-out
+                hover:before:opacity-100
+              "
+            >
+              <span className="relative z-10" >
+                JOURNEYS THAT INSPIRE</span>
+            </button>
         </div>
       </div>
 

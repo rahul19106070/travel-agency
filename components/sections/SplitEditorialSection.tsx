@@ -35,9 +35,27 @@ export default function SplitEditorialSection(): JSX.Element {
                 anyone. You can meet them in our new video.
               </p>
 
-              <button className="bg-black text-white px-6 py-3 text-xs tracking-widest hover:bg-gray-800 transition">
-                WATCH THE FILM
-              </button>
+             <button
+  className="
+    relative overflow-hidden
+    rounded-xs border border-black/70 bg-black
+    sm:px-8 px-4 py-2 sm:py-3
+    text-[11px] leading-[12px] font-bold tracking-[1.2px]
+
+    text-white
+    transition-all duration-300 ease-in-out
+    hover:text-black hover:scale-[1.02]
+
+    before:absolute before:inset-0
+    before:bg-white
+    before:opacity-0
+    before:transition-opacity before:duration-300 before:ease-in-out
+    hover:before:opacity-100
+  "
+>
+  <span className="relative z-10">WATCH THE FILM</span>
+</button>
+
             </div>
           </div>
         </div>
@@ -84,9 +102,27 @@ export default function SplitEditorialSection(): JSX.Element {
                 expectations.
               </p>
 
-              <button className="bg-black text-white px-6 rounded-xs py-3 text-xs tracking-widest hover:bg-gray-800 transition">
-                WATCH THE FILM
-              </button>
+              <button
+  className="
+    relative overflow-hidden
+    rounded-xs border border-black/70 bg-black
+    sm:px-8 px-4 py-2 sm:py-3
+    text-[11px] leading-[12px] font-bold tracking-[1.2px]
+
+    text-white
+    transition-all duration-300 ease-in-out
+    hover:text-black hover:scale-[1.02]
+
+    before:absolute before:inset-0
+    before:bg-white
+    before:opacity-0
+    before:transition-opacity before:duration-300 before:ease-in-out
+    hover:before:opacity-100
+  "
+>
+  <span className="relative z-10">WATCH THE FILM</span>
+</button>
+
             </div>
           </div>
         </div>

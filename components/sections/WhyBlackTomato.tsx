@@ -42,7 +42,7 @@ export default function WhyBlackTomato(): JSX.Element {
       <section
           className="
             relative w-full
-            min-h-[38vh] lg:min-h-[100vh]
+            min-h-[38vh] lg:min-h-[70vh]
             bg-center bg-no-repeat bg-contain
           "
           style={{

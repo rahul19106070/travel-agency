@@ -208,9 +208,27 @@ export default function HowDoYouTravel() {
         {/* CTA */}
         {(activeTab === "destination" || activeTab === "traveller") && (
           <div className="mt-16 flex justify-center">
-            <button className="bg-black px-6 py-3 text-xs tracking-widest text-white hover:bg-black/80 transition">
-              VIEW MORE
-            </button>
+            <button
+  className="
+    relative overflow-hidden
+    rounded-xs border border-black/70 bg-black
+    sm:px-8 px-4 py-2 sm:py-3
+    text-[11px] leading-[12px] font-bold tracking-[1.2px]
+
+    text-white
+    transition-all duration-300 ease-in-out
+    hover:text-black 
+
+    before:absolute before:inset-0
+    before:bg-white
+    before:opacity-0
+    before:transition-opacity before:duration-300 before:ease-in-out
+    hover:before:opacity-100
+  "
+>
+  <span className="relative z-10">VIEW MORE</span>
+</button>
+
           </div>
         )}
       </div>

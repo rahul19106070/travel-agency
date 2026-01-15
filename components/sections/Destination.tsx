@@ -72,16 +72,16 @@ const TRIPS: Trip[] = [
 
 export default function DestinationSlider() {
   return (
-    <section 
+    <section  id="journey"
       className="py-8 sm:py-16 md:py-12 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/images/Itineraries-Home-scaled.jpg')" }}
     >
       {/* Heading - Visible on md and below */}
       <div className="lg:hidden px-4 sm:px-6 text-white mb-8">
-        <h2 className="text-2xl sm:text-3xl font-medium tracking-[1.2] font-alternate">
+        <h2 className="text-3xl sm:text-3xl font-medium tracking-[1.2] font-alternate font-extrabold">
           OUR MOST SOUGHT-AFTER <br />JOURNEYS
         </h2>
-        <p className="mt-4 text-xs sm:text-sm italic text-white/70">
+        <p className="mt-4 sm:text-xl md:text-lg italic text-white/70">
           The experiences our travellers are choosing right now...
         </p>
       </div>
@@ -99,7 +99,7 @@ export default function DestinationSlider() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-[1.2] font-alternate">
                  OUR MOST SOUGHT-AFTER<br />JOURNEYS
               </h2>
-              <p className="mt-4 text-xs sm:text-sm italic text-white/70">
+              <p className="mt-4 lg:text-xl sm:text-sm italic text-white/70">
                 The experiences our travellers are choosing right now...
               </p>
             </div>
@@ -122,18 +122,18 @@ export default function DestinationSlider() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
               {/* Duration */}
-              <div className="absolute top-2 sm:top-4 right-2 sm:right-4 text-xs tracking-widest text-white">
+              <div className="absolute top-2 sm:top-4 right-2 sm:right-4 text-xs tracking-widest text-white font-bold">
                 {trip.duration}
               </div>
 
               {/* Content */}
               <div className="absolute bottom-0 left-0 w-full p-2 sm:p-3 md:p-4 transition-all duration-300">
-                <h3 className="text-xs sm:text-sm font-semibold tracking-widest text-white line-clamp-2 font-alternate font-bold">
+                <h1 className="font-brandon text-xxs sm:text-sm font-semibold tracking-widest text-white line-clamp-2 font-alternate font-bold">
                   {trip.title}
-                </h3>
+                </h1>
 
                 {trip.subtitle && (
-                  <p className="mt-1 text-xs text-white/80 line-clamp-1">
+                  <p className="mt-1 text-xxs text-white/80 line-clamp-1">
                     {trip.subtitle}
                   </p>
                 )}
@@ -152,15 +152,34 @@ export default function DestinationSlider() {
                 </div>
 
                 {/* CTA */}
-                <button className="mt-2 sm:mt-4 border border-white px-3 sm:px-4 py-1 sm:py-2 text-xs tracking-widest text-white transition hover:bg-white hover:text-black">
-                  EXPLORE TRIP
+                <button
+                  className="
+                    mt-2 sm:mt-4
+                    relative overflow-hidden
+                    border border-white
+                    px-3 sm:px-4 py-1 sm:py-2
+                    text-xs tracking-widest text-white
+
+                    transition-all duration-300 ease-out
+                    hover:text-black hover:scale-[1.03]
+
+                    before:absolute before:inset-0
+                    before:bg-white
+                    before:translate-y-full
+                    before:transition-transform before:duration-300 before:ease-out
+                    hover:before:translate-y-0
+                  "
+                >
+                  <span className="relative z-10">EXPLORE TRIP</span>
                 </button>
               </div>
             </div>
           ))}
-          <div className="shrink-0 flex items-end pb-6 px-2"><button className="border border-white px-4 sm:px-8 md:px-12 py-1 sm:py-2 text-xs tracking-widest text-white transition hover:bg-white hover:text-black whitespace-nowrap">
-            view all
-          </button></div>
+          <div className="shrink-0 flex items-end pb-6 px-2">
+            <button className="border border-white px-4 sm:px-8 md:px-12 py-1 sm:py-2 text-xs tracking-widest text-white transition hover:bg-white hover:text-black whitespace-nowrap">
+               view all
+            </button>
+          </div>
         </div>
       </div>
     </section>
