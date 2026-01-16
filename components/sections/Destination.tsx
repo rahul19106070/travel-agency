@@ -73,7 +73,7 @@ const TRIPS: Trip[] = [
 export default function DestinationSlider() {
   return (
     <section  id="journey"
-      className="py-8 sm:py-16 md:py-12 bg-cover bg-center bg-no-repeat"
+      className=" sm:py-16 md:py-12 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/images/Itineraries-Home-scaled.jpg')" }}
     >
       {/* Heading - Visible on md and below */}
@@ -90,12 +90,12 @@ export default function DestinationSlider() {
         {/* Horizontal Scroll */}
         <div className="flex gap-3 sm:gap-4 md:gap-6 overflow-x-scroll pb-6 px-4 sm:px-6 md:px-0 md:pr-8 lg:pr-40 flex-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {/* Blank Div - Only on lg */}
-          <div className="hidden lg:flex relative min-w-[200px] aspect-3/5 overflow-hidden shrink-0">
+          <div className="hidden lg:flex relative min-w-[10px] aspect-3/5 overflow-hidden shrink-0">
           </div>
 
           {/* Header - Only on lg */}
-          <div className="hidden lg:flex relative min-w-[320px] aspect-3/5 overflow-hidden shrink-0">
-            <div className="text-white flex flex-col mt-12 pb-8 px-6">
+          <div className="hidden lg:flex relative min-w-[320px] aspect-4/5 overflow-hidden shrink-0">
+            <div className="text-white flex flex-col mt-12 pb-8 px-0">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-[1.2] font-alternate">
                  OUR MOST SOUGHT-AFTER<br />JOURNEYS
               </h2>
@@ -182,6 +182,13 @@ export default function DestinationSlider() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
     </section>
   );
 }

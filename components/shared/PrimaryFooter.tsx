@@ -15,17 +15,18 @@ export default function PrimaryFooter(): JSX.Element {
   return (
     <footer className="bg-[#242323] text-gray-300">
       <div className="border-b border-white/10 py-8 sm:py-10">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-10 px-4 sm:px-6 opacity-70 text-xs sm:text-sm">
-          <Image src="/images/icons-comp/kVZ1z4VT-travelleisure.svg" alt="Condé Nast Traveler" width={100} height={30} />
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-4 lg:gap-20 sm:gap-6 md:gap-10 px-4 sm:px-6 opacity-70 text-xs sm:text-sm">
+          <Image src="/images/icons-comp/kVZ1z4VT-travelleisure.svg" alt="Condé Nast Traveler" width={100} height={50} />
           <Image src="/images/icons-comp/abta-logo.svg" alt="Condé Nast Traveler" width={100} height={30} />
           <Image src="/images/icons-comp/veWhg0JB-iata.svg" alt="Condé Nast Traveler" width={100} height={30} />
           <Image src="/images/icons-comp/traveller.svg" alt="Condé Nast Traveler" width={100} height={30} />
-          <Image src="/images/icons-comp/vsDPx9UG-virtuoso-member.svg" alt="Condé Nast Traveler" width={100} height={60} />
+          <Image src="/images/icons-comp/vsDPx9UG-virtuoso-member.svg" alt="Condé Nast Traveler" width={200} height={100} />
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8">
-        <div className="hidden lg:grid lg:grid-cols-5 gap-8">
+        <div className="hidden lg:grid lg:grid-cols-[1.5fr_1fr_1fr_1fr_1fr]
+ gap-8">
           {/* BLACK TOMATO */}
           <div className="space-y-3 sm:space-y-4">
             <p className="font-brandon text-xs tracking-widest text-white font-semibold">
@@ -54,13 +55,13 @@ export default function PrimaryFooter(): JSX.Element {
               <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-3">
                 SIGN UP TO OUR NEWSLETTER
               </h4>
-              <div className="flex border border-white/20 bg-white/5">
+              <div className="flex border border-white/20 bg-white/5 text-black w-70">
                 <input
                   type="email"
                   placeholder="youremail@example.com"
-                  className="bg-transparent px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm w-full outline-none"
+                  className="bg-white/90 text-black  sm:px-4 py-2 sm:py-3 text-xs sm:text-sm flex-1 outline-none"
                 />
-                <button className="px-3 sm:px-4 border-l border-white/20 hover:bg-white/10 transition text-sm sm:text-base">
+                <button className="px-5 lg:px-5 py-4 sm:px-4 border-l bg-black text-white border-white/20 hover:bg-white/10 transition text-sm sm:text-base">
                   →
                 </button>
               </div>

@@ -44,7 +44,7 @@ export default function HowWeAreDifferent() {
   className="
     relative overflow-hidden
     rounded-xs border border-black/70 bg-black
-    sm:px-8 px-4 py-2 sm:py-3 mt-5
+    sm:px-8 px-4 py-2 sm:py-5 py-4 mt-5
     text-[11px] leading-[12px] font-bold tracking-[1.2px]
 
     text-white
@@ -64,12 +64,12 @@ export default function HowWeAreDifferent() {
         </div>
 
         {/* Section Title */}
-        <h2 className="md:mt-24 mt-12 text-center text-5xl font-medium tracking-widest font-alternate">
+        <h2 className="md:mt-24 mt-20 text-center text-5xl font-medium tracking-widest font-alternate">
           HOW WE’RE DIFFERENT
         </h2>
 
         {/* Cards */}
-        <div className="md:mt-16 mt-8 grid gap-6  md:grid-cols-3">
+        <div className="md:mt-11 mt-8 grid gap-6  md:grid-cols-3">
           {DIFFERENCE_CARDS.map((card, index) => (
             <div key={card.id}>
               <Image
@@ -102,7 +102,7 @@ export default function HowWeAreDifferent() {
     relative overflow-hidden
     rounded-xs border border-black
     bg-white
-    sm:px-8 px-4 py-2 sm:py-3
+    sm:px-8 px-4 py-4 sm:py-4
     text-[11px] leading-[12px] font-bold tracking-[1.2px]
 
     text-black

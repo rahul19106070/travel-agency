@@ -40,9 +40,9 @@ export default function WhyBlackTomato(): JSX.Element {
   return (
     <>
       <section
-          className="
+          className=" mt-20 
             relative w-full
-            min-h-[38vh] lg:min-h-[70vh]
+            min-h-[30vh] sm:min-h-[30vh] md:min-h-[35vh] lg:min-h-[74vh]
             bg-center bg-no-repeat bg-contain
           "
           style={{
@@ -51,6 +51,27 @@ export default function WhyBlackTomato(): JSX.Element {
           >
             <div className="absolute inset-0 bg-black/20 pointer-events-none" />
       </section>
+
+      {/* <section>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-sm">
+          <span className="underline">Excellent</span>
+
+          <div className="flex gap-1">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <span
+                key={i}
+                className="w-4 h-4 bg-emerald-500 text-white flex items-center justify-center text-sm"
+              >
+                ★
+              </span>
+            ))}
+          </div>
+
+         <span className="flex items-center gap-1">
+          <span className="text-emerald-600 font-semibold">★</span> Trustpilot
+          </span>
+      </div>
+      </section> */}
     </>
     // <section className="w-full bg-white py-24 px-6">
     //   <div className="max-w-7xl mx-auto text-center">
@@ -80,8 +101,7 @@ export default function WhyBlackTomato(): JSX.Element {
         //  Divider
         // <div className="h-px bg-gray-200 my-8" /> 
 
-        // Trustpilot 
-    //      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-sm">
+    // <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-sm">
     //       <span className="underline">Excellent</span>
 
     //       <div className="flex gap-1">
@@ -95,11 +115,11 @@ export default function WhyBlackTomato(): JSX.Element {
     //         ))}
     //       </div>
 
-    //       <span className="flex items-center gap-1">
-    //         <span className="text-emerald-600 font-semibold">★</span> Trustpilot
+    //      <span className="flex items-center gap-1">
+    //       <span className="text-emerald-600 font-semibold">★</span> Trustpilot
     //       </span>
-    //     </div>
     //   </div>
+      // </div>
     // </section> 
   );
 }

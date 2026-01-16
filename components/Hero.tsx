@@ -79,8 +79,8 @@ export default function Hero() {
               className="
                 relative overflow-hidden
                 rounded-xs border border-white/70
-                sm:px-8 px-4 py-2 sm:py-3
-                text-[11px] leading-[12px] font-bold tracking-[1.2px]
+                sm:px-8 px-4 py-5 sm:py-3 lg:py-4
+                text-[13px] leading-[12px] font-bold tracking-[1.2px]
                 text-white
 
                 transition-all duration-300 ease-in-out

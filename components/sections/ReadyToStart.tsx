@@ -1,13 +1,13 @@
 export default function ReadyToStart() {
   return (
     <section 
-      className="relative w-full py-16 sm:py-20 md:py-12 bg-cover bg-center bg-no-repeat"
+      className="relative w-full py-16 lg:py-22 sm:py-20 md:py-12 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/images/next.png')" }}
     >
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 text-center text-white">
-        <h2 className="text-5xl sm:text-5xl md:text-5xl font-medium tracking-wider font-alternate sm:mb-4">
+        <h1 className="text-5xl lg:text-6xl sm:text-5xl md:text-5xl font-medium tracking-wider font-alternate sm:mb-4">
           SO, READY TO START?
-        </h2>
+        </h1>
 
         <button
   className="
