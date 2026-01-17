@@ -75,7 +75,7 @@ const TeamSection = ({
                     className={`w-full text-white ${
                       // Right-align last member only for Travel Team
                       title === TEAM_DATA[1].title && memberIndex === row.length - 1
-                        ? "text-right"
+                        ? "text-left lg:text-right"
                         : "text-left"
                     }`}
                   >

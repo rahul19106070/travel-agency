@@ -12,26 +12,45 @@ export default function OurPurpose() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const textsRef = useRef<HTMLDivElement[]>([]);
 
-  useEffect(() => {
-    if (!sectionRef.current) return;
+ useEffect(() => {
+  if (!sectionRef.current) return;
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: sectionRef.current,
-        start: "top top",
-        end: "+=400%",
-        scrub: true,
-        pin: true,
-      },
+  gsap.set(textsRef.current, {
+    opacity: 0,
+    y: 40,
+  });
+
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: sectionRef.current,
+      start: "top top",
+      end: "+=400%",
+      scrub: true,
+      pin: true,
+    },
+  });
+
+  textsRef.current.forEach((el, i) => {
+    // fade in
+    tl.to(el, {
+      opacity: 1,
+      y: 0,
+      duration: 0.6,
+      ease: "power2.out",
     });
 
-    textsRef.current.forEach((el, i) => {
-      // fade in
-      tl.to(el, { opacity: 1, y: 0, duration: 0.3 }, i * 1)
-        // fade out before next
-        .to(el, { opacity: 0, y: -50, duration: 0.3 }, (i + 1) * 1);
-    });
-  }, []);
+    // fade out EXCEPT last text
+    if (i !== textsRef.current.length - 1) {
+      tl.to(el, {
+        opacity: 0,
+        y: -40,
+        duration: 0.6,
+        ease: "power2.in",
+      });
+    }
+  });
+}, []);
+
 
 
   return (

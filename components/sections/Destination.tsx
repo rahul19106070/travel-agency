@@ -77,7 +77,7 @@ export default function DestinationSlider() {
       style={{ backgroundImage: "url('/images/Itineraries-Home-scaled.jpg')" }}
     >
       {/* Heading - Visible on md and below */}
-      <div className="lg:hidden px-4 sm:px-6 text-white mb-8">
+      <div className="lg:hidden pt-5 px-4 sm:px-6 text-white mb-8">
         <h2 className="text-3xl sm:text-3xl font-medium tracking-[1.2] font-alternate font-extrabold">
           OUR MOST SOUGHT-AFTER <br />JOURNEYS
         </h2>
