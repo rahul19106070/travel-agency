@@ -13,7 +13,7 @@ export default function ReadyToStart() {
         className="
           relative overflow-hidden
           rounded-xs border border-black/70 bg-black
-          sm:px-8 px-4 py-2 sm:py-3 mt-4
+          sm:px-8 px-4 py-2 sm:py-3 mt-6
           text-[11px] leading-[12px] font-bold tracking-[1.2px]
 
           text-white
