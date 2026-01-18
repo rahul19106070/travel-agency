@@ -12,7 +12,6 @@ import { ABOUT_DATA } from "@/app/data/navbar";
 import { MENU_DATA } from "@/app/data/navbar";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 type NavTab = "destinations" | "experiences" | "about" | "menu";
 type NavAppearance =
   | "home-flat"
@@ -487,9 +486,11 @@ export default function Navbar({ appearance }: NavbarProps) {
                 textIsDark ? "text-[#444444]" : "text-white"
               }`}
             />
-            <button className="hidden lg:block bg-pink-600 lg:px-6 lg:py-2.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs rounded-[3px]  lg:text-[10px] font-semibold font-brandon text-white hover:bg-pink-700 transition whitespace-nowrap">
-              ENQUIRE NOW
-            </button>
+            <Link href="/enquiry">
+  <button className="hidden lg:block bg-pink-600 lg:px-6 lg:py-2.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs rounded-[3px] lg:text-[10px] font-semibold font-brandon text-white hover:bg-pink-700 transition whitespace-nowrap">
+    ENQUIRE NOW
+  </button>
+</Link>
           </div>
 
           {/* Mobile: ENQUIRE NOW button */}

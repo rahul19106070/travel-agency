@@ -214,13 +214,13 @@ export default function PrimaryFooter(): JSX.Element {
                   <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-3">
                     SIGN UP TO OUR NEWSLETTER
                   </h4>
-                  <div className="flex border border-white/20 bg-white/5">
+                  <div className="flex   text-black">
                     <input
                       type="email"
                       placeholder="youremail@example.com"
-                      className="bg-transparent px-4 py-3 text-xs w-full outline-none"
+                      className="bg-white/90 text-black  px-4 py-3 text-xs  outline-none"
                     />
-                    <button className="px-4 border-l border-white/20 hover:bg-white/10 transition">
+                    <button className="px-4 border-l bg-black text-white border-white/20 hover:bg-white/10  transition">
                       →
                     </button>
                   </div>
