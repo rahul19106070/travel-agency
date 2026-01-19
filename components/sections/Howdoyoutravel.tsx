@@ -2,21 +2,46 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 /* ---------- Types ---------- */
 interface TravelItem {
   title: string;
   imageUrl: string;
-  pos?:string;
+  slug?: string; // 👈 routing key
+  pos?: string;
 }
 
 /* ---------- Data ---------- */
 const BY_TRAVELLER: TravelItem[] = [
-  { title: " FAMILY ADVENTURES", imageUrl: "/images/Family.png" },
-  { title: "ROMANTIC ESCAPES", imageUrl: "/images/COUPLE.png" ,pos: "object-[50%_70%]"},
-  { title: "GROUP TRAVEL", imageUrl: "/images/GroupTour.png", pos: "object-[50%_60%]" },
-  { title: "HONEYMOON DREAMS", imageUrl: "/images/HONEYMOON.png", pos: "object-[10%_90%]"},
-  { title: " SELF TRAVEL", imageUrl: "/images/SOLO.png" },
+  {
+    title: "FAMILY ADVENTURES",
+    imageUrl: "/images/Family.png",
+    slug: "family-holidays",
+  },
+  {
+    title: "ROMANTIC ESCAPES",
+    imageUrl: "/images/COUPLE.png",
+    slug: "romantic-holidays",
+    pos: "object-[50%_70%]",
+  },
+  {
+    title: "GROUP TRAVEL",
+    imageUrl: "/images/GroupTour.png",
+    slug: "group-holidays",
+    pos: "object-[50%_60%]",
+  },
+  {
+    title: "HONEYMOON DREAMS",
+    imageUrl: "/images/HONEYMOON.png",
+    slug: "honeymoon-holidays",
+    pos: "object-[10%_90%]",
+  },
+  {
+    title: "SELF TRAVEL",
+    imageUrl: "/images/SOLO.png",
+    slug: "solo-holidays",
+  },
 ];
 
 const BY_MONTH: TravelItem[] = [
@@ -62,16 +87,40 @@ export default function HowDoYouTravel() {
 
   const isMonthTab = activeTab === "month";
 
+  const Wrapper = ({
+    item,
+    children,
+    index,
+    className,
+  }: {
+    item: TravelItem;
+    children: React.ReactNode;
+    index: number;
+    className: string;
+  }) =>
+    item.slug ? (
+      <Link
+        key={index}
+        href={`/experience-types/${item.slug}`}
+        className={`${className} block cursor-pointer`}
+      >
+        {children}
+      </Link>
+    ) : (
+      <div key={index} className={className}>
+        {children}
+      </div>
+    );
+
   return (
     <section className="bg-gray-50 py-16 px-4 sm:px-6">
       <div className="mx-auto max-w-7xl">
-        {/* Title */}
-        <h2 className="text-center text-5xl sm:text-4xl md:text-5xl font-medium tracking-wider font-alternate">
+        <h2 className="text-center text-5xl font-medium tracking-wider">
           DESIGNED AROUND YOU!
         </h2>
 
         {/* Tabs */}
-        <div className="mt-6 flex justify-center gap-8 sm:gap-8 text-xs tracking-widest flex-wrap">
+        <div className="mt-6 flex justify-center gap-8 text-xs tracking-widest flex-wrap">
           {[
             { id: "traveller", label: "TRAVEL STYLE" },
             { id: "destination", label: "TOP PICKS" },
@@ -79,10 +128,8 @@ export default function HowDoYouTravel() {
           ].map((tab) => (
             <button
               key={tab.id}
-              onClick={() =>
-                setActiveTab(tab.id as "traveller" | "destination" | "month")
-              }
-              className={`relative pb-2 cursor-pointer ${
+              onClick={() => setActiveTab(tab.id as any)}
+              className={`relative pb-2 ${
                 activeTab === tab.id ? "text-pink-600" : "text-black/70"
               }`}
             >
@@ -94,141 +141,72 @@ export default function HowDoYouTravel() {
           ))}
         </div>
 
-        {/* Grid - Responsive based on tab and screen size */}
+        {/* GRID */}
         {isMonthTab ? (
-          // MONTH TAB: full-width below md, 3-col grid on md+
-          <div className="mt-16">
-
-            {/* Desktop: 3-col grid */}
-            <div className="grid grid-cols-3  md:grid-cols-6 gap-4">
-              {data.map((item, index) => (
-                <div
-                  key={index}
-                  className="group relative  aspect-[3/4]  md:aspect-[5/9] overflow-hidden"
-                >
-                  {/* Image */}
-                  <Image
-                    src={item.imageUrl}
-                    alt={item.title}
-                    fill
-                    className="object-cover"
-                  />
-
-                  {/* Darken on hover */}
-                  <div className="absolute inset-0 bg-black/20 transition group-hover:bg-black/40" />
-
-                  {/* Title */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <p className="text-sm font-semibold tracking-widest text-white">
-                      {item.title}
-                    </p>
-                  </div>
+          <div className="mt-16 grid grid-cols-3 md:grid-cols-6 gap-4">
+            {data.map((item, index) => (
+              <Wrapper
+                key={index}
+                item={item}
+                index={index}
+                className="group relative aspect-[3/4] overflow-hidden"
+              >
+                <Image src={item.imageUrl} alt={item.title} fill className="object-cover" />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <p className="text-sm font-semibold tracking-widest text-white">
+                    {item.title}
+                  </p>
                 </div>
-              ))}
-            </div>
+              </Wrapper>
+            ))}
           </div>
         ) : (
-          // TRAVELLER & DESTINATION TABS: full-width below md, 5-col grid above md
           <div className="mt-16">
-            {/* Mobile: full width, less height */}
+            {/* Mobile */}
             <div className="md:hidden grid grid-cols-1 gap-10">
               {data.map((item, index) => (
-                <div
+                <Wrapper
                   key={index}
+                  item={item}
+                  index={index}
                   className="group relative w-full h-40 overflow-hidden"
                 >
-                  {/* Image */}
                   <Image
                     src={item.imageUrl}
                     alt={item.title}
                     fill
                     className={`object-cover ${item.pos ?? "object-center"}`}
                   />
-
-                  {/* Darken on hover */}
-                  <div className="absolute inset-0 bg-black/20 transition group-hover:bg-black/40" />
-
-                  {/* Title */}
-                  <div className="absolute inset-0 flex  text-center items-center justify-center">
-                    <p className="text-xs font-semibold  tracking-widest leading-base text-white">
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <p className="text-xs font-semibold tracking-widest text-white text-center">
                       {item.title}
                     </p>
                   </div>
-                </div>
+                </Wrapper>
               ))}
             </div>
 
-            {/* Desktop: 5-col grid */}
+            {/* Desktop */}
             <div className="hidden md:grid grid-cols-5 gap-6">
               {data.map((item, index) => (
-                <div
+                <Wrapper
                   key={index}
-                  className="group relative aspect-[2/5] lg:aspect-[5/9]  overflow-hidden"
+                  item={item}
+                  index={index}
+                  className="group relative aspect-[5/9] overflow-hidden"
                 >
-                  {/* Image */}
-                  <Image
-                    src={item.imageUrl}
-                    alt={item.title}
-                    fill
-                    className="object-cover"
-                  />
-
-                  {/* Darken on hover */}
-                  <div className="absolute inset-0 bg-black/20 transition group-hover:bg-black/40" />
-
-                  {/* Title */}
+                  <Image src={item.imageUrl} alt={item.title} fill className="object-cover" />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    {/* md only: stacked & centered */}
-                    <div className="hidden md:flex lg:hidden flex-col items-center justify-center text-center leading-[1.15]">
-                      {item.title
-                        .trim()
-                        .split(" ")
-                        .slice(0, 2)
-                        .map((word, i) => (
-                          <span
-                            key={i}
-                            className="block text-sm font-semibold tracking-widest text-white"
-                          >
-                            {word}
-                          </span>
-                        ))}
-                    </div>
-
-                    {/* mobile + lg+: single line */}
-                    <span className="md:hidden lg:block text-sm font-semibold tracking-widest text-white text-center">
+                    <span className="text-sm font-semibold tracking-widest text-white text-center">
                       {item.title}
                     </span>
                   </div>
-                </div>
+                </Wrapper>
               ))}
             </div>
-          </div>
-        )}
-
-        {/* CTA */}
-        {(activeTab === "destination" || activeTab === "traveller") && (
-          <div className="mt-16 flex justify-center">
-            <button
-  className="
-    relative overflow-hidden
-    rounded-xs border border-black/70 bg-black
-    sm:px-8 px-4 py-2 sm:py-3
-    text-[11px] leading-[12px] font-bold tracking-[1.2px]
-
-    text-white
-    transition-all duration-300 ease-in-out
-    hover:text-black 
-
-    before:absolute before:inset-0
-    before:bg-white
-    before:opacity-0
-    before:transition-opacity before:duration-300 before:ease-in-out
-    hover:before:opacity-100
-  "
->
-  <span className="relative z-10">VIEW MORE</span>
-</button>
-
           </div>
         )}
       </div>
