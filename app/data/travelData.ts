@@ -9,6 +9,7 @@ export type Experience = {
   galleryImages: string[]; // images to show in sections
   soloSectionIntro?: SectionIntro; 
    soloTrips?: SoloTrip[];
+   topDestinations?: TopDestination[];
 };
 export type SoloTrip = {
   image: string;
@@ -17,10 +18,17 @@ export type SoloTrip = {
   duration: string;
   description: string;
    soloTrips?: SoloTrip[];
+   topDestinations?: TopDestination[];
 };
 export type SectionIntro = {
   heading: string;
   subheading?: string;
+};
+export type TopDestination = {
+  slug: string;           // for linking if needed
+  title: string;
+  imageUrl: string;
+  description: string;
 };
 
 
@@ -128,6 +136,33 @@ export const EXPERIENCES: Experience[] = [
         "Private game drives and intimate bush camps designed for one.",
     },
   ],
+   topDestinations: [
+      {
+        slug: "bangkok",
+        title: "Thailand",
+        imageUrl: "/images/thailand.avif",
+        description:
+"Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery."      },
+      {
+        slug: "Italy",
+        title: "ITALY",
+        imageUrl: "/images/italy.avif",
+        description:
+"Italy beckons solo travellers with its rich tapestry of history and landscapes. Wander through Rome's ancient streets or bask in Tuscany's rolling hills. Savour authentic flavours at local eateries or relax by the Amalfi Coast's azure waters. Whether you're navigating Venice's enchanting canals or exploring Florence's artistic treasures, Italy offers a journey steeped in culture and discovery. It's a place where solo adventurers can fully immerse themselves in beauty and tradition."      },
+      {
+        slug: "Spain",
+        title: "SPAIN",
+        imageUrl: "/images/spain.avif",
+        description:
+"From the architectural wonders of Barcelona to the flamenco rhythms of Seville, each Spanish city offers its own charm. Savour tapas in bustling markets or unwind on sun-drenched beaches. Spain's diverse landscapes and rich traditions invite solo adventurers to immerse themselves fully. Whether you're wandering through ancient streets or enjoying lively festivals, Spain promises a journey filled with discovery and warmth."      },
+      {
+        slug: "lisbon",
+        title: "Lisbon, Portugal",
+        imageUrl: "/images/destinations/lisbon.png",
+        description:
+          "Colorful streets, coastal vibes and rich history for independent travellers.",
+      },
+   ]
   },
 
   // Add romantic, group travel, self-travel similarly
