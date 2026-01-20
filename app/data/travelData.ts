@@ -156,12 +156,11 @@ export const EXPERIENCES: Experience[] = [
         description:
 "From the architectural wonders of Barcelona to the flamenco rhythms of Seville, each Spanish city offers its own charm. Savour tapas in bustling markets or unwind on sun-drenched beaches. Spain's diverse landscapes and rich traditions invite solo adventurers to immerse themselves fully. Whether you're wandering through ancient streets or enjoying lively festivals, Spain promises a journey filled with discovery and warmth."      },
       {
-        slug: "lisbon",
-        title: "Lisbon, Portugal",
-        imageUrl: "/images/destinations/lisbon.png",
+        slug: "Canada",
+        title: "Canada",
+        imageUrl: "/images/canada.avif",
         description:
-          "Colorful streets, coastal vibes and rich history for independent travellers.",
-      },
+        "Canada captivates solo travellers with its expansive landscapes and rich experiences. From the majestic Rockies to the lively streets of Toronto and Vancouver, there's a world to explore. Here, solo adventurers find both solitude and community, making every journey uniquely fulfiling. It's a destination where personal discovery and adventure go hand in hand."      },
    ]
   },
 

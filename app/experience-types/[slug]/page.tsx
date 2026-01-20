@@ -4,6 +4,8 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import { EXPERIENCES } from "@/app/data/travelData";
 import TopDestinationsSection from "../TopDestinationsSection";
+import Navbar from "@/components/Navbar";
+
 
 export default function ExperiencePage() {
   const params = useParams<{ slug: string }>();
@@ -24,6 +26,8 @@ export default function ExperiencePage() {
   }
 
   return (
+    <>
+    <Navbar appearance="home-scroll" />
     <main className="w-full overflow-x-hidden">
 
       {/* ================= HERO ================= */}
@@ -71,7 +75,7 @@ export default function ExperiencePage() {
 
       {/* ================= HIGHLIGHTS ================= */}
       {experience.soloTrips && (
-        <section className="max-w-7xl mx-auto px-5 py-12 sm:py-16 lg:py-20">
+        <section className="max-w-7xl mx-auto px-5 py-7 sm:py-16 lg:py-7">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
 
             {/* LEFT TEXT */}
@@ -162,5 +166,6 @@ export default function ExperiencePage() {
         />
       )}
     </main>
+  </>
   );
 }

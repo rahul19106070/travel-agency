@@ -31,25 +31,25 @@ export default function TopDestinationsSection({
       i += 1;
       continue;
     }
-
-    /* -------- ROW 2 : Image | Image + Text Below -------- */
-   if (i % 3 === 1 && first && second) {
+// row2
+/* -------- ROW 2 : Image + Text | Image + Text -------- */
+if (i % 3 === 1 && first && second) {
   rows.push(
-    <div key={first.slug} className="space-y-6">
-      
-      {/* Two images */}
-      <div className="grid lg:grid-cols-2 gap-6">
+    <div
+      key={`${first.slug}-row2`}
+      className="grid grid-cols-1 lg:grid-cols-2 gap-10"
+    >
+      {/* LEFT CARD */}
+      <div className="space-y-6">
         <ImageBlock dest={first} />
+        <TextBlock dest={first} />
+      </div>
+
+      {/* RIGHT CARD */}
+      <div className="space-y-6">
         <ImageBlock dest={second} />
+        <TextBlock dest={second} />
       </div>
-
-      {/* Text spanning BOTH images */}
-      <div className="grid lg:grid-cols-2">
-        <div className="lg:col-span-2">
-          <TextBlock dest={first} />
-        </div>
-      </div>
-
     </div>
   );
   i += 2;
