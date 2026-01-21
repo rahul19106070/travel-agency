@@ -5,6 +5,9 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ScrollSmoother from "gsap/ScrollSmoother";
+import PrimaryFooter from "@/components/shared/PrimaryFooter";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,13 +15,25 @@ export default function OurPurpose() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const textsRef = useRef<HTMLDivElement[]>([]);
 
- useEffect(() => {
+useEffect(() => {
+  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+ const smoother = ScrollSmoother.create({
+  wrapper: "#smooth-wrapper",
+  content: "#smooth-content",
+
+  smooth: window.innerWidth > 768 ? 2.5 : 1.2,
+  smoothTouch: 0.1,
+
+  normalizeScroll: true,
+  effects: true,
+  ignoreMobileResize: true,
+});
+
+
   if (!sectionRef.current) return;
 
-  gsap.set(textsRef.current, {
-    opacity: 0,
-    y: 40,
-  });
+  gsap.set(textsRef.current, { opacity: 0, y: 40 });
 
   const tl = gsap.timeline({
     scrollTrigger: {
@@ -27,37 +42,33 @@ export default function OurPurpose() {
       end: "+=400%",
       scrub: true,
       pin: true,
+      anticipatePin: 1,
     },
   });
 
   textsRef.current.forEach((el, i) => {
-    // fade in
-    tl.to(el, {
-      opacity: 1,
-      y: 0,
-      duration: 0.6,
-      ease: "power2.out",
-    });
-
-    // fade out EXCEPT last text
+    tl.to(el, { opacity: 1, y: 0, duration: 0.6 });
     if (i !== textsRef.current.length - 1) {
-      tl.to(el, {
-        opacity: 0,
-        y: -40,
-        duration: 0.6,
-        ease: "power2.in",
-      });
+      tl.to(el, { opacity: 0, y: -40, duration: 0.6 });
     }
   });
+
+  return () => {
+    smoother.kill();
+    ScrollTrigger.getAll().forEach(t => t.kill());
+  };
 }, []);
+
+
 
 
 
   return (
     <>
+     <div id="smooth-wrapper">
+    <div id="smooth-content" className="bg-white">
     <div className="bg-white">
       <Navbar appearance="page-gradient-static" />
-
       {/* Hero Section */}
       <div
         style={{ backgroundImage: "url('/images/about/bg02.jpg')" }}
@@ -309,7 +320,10 @@ export default function OurPurpose() {
         </div>
       </section>
 
-    {/* </div> */}
+
+<PrimaryFooter/>
+    </div>
+  </div>
   </>
   );
 }

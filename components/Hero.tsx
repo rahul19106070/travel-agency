@@ -73,9 +73,9 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
           <button onClick={() => {
-    const el = document.getElementById("journey");
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-  }}
+              const el = document.getElementById("journey");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
               className="
                 relative overflow-hidden
                 rounded-xs border border-white/70
