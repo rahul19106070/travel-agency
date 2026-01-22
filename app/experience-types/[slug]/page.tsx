@@ -159,12 +159,25 @@ export default function ExperiencePage() {
       )}
 
       {/* ================= GALLERY ================= */}
-      {experience.topDestinations && (
-        <TopDestinationsSection
-          heading="TOP DESTINATIONS FOR SOLO TRAVELLERS"
-          destinations={experience.topDestinations}
-        />
-      )}
+     {/* ================= GALLERY ================= */}
+{experience.topDestinations && (() => {
+  const headingItem = experience.topDestinations.find(
+    d => d.heading && d.heading.length > 0
+  );
+
+  const destinations = experience.topDestinations.filter(
+    d => !d.heading || d.heading.length === 0
+  );
+
+  return (
+    <TopDestinationsSection
+  heading={headingItem?.heading?.[0]?.heading ?? ""}
+  destinations={destinations}
+/>
+
+  );
+})()}
+
     </main>
   </>
   );

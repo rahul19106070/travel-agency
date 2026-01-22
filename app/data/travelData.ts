@@ -25,53 +25,127 @@ export type SectionIntro = {
   subheading?: string;
 };
 export type TopDestination = {
-  slug: string;           // for linking if needed
-  title: string;
-  imageUrl: string;
-  description: string;
+  slug?: string;           // optional
+  title?: string;
+  heading?: HeadingDest[]; // optional (used for section heading)
+  imageUrl?: string;
+  description?: string;
 };
 
+export type HeadingDest = {
+  heading: string;
+};
 
 export const EXPERIENCES: Experience[] = [
   {
     slug: "honeymoon-holidays",
-    title: "Honeymoon Holidays",
-    subtitle: "Romantic escapes for two",
-    heroImage: "/images/HONEYMOON.png",
+    title: "YOUR FIRST JOURNEY AS FOREVER",
+    subtitle: "Honeymoon Holidays",
+    heroImage: "/images/SOLO Travel (1) (1).webp",
     description:
-      "Luxurious and intimate experiences designed for couples to celebrate their love. Private resorts, fine dining, and unforgettable adventures.",
-    highlights: [
-      "Private resorts and villas",
-      "Romantic excursions",
-      "Tailored itineraries",
-    ],
-    galleryImages: [
-      "/images/honeymoon1.png",
-      "/images/honeymoon2.png",
-      "/images/honeymoon3.png",
-    ],
+"Your honeymoon should be effortless—you've already planned the wedding. We design journeys where every detail is handled, every moment feels intimate, and nothing interrupts the two of you.Private villas with views that steal your breath. Candlelit dinners at tables reserved just for you. Experiences you couldn't have arranged yourself. Whether it's overwater sunsets in the Maldives or vineyard mornings in Tuscany, we create the backdrop while you focus on each other.Because this trip isn't just a holiday—it's how your story together begins."  ,   
+ highlights: [
+    "Freedom without compromise",
+    "Tailor-made solo itineraries",
+    "Seamless & safe travel",
+  ],
+  galleryImages: [],
+  soloSectionIntro: {
+    heading: "Our Favourite\n Luxury Honeymoons",
+    subheading:
+"Your honeymoon should be as unique as you are. Use these suggested honeymoon itineraries as a prompt and get in touch to plan something that’s truly yours."
   },
+  soloTrips: [
+    
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "A JOURNEY INTO JAPAN",
+      duration: "10 NIGHTS",
+      description:
+        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "COSTA RICA UNPLUGGED",
+      duration: "13 NIGHTS",
+      description:
+        "Rainforests, wildlife encounters and remote eco-lodges.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "SOLO SAFARI, BOTSWANA",
+      duration: "9 NIGHTS",
+      description:
+        "Private game drives and intimate bush camps designed for one.",
+    },
+     {
+      image: "/images/triple-creek-ranch.avif",
+      title: "A JOURNEY INTO JAPAN",
+      duration: "10 NIGHTS",
+      description:
+        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "COSTA RICA UNPLUGGED",
+      duration: "13 NIGHTS",
+      description:
+        "Rainforests, wildlife encounters and remote eco-lodges.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "SOLO SAFARI, BOTSWANA",
+      duration: "9 NIGHTS",
+      description:
+        "Private game drives and intimate bush camps designed for one.",
+    },
+  ],
 
 
-
+  topDestinations: [
   {
-    slug: "family-holidays",
-    title: "Family Adventures",
-    subtitle: "Trips for the whole family",
-    heroImage: "/images/Family.png",
-    description:
-      "Engaging trips for every generation. Explore destinations together with activities that delight kids and adults alike.",
-    highlights: [
-      "Kid-friendly itineraries",
-      "Adventure activities",
-      "Cultural experiences",
-    ],
-    galleryImages: [
-      "/images/family1.png",
-      "/images/family2.png",
-      "/images/family3.png",
-    ],
+    slug: "heading",
+    title: "",
+    heading: [{ heading: "Top Trending Honeymoon Destinations" }],
+    imageUrl: "",
+    description: "",
   },
+  {
+    slug: "bangkok",
+    title: "Thailand",
+    heading: [],
+    imageUrl: "/images/thailand.avif",
+    description:
+      "Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
+  },
+  {
+    slug: "Italy",
+    title: "ITALY",
+    heading: [],
+    imageUrl: "/images/italy.avif",
+    description:
+      "Italy beckons solo travellers with its rich tapestry of history and landscapes. Wander through Rome's ancient streets or bask in Tuscany's rolling hills. Savour authentic flavours at local eateries or relax by the Amalfi Coast's azure waters. Whether you're navigating Venice's enchanting canals or exploring Florence's artistic treasures, Italy offers a journey steeped in culture and discovery. It's a place where solo adventurers can fully immerse themselves in beauty and tradition.",
+  },
+  {
+    slug: "Spain",
+    title: "SPAIN",
+    heading: [],
+    imageUrl: "/images/spain.avif",
+    description:
+      "From the architectural wonders of Barcelona to the flamenco rhythms of Seville, each Spanish city offers its own charm. Savour tapas in bustling markets or unwind on sun-drenched beaches. Spain's diverse landscapes and rich traditions invite solo adventurers to immerse themselves fully. Whether you're wandering through ancient streets or enjoying lively festivals, Spain promises a journey filled with discovery and warmth.",
+  },
+  {
+    slug: "Canada",
+    title: "Canada",
+    heading: [],
+    imageUrl: "/images/canada.avif",
+    description:
+      "Canada captivates solo travellers with its expansive landscapes and rich experiences. From the majestic Rockies to the lively streets of Toronto and Vancouver, there's a world to explore. Here, solo adventurers find both solitude and community, making every journey uniquely fulfiling. It's a destination where personal discovery and adventure go hand in hand.",
+  },
+],
+
+  },
+
 
 
   {
@@ -136,32 +210,159 @@ export const EXPERIENCES: Experience[] = [
         "Private game drives and intimate bush camps designed for one.",
     },
   ],
-   topDestinations: [
-      {
-        slug: "bangkok",
-        title: "Thailand",
-        imageUrl: "/images/thailand.avif",
-        description:
-"Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery."      },
-      {
-        slug: "Italy",
-        title: "ITALY",
-        imageUrl: "/images/italy.avif",
-        description:
-"Italy beckons solo travellers with its rich tapestry of history and landscapes. Wander through Rome's ancient streets or bask in Tuscany's rolling hills. Savour authentic flavours at local eateries or relax by the Amalfi Coast's azure waters. Whether you're navigating Venice's enchanting canals or exploring Florence's artistic treasures, Italy offers a journey steeped in culture and discovery. It's a place where solo adventurers can fully immerse themselves in beauty and tradition."      },
-      {
-        slug: "Spain",
-        title: "SPAIN",
-        imageUrl: "/images/spain.avif",
-        description:
-"From the architectural wonders of Barcelona to the flamenco rhythms of Seville, each Spanish city offers its own charm. Savour tapas in bustling markets or unwind on sun-drenched beaches. Spain's diverse landscapes and rich traditions invite solo adventurers to immerse themselves fully. Whether you're wandering through ancient streets or enjoying lively festivals, Spain promises a journey filled with discovery and warmth."      },
-      {
-        slug: "Canada",
-        title: "Canada",
-        imageUrl: "/images/canada.avif",
-        description:
-        "Canada captivates solo travellers with its expansive landscapes and rich experiences. From the majestic Rockies to the lively streets of Toronto and Vancouver, there's a world to explore. Here, solo adventurers find both solitude and community, making every journey uniquely fulfiling. It's a destination where personal discovery and adventure go hand in hand."      },
-   ]
+  topDestinations: [
+  {
+    slug: "heading",
+    title: "",
+    heading: [{ heading: "Top Destinations for Solo Travellers" }],
+    imageUrl: "",
+    description: "",
+  },
+  {
+    slug: "bangkok",
+    title: "Thailand",
+    heading: [],
+    imageUrl: "/images/thailand.avif",
+    description:
+      "Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
+  },
+  {
+    slug: "Italy",
+    title: "ITALY",
+    heading: [],
+    imageUrl: "/images/italy.avif",
+    description:
+      "Italy beckons solo travellers with its rich tapestry of history and landscapes...",
+  },
+  {
+    slug: "Spain",
+    title: "SPAIN",
+    heading: [],
+    imageUrl: "/images/spain.avif",
+    description:
+      "From the architectural wonders of Barcelona to the flamenco rhythms of Seville...",
+  },
+  {
+    slug: "Canada",
+    title: "Canada",
+    heading: [],
+    imageUrl: "/images/canada.avif",
+    description:
+      "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
+  },
+],
+
+  },
+
+
+
+
+
+   {
+    slug: "family-holidays",
+    title: "LUXURY FAMILY HOLIDAYS THAT BRING YOU CLOSER",
+    subtitle: "Family Holidays",
+    heroImage: "/images/FAMILY COVER PHOTO.webp",
+    description:
+"Watch your kids' faces light up at their first safari sighting. Hear the laughter around a dinner table in Tuscany. Feel the relief when everything just works—no tantrums, no stress, just genuine connection.These are the moments luxury family travel should create. Where teenagers actually engage. Where parents finally exhale. Where grandparents share stories under starlit skies. We design holidays that give your family space to be together—really together—without the chaos of figuring it all out yourselves. Because these years don't last. Make them count.",
+      highlights: [
+    "Freedom without compromise",
+    "Tailor-made solo itineraries",
+    "Seamless & safe travel",
+  ],
+  galleryImages: [],
+  soloSectionIntro: {
+    heading: "Our Favourite Luxury Holidays for Families",
+    subheading:
+"Your family holiday should be as unique as you are. Use this selection of some of our most popular trips to spark some ideas and get in touch to plan something that’s truly yours."
+  },
+  soloTrips: [
+    
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "A JOURNEY INTO JAPAN",
+      duration: "10 NIGHTS",
+      description:
+        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "COSTA RICA UNPLUGGED",
+      duration: "13 NIGHTS",
+      description:
+        "Rainforests, wildlife encounters and remote eco-lodges.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "SOLO SAFARI, BOTSWANA",
+      duration: "9 NIGHTS",
+      description:
+        "Private game drives and intimate bush camps designed for one.",
+    },
+     {
+      image: "/images/triple-creek-ranch.avif",
+      title: "A JOURNEY INTO JAPAN",
+      duration: "10 NIGHTS",
+      description:
+        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "COSTA RICA UNPLUGGED",
+      duration: "13 NIGHTS",
+      description:
+        "Rainforests, wildlife encounters and remote eco-lodges.",
+    },
+    {
+      image: "/images/triple-creek-ranch.avif",
+      title: "SOLO SAFARI, BOTSWANA",
+      duration: "9 NIGHTS",
+      description:
+        "Private game drives and intimate bush camps designed for one.",
+    },
+  ],
+  topDestinations: [
+  {
+    slug: "heading",
+    title: "",
+    heading: [{ heading: "Your family, your way" }],
+    imageUrl: "",
+    description: "",
+  },
+  {
+    slug: "bangkok",
+    title: "Thailand",
+    heading: [],
+    imageUrl: "/images/thailand.avif",
+    description:
+      "Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
+  },
+  {
+    slug: "Italy",
+    title: "ITALY",
+    heading: [],
+    imageUrl: "/images/italy.avif",
+    description:
+      "Italy beckons solo travellers with its rich tapestry of history and landscapes...",
+  },
+  {
+    slug: "Spain",
+    title: "SPAIN",
+    heading: [],
+    imageUrl: "/images/spain.avif",
+    description:
+      "From the architectural wonders of Barcelona to the flamenco rhythms of Seville...",
+  },
+  {
+    slug: "Canada",
+    title: "Canada",
+    heading: [],
+    imageUrl: "/images/canada.avif",
+    description:
+      "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
+  },
+],
+
   },
 
   // Add romantic, group travel, self-travel similarly

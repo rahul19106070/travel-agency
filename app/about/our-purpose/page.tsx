@@ -278,7 +278,7 @@ It’s about experiencing what stays with you.              </p>
   {/* DESKTOP ONLY IMAGE */}
   <div className="hidden lg:block absolute top-0 right-0 h-full w-[60%] mx-6">
     <Image
-      src="/images/about/AboutUs05.png"
+      src="/images/about/AboutUs05.webp"
       alt="Coastal mountain view"
       fill
       className="object-contain"
