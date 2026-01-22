@@ -25,11 +25,11 @@ export type SectionIntro = {
   subheading?: string;
 };
 export type TopDestination = {
-  slug?: string;           // optional
-  title?: string;
+  slug: string;           // optional
+  title: string;
   heading?: HeadingDest[]; // optional (used for section heading)
   imageUrl: string;
-  description?: string;
+  description: string;
 };
 
 export type HeadingDest = {
