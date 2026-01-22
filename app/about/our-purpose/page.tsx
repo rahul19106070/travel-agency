@@ -164,7 +164,7 @@ useEffect(() => {
 <div className="relative order-1 lg:order-2 z-20 w-full lg:w-[60vw] lg:absolute lg:right-5 lg:px-5 
                 h-[60vh] md:h-[80vh] h-[40vh] lg:h-[70vh]">
   <Image
-    src="/images/about/ABOUT US 02.webp"
+    src="/images/about/ABOUT US 02 (1).webp"
     alt="Coastal mountain view"
     fill
     className="object-cover"
@@ -223,7 +223,7 @@ It’s about experiencing what stays with you.              </p>
             {/* Left Image */}
             <div className="relative mt-10 md:mt-0 md:-mt-32 lg:-mt-10 z-10 w-full lg:w-[130%] md:w-[70%] h-[60vh] md:h-[80vh]">
               <Image
-                src="/images/about/About_us_04.webp"
+                src="/images/about/About_us_04 (1).webp"
                 alt="Dramatic mountain landscape"
                 fill
                 className="object-cover"
