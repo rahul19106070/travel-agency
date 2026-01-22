@@ -78,7 +78,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "solo-holidays",
     title: "The freedom to wander. The luxury to pause.",
     subtitle: "Solo Holidays",
-    heroImage: "/images/SOLO Travel (1).png",
+    heroImage: "/images/SOLO Travel (1) (1).webp",
     description:
       "Traveling solo doesn't mean figuring everything out yourself. It means having the freedom to follow your curiosity while someone else handles the details. We create journeys designed for one—boutique hotels that welcome solo travelers warmly, experiences that don't require a group, and the flexibility to change your mind. Spend three hours in that museum or skip it entirely. Have dinner at 6pm or 10pm. You choose the adventure. We ensure it's seamless, safe, and exactly what you need. Scroll to see where we'll take you next.",
       highlights: [
