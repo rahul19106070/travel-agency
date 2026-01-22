@@ -102,7 +102,7 @@ useEffect(() => {
             {/* Left Image */}
              <div className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-screen">
           <Image
-            src="/images/about/About us 01.png"
+            src="/images/about/About us 01.webp"
             alt="Dramatic mountain landscape"
             fill
             priority
@@ -164,7 +164,7 @@ useEffect(() => {
 <div className="relative order-1 lg:order-2 z-20 w-full lg:w-[60vw] lg:absolute lg:right-5 lg:px-5 
                 h-[60vh] md:h-[80vh] h-[40vh] lg:h-[70vh]">
   <Image
-    src="/images/about/ABOUT US 02.png"
+    src="/images/about/ABOUT US 02.webp"
     alt="Coastal mountain view"
     fill
     className="object-cover"
@@ -185,7 +185,7 @@ useEffect(() => {
             {/* Left Image */}
             <div className="relative w-full max-w-md mx-auto lg:max-w-none lg:w-[80%] aspect-[4/3]">
               <Image
-                src="/images/about/ABOUT US 03.png"
+                src="/images/about/ABOUT US 03.webp"
                 alt="Dramatic mountain landscape"
                 height={600}
                 width={800}
@@ -223,7 +223,7 @@ It’s about experiencing what stays with you.              </p>
             {/* Left Image */}
             <div className="relative mt-10 md:mt-0 md:-mt-32 lg:-mt-10 z-10 w-full lg:w-[130%] md:w-[70%] h-[60vh] md:h-[80vh]">
               <Image
-                src="/images/about/About_us_04.png"
+                src="/images/about/About_us_04.webp"
                 alt="Dramatic mountain landscape"
                 fill
                 className="object-cover"
@@ -254,7 +254,7 @@ It’s about experiencing what stays with you.              </p>
       {/* IMAGE — comes FIRST on mobile */}
       <div className="relative w-full h-[220px] sm:h-[290px]  lg:hidden">
         <Image
-          src="/images/about/AboutUs05.png"
+          src="/images/about/AboutUs05.webp"
           alt="Coastal mountain view"
           fill
           className="object-contain"
