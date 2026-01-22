@@ -167,9 +167,9 @@ export default function MembershipPage() {
         <Navbar />
       </div>
 
-      <div className="relative">
+      <div className="relative" >
         {/* Fixed Heading */}
-        <p className="fixed top-24 left-1/2 -translate-x-1/2 text-5xl font-semibold uppercase z-20">
+        <p className="fixed top-24 left-1/2 -translate-x-1/2 sm:text-4xl text-4xl lg:text-5xl font-semibold uppercase z-20">
           How it all works
         </p>
 

@@ -32,10 +32,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-            
-        {children}
-        <PrimaryFooter/>
-        <LegalFooter />
+         <div id="smooth-wrapper">
+    <div id="smooth-content">
+      {children}
+      <PrimaryFooter />
+      <LegalFooter />
+    </div>
+  </div>
       </body>
     </html>
   );

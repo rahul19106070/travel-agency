@@ -14,7 +14,7 @@ export default function PrimaryFooter(): JSX.Element {
   };
   return (
     <footer className="bg-[#242323] text-gray-300">
-      <div className="border-b border-white/10 py-8 sm:py-10">
+      <div id="foot" className="border-b border-white/10 py-8 sm:py-10">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-4 lg:gap-20 sm:gap-6 md:gap-10 px-4 sm:px-6 opacity-70 text-xs sm:text-sm">
           <Image src="/images/icons-comp/kVZ1z4VT-travelleisure.svg" alt="Condé Nast Traveler" width={100} height={50} />
           <Image src="/images/icons-comp/abta-logo.svg" alt="Condé Nast Traveler" width={100} height={30} />
