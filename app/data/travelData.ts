@@ -28,7 +28,7 @@ export type TopDestination = {
   slug?: string;           // optional
   title?: string;
   heading?: HeadingDest[]; // optional (used for section heading)
-  imageUrl?: string;
+  imageUrl: string;
   description?: string;
 };
 
