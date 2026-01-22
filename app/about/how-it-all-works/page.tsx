@@ -85,7 +85,10 @@ const steps = [
 export default function MembershipPage() {
   const [activeStep, setActiveStep] = useState(0);
   const activeStepRef = useRef(0);
-  const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
+  // const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
+  // const sectionRefs = useRef<HTMLDivElement[]>([]);
+const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
+
   const numberRef = useRef<HTMLSpanElement | null>(null);
 
   /* ---------------- SCROLL LOGIC ---------------- */
@@ -228,11 +231,16 @@ export default function MembershipPage() {
           const reverse = i % 2 !== 0;
 
           return (
-            <section
-              key={i}
-              ref={(el) => (sectionRefs.current[i] = el)}
-              className="h-screen"
-            >
+          <section
+  key={i}
+  ref={(el: HTMLDivElement | null) => {
+    if (!el) return;
+    sectionRefs.current[i] = el;
+  }}
+  className="h-screen"
+>
+
+
               <div className="content grid md:grid-cols-2 w-full h-full">
                 <div className={reverse ? "md:order-2" : "md:order-1"}>
                   <Image
