@@ -21,7 +21,7 @@ const BY_TRAVELLER: TravelItem[] = [
   },
   {
     title: "ROMANTIC ESCAPES",
-    imageUrl: "/images/COUPLE.png",
+    imageUrl: "/images/COUPLE.webp",
     slug: "romantic-holidays",
     pos: "object-[50%_70%]",
   },

@@ -76,7 +76,7 @@ const tl = gsap.timeline({
       {/* Hero Section */}
       <div
         style={{ backgroundImage: "url('/images/about/bg02.jpg')" }}
-        className="lg:min-h-[100vh] sm:min-h-[50vh] min-h-[50vh] md:min-h-[100vh] bg-cover bg-center px-4 md:px-8 lg:pl-60 lg:pt-20 relative z-10"
+        className="lg:min-h-[100vh] sm:min-h-[50vh] min-h-[50vh] md:min-h-[60vh] bg-cover bg-center px-4 md:px-8 lg:pl-60 lg:pt-20 relative z-10"
       >
         <div className="container mx-auto px-4">
           <h4 className="text-[#379C8A] items-end font-alternate font-medium tracking-widest uppercase pt-32 pb-30 md:pt-40 lg:pt-60 text-8xl md:text-7xl lg:text-[145px] leading-none">
@@ -251,10 +251,10 @@ It’s about experiencing what stays with you.              </p>
 {/* 5th section */}
 <div className="relative bg-white overflow-hidden lg:my-20 mb-20">
   <div className="mx-auto px-4 md:px-8">
-    <div className="grid grid-cols-1 lg:grid-cols-12 gap-3 lg:gap-8  items-start">
+    <div className="grid grid-cols-1 lg:grid-cols-12  lg:gap-8  items-start">
 
       {/* IMAGE — comes FIRST on mobile */}
-      <div className="relative w-full h-[220px] sm:h-[290px]  lg:hidden">
+      <div className="relative w-full h-[200px] sm:h-[290px]  lg:hidden">
         <Image
           src="/images/about/AboutUs05.webp"
           alt="Coastal mountain view"
