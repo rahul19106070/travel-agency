@@ -35,18 +35,20 @@ useEffect(() => {
 
   gsap.set(textsRef.current, { opacity: 0, y: 40 });
 
-  const tl = gsap.timeline({
-    scrollTrigger: {
-  trigger: sectionRef.current,
-  start: "top top",
-  end: "+=400%",
-  scrub: true,
-  pin: true,
-  pinSpacing: true,
-  anticipatePin: 1,
-}
+ const isMobile = window.innerWidth < 768;
 
-  });
+const tl = gsap.timeline({
+  scrollTrigger: {
+    trigger: sectionRef.current,
+    start: "top top",
+    end: isMobile ? "+=300%" : "+=400%",
+    scrub: true,
+    pin: true,
+    pinSpacing: true,
+    anticipatePin: isMobile ? 0 : 1,
+  },
+});
+
 
   textsRef.current.forEach((el, i) => {
     tl.to(el, { opacity: 1, y: 0, duration: 0.6 });
@@ -223,7 +225,7 @@ It’s about experiencing what stays with you.              </p>
             {/* Left Image */}
             <div className="relative mt-10 md:mt-0 md:-mt-32 lg:-mt-10 z-10 w-full lg:w-[130%] md:w-[70%] h-[60vh] md:h-[80vh]">
               <Image
-                src="/images/about/About_us_04.jpg"
+                src="/images/about/About_us_04 (1).webp"
                 alt="Dramatic mountain landscape"
                 fill
                 className="object-cover"
