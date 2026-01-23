@@ -291,7 +291,7 @@ It’s about experiencing what stays with you.              </p>
 
 
 
-      <section
+      {/* <section
         ref={sectionRef}
         style={{ backgroundImage: "url('/images/about/bg10.jpg')" }}
         className="relative h-screen bg-cover bg-center bg-fixed flex items-center justify-center overflow-hidden"
@@ -318,7 +318,7 @@ It’s about experiencing what stays with you.              </p>
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
 
     </div>

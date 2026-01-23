@@ -16,7 +16,7 @@ interface TravelItem {
 const BY_TRAVELLER: TravelItem[] = [
   {
     title: "FAMILY ADVENTURES",
-    imageUrl: "/images/Family.png",
+    imageUrl: "/images/Family.webp",
     slug: "family-holidays",
   },
   {
@@ -27,19 +27,19 @@ const BY_TRAVELLER: TravelItem[] = [
   },
   {
     title: "GROUP TRAVEL",
-    imageUrl: "/images/GroupTour.png",
+    imageUrl: "/images/GroupTour.webp",
     slug: "group-holidays",
     pos: "object-[50%_60%]",
   },
   {
     title: "HONEYMOON DREAMS",
-    imageUrl: "/images/HONEYMOON.png",
+    imageUrl: "/images/HONEYMOON.webp",
     slug: "honeymoon-holidays",
     pos: "object-[10%_90%]",
   },
   {
     title: "SELF TRAVEL",
-    imageUrl: "/images/SOLO.png",
+    imageUrl: "/images/SOLO.webp",
     slug: "solo-holidays",
   },
 ];
