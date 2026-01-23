@@ -39,7 +39,7 @@ useEffect(() => {
     scrollTrigger: {
   trigger: sectionRef.current,
   start: "top top",
-  end: "+=200%",
+  end: "+=400%",
   scrub: true,
   pin: true,
   pinSpacing: true,
@@ -223,7 +223,7 @@ It’s about experiencing what stays with you.              </p>
             {/* Left Image */}
             <div className="relative mt-10 md:mt-0 md:-mt-32 lg:-mt-10 z-10 w-full lg:w-[130%] md:w-[70%] h-[60vh] md:h-[80vh]">
               <Image
-                src="/images/about/About_us_04 (1).webp"
+                src="/images/about/About_us_04.jpg"
                 alt="Dramatic mountain landscape"
                 fill
                 className="object-cover"
