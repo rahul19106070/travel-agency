@@ -7,49 +7,19 @@ interface Feature {
   color: string;
 }
 
-const features: Feature[] = [
-  {
-    title: "Award-winning planners",
-    color: "text-amber-500",
-    icon: "/images/icons-comp/UHVNpPRV-award-icon.svg",
-  },
-  {
-    title: "No-obligation quotes",
-    color: "text-orange-500",
-    icon: "/images/icons-comp/Icons-1.svg",
-  },
-  {
-    title: "No planning fees",
-    color: "text-emerald-500",
-    icon: "/images/icons-comp/1.svg",
-  },
-  {
-    title: "24/7 on the ground support",
-    color: "text-sky-600",
-    icon: "/images/icons-comp/MSa4gZI8-support.svg",
-  },
-
-  {
-    title: "Expert private guides",
-    color: "text-purple-500",
-    icon: "/images/icons-comp/Icons.svg",
-  },
-];
-
 export default function WhyBlackTomato(): JSX.Element {
   return (
     <>
       <section
-          className=" mt-10  md:mt-20
+          className=" mb-10
             relative w-full
             min-h-[25vh] sm:min-h-[30vh] md:min-h-[30vh] lg:min-h-[60vh]
             bg-center bg-no-repeat bg-contain
           "
           style={{
-            backgroundImage: "url('/images/subheading.png')",
+            backgroundImage: "url('/images/Add a subheading (5).png')",
             }}
           >
-            <div className="absolute inset-0 bg-black/20 pointer-events-none" />
       </section>
 
       {/* <section>
