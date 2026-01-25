@@ -31,18 +31,18 @@ export default function ExperiencePage() {
     <main className="w-full overflow-x-hidden">
 
       {/* ================= HERO ================= */}
-      <section className="relative h-[30vh] sm:h-[85vh] lg:h-[96vh] w-full">
-        <Image
-          src={experience.heroImage}
-          alt={experience.title}
-          fill
-          priority
-          className="object-contain sm:object-cover"
-        />
-      </section>
+    <section className="relative h-[85vh] sm:h-[85vh] lg:h-[96vh] w-full overflow-hidden">
+  <Image
+    src={experience.heroImage}
+    alt={experience.title}
+    fill
+    priority
+    className="object-cover object-[43%_center] "
+  />
+</section>
 
       {/* ================= INTRO ================= */}
-      <section className="max-w-6xl mx-auto px-5 py-12 sm:py-16 lg:py-20">
+      <section className="max-w-6xl mx-auto px-5 py-15 md:py-10 sm:py:20 lg:py-15">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-3xl sm:text-3xl lg:text-4xl font-extralight mb-5">
             {experience.title}
@@ -75,7 +75,7 @@ export default function ExperiencePage() {
 
       {/* ================= HIGHLIGHTS ================= */}
       {experience.soloTrips && (
-        <section className="max-w-7xl mx-auto px-5 py-7 sm:py-16 lg:py-7">
+        <section className="max-w-7xl mx-auto px-5 py-7  lg:py-7">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
 
             {/* LEFT TEXT */}
