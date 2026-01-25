@@ -11,7 +11,7 @@ export default function WhyBlackTomato(): JSX.Element {
   return (
     <>
       <section
-          className=" mb-10
+          className=" lg:mb-10
             relative w-full
             min-h-[25vh] sm:min-h-[30vh] md:min-h-[30vh] lg:min-h-[60vh]
             bg-center bg-no-repeat bg-contain

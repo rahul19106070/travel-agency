@@ -73,7 +73,7 @@ const TRIPS: Trip[] = [
 export default function DestinationSlider() {
   return (
     <section  id="journey"
-      className=" sm:py-16 md:py-12 bg-cover bg-center bg-no-repeat"
+      className=" sm:py-20 py-10 md:py-12 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/images/Backdrop.webp')" }}
     >
       {/* Heading - Visible on md and below */}
