@@ -147,8 +147,8 @@ export const ABOUT_DATA = {
   categories: [
     {
       id: "who-we-are",
-      label: "WHO WE ARE",
-      items: ["Our purpose", "Our team"],
+      label: "ABOUT I-SKY",
+      items: ["OUR STORY"],
     },
     {
       id: "why-book",

@@ -19,7 +19,7 @@ return (
     <DestinationSlider/>
     <HowDoYouTravel/>
     <Testimonials/>
-    <PressCarousel/>
+    {/* <PressCarousel/> */}
     {/* <JourneySection/> */}
     <SplitEditorialSection/>
     <WhyBlackTomato/>

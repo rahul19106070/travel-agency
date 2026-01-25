@@ -31,13 +31,13 @@ export default function ExperiencePage() {
     <main className="w-full overflow-x-hidden">
 
       {/* ================= HERO ================= */}
-      <section className="relative h-[30vh] sm:h-[85vh] lg:h-[100vh] w-full">
+      <section className="relative h-[30vh] sm:h-[85vh] lg:h-[96vh] w-full">
         <Image
           src={experience.heroImage}
           alt={experience.title}
           fill
           priority
-className="object-contain sm:object-cover"
+          className="object-contain sm:object-cover"
         />
       </section>
 
@@ -81,7 +81,7 @@ className="object-contain sm:object-cover"
             {/* LEFT TEXT */}
             {experience.soloSectionIntro && (
               <div className="lg:col-span-1">
-                <h2 className="text-3xl sm:text-4xl lg:text-6xl font-extralight leading-tight">
+                <h2 className="text-3xl uppercase sm:text-4xl lg:text-6xl font-extralight leading-tight">
                   {experience.soloSectionIntro.heading}
                 </h2>
 
@@ -158,7 +158,6 @@ className="object-contain sm:object-cover"
         </section>
       )}
 
-      {/* ================= GALLERY ================= */}
      {/* ================= GALLERY ================= */}
 {experience.topDestinations && (() => {
   const headingItem = experience.topDestinations.find(
