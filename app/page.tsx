@@ -15,12 +15,12 @@ return (
     <>
 <Navbar appearance="home-scroll" />
     <Hero/>
-    <HowWeAreDifferent/>
+    {/* <HowWeAreDifferent/> */}
     <DestinationSlider/>
     <HowDoYouTravel/>
     <Testimonials/>
     <PressCarousel/>
-    <JourneySection/>
+    {/* <JourneySection/> */}
     <SplitEditorialSection/>
     <WhyBlackTomato/>
     <ReadyToStart/>

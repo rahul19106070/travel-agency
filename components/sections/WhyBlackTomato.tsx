@@ -40,9 +40,9 @@ export default function WhyBlackTomato(): JSX.Element {
   return (
     <>
       <section
-          className=" mt-20 
+          className=" mt-10  md:mt-20
             relative w-full
-            min-h-[30vh] sm:min-h-[30vh] md:min-h-[35vh] lg:min-h-[74vh]
+            min-h-[25vh] sm:min-h-[30vh] md:min-h-[30vh] lg:min-h-[60vh]
             bg-center bg-no-repeat bg-contain
           "
           style={{

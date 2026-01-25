@@ -40,50 +40,49 @@ const TRIPS: Trip[] = [
     duration: "11 NIGHTS",
     description: "Island hopping with culture, beaches and bespoke stays.",
   },
-  {
-    imageUrl: "/images/triple-creek-ranch.avif",
-    title: "ROME, FLORENCE & PUGLIA",
-    subtitle: "A Luxury Family Italy Holiday",
-    duration: "9 NIGHTS",
-    description: "Experience Italy’s most iconic cities with tailored family moments.",
-  },
-  {
-    imageUrl: "/images/triple-creek-ranch.avif",
-    title: "A JOURNEY INTO JAPAN",
-    duration: "10 NIGHTS",
-    priceFrom: "From £6,500 per person excl. flights",
-    description: "Japan — with its 3,000 tightly-packed islands — can easily exceed expectations.",
-  },
-  {
-    imageUrl: "/images/triple-creek-ranch.avif",
-    title: "AN ADVENTURE THROUGH",
-    subtitle: "COSTA RICA",
-    duration: "13 NIGHTS",
-    description: "Rainforests, wildlife and thrilling outdoor adventures.",
-  },
-  {
-    imageUrl: "/images/triple-creek-ranch.avif",
-    title: "ATHENS, MYKONOS & CRETE",
-    subtitle: "Luxury Family Discovery in Greece",
-    duration: "11 NIGHTS",
-    description: "Island hopping with culture, beaches and bespoke stays.",
-  },
+  // {
+  //   imageUrl: "/images/triple-creek-ranch.avif",
+  //   title: "ROME, FLORENCE & PUGLIA",
+  //   subtitle: "A Luxury Family Italy Holiday",
+  //   duration: "9 NIGHTS",
+  //   description: "Experience Italy’s most iconic cities with tailored family moments.",
+  // },
+  // {
+  //   imageUrl: "/images/triple-creek-ranch.avif",
+  //   title: "A JOURNEY INTO JAPAN",
+  //   duration: "10 NIGHTS",
+  //   priceFrom: "From £6,500 per person excl. flights",
+  //   description: "Japan — with its 3,000 tightly-packed islands — can easily exceed expectations.",
+  // },
+  // {
+  //   imageUrl: "/images/triple-creek-ranch.avif",
+  //   title: "AN ADVENTURE THROUGH",
+  //   subtitle: "COSTA RICA",
+  //   duration: "13 NIGHTS",
+  //   description: "Rainforests, wildlife and thrilling outdoor adventures.",
+  // },
+  // {
+  //   imageUrl: "/images/triple-creek-ranch.avif",
+  //   title: "ATHENS, MYKONOS & CRETE",
+  //   subtitle: "Luxury Family Discovery in Greece",
+  //   duration: "11 NIGHTS",
+  //   description: "Island hopping with culture, beaches and bespoke stays.",
+  // },
 ];
 
 export default function DestinationSlider() {
   return (
     <section  id="journey"
       className=" sm:py-16 md:py-12 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/images/Itineraries-Home-scaled.jpg')" }}
+      style={{ backgroundImage: "url('/images/Backdrop.webp')" }}
     >
       {/* Heading - Visible on md and below */}
       <div className="lg:hidden pt-5 px-4 sm:px-6 text-white mb-8">
         <h2 className="text-3xl sm:text-3xl font-medium tracking-[1.2] font-alternate font-extrabold">
-          OUR MOST SOUGHT-AFTER <br />JOURNEYS
+          THE INSIDER'S 2026
         </h2>
         <p className="mt-4 sm:text-xl md:text-lg italic text-white/70">
-          The experiences our travellers are choosing right now...
-        </p>
+          Exclusive access to the world's best-kept secrets...        </p>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-0">
@@ -97,11 +96,10 @@ export default function DestinationSlider() {
           <div className="hidden lg:flex relative min-w-[320px] aspect-4/5 overflow-hidden shrink-0">
             <div className="text-white flex flex-col mt-12 pb-8 px-0">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-[1.2] font-alternate">
-                 OUR MOST SOUGHT-AFTER<br />JOURNEYS
+                 THE INSIDER'S 2026
               </h2>
               <p className="mt-4 lg:text-xl sm:text-sm italic text-white/70">
-                The experiences our travellers are choosing right now...
-              </p>
+                  Exclusive access to the world's best-kept secrets...              </p>
             </div>
           </div>
 

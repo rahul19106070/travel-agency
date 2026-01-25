@@ -31,20 +31,20 @@ export default function ExperiencePage() {
     <main className="w-full overflow-x-hidden">
 
       {/* ================= HERO ================= */}
-      <section className="relative h-[70vh] sm:h-[85vh] lg:h-[100vh] w-full">
+      <section className="relative h-[30vh] sm:h-[85vh] lg:h-[100vh] w-full">
         <Image
           src={experience.heroImage}
           alt={experience.title}
           fill
           priority
-          className="object-cover"
+className="object-contain sm:object-cover"
         />
       </section>
 
       {/* ================= INTRO ================= */}
       <section className="max-w-6xl mx-auto px-5 py-12 sm:py-16 lg:py-20">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-5">
+          <h1 className="text-3xl sm:text-3xl lg:text-4xl font-extralight mb-5">
             {experience.title}
           </h1>
 

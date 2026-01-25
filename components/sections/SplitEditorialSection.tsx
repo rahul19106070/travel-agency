@@ -4,7 +4,7 @@ import type { JSX } from "react";
 export default function SplitEditorialSection(): JSX.Element {
   return (
     <section className="w-full bg-white">
-      <div>
+      {/* <div> */}
         {/* ================= Row 1 ================= */}
         <div className="grid grid-cols-1 md:grid-cols-2">
           {/* Image 1 — FIRST on mobile, SECOND on desktop */}
@@ -74,9 +74,9 @@ export default function SplitEditorialSection(): JSX.Element {
           </div>
 
           {/* Text 2 — FOURTH on mobile, SECOND on desktop */}
-          <div className="flex items-center px-4 sm:px-6 md:px-8 py-8 sm:py-20 md:py-24 order-4 md:order-2">
+          <div className="flex items-center px-4 sm:px-6 md:px-8 md:py-24 order-4 md:order-2">
             <div className="max-w-xl mx-auto sm:mx-8 lg:mx-20">
-              <h2 className="text-5xl sm:text-5xl md:text-5xl font-medium tracking-wider mb-6 font-alternate">
+              <h2 className="text-5xl py-5 sm:text-5xl md:text-5xl font-medium tracking-wider mb-6 font-alternate">
                 OUR APPROACH TO LUXURY TRAVEL
               </h2>
 
@@ -126,7 +126,7 @@ export default function SplitEditorialSection(): JSX.Element {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 }

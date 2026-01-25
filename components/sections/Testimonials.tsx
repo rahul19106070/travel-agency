@@ -14,63 +14,49 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
    id: 1,
-   image: "/images/triple-creek-ranch.avif",
+   image: "/images/Testimony/1.webp",
    quote: "“",
    text: "Our 14-year-old actually put down his phone during the cooking class. The hotels worked for everyone, and we got real couple time. That alone was a miracle.",
    author: " - Family of 4 with Teens",
  },
   {
    id: 2,
-   image: "/images/triple-creek-ranch.avif",
+   image: "/images/Testimony/2.webp",
    quote: "“",
    text: "Honestly, it was perfect. The overwater villa, that restaurant everyone raves about—somehow they got us in. We didn't lift a finger. Just pure honeymoon bliss",
    author: " - Newly Married",
  },
   {
     id: 3,
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/Testimony/3.webp",
     quote: "“",
     text: "Hands down this was the most amazing travel experience our family has ever done together.",
     author: "Brett, Middle East",
   },
   {
     id: 4,
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/Testimony/4.webp",
     quote: "“",
     text: "We have explored some incredible places and had unique adventures only possible with Black Tomato.",
     author: "Ike & Alex, Italy",
   },
-  // {
-  //   id: 3,
-  //   image: "/images/triple-creek-ranch.avif",
-  //   quote: "“",
-  //   text: "Every detail felt intentional and personal. Truly once in a lifetime.",
-  //   author: "Sarah, USA",
-  // },
-  // {
-  //   id: 6,
-  //   image: "/images/triple-creek-ranch.avif",
-  //   quote: "“",
-  //   text: "A seamless blend of luxury and adventure.",
-  //   author: "Daniel, France",
-  // },
   {
     id: 5,
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/Testimony/5.webp",
     quote: "“",
     text: "They turned our dream trip into reality.",
     author: "Anita, India",
   },
   {
    id: 6,
-   image: "/images/triple-creek-ranch.avif",
+   image: "/images/Testimony/6.webp",
    quote: "“",
    text: "Six of us with different budgets and tastes—it could've been a disaster. The riad was stunning, the desert felt genuine, not staged. Everyone left happy",
    author: "- A Group of Friends",
  },
    {
     id: 7,
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/Testimony/7.webp",
     quote: "“",
     text: "They just got it. Ground floor room, extra time at each stop, a driver who never rushed us. We felt looked after, not just booked",
     author: "- Couple in their 70's",
@@ -106,7 +92,7 @@ export default function  Testimonials() {
     <section className="w-full py-12 sm:py-16 md:py-24 px-4 sm:px-6">
       {/* Heading */}
       <h2 className="text-center text-5xl sm:text-5xl md:text-5xl tracking-wider  mb-8 sm:mb-12 md:mb-16 font-alternate  font-medium">
-        WHY DISCERNING TRAVELLERS CHOOSE BLACK TOMATO
+        IN THEIR WORDS
       </h2>
 
       {/* Slider */}
