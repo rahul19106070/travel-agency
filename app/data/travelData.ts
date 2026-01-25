@@ -373,7 +373,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "romantic-holidays",
     title: "MOMENTS THAT REMIND YOU WHY",
     subtitle: "ROMANTIC Holidays",
-    heroImage: "/images/COUPLE COVER PHOTO.webp",
+    heroImage: "/images/Couple Cover Photo.webp",
     description:
     "The best couple holidays aren't measured in destinations—they're measured in moments. That sunrise you watched in silence. The wine you shared on a terrace overlooking the sea. The conversation that lasted three hours because, finally, nothing interrupted. We design journeys around these moments. Private settings where it's just the two of you. Experiences that spark laughter or quiet reflection. Itineraries paced for lingering, not rushing. Whether it's an anniversary, a milestone, or simply because you need this—we create the space for connection to happen naturally."
  ,   
