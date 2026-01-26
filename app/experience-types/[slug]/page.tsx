@@ -31,18 +31,56 @@ export default function ExperiencePage() {
     <main className="w-full overflow-x-hidden">
 
       {/* ================= HERO ================= */}
-    <section className="relative h-[23vh] sm:h-[85vh] lg:h-[96vh] w-full"> 
-      <Image src={experience.heroImage} 
-      alt={experience.title} fill 
-      priority
-       className="object-contain sm:object-cover" /> 
-    </section>
+    <section className="relative h-[70vh] sm:h-[85vh] lg:h-[96vh] w-full">
+  <Image
+    src={experience.heroImage}
+    alt={experience.title}
+    fill
+    priority
+    className="object-cover"
+  />
+
+  {experience.imgTextSection && (
+    <div
+      className={`
+        absolute inset-0 z-10 flex px-5 sm:px-10
+        ${
+          experience.imgTextSection.vertical === "top"
+            ? "items-start pt-16"
+            : experience.imgTextSection.vertical === "bottom"
+            ? "items-end pb-16"
+            : "items-center"
+        }
+        ${
+          experience.imgTextSection.horizontal === "left"
+            ? "justify-start text-left"
+            : experience.imgTextSection.horizontal === "right"
+            ? "justify-end text-right"
+            : "justify-center text-center"
+        }
+      `}
+    >
+      <h1 className="
+        max-w-xl text-white/65
+        text-3xl sm:text-4xl lg:text-5xl
+        font-extralight tracking-wide
+        whitespace-pre-line uppercase
+      ">
+        {experience.imgTextSection.heading}
+      </h1>
+    </div>
+  )}
+
+  <div className="absolute inset-0 bg-black/30" />
+</section>
+
+
 
 
       {/* ================= INTRO ================= */}
-      <section className="max-w-6xl mx-auto px-5 py-5 md:py-10 sm:py:20 lg:py-15">
+      <section className="max-w-6xl mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-3xl sm:text-3xl lg:text-4xl font-extralight mb-5">
+          <h1 className="text-3xl sm:text-3xl lg:text-4xl font-light mb-5">
             {experience.title}
           </h1>
 
