@@ -897,12 +897,12 @@ export default function Navbar({ appearance }: NavbarProps) {
                             {item}
                           </Link>
                         ))}
-                      <Link
+                      {/* <Link
                         href="/contact"
                         className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 mt-2 uppercase"
                       >
                         CONTACT
-                      </Link>
+                      </Link> */}
                     </motion.div>
                   )}
                 </AnimatePresence>

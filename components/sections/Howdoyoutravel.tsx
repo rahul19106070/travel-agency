@@ -45,18 +45,18 @@ const BY_TRAVELLER: TravelItem[] = [
 ];
 
 const BY_MONTH: TravelItem[] = [
-  { title: "JANUARY", imageUrl: "/images/dest.png" },
-  { title: "FEBRUARY", imageUrl: "/images/dest.png" },
-  { title: "MARCH", imageUrl: "/images/dest.png" },
-  { title: "APRIL", imageUrl: "/images/dest.png" },
-  { title: "MAY", imageUrl: "/images/dest.png" },
-  { title: "JUNE", imageUrl: "/images/dest.png" },
-  { title: "JULY", imageUrl: "/images/dest.png" },
-  { title: "AUGUST", imageUrl: "/images/dest.png" },
-  { title: "SEPTEMBER", imageUrl: "/images/dest.png" },
-  { title: "OCTOBER", imageUrl: "/images/dest.png" },
-  { title: "NOVEMBER", imageUrl: "/images/dest.png" },
-  { title: "DECEMBER", imageUrl: "/images/dest.png" },
+  { title: "JANUARY", imageUrl: "/images/month/January.webp" },
+  { title: "FEBRUARY", imageUrl: "/images/month/February.webp" },
+  { title: "MARCH", imageUrl: "/images/month/March.webp" },
+  { title: "APRIL", imageUrl: "/images/month/April.webp" },
+  { title: "MAY", imageUrl: "/images/month/May.webp" },
+  { title: "JUNE", imageUrl: "/images/month/June.webp" },
+  { title: "JULY", imageUrl: "/images/month/July.webp" },
+  { title: "AUGUST", imageUrl: "/images/month/August.webp" },
+  { title: "SEPTEMBER", imageUrl: "/images/month/Sept.webp" },
+  { title: "OCTOBER", imageUrl: "/images/month/October.webp" },
+  { title: "NOVEMBER", imageUrl: "/images/month/November.webp" },
+  { title: "DECEMBER", imageUrl: "/images/month/December.webp" },
 ];
 
 const BY_DESTINATION: TravelItem[] = [
@@ -113,7 +113,7 @@ export default function HowDoYouTravel() {
     );
 
   return (
-    <section className="bg-gray-50 py-16 px-4 sm:px-6">
+    <section className="bg-gray-50 pt-16 pb-5 lg:pb-0 px-4 sm:px-6">
       <div className="mx-auto max-w-7xl">
         <h2 className="text-center text-5xl font-medium tracking-wider">
           DESIGNED AROUND YOU!

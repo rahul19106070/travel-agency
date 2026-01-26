@@ -100,7 +100,7 @@ const tl = gsap.timeline({
 
 
     {/* First Content Section – Editorial Split */}
-     <div className="relative pb-0 lg:mb-40 mt-20 md:mt-20 lg:mt-40">
+     <div className="relative pb-20 lg:mb-40 mt-20 md:mt-20 lg:mt-40">
         <div className="container mx-auto  md:px-8 px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Image */}
@@ -140,7 +140,7 @@ const tl = gsap.timeline({
 
 
       {/* Second Content Section - What We're About */}
-      <div className="relative bg-white my-20  lg:my-40">
+      <div className="relative bg-white pb-20  lg:my-40">
         <div className="px-7 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8  items-start">
             {/* Left Content */}
@@ -183,7 +183,7 @@ const tl = gsap.timeline({
 
 
 {/* third section */}
-      <div className="relative pb-20 mt-25 md:pb-2 md:mt-20 lg:mt-45 lg:mb-45">
+      <div className="relative pb-18  md:pb-25 md:mt-20 lg:mt-45 lg:mb-45">
         <div className="container mx-auto  md:px-8 px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Image */}
@@ -221,7 +221,7 @@ It’s about experiencing what stays with you.              </p>
 
 
 {/* 4th section */}
-      <div className="relative pb-20 md:pb-2 lg:mt-30 lg:mb-37">
+      <div className="relative pb-18 md:pb-25 lg:mt-30 lg:mb-37">
         <div className=" mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-16  items-start">
             {/* Left Image */}
@@ -251,7 +251,7 @@ It’s about experiencing what stays with you.              </p>
 
 
 {/* 5th section */}
-<div className="relative bg-white overflow-hidden lg:my-20 mb-20">
+<div className="relative bg-white overflow-hidden mt-0 lg:my-20 mb-14">
   <div className="mx-auto px-4 md:px-8">
     <div className="grid grid-cols-1 lg:grid-cols-12  lg:gap-8  items-start">
 
