@@ -50,8 +50,8 @@ export const EXPERIENCES: Experience[] = [
   {
     slug: "honeymoon-holidays",
     title: "YOUR FIRST JOURNEY AS FOREVER",
-    subtitle: "HoneymoonC",
-    heroImage: "/images/Honeymoon New.webp",
+    subtitle: "Honeymoon Image",
+    heroImage: "/images/honeymoon-new.webp",
 
     imgTextSection: {
   heading: "BE SPOKEN LUXURY HONEYMOON TRAVEL",
@@ -165,7 +165,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "solo-holidays",
     title: "The freedom to wander. The luxury to pause.",
     subtitle: "Solo Holidays",
-    heroImage: "/images/SOLO NEW.webp",
+    heroImage: "/images/SOLO-NEW.webp",
 
     
     imgTextSection: {
@@ -282,7 +282,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "romantic-holidays",
     title: "MOMENTS THAT REMIND YOU WHY",
     subtitle: "ROMANTIC Holidays",
-    heroImage: "/images/COUPLE NEW.webp",
+    heroImage: "/images/couple-new.webp",
 
      imgTextSection: {
     heading: "TRAVEL THAT REMINDS YOU WHY \n YOU CHOSE EACH OTHER",
@@ -516,7 +516,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "family-holidays",
     title: "LUXURY FAMILY HOLIDAYS THAT BRING YOU CLOSER",
     subtitle: "Family Holidays",
-    heroImage: "/images/FAMILY New.webp",
+    heroImage: "/images/family-new.webp",
 
      imgTextSection: {
     heading: "DISCOVER. BOND. THRIVE",
@@ -631,7 +631,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "group-holidays",
     title: " LUXURY HOLIDAYS DESIGNED FOR YOUR INNER CIRCLE",
     subtitle: "Family Holidays",
-    heroImage: "/images/GROUP New.webp",
+    heroImage: "/images/group-new.webp",
 
      imgTextSection: {
     heading: "luxury group travel\n privately curated",
