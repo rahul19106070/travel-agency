@@ -60,16 +60,16 @@ const BY_MONTH: TravelItem[] = [
 ];
 
 const BY_DESTINATION: TravelItem[] = [
-  { title: "TANZANIA", imageUrl: "/images/dest.png" },
-  { title: "ITALY", imageUrl: "/images/dest.png" },
-  { title: "FRANCE", imageUrl: "/images/dest.png" },
-  { title: "SOUTH AFRICA", imageUrl: "/images/dest.png" },
-  { title: "UNITED KINGDOM", imageUrl: "/images/dest.png" },
-  { title: "USA", imageUrl: "/images/dest.png" },
-  { title: "JAPAN", imageUrl: "/images/dest.png" },
-  { title: "KENYA", imageUrl: "/images/dest.png" },
-  { title: "NORWAY", imageUrl: "/images/dest.png" },
-  { title: "MADAGASCAR", imageUrl: "/images/dest.png" },
+  { title: "SWITZERLAND", imageUrl: "/images/dest/Swiz DP.webp" },
+  { title: "ITALY", imageUrl: "/images/dest/italy dp.webp" },
+  { title: "MALDIVES", imageUrl: "/images/dest/Maldives DP.webp" },
+  { title: "JAPAN", imageUrl: "/images/dest/Japan DP.webp" },
+  { title: "GREECE", imageUrl: "/images/dest/Greece DP.webp" },
+  { title: "UNITED KINGDOM", imageUrl: "/images/dest/UK DP.webp" },
+  { title: "MOROCCO", imageUrl: "/images/dest/Morocco DP.webp" },
+  { title: "TANZANIA", imageUrl: "/images/dest/Tanzania DP.webp" },
+  { title: "ICELAND", imageUrl: "/images/dest/Iceland DP.webp" },
+  { title: "NEW ZEALAND", imageUrl: "/images/dest/Newz DP.webp" },
 ];
 
 /* ---------- Component ---------- */
