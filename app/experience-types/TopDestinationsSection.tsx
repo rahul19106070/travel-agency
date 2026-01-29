@@ -3,6 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import { TopDestination } from "@/app/data/travelData";
+// import { TopDestination } from "@/app/types";
+
 
 export default function TopDestinationsSection({
   heading,

@@ -60,16 +60,16 @@ const BY_MONTH: TravelItem[] = [
 ];
 
 const BY_DESTINATION: TravelItem[] = [
-  { title: "SWITZERLAND", imageUrl: "/images/dest/Swiz DP.webp" },
-  { title: "ITALY", imageUrl: "/images/dest/italy dp.webp" },
-  { title: "MALDIVES", imageUrl: "/images/dest/Maldives DP.webp" },
-  { title: "JAPAN", imageUrl: "/images/dest/Japan DP.webp" },
-  { title: "GREECE", imageUrl: "/images/dest/Greece DP.webp" },
-  { title: "UNITED KINGDOM", imageUrl: "/images/dest/UK DP.webp" },
-  { title: "MOROCCO", imageUrl: "/images/dest/Morocco DP.webp" },
-  { title: "TANZANIA", imageUrl: "/images/dest/Tanzania DP.webp" },
-  { title: "ICELAND", imageUrl: "/images/dest/Iceland DP.webp" },
-  { title: "NEW ZEALAND", imageUrl: "/images/dest/Newz DP.webp" },
+  { title: "SWITZERLAND", imageUrl: "/images/dest/Swiz DP.webp", slug:"switzerland" },
+  { title: "ITALY", imageUrl: "/images/dest/italy dp.webp", slug:"italy" },
+  { title: "MALDIVES", imageUrl: "/images/dest/Maldives DP.webp", slug:"maldives" },
+  { title: "JAPAN", imageUrl: "/images/dest/Japan DP.webp", slug:"japan" },
+  { title: "GREECE", imageUrl: "/images/dest/Greece DP.webp", slug:"greece" },
+  { title: "UNITED KINGDOM", imageUrl: "/images/dest/UK DP.webp", slug:"uk" },
+  { title: "MOROCCO", imageUrl: "/images/dest/Morocco DP.webp", slug:"morocco" },
+  { title: "TANZANIA", imageUrl: "/images/dest/Tanzania DP.webp", slug:"tanzania" },
+  { title: "ICELAND", imageUrl: "/images/dest/Iceland DP.webp", slug:"iceland" },
+  { title: "NEW ZEALAND", imageUrl: "/images/dest/Newz DP.webp", slug:"new-zealand" },
 ];
 
 /* ---------- Component ---------- */
@@ -87,30 +87,36 @@ export default function HowDoYouTravel() {
 
   const isMonthTab = activeTab === "month";
 
-  const Wrapper = ({
-    item,
-    children,
-    index,
-    className,
-  }: {
-    item: TravelItem;
-    children: React.ReactNode;
-    index: number;
-    className: string;
-  }) =>
-    item.slug ? (
-      <Link
-        key={index}
-        href={`/experience-types/${item.slug}`}
-        className={`${className} block cursor-pointer`}
-      >
-        {children}
-      </Link>
-    ) : (
-      <div key={index} className={className}>
-        {children}
-      </div>
-    );
+const Wrapper = ({
+  item,
+  children,
+  index,
+  className,
+}: {
+  item: TravelItem;
+  children: React.ReactNode;
+  index: number;
+  className: string;
+}) => {
+  if (!item.slug) return <div key={index} className={className}>{children}</div>;
+
+  // ← Decide which folder to use
+  let basePath = "";
+  if (activeTab === "traveller") basePath = "traveller";
+  if (activeTab === "destination") basePath = "destination";
+  if (activeTab === "month") basePath = "month";
+
+  return (
+    <Link
+      key={index}
+      href={`/experience-types/${basePath}/${item.slug}`} // ← dynamic path
+      className={`${className} block cursor-pointer`}
+    >
+      {children}
+    </Link>
+  );
+};
+
 
   return (
     <section className="bg-gray-50 pt-16 pb-5 lg:pb-0 px-4 sm:px-6">

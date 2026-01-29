@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import { EXPERIENCES } from "@/app/data/travelData";
-import TopDestinationsSection from "../TopDestinationsSection";
+import TopDestinationsSection from "../../TopDestinationsSection";
 import Navbar from "@/components/Navbar";
 
 
@@ -76,7 +76,6 @@ export default function ExperiencePage() {
 
 
 
-
       {/* ================= INTRO ================= */}
       <section className="max-w-6xl mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15">
         <div className="text-center max-w-3xl mx-auto">
@@ -84,7 +83,7 @@ export default function ExperiencePage() {
             {experience.title}
           </h1>
 
-          <p className="text-base sm:text-lg leading-relaxed text-gray-700">
+          <p className="text-base sm:text-lg leading-relaxed text-gray-700 ">
             {experience.description}
           </p>
 
@@ -108,6 +107,8 @@ export default function ExperiencePage() {
           </button>
         </div>
       </section>
+
+
 
       {/* ================= HIGHLIGHTS ================= */}
       {experience.soloTrips && (
@@ -193,6 +194,7 @@ export default function ExperiencePage() {
           </div>
         </section>
       )}
+
 
      {/* ================= GALLERY ================= */}
 {experience.topDestinations && (() => {

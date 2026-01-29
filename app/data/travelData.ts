@@ -1,4 +1,7 @@
 // app/data/travelData.ts
+// import { TopDestination } from "./types";
+
+
 export type Experience = {
   slug: string;
   title: string;
