@@ -74,9 +74,16 @@ export default function DestinationPage() {
             {destination.title}
           </h1>
 
-          <p className="text-base sm:text-lg leading-relaxed text-gray-700 ">
-            {destination.description}
-          </p>
+         {destination.description.split('\n').map((para, i) => (
+  <p
+    key={i}
+    className="text-base sm:text-lg leading-relaxed text-gray-700 mt-4"
+  >
+    {para.trim()}
+  </p>
+))}
+
+
 
           <button
             className="

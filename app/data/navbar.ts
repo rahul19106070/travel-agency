@@ -11,7 +11,7 @@ export const NAV_LINKS = [
     href: "/experiences",
     hasDropdown: true,
   },
-  { id: "about", label: "ABOUT", href: "/about", hasDropdown: true },
+  { id: "about", label: "ABOUT", href: "/about", hasDropdown: false },
 ] as const;
 
 export const EXPERIENCES_DATA = {
@@ -145,21 +145,21 @@ export const EXPERIENCES_DATA = {
 
 export const ABOUT_DATA = {
   categories: [
-    {
-      id: "who-we-are",
-      label: "ABOUT I-SKY",
-      items: ["OUR STORY"],
-    },
-    {
-      id: "why-book",
-      label: "WHY BOOK WITH US",
-      items: [ "5 reasons to book with us","Why not just do it yourself?","How it all works","Regenerative travel"],
-    },
-    {
-      id: "what-others-say",
-      label: "WHAT OTHERS SAY",
-      items: ["Client testimonials", "In the press"],
-    },
+    // {
+    //   id: "who-we-are",
+    //   label: "ABOUT I-SKY",
+    //   items: ["OUR STORY"],
+    // },
+    // {
+    //   id: "why-book",
+    //   label: "WHY BOOK WITH US",
+    //   items: [ "5 reasons to book with us","Why not just do it yourself?","How it all works","Regenerative travel"],
+    // },
+    // {
+    //   id: "what-others-say",
+    //   label: "WHAT OTHERS SAY",
+    //   items: ["Client testimonials", "In the press"],
+    // },
   ],
 };
 

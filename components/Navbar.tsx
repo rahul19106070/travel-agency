@@ -8,11 +8,11 @@ import { usePathname } from "next/navigation";
 import {NAV_LINKS} from "@/app/data/navbar";
 import { DESTINATIONS_DATA } from "@/app/data/navbar";
 import { EXPERIENCES_DATA } from "@/app/data/navbar";
-import { ABOUT_DATA } from "@/app/data/navbar";
+// import { ABOUT_DATA } from "@/app/data/navbar";
 import { MENU_DATA } from "@/app/data/navbar";
 import { motion, AnimatePresence } from "framer-motion";
 
-type NavTab = "destinations" | "experiences" | "about" | "menu";
+type NavTab = "destinations" | "experiences" | "menu";
 type NavAppearance =
   | "home-flat"
   | "home-scroll"
@@ -37,7 +37,6 @@ export default function Navbar({ appearance }: NavbarProps) {
   const [mobileMenuLevel, setMobileMenuLevel] = useState<'main' | 'destinations' | 'continent' | 'experiences' | 'about' | 'about-category'>('main');
   const [selectedContinent, setSelectedContinent] = useState<string | null>(null);
   const [selectedExperienceCategory, setSelectedExperienceCategory] = useState<string | null>(null);
-  const [selectedAboutCategory, setSelectedAboutCategory] = useState<string | null>(null);
 
   const pathname = usePathname();
   const resolvedAppearance: NavAppearance =
@@ -170,15 +169,16 @@ export default function Navbar({ appearance }: NavbarProps) {
                         } else {
                           setDropdownOpen(true);
                           setActiveTab(
-                            item.id as "destinations" | "experiences" | "about"
+                            item.id as "destinations" | "experiences"
                           );
                           if (item.id === "destinations") {
                             setHoveredContinent(DESTINATIONS_DATA[5].continent);
                           } else if (item.id === "experiences") {
                             setHoveredCategory(EXPERIENCES_DATA.categories[0].id);
-                          } else if (item.id === "about") {
-                            setHoveredCategory(ABOUT_DATA.categories[0].id);
                           }
+                          //  else if (item.id === "about") {
+                          //   setHoveredCategory(ABOUT_DATA.categories[0].id);
+                          // }
                         }
                       }}
                     >
@@ -372,49 +372,8 @@ export default function Navbar({ appearance }: NavbarProps) {
                   </>
                 )}
 
-                {/* ABOUT Dropdown */}
-                {activeTab === "about" && (
-                  <>
-                    {/* Left Side - Categories */}
-                    <div className="w-64">
-                      {ABOUT_DATA.categories.map((cat) => (
-                        <button
-                          key={cat.id}
-                          onMouseEnter={() => setHoveredCategory(cat.id)}
-                          className={`block w-full text-left text-2xl font-alternate font-medium tracking-wider py-2 transition ${
-                            hoveredCategory === cat.id
-                              ? "text-pink-600"
-                              : "text-gray-800 hover:text-gray-600"
-                          }`}
-                        >
-                          {cat.label}
-                        </button>
-                      ))}
-                    </div>
+                
 
-                    {/* Right Side - Links */}
-                    <div className="flex-1">
-                      {hoveredCategory && (
-                        <div className="space-y-3">
-                          {ABOUT_DATA.categories
-                            .find((c) => c.id === hoveredCategory)
-                            ?.items.map((item) => (
-                              <Link
-                                key={item}
-                                href={`/about/${item
-                                  .toLowerCase()
-                                  .replace(/\s+/g, "-")}`}
-                                className="block text-md text-gray-700 hover:text-pink-600  transition"
-                                onClick={closeDropdown}
-                              >
-                                {item}
-                              </Link>
-                            ))}
-                        </div>
-                      )}
-                    </div>
-                  </>
-                )}
 
                 {/* MENU Dropdown */}
                 {activeTab === "menu" && (
@@ -610,12 +569,15 @@ export default function Navbar({ appearance }: NavbarProps) {
                       >
                         INSPIRATION
                       </Link>
-                      <button
-                        onClick={() => setMobileMenuLevel('about')}
-                        className="block w-full text-left text-2xl tracking-[2.5px] font-medium text-black py-4"
-                      >
-                        ABOUT
-                      </button>
+
+                      <Link
+                          href="/about"
+                          onClick={() => setOpen(false)}
+                          className="block text-2xl tracking-[2.5px] font-medium text-black py-4"
+                        >
+                          ABOUT
+                        </Link>
+
                       <Link
                         href="/my-bt"
                         className="block text-2xl tracking-[2.5px] font-medium text-black py-4"
@@ -816,95 +778,7 @@ export default function Navbar({ appearance }: NavbarProps) {
                     </motion.div>
                   )}
 
-                  {/* About Level 1 - Categories */}
-                  {mobileMenuLevel === 'about' && !selectedAboutCategory && (
-                    <motion.div
-                      key="about-menu"
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: -100 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      {/* Header with Back and Close */}
-                      <div className="flex items-center justify-between pb-4 border-b border-gray-200 mb-4">
-                        <button
-                          onClick={() => setMobileMenuLevel('main')}
-                          className="flex items-center gap-2 text-sm text-pink-600 font-medium"
-                        >
-                          <span>←</span> BACK
-                        </button>
-                        <button onClick={() => {
-                          setOpen(false);
-                          setMobileMenuLevel('main');
-                          setSelectedContinent(null);
-                          setSelectedExperienceCategory(null);
-                          setSelectedAboutCategory(null);
-                        }}>
-                          <X className="h-5 w-5 text-black" />
-                        </button>
-                      </div>
-                      <h2 className="text-2xl font-medium tracking-[2.5px] mb-6 text-black uppercase ">ABOUT</h2>
-                      {ABOUT_DATA.categories.map((cat) => (
-                        <button
-                          key={cat.id}
-                          onClick={() => setSelectedAboutCategory(cat.id)}
-                          className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 uppercase"
-                        >
-                          {cat.label}
-                        </button>
-                      ))}
-                    </motion.div>
-                  )}
-
-                  {/* About Level 2 - Category Items */}
-                  {mobileMenuLevel === 'about' && selectedAboutCategory && (
-                    <motion.div
-                      key="about-category-menu"
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: -100 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      {/* Header with Back and Close */}
-                      <div className="flex items-center justify-between pb-4 border-b border-gray-200 mb-4">
-                        <button
-                          onClick={() => setSelectedAboutCategory(null)}
-                          className="flex items-center gap-2 text-sm text-pink-600 font-medium"
-                        >
-                          <span>←</span> BACK
-                        </button>
-                        <button onClick={() => {
-                          setOpen(false);
-                          setMobileMenuLevel('main');
-                          setSelectedContinent(null);
-                          setSelectedExperienceCategory(null);
-                          setSelectedAboutCategory(null);
-                        }}>
-                          <X className="h-5 w-5 text-black" />
-                        </button>
-                      </div>
-                      <h2 className="text-2xl font-medium tracking-[2.5px] mb-6 text-black uppercase ">
-                        {ABOUT_DATA.categories.find((c) => c.id === selectedAboutCategory)?.label}
-                      </h2>
-                      {ABOUT_DATA.categories
-                        .find((cat) => cat.id === selectedAboutCategory)
-                        ?.items.map((item) => (
-                          <Link
-                            key={item}
-                            href={`/about/${item.toLowerCase().replace(/\s+/g, '-')}`}
-                            className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 uppercase"
-                          >
-                            {item}
-                          </Link>
-                        ))}
-                      {/* <Link
-                        href="/contact"
-                        className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 mt-2 uppercase"
-                      >
-                        CONTACT
-                      </Link> */}
-                    </motion.div>
-                  )}
+              
                 </AnimatePresence>
               </nav>
 
