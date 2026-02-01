@@ -157,7 +157,7 @@ const Wrapper = ({
                 index={index}
                 className="group relative aspect-[3/4] overflow-hidden"
               >
-                <Image src={item.imageUrl} alt={item.title} fill className="object-cover" />
+                <Image src={item.imageUrl} alt={item.title} fill className="object-cover "/>
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <p className="text-sm font-semibold tracking-widest text-white">
@@ -203,7 +203,7 @@ const Wrapper = ({
                   index={index}
                   className="group relative aspect-[5/9] overflow-hidden"
                 >
-                  <Image src={item.imageUrl} alt={item.title} fill className="object-cover" />
+                  <Image src={item.imageUrl} alt={item.title} fill className="object-cover  object-left" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="text-sm font-semibold tracking-widest text-white text-center">

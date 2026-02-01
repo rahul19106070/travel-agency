@@ -10,7 +10,7 @@ export default function SplitEditorialSection(): JSX.Element {
           {/* Image 1 — FIRST on mobile, SECOND on desktop */}
           <div className="relative h-[250px] sm:h-[300px] md:h-auto order-1 md:order-2">
             <Image
-              src="/images/triple-creek-ranch.avif"
+              src="/images/Approach1.webp"
               alt="Founders discussion"
               height={500}
               width={500}
@@ -29,10 +29,10 @@ export default function SplitEditorialSection(): JSX.Element {
               </h2>
 
               <p className="text-md text-gray-600 leading-relaxed mb-8">
-                Since our founding in 2005, Black Tomato has always been about
-                crafting remarkable, tailor-made trips for clients around the
-                world. Tom and James — our co-founders — know this better than
-                anyone. You can meet them in our new video.
+               Quiet morning journeys and starlit evenings.<br/>
+                Moments that linger long after they end.<br />
+                Travel that feels considered, intentional,
+                and perhaps even harder to put into words.
               </p>
 
              <button
@@ -53,7 +53,7 @@ export default function SplitEditorialSection(): JSX.Element {
     hover:before:opacity-100
   "
 >
-  <span className="relative z-10">WATCH THE FILM</span>
+  <span className="relative z-10">EXPLORE OUR APPROACH</span>
 </button>
 
             </div>
@@ -65,7 +65,7 @@ export default function SplitEditorialSection(): JSX.Element {
           {/* Image 2 — THIRD on mobile, FIRST on desktop */}
           <div className="relative h-[250px] sm:h-[300px] md:h-auto order-3 md:order-1">
             <Image
-              src="/images/triple-creek-ranch.avif"
+              src="/images/Approach2.webp"
               alt="Luxury travel landscape"
               height={500}
               width={500}
@@ -76,30 +76,16 @@ export default function SplitEditorialSection(): JSX.Element {
           {/* Text 2 — FOURTH on mobile, SECOND on desktop */}
           <div className="flex items-center px-4 sm:px-6 md:px-8 md:py-24 order-4 md:order-2">
             <div className="max-w-xl mx-auto sm:mx-8 lg:mx-20">
-              <h2 className="text-5xl py-5 sm:text-5xl md:text-5xl font-medium tracking-wider mb-6 font-alternate">
-                OUR APPROACH TO LUXURY TRAVEL
+              <h2 className="text-5xl py-5 sm:text-5xl md:text-5xl font-medium tracking-wider  font-alternate">
+                OUR WAY OF TRAVELLING
               </h2>
-
-              <span className="text-md tracking-widest text-gray-500 uppercase block mb-6">
-                The luxury travel experts
-              </span>
-
               <p className="text-md text-gray-500 leading-relaxed mb-8">
-                Luxury holidays are personal. They mean something different for
-                each and every one of us. For some, luxury is hiking in peaceful
-                solitude through a remote corner of the desert, while for others
-                it’s the indulgence of sipping cocktails aboard a private yacht,
-                sailing gently through the Mediterranean. Whatever floats your
-                boat, so to speak.
+                At ISKY, every journey begins with how you like to travel — not a template.
+                <br />
+From thoughtful pacing to hand-picked stays, we craft travel that feels personal, seamless, and quietly exceptional.
 
-                <br /><br />
 
-                Our team of luxury travel advisors are connoisseurs of luxury,
-                curating unparalleled experiences, tailor made tours and bespoke
-                adventures. Whether you seek the opulence of a secluded villa in
-                the Tuscan hills or the thrill of an exclusive safari in the
-                heart of Africa, we’ll craft a journey that exceeds your
-                expectations.
+              
               </p>
 
               <button
@@ -120,7 +106,7 @@ export default function SplitEditorialSection(): JSX.Element {
     hover:before:opacity-100
   "
 >
-  <span className="relative z-10">WATCH THE FILM</span>
+  <span className="relative z-10">EXPLORE OUR APPROACH</span>
 </button>
 
             </div>
