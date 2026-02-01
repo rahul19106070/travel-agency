@@ -4,6 +4,7 @@ export type Destination = {
   subtitle: string;
   heroImage: string;
   description: string;
+  secImage?:string;
   imgTextSection?: ImageTextSection;
   cta?: string;
   highlights: string[];
@@ -136,6 +137,7 @@ export const DESTINATIONS: Destination[] = [
     title: "Not Just Italy. Your Story in Italy.",
     subtitle: "Cultural Wonders",
     heroImage: "/images/dest/Italy Cover.webp",
+    secImage:"/images/dest/How, Italy.png",
     description:
 "Italy's richness can paralyze—Rome or Florence? Amalfi or Tuscany? Museums or markets? We curate, so you don't have to.\n We design Italy journeys that feel authentically Italian, not touristy. Cooking with a nonna in her Tuscan kitchen, not a commercial cooking school. Tables at restaurants where locals eat, not where tour buses stop. Private Uffizi access before the crowds, or vineyard lunches where the winemaker joins you. Whether you're chasing art and history, savoring food and wine, or simply wanting la dolce vita to unfold naturally—we pace it for immersion, not exhaustion. With guides who know which side street hides the best gelato and every detail confirmed before you arrive, you experience Italy's soul without the planning stress." 
 ,

@@ -108,6 +108,14 @@ export default function DestinationPage() {
 
 
 
+       {/* <section className="relative h-[70vh] sm:h-[85vh] lg:h-[96vh] w-full mb-30">
+          <Image
+            src={destination.secImage}
+            fill
+            priority
+            className="object-cover"
+          />
+       </section> */}
 
         {/* ===== HIGHLIGHTS ===== */}
          {destination.soloTrips && (
