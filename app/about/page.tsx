@@ -76,7 +76,7 @@ const tl = gsap.timeline({
       {/* Hero Section */}
       <div
         style={{ backgroundImage: "url('/images/ABOUT US _ BACKDROP.webp')" }}
-        className="lg:min-h-[100vh] sm:min-h-[50vh] min-h-[50vh] md:min-h-[60vh] bg-cover bg-center px-4 md:px-8 lg:pl-60 lg:pt-10 relative z-10"
+        className="lg:min-h-[100vh] sm:min-h-[50vh] min-h-[50vh] md:min-h-[60vh] bg-cover bg-center px-4 md:px-8 lg:pl-60 lg:pt-1 relative z-10"
       >
         <div className="container mx-auto px-4">
           <h4 className="text-[#374946] items-end font-alternate font-medium tracking-widest uppercase pt-32 pb-30 md:pt-40 lg:pt-60 text-8xl md:text-7xl lg:text-[145px] leading-none">
@@ -100,7 +100,7 @@ const tl = gsap.timeline({
 
 
     {/* First Content Section – Editorial Split */}
-     <div className="relative pb-20 lg:mb-40 mt-20 md:mt-20 lg:mt-40">
+     <div className="relative mb-20 md:mb-25 lg:mb-40 mt-20 md:mt-20 lg:mt-40">
         <div className="container mx-auto  md:px-8 px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Image */}
@@ -140,7 +140,7 @@ const tl = gsap.timeline({
 
 
       {/* Second Content Section - What We're About */}
-      <div className="relative bg-white pb-20  lg:my-40">
+      <div className="relative bg-white mb-20  md:mb-25 lg:mb-40">
         <div className="px-7 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8  items-start">
             {/* Left Content */}
@@ -183,7 +183,7 @@ const tl = gsap.timeline({
 
 
 {/* third section */}
-      <div className="relative pb-18  md:pb-25 md:mt-20 lg:mt-45 lg:mb-45">
+      <div className="relative mb-20 md:mb-25 md:mt-20 lg:mb-40">
         <div className="container mx-auto  md:px-8 px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Image */}
@@ -221,7 +221,7 @@ It’s about experiencing what stays with you.              </p>
 
 
 {/* 4th section */}
-      <div className="relative pb-18 md:pb-25 lg:mt-30 lg:mb-37">
+      <div className="relative mb-18 md:mb-25  lg:mb-40">
         <div className=" mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-16  items-start">
             {/* Left Image */}
@@ -251,7 +251,7 @@ It’s about experiencing what stays with you.              </p>
 
 
 {/* 5th section */}
-<div className="relative bg-white overflow-hidden mt-0 lg:my-20 mb-14">
+<div className="relative bg-white overflow-hidden mb-15 lg:mb-20">
   <div className="mx-auto px-4 md:px-8">
     <div className="grid grid-cols-1 lg:grid-cols-12  lg:gap-8  items-start">
 
