@@ -4,8 +4,8 @@ export type Destination = {
   subtitle: string;
   heroImage: string;
   description: string;
-  secImage?:string;
   imgTextSection?: ImageTextSection;
+  SplitSection?: SplitSection;
   cta?: string;
   highlights: string[];
   galleryImages: string[];
@@ -47,6 +47,14 @@ export type ImageTextSection = {
   vertical?: "top" | "center" | "bottom";
 };
 
+export type SplitSection = {
+  slug: string;              // page mapping
+  heading: string;
+  text: string;
+  images: [string, string];  // exactly 2 images
+};
+
+
 /* ---------- Example Data ---------- */
 export const DESTINATIONS: Destination[] = [
     // switzerland
@@ -63,8 +71,20 @@ export const DESTINATIONS: Destination[] = [
       horizontal: "center",
       vertical: "bottom",
     },
+
+    SplitSection: { 
+    slug: "switzerland",
+    heading: "HOW WE CURATE YOUR SWISS EXPERIENCE",
+    text: "We design Switzerland around balance between movement and stillness, nature and refinement. Scenic rail journeys, quiet lakeside towns, and alpine escapes are timed to your pace, not a checklist. Every route and stay is chosen to let Switzerland feel effortless, elegant, and deeply personal.",
+    images: [
+      "/images/dest/SwizHow.webp",
+      "/images/dest/SwizHow2.webp",
+    ],
+    },
+
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],
+
     soloSectionIntro: {
       heading: "Top Swiss Experiences",
       subheading: "From Zurich to Zermatt, explore Switzerland in style."
@@ -137,7 +157,6 @@ export const DESTINATIONS: Destination[] = [
     title: "Not Just Italy. Your Story in Italy.",
     subtitle: "Cultural Wonders",
     heroImage: "/images/dest/Italy Cover.webp",
-    secImage:"/images/dest/How, Italy.png",
     description:
 "Italy's richness can paralyze—Rome or Florence? Amalfi or Tuscany? Museums or markets? We curate, so you don't have to.\n We design Italy journeys that feel authentically Italian, not touristy. Cooking with a nonna in her Tuscan kitchen, not a commercial cooking school. Tables at restaurants where locals eat, not where tour buses stop. Private Uffizi access before the crowds, or vineyard lunches where the winemaker joins you. Whether you're chasing art and history, savoring food and wine, or simply wanting la dolce vita to unfold naturally—we pace it for immersion, not exhaustion. With guides who know which side street hides the best gelato and every detail confirmed before you arrive, you experience Italy's soul without the planning stress." 
 ,
@@ -147,6 +166,17 @@ export const DESTINATIONS: Destination[] = [
       horizontal: "center",
       vertical: "bottom",
     },
+
+      SplitSection: { 
+    slug: "italy",
+    heading: "HOW WE CRAFT YOUR ITALIAN STORY",
+    text: "Italy moves to its own rhythm, and so do we. Your journey is shaped around slow mornings, long meals, and moments that linger. From countryside retreats to storied cities, each experience flows naturally, allowing Italy to feel intimate rather than overwhelming.",
+    images: [
+      "/images/dest/ItalyHow1.webp",
+      "/images/dest/ItalyHow2.webp",
+    ],
+    },
+
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],
     soloSectionIntro: {
@@ -229,6 +259,17 @@ export const DESTINATIONS: Destination[] = [
       horizontal: "center",
       vertical: "bottom",
     },
+
+      SplitSection: { 
+    slug: "maldives",
+    heading: "HOW WE DESIGN YOUR ISLAND ESCAPE",
+    text: "In the Maldives, space and privacy matter most. We focus on choosing the right island, the right villa, and the right pace. Days unfold gently, guided by the sea and the light, leaving you free to do as little or as much as you wish.",
+    images: [
+      "/images/dest/MaldivesHow.webp",
+      "/images/dest/MaldivesHow2.webp",
+    ],
+    },
+
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],
     soloSectionIntro: {
@@ -315,6 +356,16 @@ export const DESTINATIONS: Destination[] = [
       heading: "Top Japanese Experiences",
       subheading: "From Tokyo to Kyoto, immerse yourself in Japanese culture."
     },
+     SplitSection: {
+      slug: "japan",
+    heading: "HOW WE SHAPE YOUR JOURNEY THROUGH JAPAN",
+    text: "Japan is a balance of old and new. We design your journey to move seamlessly between tradition and modern life, quiet moments and vibrant cities. Every detail, from timing to place is chosen to create a thoughtful, immersive experience.",
+    images: [
+      "/images/dest/JapanHow1.webp",
+      "/images/dest/JapanHow2.webp",
+    ],
+    },
+
      soloTrips: [
       {
         image: "/images/triple-creek-ranch.avif",
@@ -389,6 +440,15 @@ export const DESTINATIONS: Destination[] = [
       heading: "",
       horizontal: "center",
       vertical: "bottom",
+    },
+    SplitSection: {
+     slug: "new-zealand",
+    heading: "HOW WE CREATE YOUR GREEK ESCAPE",
+    text: "Greece is about ease. We shape your journey to flow between islands, coastlines, and moments of rest. Nothing feels rushed, and every place is chosen to let you slow down, breathe deeply, and enjoy the simple beauty of being there. ",
+    images: [
+      "/images/dest/GreeceHow1.webp",
+      "/images/dest/GreeceHow2.webp",
+    ],
     },
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],
@@ -472,6 +532,15 @@ export const DESTINATIONS: Destination[] = [
       horizontal: "center",
       vertical: "bottom",
     },
+     SplitSection: {
+      slug: "uk",
+    heading: "HOW WE DESIGN YOUR BRITISH JOURNEY",
+    text: "The United Kingdom reveals itself through contrast countryside, coastlines, and historic cities. We design your journey to move smoothly between them, blending heritage with comfort, and allowing each place to be discovered at an unhurried pace.",
+    images: [
+      "/images/dest/ukHow1.webp",
+      "/images/dest/ukHow2.webp",
+    ],
+    },
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],
     soloSectionIntro: {
@@ -554,6 +623,17 @@ export const DESTINATIONS: Destination[] = [
       horizontal: "center",
       vertical: "bottom",
     },
+
+    SplitSection: {
+     slug: "morocco",
+    heading: "HOW WE SHAPE YOUR MOROCCAN EXPERIENCE",
+    text: "Morocco is rich with colour, texture, and energy. We design your journey to balance its vibrancy with moments of calm — from lively cities to quiet riads and open desert spaces. Each transition is intentional and unforced.",
+    images: [
+      "/images/dest/MoroccoHow1.webp",
+      "/images/dest/MoroccoHow2.png",
+    ],
+    },
+
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],
     soloSectionIntro: {
@@ -641,6 +721,16 @@ export const DESTINATIONS: Destination[] = [
       heading: "Top Swiss Experiences",
       subheading: "From Zurich to Zermatt, explore Switzerland in style."
     },
+
+     SplitSection: {
+      slug: "tanzania",
+    heading: "HOW WE DESIGN YOUR SAFARI JOURNEY",
+    text: "In Tanzania, timing defines everything. We design your journey around wildlife movement, landscapes, and natural rhythms. Each experience is paced with care, allowing the wilderness to unfold in a way that feels immersive, respectful, and unforgettable.",
+    images: [
+      "/images/dest/TanzaniaHow1.webp",
+      "/images/dest/TanzaniaHow2.webp",
+    ],
+    },
     soloTrips: [
       {
         image: "/images/triple-creek-ranch.avif",
@@ -717,6 +807,15 @@ export const DESTINATIONS: Destination[] = [
       horizontal: "center",
       vertical: "bottom",
     },
+     SplitSection: {
+      slug: "iceland",
+    heading: "HOW WE SHAPE YOUR ICELAND STORY",
+    text: "We start with you and not a map. What draws you to Iceland shapes everything that follows: the pace, the places, the pauses in between. From quiet roads and hidden hot springs to the right moment to chase the Northern Lights, each detail is chosen with intention. The journey unfolds naturally, leaving space for wonder, stillness, and experiences that feel personal rather than planned....",
+    images: [
+      "/images/dest/IcelandHow1.webp",
+      "/images/dest/IcelandHow2.webp",
+    ],
+    },
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],
     soloSectionIntro: {
@@ -784,6 +883,7 @@ export const DESTINATIONS: Destination[] = [
     ],
   },
 
+
 //   new zealand
  {
     slug: "new-zealand",
@@ -797,6 +897,15 @@ export const DESTINATIONS: Destination[] = [
       heading: "",
       horizontal: "center",
       vertical: "bottom",
+    },
+     SplitSection: {
+     slug: "new-zealand",
+    heading: "HOW WE SHAPE YOUR JOURNEY ACROSS NEW ZEALAND",
+    text: "New Zealand is about space and freedom. We design your journey to move naturally through mountains, lakes, and coastlines, with room to pause and explore. The experience feels open, flexible, and shaped entirely around your rhythm.",
+    images: [
+      "/images/dest/NewZealandHow1.webp",
+      "/images/dest/NewZealandHow2.webp",
+    ],
     },
     highlights: ["Breathtaking alpine scenery", "Luxury chalets & resorts", "Curated itineraries"],
     galleryImages: [],

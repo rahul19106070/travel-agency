@@ -6,11 +6,12 @@ import { DESTINATIONS } from "@/app/data/destinationData";
 import TopDestinationsSection from "../../TopDestinationsSection";
 import Navbar from "@/components/Navbar";
 
+
 export default function DestinationPage() {
   const params = useParams<{ slug: string }>();
   const slug = params?.slug;
   const destination = DESTINATIONS.find(dest => dest.slug === slug);
-
+  
   if (!slug) return <div className="pt-32 text-center">Loading...</div>;
   if (!destination) return <div className="pt-32 text-center text-xl font-semibold">Destination not found</div>;
 
@@ -68,23 +69,20 @@ export default function DestinationPage() {
 
 
       {/* ================= INTRO ================= */}
-      <section className="max-w-6xl mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15 lg:pb-30">
+      <section className="max-w-6xl mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15 lg:pb-25">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-3xl sm:text-3xl lg:text-4xl font-light mb-5">
             {destination.title}
           </h1>
 
          {destination.description.split('\n').map((para, i) => (
-  <p
-    key={i}
-    className="text-base sm:text-lg leading-relaxed text-gray-700 mt-4"
-  >
-    {para.trim()}
-  </p>
-))}
-
-
-
+          <p
+            key={i}
+            className="text-base sm:text-lg leading-relaxed text-gray-700 mt-4"
+          >
+            {para.trim()}
+          </p>
+        ))}
           <button
             className="
               mt-8 inline-block
@@ -108,14 +106,69 @@ export default function DestinationPage() {
 
 
 
-       {/* <section className="relative h-[70vh] sm:h-[85vh] lg:h-[96vh] w-full mb-30">
-          <Image
-            src={destination.secImage}
-            fill
-            priority
-            className="object-cover"
-          />
-       </section> */}
+      {/* ===== IMAGE + TEXT SPLIT SECTION ===== */}
+      {destination.SplitSection && (
+        <section className="max-w-7xl mx-auto px-8 py-17 lg:mb-20 sm:mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+            {/* LEFT TEXT */}
+            <div>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-6 uppercase">
+                {destination.SplitSection.heading}
+              </h2>
+
+              <p className="text-gray-600 leading-relaxed text-lg">
+                {destination.SplitSection.text}
+              </p>
+              <button
+                  className="
+                    mt-4 inline-block
+                     relative overflow-hidden
+                     border border-white text-white
+                      px-5 py-2 bg-black
+                      text-[10px] font-bold tracking-[1.2px]
+                      transition-all duration-300
+                      hover:text-black hover:border-black
+                      before:absolute before:inset-0
+                       before:bg-white before:opacity-0
+                       hover:before:opacity-100
+                      "
+                        >
+                      <span className="relative z-10">ENQUIRE</span>
+                     </button>
+            </div>
+
+            {/* RIGHT IMAGES */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full">
+
+            <div className="relative w-full h-[560px] sm:h-[520px] overflow-hidden">
+              <Image
+                src={destination.SplitSection.images[0]}
+                alt=""
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <div className="relative w-full h-[560px] sm:h-[520px] overflow-hidden">
+              <Image
+                src={destination.SplitSection.images[1]}
+                alt=""
+                fill
+                className="object-cover"
+              />
+            </div>
+
+          </div>
+
+
+          </div>
+        </section>
+      )}
+
+
+
+
 
         {/* ===== HIGHLIGHTS ===== */}
          {destination.soloTrips && (
@@ -200,28 +253,6 @@ export default function DestinationPage() {
                   </div>
                 </section>
               )}
-
-
-
-        {/* ===== TOP DESTINATIONS ===== */}
-        
-       {/* {destination.topDestinations && (() => {
-         const headingItem = destination.topDestinations.find(
-           d => d.heading && d.heading.length > 0
-         );
-       
-         const destinations = destination.topDestinations.filter(
-           d => !d.heading || d.heading.length === 0
-         );
-       
-         return (
-           <TopDestinationsSection
-         heading={headingItem?.heading?.[0]?.heading ?? ""}
-         destinations={destinations}
-       />
-       
-         );
-       })()} */}
        
            </main>
          </>
