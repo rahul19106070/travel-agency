@@ -524,7 +524,7 @@ export const EXPERIENCES: Experience[] = [
      imgTextSection: {
     heading: "DISCOVER. BOND. THRIVE",
     horizontal: "center",
-    vertical: "top",
+    vertical: "center",
   },
     cta:"START PLANNING",
     description:

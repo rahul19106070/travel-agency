@@ -38,55 +38,84 @@ export default function Navbar({ appearance }: NavbarProps) {
   const [selectedContinent, setSelectedContinent] = useState<string | null>(null);
   const [selectedExperienceCategory, setSelectedExperienceCategory] = useState<string | null>(null);
 
+  const [scrolled, setScrolled] = useState(false);
+
+
+
   const pathname = usePathname();
   const resolvedAppearance: NavAppearance =
     appearance ?? (pathname === "/" ? "home-scroll" : "page-gradient-scroll");
   const usesPastHero =
     resolvedAppearance === "home-scroll" || resolvedAppearance === "page-gradient-scroll";
-  const textIsDark = resolvedAppearance === "home-scroll" ? isPastHero : false;
-  const headerBackgroundClass = (() => {
-    switch (resolvedAppearance) {
-      case "home-flat":
-        return "bg-transparent";
-      case "home-scroll":
-        return isPastHero ? "bg-white shadow-md" : "bg-transparent";
-      case "page-gradient-scroll":
-      case "page-gradient-static":
-        return "bg-transparent lg:bg-gradient-to-b lg:from-black/20 lg:to-transparent";
-      default:
-        return "bg-transparent";
-    }
-  })();
-  const headerTranslateClass = isVisible ? "translate-y-0" : "-translate-y-full";
+
+
+  const textIsDark = scrolled;
+  const headerBackgroundClass = scrolled
+  ? "bg-white/90 backdrop-blur-md shadow-md"
+  : "bg-white/7 backdrop-blur-0";
+
+
+  // const textIsDark = resolvedAppearance === "home-scroll" ? isPastHero : false;
+  // const headerBackgroundClass = (() => {
+  //   switch (resolvedAppearance) {
+  //     case "home-flat":
+  //       return "bg-transparent";
+  //     case "home-scroll":
+  //       return isPastHero ? "bg-white shadow-md" : "bg-transparent";
+  //     case "page-gradient-scroll":
+  //     case "page-gradient-static":
+  //       return "bg-transparent lg:bg-gradient-to-b lg:from-black/20 lg:to-transparent";
+  //     default:
+  //       return "bg-transparent";
+  //   }
+  // })();
+  // const headerTranslateClass = isVisible ? "translate-y-0" : "-translate-y-full";
+  const headerTranslateClass = "translate-y-0";
+
+
 
   // setActiveTab(activeTab);
+  // useEffect(() => {
+  //   if (!usesPastHero) {
+  //     return;
+  //   }
+
+  //   let lastScrollY = 0;
+
+  //   const handleScroll = () => {
+  //     const currentScrollY = window.scrollY;
+
+  //     setIsPastHero(currentScrollY > 600 || dropdownOpen);
+
+  //     // Show navbar when scrolling up, hide when scrolling down
+  //     if (currentScrollY < lastScrollY) {
+  //       // Scrolling up
+  //       setIsVisible(true);
+  //     } else if (currentScrollY > lastScrollY && currentScrollY > 600) {
+  //       // Scrolling down and past hero
+  //       setIsVisible(false);
+  //     }
+
+  //     lastScrollY = currentScrollY;
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, [dropdownOpen, usesPastHero]);
+
+
+
   useEffect(() => {
-    if (!usesPastHero) {
-      return;
-    }
+  const onScroll = () => {
+    setScrolled(window.scrollY > 50);
+  };
 
-    let lastScrollY = 0;
+  window.addEventListener("scroll", onScroll);
+  return () => window.removeEventListener("scroll", onScroll);
+}, []);
 
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
 
-      setIsPastHero(currentScrollY > 600 || dropdownOpen);
 
-      // Show navbar when scrolling up, hide when scrolling down
-      if (currentScrollY < lastScrollY) {
-        // Scrolling up
-        setIsVisible(true);
-      } else if (currentScrollY > lastScrollY && currentScrollY > 600) {
-        // Scrolling down and past hero
-        setIsVisible(false);
-      }
-
-      lastScrollY = currentScrollY;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [dropdownOpen, usesPastHero]);
 
   // Set isPastHero when dropdown opens
   useEffect(() => {
@@ -114,10 +143,12 @@ export default function Navbar({ appearance }: NavbarProps) {
 
   return (
     <header
-      className={`w-full fixed z-50 transition-all duration-300 ${headerBackgroundClass} ${headerTranslateClass}`}
-    >
+  className={`w-full fixed z-50 transition-[background-color,box-shadow,backdrop-filter] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]
+ ${headerBackgroundClass} ${headerTranslateClass}`}
+>
+
       <div className="mx-auto max-w-[1350px] pl-4">
-        <div className="flex h-12 items-center justify-between">
+        <div className="flex h-17 items-center justify-between">
           {/* Logo */}
           <div className="lg:w-[300px]">
             <Link
@@ -500,7 +531,7 @@ export default function Navbar({ appearance }: NavbarProps) {
               className="fixed inset-y-0 left-0 z-50 w-full max-w-full h-screen font-alternate bg-white flex flex-col shadow-2xl"
             >
               {/* Top Header */}
-              <div className="flex items-center justify-between px-6 py-2 bg-white">
+              {/* <div className="flex items-center justify-between px-6 py-2 bg-white">
                 {mobileMenuLevel === 'main' && <div className="text-xl mt-2 font-medium text-black">
                   +44 207 426 9888 <span className="text-pink-600 font-brandon pl-2">v</span>
                 </div>}
@@ -515,7 +546,7 @@ export default function Navbar({ appearance }: NavbarProps) {
                     <X className="h-5 w-5  text-black" />
                   </button>
                 )}
-              </div>
+              </div> */}
 
               {/* Search - Only on Main Menu */}
               <AnimatePresence mode="wait">

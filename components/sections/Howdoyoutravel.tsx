@@ -45,18 +45,18 @@ const BY_TRAVELLER: TravelItem[] = [
 ];
 
 const BY_MONTH: TravelItem[] = [
-  { title: "JANUARY", imageUrl: "/images/month/January.webp" },
-  { title: "FEBRUARY", imageUrl: "/images/month/February.webp" },
-  { title: "MARCH", imageUrl: "/images/month/March.webp" },
-  { title: "APRIL", imageUrl: "/images/month/April.webp" },
-  { title: "MAY", imageUrl: "/images/month/May.webp" },
-  { title: "JUNE", imageUrl: "/images/month/June.webp" },
-  { title: "JULY", imageUrl: "/images/month/July.webp" },
-  { title: "AUGUST", imageUrl: "/images/month/August.webp" },
-  { title: "SEPTEMBER", imageUrl: "/images/month/Sept.webp" },
-  { title: "OCTOBER", imageUrl: "/images/month/October.webp" },
-  { title: "NOVEMBER", imageUrl: "/images/month/November.webp" },
-  { title: "DECEMBER", imageUrl: "/images/month/December.webp" },
+  { title: "JANUARY", imageUrl: "/images/month/January.webp", slug:"january" },
+  { title: "FEBRUARY", imageUrl: "/images/month/February.webp", slug:"february" },
+  { title: "MARCH", imageUrl: "/images/month/March.webp", slug:"march" },
+  { title: "APRIL", imageUrl: "/images/month/April.webp", slug:"april" },
+  { title: "MAY", imageUrl: "/images/month/May.webp", slug:"may" },
+  { title: "JUNE", imageUrl: "/images/month/June.webp", slug:"june" },
+  { title: "JULY", imageUrl: "/images/month/July.webp", slug:"july" },
+  { title: "AUGUST", imageUrl: "/images/month/August.webp", slug:"august" },
+  { title: "SEPTEMBER", imageUrl: "/images/month/Sept.webp", slug:"september" },
+  { title: "OCTOBER", imageUrl: "/images/month/October.webp", slug:"october" },
+  { title: "NOVEMBER", imageUrl: "/images/month/November.webp", slug:"november" },
+  { title: "DECEMBER", imageUrl: "/images/month/December.webp", slug:"december" },
 ];
 
 const BY_DESTINATION: TravelItem[] = [
