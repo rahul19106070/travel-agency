@@ -5,6 +5,7 @@ import Image from "next/image";
 import { EXPERIENCES } from "@/app/data/travelData";
 import TopDestinationsSection from "../../TopDestinationsSection";
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 
 export default function ExperiencePage() {
@@ -134,9 +135,9 @@ export default function ExperiencePage() {
             <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {experience.soloTrips.map((trip, idx) => (
                 <div
-                  key={idx}
-                  className="
-                    group relative overflow-hidden rounded-lg
+                    key={idx}
+                    className="
+                    group relative overflow-hidden rounded-lg cursor-pointer
                     aspect-[3/4] sm:aspect-[2/3] lg:aspect-[2/4]
                   "
                 >

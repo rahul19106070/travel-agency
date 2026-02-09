@@ -130,7 +130,7 @@ export const EXPERIENCES: Experience[] = [
     description: "",
   },
   {
-    slug: "Italy",
+    slug: "italy",
     title: "Italy",
     heading: [],
     imageUrl: "/images/about/Italy-couple.avif",
@@ -144,20 +144,20 @@ export const EXPERIENCES: Experience[] = [
     description:
 "Greece, with its sparkling cobalt blue waters and dramatic rocky coastlines, is a relaxing, romantic haven. Together, hopping around these islands – with their intimate coves and breathtakingly beautiful hotels – is as good as it gets."  },
   {
-    slug: "California",
-    title: "California",
+    slug: "maldives",
+    title: "Maldives",
     heading: [],
-    imageUrl: "/images/about/california.avif",
+    imageUrl: "/images/dest/Maldives Cover.webp",
     description:
-"Swaying palm trees, twinkling city lights, towering Redwood forests. There's a lot to love about a Californian honeymoon. Live out your own Hollywood romance in the place it all began."
+"Experience the ultimate in luxury and privacy in the Maldives. With crystal-clear waters, overwater bungalows, and pristine beaches, this tropical paradise is perfect for a romantic escape."
   },
-  {
-    slug: "french polynesia",
-    title: "French Polynesia",
-    heading: [],
-    imageUrl: "/images/about/french.avif",
-    description:
-"From coral reefs to plunging waterfalls, these islands evoke entire worlds of hibiscus flowers, double-hulled canoes, and the culture of native Polynesia. Just the two of you, on a secluded island at the end of the earth. It’s exactly how a honeymoon should be."  },
+//   {
+//     slug: "french polynesia",
+//     title: "French Polynesia",
+//     heading: [],
+//     imageUrl: "/images/about/french.avif",
+//     description:
+// "From coral reefs to plunging waterfalls, these islands evoke entire worlds of hibiscus flowers, double-hulled canoes, and the culture of native Polynesia. Just the two of you, on a secluded island at the end of the earth. It’s exactly how a honeymoon should be."  },
 ],
 
   },
@@ -244,37 +244,38 @@ export const EXPERIENCES: Experience[] = [
     description: "",
   },
   {
-    slug: "bangkok",
-    title: "Thailand",
+    slug: "japan",
+    title: "JAPAN",
     heading: [],
-    imageUrl: "/images/thailand.avif",
+    imageUrl: "/images/dest/Japan Cover.webp",
     description:
-      "Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
+      "Japan is ideal for solo travellers thanks to its unique blend of traditional culture and modern innovation. Explore ancient temples, vibrant cities, and serene landscapes. From bustling Tokyo to quiet rural villages, Japan offers endless opportunities for discovery.",
   },
   {
-    slug: "Italy",
-    title: "ITALY",
+    slug: "tanzania",
+    title: "TANZANIA",
     heading: [],
-    imageUrl: "/images/italy.avif",
+    imageUrl: "/images/dest/Tanzania Cover.webp",
     description:
-      "Italy beckons solo travellers with its rich tapestry of history and landscapes...",
+      "Tanzania is a land of extraordinary natural beauty and rich cultural heritage. Experience the thrill of the Serengeti's great migration, climb Mount Kilimanjaro, or relax on pristine beaches along the Indian Ocean coast.",
   },
   {
-    slug: "Spain",
-    title: "SPAIN",
+    slug: "iceland",
+    title: "ICELAND",
     heading: [],
-    imageUrl: "/images/spain.avif",
+    imageUrl: "/images/dest/Iceland Cover.webp",
     description:
-      "From the architectural wonders of Barcelona to the flamenco rhythms of Seville...",
+      "Iceland is a land of dramatic landscapes and natural wonders. From the Northern Lights to geothermal hot springs, Iceland offers unique experiences that are unlike anywhere else in the world.",
+
   },
-  {
-    slug: "Canada",
-    title: "Canada",
-    heading: [],
-    imageUrl: "/images/canada.avif",
-    description:
-      "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
-  },
+  // {
+  //   slug: "Canada",
+  //   title: "Canada",
+  //   heading: [],
+  //   imageUrl: "/images/canada.avif",
+  //   description:
+  //     "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
+  // },
 ],
 
   },
@@ -290,7 +291,7 @@ export const EXPERIENCES: Experience[] = [
      imgTextSection: {
     heading: "TRAVEL THAT REMINDS YOU WHY \n YOU CHOSE EACH OTHER",
     horizontal: "center",
-    vertical: "top",
+    vertical: "center",
    },
 
     description:
@@ -364,152 +365,31 @@ export const EXPERIENCES: Experience[] = [
     description: "",
   },
   {
-    slug: "Italy",
+    slug: "italy",
     title: "ITALY",
     heading: [],
-    imageUrl: "/images/about/italy-couple.avif",
+    imageUrl: "/images/dest/Italy Cover.webp",
     description:
       "Italy is ideal for couples seeking romance, culture, and breathtaking landscapes. Stroll hand in hand through the streets of Rome, admire the art of Florence, or enjoy a gondola ride in Venice."
   },
   {
-    slug: "Greece",
+    slug: "greece",
     title: "GREECE",
     heading: [],
-    imageUrl: "/images/about/Greece-luxury-travel.avif",
+    imageUrl: "/images/dest/Greece Cover.webp",
     description:
 "Delicious Mediterranean cuisine, go sailing in the Aegean, or explore hidden coves together. With its enchanting scenery and warm hospitality, Greece is a dream destination for couples looking for a mix of history, adventure, and relaxation."
   },
   {
-    slug: "Australia",
-    title: "AUSTRALIA",
+    slug: "iceland",
+    title: "ICELAND",
     heading: [],
-    imageUrl: "/images/about/Luxury-Travel-Australia.avif",
+    imageUrl: "/images/dest/iceland Cover.webp",
     description:
 "Whether you prefer luxury resorts, scenic road trips, or secluded island retreats, Australia's sun-soaked beaches, lush vineyards and vibrant cities provide the perfect backdrop for a memorable couples’ holiday."
   },
-  {
-    slug: "Kenya",
-    title: "KENYA",
-    heading: [],
-    imageUrl: "/images/ABOUT/KENYA.avif",
-    description:
-"With its stunning landscapes, rich culture, and warm hospitality, Kenya is a top choice for couples seeking adventure and romance. Enjoy hot air balloon rides over the savannah or candlelit dinners under the African sky."  },
 ],
   },
-
-
-
-
-
-// romantic-holidays
-// {
-//     slug: "romantic-holidays",
-//     title: "MOMENTS THAT REMIND YOU WHY",
-//     subtitle: "ROMANTIC Holidays",
-//     heroImage: "/images/Couple Cover Photo.webp",
-//     description:
-//     "The best couple holidays aren't measured in destinations—they're measured in moments. That sunrise you watched in silence. The wine you shared on a terrace overlooking the sea. The conversation that lasted three hours because, finally, nothing interrupted. We design journeys around these moments. Private settings where it's just the two of you. Experiences that spark laughter or quiet reflection. Itineraries paced for lingering, not rushing. Whether it's an anniversary, a milestone, or simply because you need this—we create the space for connection to happen naturally."
-//  ,   
-//  cta: "BEGIN YOUR JOURNEY",
-//  highlights: [
-//     "Freedom without compromise",
-//     "Tailor-made solo itineraries",
-//     "Seamless & safe travel",
-//   ],
-//   galleryImages: [],
-//   soloSectionIntro: {
-//     heading: "Our favourite luxury couples holidays",
-//     subheading:
-// "Your honeymoon should be as unique as you are. Use these suggested honeymoon itineraries as a prompt and get in touch to plan something that’s truly yours."
-//   },
-//   soloTrips: [
-    
-//     {
-//       image: "/images/triple-creek-ranch.avif",
-//       title: "A JOURNEY INTO JAPAN",
-//       duration: "10 NIGHTS",
-//       description:
-//         "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-//     },
-//     {
-//       image: "/images/triple-creek-ranch.avif",
-//       title: "COSTA RICA UNPLUGGED",
-//       duration: "13 NIGHTS",
-//       description:
-//         "Rainforests, wildlife encounters and remote eco-lodges.",
-//     },
-//     {
-//       image: "/images/triple-creek-ranch.avif",
-//       title: "SOLO SAFARI, BOTSWANA",
-//       duration: "9 NIGHTS",
-//       description:
-//         "Private game drives and intimate bush camps designed for one.",
-//     },
-//      {
-//       image: "/images/triple-creek-ranch.avif",
-//       title: "A JOURNEY INTO JAPAN",
-//       duration: "10 NIGHTS",
-//       description:
-//         "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-//     },
-//     {
-//       image: "/images/triple-creek-ranch.avif",
-//       title: "COSTA RICA UNPLUGGED",
-//       duration: "13 NIGHTS",
-//       description:
-//         "Rainforests, wildlife encounters and remote eco-lodges.",
-//     },
-//     {
-//       image: "/images/triple-creek-ranch.avif",
-//       title: "SOLO SAFARI, BOTSWANA",
-//       duration: "9 NIGHTS",
-//       description:
-//         "Private game drives and intimate bush camps designed for one.",
-//     },
-//   ],
-
-
-//   topDestinations: [
-//   {
-//     slug: "heading",
-//     title: "",
-//     heading: [{ heading: "Most popular couples holiday destinations" }],
-//     imageUrl: "",
-//     description: "",
-//   },
-//   {
-//     slug: "Italy",
-//     title: "ITALY",
-//     heading: [],
-//     imageUrl: "/images/about/italy-couple.avif",
-//     description:
-//       "Italy is ideal for couples seeking romance, culture, and breathtaking landscapes. Stroll hand in hand through the streets of Rome, admire the art of Florence, or enjoy a gondola ride in Venice."
-//   },
-//   {
-//     slug: "Greece",
-//     title: "GREECE",
-//     heading: [],
-//     imageUrl: "/images/about/Greece-luxury-travel.avif",
-//     description:
-// "Delicious Mediterranean cuisine, go sailing in the Aegean, or explore hidden coves together. With its enchanting scenery and warm hospitality, Greece is a dream destination for couples looking for a mix of history, adventure, and relaxation."
-//   },
-//   {
-//     slug: "Australia",
-//     title: "AUSTRALIA",
-//     heading: [],
-//     imageUrl: "/images/about/Luxury-Travel-Australia.avif",
-//     description:
-// "Whether you prefer luxury resorts, scenic road trips, or secluded island retreats, Australia's sun-soaked beaches, lush vineyards and vibrant cities provide the perfect backdrop for a memorable couples’ holiday."
-//   },
-//   {
-//     slug: "Kenya",
-//     title: "KENYA",
-//     heading: [],
-//     imageUrl: "/images/ABOUT/KENYA.avif",
-//     description:
-// "With its stunning landscapes, rich culture, and warm hospitality, Kenya is a top choice for couples seeking adventure and romance. Enjoy hot air balloon rides over the savannah or candlelit dinners under the African sky."  },
-// ],
-//   },
 
 
 
@@ -594,37 +474,38 @@ export const EXPERIENCES: Experience[] = [
     description: "",
   },
   {
-    slug: "bangkok",
-    title: "Thailand",
+    slug: "switzerland",
+    title: "Switzerland",
     heading: [],
-    imageUrl: "/images/thailand.avif",
+    imageUrl: "/images/dest/swiz DP.webp",
     description:
-      "Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
+      "Switzerland is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
   },
   {
-    slug: "Italy",
-    title: "ITALY",
+    slug: "uk",
+    title: "UNITED KINGDOM",
     heading: [],
-    imageUrl: "/images/italy.avif",
+    imageUrl: "/images/dest/UK DP.webp",
     description:
-      "Italy beckons solo travellers with its rich tapestry of history and landscapes...",
+      "The United Kingdom offers a rich blend of history, culture, and natural beauty...",
+
   },
   {
-    slug: "Spain",
-    title: "SPAIN",
+    slug: "new-zealand",
+    title: "NEW ZEALAND",
     heading: [],
-    imageUrl: "/images/spain.avif",
+    imageUrl: "/images/dest/Newz DP.webp",
     description:
-      "From the architectural wonders of Barcelona to the flamenco rhythms of Seville...",
+      "New Zealand is a paradise for solo adventurers, offering breathtaking landscapes, diverse wildlife, and unforgettable experiences.",
   },
-  {
-    slug: "Canada",
-    title: "Canada",
-    heading: [],
-    imageUrl: "/images/canada.avif",
-    description:
-      "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
-  },
+  // {
+  //   slug: "Canada",
+  //   title: "Canada",
+  //   heading: [],
+  //   imageUrl: "/images/canada.avif",
+  //   description:
+  //     "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
+  // },
 ],
 
   },
@@ -639,7 +520,7 @@ export const EXPERIENCES: Experience[] = [
      imgTextSection: {
     heading: "luxury group travel\n privately curated",
     horizontal: "center",
-    vertical: "top",
+    vertical: "center",
   },
     description:"Group travel shouldn't mean compromise—it should mean celebration. We design journeys for your inner circle, whether it's six friends, three generations, or a milestone reunion. Private villas where everyone has space. Experiences that engage all ages and interests. Itineraries paced for connection, not exhaustion. From long dinners under Tuscan stars to shared safaris at sunrise, we handle every detail so you can focus on what matters—being together. Because the best trips aren't about where you go. They're about who's beside you."
 ,      highlights: [
@@ -706,37 +587,38 @@ export const EXPERIENCES: Experience[] = [
     description: "",
   },
   {
-    slug: "bangkok",
-    title: "Thailand",
+    slug: "japan",
+    title: "JAPAN",
     heading: [],
-    imageUrl: "/images/thailand.avif",
+    imageUrl: "/images/dest/Japan Cover.webp",
     description:
-      "Thailand is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
+      "Japan is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Tokyo's dynamic markets or find peace in Kyoto's temples. From exploring ancient ruins to unwinding on tropical shores, Japan offers endless adventure and discovery.",
   },
   {
-    slug: "Italy",
-    title: "ITALY",
+    slug: "morocco",
+    title: "MOROCCO",
     heading: [],
-    imageUrl: "/images/italy.avif",
+    imageUrl: "/images/dest/Moroccon Cover (1).webp",
     description:
-      "Italy beckons solo travellers with its rich tapestry of history and landscapes...",
+      "Morocco beckons solo travellers with its rich tapestry of history and landscapes...",
+
   },
   {
-    slug: "Spain",
-    title: "SPAIN",
+    slug: "greece",
+    title: "GREECE",
     heading: [],
-    imageUrl: "/images/spain.avif",
+    imageUrl: "/images/dest/Greece Cover.webp",
     description:
       "From the architectural wonders of Barcelona to the flamenco rhythms of Seville...",
   },
-  {
-    slug: "Canada",
-    title: "Canada",
-    heading: [],
-    imageUrl: "/images/canada.avif",
-    description:
-      "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
-  },
+  // {
+  //   slug: "Canada",
+  //   title: "Canada",
+  //   heading: [],
+  //   imageUrl: "/images/canada.avif",
+  //   description:
+  //     "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
+  // },
 ],
 
   },

@@ -64,8 +64,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
         <h1 className="max-w-4xl text-2xl sm:text-4xl md:text-4xl lg:text-[55px] font-medium tracking-widest font-alternate ">
-          PUT THE WORLD <br />
-          IN YOUR HANDS
+          MOMENTS THAT MOVE YOU
         </h1>
         {/* <p className=" my-8 text-xs sm:text-sm md:text-sm tracking-widest text-white/90 font-brandon">
           AWARD-WINNING LUXURY TRAVEL EXPERTS CRAFTING BESPOKE JOURNEYS FOR DISCERNING
@@ -79,7 +78,7 @@ export default function Hero() {
               className="
                 relative overflow-hidden
                 rounded-xs border border-white/70
-                sm:px-8 px-4 py-5 sm:py-3 lg:py-4
+                sm:px-5  py-4 sm:py-3 lg:py-3 lg:px-3 px-3
                 text-[13px] leading-[12px] font-bold tracking-[1.2px]
                 text-white
 

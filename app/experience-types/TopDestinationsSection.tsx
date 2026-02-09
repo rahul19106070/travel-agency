@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { TopDestination } from "@/app/data/travelData";
 // import { TopDestination } from "@/app/types";
-
+import Link from "next/link";
 
 export default function TopDestinationsSection({
   heading,
@@ -83,17 +83,19 @@ if (i % 3 === 1 && first && second) {
 }
 
 /* ---------- Blocks ---------- */
-
 function ImageBlock({ dest }: { dest: TopDestination }) {
   return (
-    <div className="relative h-72 lg:h-96 w-full overflow-hidden rounded-lg">
+    <Link
+      href={`/experience-types/destination/${dest.slug}`}
+      className="relative block h-72 lg:h-96 w-full overflow-hidden rounded-lg cursor-pointer"
+    >
       <Image
         src={dest.imageUrl}
         alt={dest.title}
         fill
         className="object-cover"
       />
-    </div>
+    </Link>
   );
 }
 

@@ -61,7 +61,7 @@ export default function DestinationPage() {
             </div>
           )}
         
-          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-black/0" />
         </section>
 
 

@@ -32,6 +32,9 @@ export default function Navbar({ appearance }: NavbarProps) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<NavTab | null>(null);
   const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);
+  // const [scrolled, setScrolled] = useState(false);
+
+
   
   // Mobile menu navigation states
   const [mobileMenuLevel, setMobileMenuLevel] = useState<'main' | 'destinations' | 'continent' | 'experiences' | 'about' | 'about-category'>('main');
@@ -115,6 +118,15 @@ export default function Navbar({ appearance }: NavbarProps) {
 }, []);
 
 
+useEffect(() => {
+  const onScroll = () => {
+    setScrolled(window.scrollY > 40); // threshold
+  };
+
+  window.addEventListener("scroll", onScroll);
+  return () => window.removeEventListener("scroll", onScroll);
+}, []);
+
 
 
   // Set isPastHero when dropdown opens
@@ -142,30 +154,35 @@ export default function Navbar({ appearance }: NavbarProps) {
 
 
   return (
-    <header
-  className={`w-full fixed z-50 transition-[background-color,box-shadow,backdrop-filter] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]
- ${headerBackgroundClass} ${headerTranslateClass}`}
+<header
+  className={`
+    w-full fixed z-50
+    transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
+    ${headerBackgroundClass} ${headerTranslateClass}
+    ${scrolled ? "h-[75px]" : "h-[60px]"}
+  `}
 >
+  <div className="mx-auto max-w-[1350px] h-full pl-4">
+    <div className="flex items-center justify-between h-full transition-all duration-500">
 
-      <div className="mx-auto max-w-[1350px] pl-4">
-        <div className="flex h-17 items-center justify-between">
           {/* Logo */}
           <div className="lg:w-[300px]">
             <Link
               href="/"
               className={` ${textIsDark ? "text-[#444444]" : "text-white"}`}
             >
-              <Image
+             <Image
                 src={`${
                   textIsDark
                     ? "/images/black-tomato-black.svg"
                     : "/images/black-tomato.svg"
                 }`}
-                className={` ${textIsDark ? "text-[#444444]" : "text-white"}`}
                 alt="Black Tomato Logo"
-                width={40}
-                height={40}
+                width={scrolled ? 28 : 40}
+                height={scrolled ? 28 : 40}
+                className="transition-all duration-500"
               />
+
             </Link>
           </div>
 
@@ -462,13 +479,13 @@ export default function Navbar({ appearance }: NavbarProps) {
           )}
 
           {/* Desktop Right Section */}
-          <div className="hidden lg:flex items-center gap-5 text-right ">
+          <div className="hidden lg:flex items-center gap-5 text-right pe-1">
             <span
               className={`text-xs tracking-widest font-semibold ${
                 textIsDark ? "text-[#444444]" : "text-white"
               }`}
             >
-              +44 207 426 9888
+              +971 52 560 1314
             </span>
 
             <User
@@ -477,8 +494,8 @@ export default function Navbar({ appearance }: NavbarProps) {
               }`}
             />
             <Link href="/enquiry">
-  <button className="hidden lg:block bg-pink-600 lg:px-6 lg:py-2.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs rounded-[3px] lg:text-[10px] font-semibold font-brandon text-white hover:bg-pink-700 transition whitespace-nowrap">
-    ENQUIRE NOW
+  <button className="hidden  lg:block bg-pink-600 lg:px-6 lg:py-2.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs rounded-[3px] lg:text-[10px] font-semibold font-brandon text-white hover:bg-pink-700 transition whitespace-nowrap">
+     LET's CONNECT
   </button>
 </Link>
           </div>

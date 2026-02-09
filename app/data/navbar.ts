@@ -1,17 +1,17 @@
 export const NAV_LINKS = [
+  { id: "about", label: "ABOUT", href: "/about", hasDropdown: false },
   {
     id: "destinations",
-    label: "DESTINATIONS",
+    label: "PLACES",
     href: "/destinations",
     hasDropdown: true,
   },
   {
     id: "experiences",
-    label: "EXPERIENCES",
+    label: "CURATIONS",
     href: "/experiences",
     hasDropdown: true,
   },
-  { id: "about", label: "ABOUT", href: "/about", hasDropdown: false },
 ] as const;
 
 export const EXPERIENCES_DATA = {
