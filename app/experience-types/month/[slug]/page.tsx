@@ -230,7 +230,7 @@ export default function MonthPage() {
 
 
     {/* ===== FINAL STORY SECTION ===== */}
-<section className="relative w-full h-[30vh] sm:h-[40vh] lg:h-[50vh] overflow-hidden">
+<section className="relative w-full h-[30vh] py-30 md:py-8 sm:py-20 sm:h-[40vh] lg:h-[50vh] overflow-hidden">
 
   {/* Background Image */}
   <Image
