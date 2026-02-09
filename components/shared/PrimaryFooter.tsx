@@ -39,15 +39,7 @@ const whoLinks = [
   };
   return (
     <footer className="bg-[#242323] text-gray-300">
-      <div id="foot" className="border-b border-white/10 py-8 sm:py-10">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-4 lg:gap-20 sm:gap-6 md:gap-10 px-4 sm:px-6 opacity-70 text-xs sm:text-sm">
-          <Image src="/images/icons-comp/kVZ1z4VT-travelleisure.svg" alt="Condé Nast Traveler" width={100} height={50} />
-          <Image src="/images/icons-comp/abta-logo.svg" alt="Condé Nast Traveler" width={100} height={30} />
-          <Image src="/images/icons-comp/veWhg0JB-iata.svg" alt="Condé Nast Traveler" width={100} height={30} />
-          <Image src="/images/icons-comp/traveller.svg" alt="Condé Nast Traveler" width={100} height={30} />
-          <Image src="/images/icons-comp/vsDPx9UG-virtuoso-member.svg" alt="Condé Nast Traveler" width={200} height={100} />
-        </div>
-      </div>
+      
 
       <div className="max-w-7xl mx-auto py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8">
         <div className="hidden lg:grid lg:grid-cols-[1.5fr_1fr_1fr_1fr_1fr]
@@ -363,7 +355,6 @@ const whoLinks = [
               </ul>
             )}
           </div>
-
 
 
         {/* POPULAR DESTINATIONS */}
