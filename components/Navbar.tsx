@@ -159,7 +159,7 @@ useEffect(() => {
     w-full fixed z-50
     transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
     ${headerBackgroundClass} ${headerTranslateClass}
-    ${scrolled ? "h-[75px]" : "h-[60px]"}
+    ${scrolled ? "h-[60px]" : "h-[75px]"}
   `}
 >
   <div className="mx-auto max-w-[1350px] h-full pl-4">
