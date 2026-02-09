@@ -117,9 +117,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "march", title: "March", image: "/images/month/march.webp" },
-    { slug: "april", title: "April", image: "/images/month/april.webp" },
-    { slug: "may", title: "May", image: "/images/month/may.webp" },
+    { slug: "march", title: "March", image: "/images/month/March.webp" },
+    { slug: "april", title: "April", image: "/images/month/April.webp" },
+    { slug: "may", title: "May", image: "/images/month/May.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -172,9 +172,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "april", title: "April", image: "/images/month/april.webp" },
-    { slug: "may", title: "May", image: "/images/month/may.webp" },
-    { slug: "june", title: "June", image: "/images/month/june.webp" },
+    { slug: "april", title: "April", image: "/images/month/April.webp" },
+    { slug: "may", title: "May", image: "/images/month/May.webp" },
+    { slug: "june", title: "June", image: "/images/month/June.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -225,9 +225,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "may", title: "May", image: "/images/month/may.webp" },
-    { slug: "june", title: "June", image: "/images/month/june.webp" },
-    { slug: "july", title: "July", image: "/images/month/july.webp" },
+    { slug: "may", title: "May", image: "/images/month/May.webp" },
+    { slug: "june", title: "June", image: "/images/month/June.webp" },
+    { slug: "july", title: "July", image: "/images/month/July.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -329,9 +329,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "july", title: "July", image: "/images/month/july.webp" },
-    { slug: "august", title: "August", image: "/images/month/august.webp" },
-    { slug: "september", title: "September", image: "/images/month/sept.webp" },
+    { slug: "july", title: "July", image: "/images/month/July.webp" },
+    { slug: "august", title: "August", image: "/images/month/August.webp" },
+    { slug: "september", title: "September", image: "/images/month/Sept.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -381,9 +381,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "august", title: "August", image: "/images/month/august.webp" },
-    { slug: "september", title: "September", image: "/images/month/sept.webp" },
-    { slug: "october", title: "October", image: "/images/month/october.webp" },
+    { slug: "august", title: "August", image: "/images/month/August.webp" },
+    { slug: "september", title: "September", image: "/images/month/Sept.webp" },
+    { slug: "october", title: "October", image: "/images/month/October.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -434,9 +434,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "september", title: "September", image: "/images/month/sept.webp" },
-    { slug: "october", title: "October", image: "/images/month/october.webp" },
-    { slug: "november", title: "November", image: "/images/month/november.webp" },
+    { slug: "september", title: "September", image: "/images/month/Sept.webp" },
+    { slug: "october", title: "October", image: "/images/month/October.webp" },
+    { slug: "november", title: "November", image: "/images/month/November.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -486,9 +486,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "october", title: "October", image: "/images/month/october.webp" },
-    { slug: "november", title: "November", image: "/images/month/november.webp" },
-    { slug: "december", title: "December", image: "/images/month/december.webp" },
+    { slug: "october", title: "October", image: "/images/month/October.webp" },
+    { slug: "november", title: "November", image: "/images/month/November.webp" },
+    { slug: "december", title: "December", image: "/images/month/December.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -538,9 +538,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "november", title: "November", image: "/images/month/november.webp" },
-    { slug: "december", title: "December", image: "/images/month/december.webp" },
-    { slug: "january", title: "January", image: "/images/month/january.webp" },
+    { slug: "november", title: "November", image: "/images/month/November.webp" },
+    { slug: "december", title: "December", image: "/images/month/December.webp" },
+    { slug: "january", title: "January", image: "/images/month/January.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -643,9 +643,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "january", title: "January", image: "/images/month/january.webp" },
-    { slug: "february", title: "February", image: "/images/month/february.webp" },
-    { slug: "march", title: "March", image: "/images/month/march.webp" },
+    { slug: "january", title: "January", image: "/images/month/January.webp" },
+    { slug: "february", title: "February", image: "/images/month/February.webp" },
+    { slug: "march", title: "March", image: "/images/month/March.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
