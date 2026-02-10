@@ -343,7 +343,7 @@ export const DESTINATIONS: Destination[] = [
     slug: "japan",
     title: "Not Just Japan. Your Balance of Old and New.",
     subtitle: "Cultural Wonders",
-    heroImage: "/images/dest/Japan DP.webp",
+    heroImage: "/images/dest/Japan Cover.webp",
     description:
 "Japan feels vast, layered, impossible to decode alone. The language. The etiquette. The endless options. We translate it all.\n We design Japan journeys that balance ancient ritual with modern wonder. Private tea ceremonies in Kyoto temples tourists never find. Omakase at sushi counters where reservations are nearly impossible. Ryokans where your kaiseki meal is art. Guides who explain not just what you're seeing, but why it matters. Whether you're timing it for cherry blossoms, seeking autumn's fiery maples, traveling as a family, or going solo to truly absorb the culture—we pace it so you're present, not rushing. With every train ticket, restaurant reservation, and cultural nuance handled, you experience Japan's depth without the overwhelm.",    imgTextSection: {
       heading: "",
