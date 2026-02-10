@@ -119,7 +119,7 @@ const Wrapper = ({
 
 
   return (
-    <section className="bg-gray-50 pt-16 pb-5 lg:pb-0 px-4 sm:px-6">
+    <section id="how-do-you-travel" className="bg-gray-50 pt-16 pb-5 lg:pb-0 px-4 sm:px-6 scroll-mt-[90px]">
       <div className="mx-auto max-w-7xl">
         <h2 className="text-center text-5xl font-medium tracking-wider">
           DESIGNED AROUND YOU!
@@ -158,8 +158,9 @@ const Wrapper = ({
                 className="group relative aspect-[3/4] overflow-hidden"
               >
                 <Image src={item.imageUrl} alt={item.title} fill className="object-cover "/>
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />
-                <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 transition pointer-events-none" />
+<div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+
                   <p className="text-sm font-semibold tracking-widest text-white">
                     {item.title}
                   </p>

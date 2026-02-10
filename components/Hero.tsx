@@ -70,7 +70,7 @@ export default function Hero() {
           AWARD-WINNING LUXURY TRAVEL EXPERTS CRAFTING BESPOKE JOURNEYS FOR DISCERNING
           TRAVELLERS SINCE 2005
         </p> */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+        <div className="flex flex-col sm:flex-row gap-4 mt-4">
           <button onClick={() => {
               const el = document.getElementById("journey");
                 if (el) el.scrollIntoView({ behavior: "smooth" });

@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   {
     id: "destinations",
     label: "PLACES",
-    href: "/destinations",
+    href: "/#how-do-you-travel",
     hasDropdown: true,
   },
   {

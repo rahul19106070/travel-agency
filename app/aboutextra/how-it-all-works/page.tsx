@@ -12,7 +12,7 @@ gsap.ticker.lagSmoothing(1000, 16);
 const steps = [
   {
     title: "Membership Access",
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/circle/circle1.webp",
     points: [
       "Inner Circle access is extended to travellers who:",
       "Complete a journey valued at USD 20,000+",
@@ -237,7 +237,7 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
     if (!el) return;
     sectionRefs.current[i] = el;
   }}
-  className="h-screen"
+className="min-h-screen overflow-hidden"
 >
 
 
@@ -248,7 +248,7 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
                     alt={step.title}
                     width={1200}
                     height={1200}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-cover object-bottom"
                     priority={i === 0}
                   />
                 </div>

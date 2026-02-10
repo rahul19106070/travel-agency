@@ -10,6 +10,8 @@ import { BY_DESTINATION } from "@/app/data/navbar";
 import { EXPERIENCES_DATA } from "@/app/data/navbar";
 import { MENU_DATA } from "@/app/data/navbar";
 import { motion, AnimatePresence } from "framer-motion";
+import { Info } from "lucide-react";
+
 
 type NavTab = "destinations" | "experiences" | "menu";
 type NavAppearance =
@@ -56,56 +58,7 @@ export default function Navbar({ appearance }: NavbarProps) {
   ? "bg-white/90 backdrop-blur-md shadow-md"
   : "bg-white/7 backdrop-blur-0";
 
-
-  // const textIsDark = resolvedAppearance === "home-scroll" ? isPastHero : false;
-  // const headerBackgroundClass = (() => {
-  //   switch (resolvedAppearance) {
-  //     case "home-flat":
-  //       return "bg-transparent";
-  //     case "home-scroll":
-  //       return isPastHero ? "bg-white shadow-md" : "bg-transparent";
-  //     case "page-gradient-scroll":
-  //     case "page-gradient-static":
-  //       return "bg-transparent lg:bg-gradient-to-b lg:from-black/20 lg:to-transparent";
-  //     default:
-  //       return "bg-transparent";
-  //   }
-  // })();
-  // const headerTranslateClass = isVisible ? "translate-y-0" : "-translate-y-full";
   const headerTranslateClass = "translate-y-0";
-
-
-
-  // setActiveTab(activeTab);
-  // useEffect(() => {
-  //   if (!usesPastHero) {
-  //     return;
-  //   }
-
-  //   let lastScrollY = 0;
-
-  //   const handleScroll = () => {
-  //     const currentScrollY = window.scrollY;
-
-  //     setIsPastHero(currentScrollY > 600 || dropdownOpen);
-
-  //     // Show navbar when scrolling up, hide when scrolling down
-  //     if (currentScrollY < lastScrollY) {
-  //       // Scrolling up
-  //       setIsVisible(true);
-  //     } else if (currentScrollY > lastScrollY && currentScrollY > 600) {
-  //       // Scrolling down and past hero
-  //       setIsVisible(false);
-  //     }
-
-  //     lastScrollY = currentScrollY;
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, [dropdownOpen, usesPastHero]);
-
-
 
   useEffect(() => {
   const onScroll = () => {
@@ -125,8 +78,6 @@ useEffect(() => {
   window.addEventListener("scroll", onScroll);
   return () => window.removeEventListener("scroll", onScroll);
 }, []);
-
-
 
   // Set isPastHero when dropdown opens
   useEffect(() => {
@@ -181,7 +132,6 @@ useEffect(() => {
                 height={scrolled ? 28 : 40}
                 className="transition-all duration-500"
               />
-
             </Link>
           </div>
 
@@ -193,91 +143,70 @@ useEffect(() => {
               }`}
             />
 
-            <nav className="flex items-center gap-8 relative">
-              {NAV_LINKS.map((item) => (
-                <div key={item.label} className="relative group">
-                  {item.hasDropdown ? (
-                    <button
-                      className={`text-xs font-medium hover:underline
-             hover:underline-offset-6
-             hover:decoration-pink-600
-             hover:decoration-2
-              cursor-pointer transition-colors relative ${
-                        activeTab === item.id
-                          ? "text-pink-600"
-                          : textIsDark
-                          ? "text-[#444444] hover:text-gray-600"
-                          : "text-white hover:text-gray-300"
-                      } tracking-[1.2]`}
-                      onClick={() => {
-                        if (activeTab === item.id && dropdownOpen) {
-                          setDropdownOpen(false);
-                          setActiveTab(null);
-                        } else {
-                          setDropdownOpen(true);
-                          setActiveTab(
-                            item.id as "destinations" | "experiences"
-                          );
-                          if (item.id === "destinations") {
-                            setHoveredContinent(BY_DESTINATION[5].title);
-                          } else if (item.id === "experiences") {
-                            setHoveredCategory(EXPERIENCES_DATA.categories[0].id);
-                          }
-                          //  else if (item.id === "about") {
-                          //   setHoveredCategory(ABOUT_DATA.categories[0].id);
-                          // }
-                        }
-                      }}
-                    >
-                      {item.label}
-                      {activeTab === item.id && (
-                        <span className="absolute -bottom-1 left-0 right-0 h-[2px] bg-pink-600"></span>
-                      )}
-                    </button>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className={`text-xs font-medium ${
-                        textIsDark
-                          ? "text-[#444444] tracking-[1.2] hover:text-gray-600"
-                          : "text-white hover:text-gray-300"
-                      }`}
-                    >
-                      {item.label}
-                    </Link>
-                  )}
-                </div>
-              ))}
-            </nav>
+        <nav className="flex items-center gap-8 relative">
+  {NAV_LINKS.map((item) => (
+    <div key={item.label} className="relative group">
+      {item.hasDropdown ? (
+        <Link
+          href={item.href}   // e.g. "/#how-do-you-travel"
+          className={`text-xs font-medium hover:underline
+            hover:underline-offset-6
+            hover:decoration-pink-600
+            hover:decoration-2
+            cursor-pointer transition-colors relative ${
+              activeTab === item.id
+                ? "text-pink-600"
+                : textIsDark
+                ? "text-[#444444] hover:text-gray-600"
+                : "text-white hover:text-gray-300"
+            } tracking-[1.2]`}
+          onClick={() => {
+            // close dropdown + reset states
+            setDropdownOpen(false);
+            setActiveTab(null);
+            setHoveredContinent(null);
+            setHoveredCategory(null);
+          }}
+        >
+          {item.label}
+        </Link>
+      ) : (
+        <Link
+          href={item.href}
+          className={`text-xs font-medium ${
+            textIsDark
+              ? "text-[#444444] tracking-[1.2] hover:text-gray-600"
+              : "text-white hover:text-gray-300"
+          }`}
+        >
+          {item.label}
+        </Link>
+      )}
+    </div>
+  ))}
+</nav>
 
-            <button
-              className={`mx-4 ${
-                textIsDark ? "text-[#444444]" : "text-white"
-              } cursor-pointer h-4 w-4 transition-transform duration-300`}
-              onClick={() => {
-                if (activeTab === "menu" && dropdownOpen) {
-                  setDropdownOpen(false);
-                  setActiveTab(null);
-                } else {
-                  setDropdownOpen(true);
-                  setActiveTab("menu");
-                  setHoveredCategory(MENU_DATA.categories[0].id);
-                }
-              }}
-              aria-label="Toggle menu"
-            >
-              {activeTab === "menu" && dropdownOpen ? (
-                <X className="h-4 w-4" />
-              ) : (
-                <Menu className="h-4 w-4" />
-              )}
-            </button>
+
+           
+              {/* circular button */}
+                        <Link
+                href="/aboutextra/how-it-all-works"
+                className="ml-4 group relative flex items-center justify-center w-8 h-7 rounded-full 
+                          bg-white text-black overflow-hidden 
+                          shadow-[0_0_0_0_rgba(0,0,0,0)] 
+                          transition-all duration-300
+                          hover:shadow-[0_0_20px_2px_rgba(0,0,0,0.35)]"
+              >
+                {/* glow ring */}
+                <span className="absolute inset-0 rounded-full bg-gradient-to-tr from-white/20 via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                {/* pulse ring */}
+                <span className="absolute inset-0 rounded-full border border-white/10 animate-pulse" />
+
+                {/* icon */}
+                <Info size={13} className="relative z-10" />
+              </Link>
           </div>
-
-
-
-          {/* Dropdowns */}
-
 
          
           {/* Desktop Right Section */}
@@ -295,11 +224,12 @@ useEffect(() => {
                 textIsDark ? "text-[#444444]" : "text-white"
               }`}
             />
+
             <Link href="/enquiry">
-  <button className="hidden  lg:block bg-pink-600 lg:px-6 lg:py-2.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs rounded-[3px] lg:text-[10px] font-semibold font-brandon text-white hover:bg-pink-700 transition whitespace-nowrap">
-     LET's CONNECT
-  </button>
-</Link>
+            <button className="hidden  lg:block bg-pink-600 lg:px-6 lg:py-2.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs rounded-[3px] lg:text-[10px] font-semibold font-brandon text-white hover:bg-pink-700 transition whitespace-nowrap">
+              LET's CONNECT
+            </button>
+          </Link>
           </div>
 
           {/* Mobile: ENQUIRE NOW button */}
@@ -322,6 +252,9 @@ useEffect(() => {
           </div>
         </div>
       </div>
+
+
+
 
       {/* Mobile Menu */}
       <AnimatePresence>
@@ -485,12 +418,6 @@ useEffect(() => {
                         </button>
                       </div>
                       <h2 className="text-2xl font-medium tracking-[2.5px] mb-6 text-black uppercase ">DESTINATIONS</h2>
-                      <Link
-                        href="/destinations/all"
-                        className="block text-md tracking-[1.5px] font-brandon font-semibold text-gray-600 mb-4 uppercase"
-                      >
-                        A-Z OF COUNTRIES
-                      </Link>
                       {BY_DESTINATION.map((dest) => (
                         <button
                           key={dest.slug}
