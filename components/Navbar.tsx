@@ -6,9 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {NAV_LINKS} from "@/app/data/navbar";
-import { DESTINATIONS_DATA } from "@/app/data/navbar";
+import { BY_DESTINATION } from "@/app/data/navbar";
 import { EXPERIENCES_DATA } from "@/app/data/navbar";
-// import { ABOUT_DATA } from "@/app/data/navbar";
 import { MENU_DATA } from "@/app/data/navbar";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -220,7 +219,7 @@ useEffect(() => {
                             item.id as "destinations" | "experiences"
                           );
                           if (item.id === "destinations") {
-                            setHoveredContinent(DESTINATIONS_DATA[5].continent);
+                            setHoveredContinent(BY_DESTINATION[5].title);
                           } else if (item.id === "experiences") {
                             setHoveredCategory(EXPERIENCES_DATA.categories[0].id);
                           }
@@ -275,209 +274,12 @@ useEffect(() => {
             </button>
           </div>
 
+
+
           {/* Dropdowns */}
-          {dropdownOpen && (
-            <div className="absolute top-12 left-0 w-full h-screen bg-white shadow-2xl z-40">
-              <div className="max-w-[1400px] mx-auto px-8 py-12 flex gap-12 relative">
-                {/* Close Button */}
-                <button
-                  onClick={() => {
-                    setDropdownOpen(false);
-                    setActiveTab(null);
-                    setHoveredContinent(null);
-                    setHoveredCategory(null);
-                  }}
-                  className="absolute top-0 right-8 text-gray-600 hover:text-pink-600 transition-colors"
-                  aria-label="Close dropdown"
-                >
-                  <X className="h-6 w-6" />
-                </button>
-
-                {/* DESTINATIONS Dropdown */}
-                {activeTab === "destinations" && (
-                  <>
-                    {/* Left Side - Continents */}
-                    <div className="w-60">
-                      {DESTINATIONS_DATA.map((dest) => (
-                        <button
-                          key={dest.continent}
-                          onMouseEnter={() =>
-                            setHoveredContinent(dest.continent)
-                          }
-                          className={`block w-full text-left text-2xl font-alternate font-medium tracking-widest py-1 transition ${
-                            hoveredContinent === dest.continent
-                              ? "text-pink-600"
-                              : "text-gray-800 hover:text-gray-600"
-                          }`}
-                        >
-                          {dest.continent}
-                        </button>
-                      ))}
-                    </div>
-
-                    {/* Middle - Countries */}
-                    <div className="flex-1">
-                      {hoveredContinent && (
-                        <>
-                          <div className="grid grid-cols-2 gap-x-8 gap-y-2">
-                            {DESTINATIONS_DATA.find(
-                              (d) => d.continent === hoveredContinent
-                            )?.countries.map((country) => (
-                              <Link
-                                key={country}
-                                href={`/destinations/${country
-                                  .toLowerCase()
-                                  .replace(/\s+/g, "-")}`}
-                                className="text-md font-[17px] text-gray-600 hover:text-pink-600 transition py-1"
-                                onClick={closeDropdown}
-                              >
-                                {country}
-                              </Link>
-                            ))}
-                          </div>
-                          <Link
-                            href={`/destinations/${hoveredContinent.toLowerCase().replace(/\s+/g, "-")}`}
-                            className="mt-6 inline-block text-xs font-semibold tracking-widest text-gray-800 hover:text-pink-600 transition"
-                            onClick={closeDropdown}
-                          >
-                            BROWSE ALL {hoveredContinent.toUpperCase()}
-                          </Link>
-                        </>
-                      )}
-                    </div>
-
-                    {/* Right Side - Image Preview */}
-                    <div className="w-100 h-[600px]">
-                      {hoveredContinent && (
-                        <div className="relative w-full h-full overflow-hidden rounded">
-                          <Image
-                            src={
-                              DESTINATIONS_DATA.find(
-                                (d) => d.continent === hoveredContinent
-                              )?.image || "/images/dest.png"
-                            }
-                            alt={hoveredContinent}
-                            fill
-                            className="object-cover"
-                          />
-                        </div>
-                      )}
-                    </div>
-                  </>
-                )}
-
-                {/* EXPERIENCES Dropdown */}
-                {activeTab === "experiences" && (
-                  <>
-                    {/* Left Side - Categories */}
-                    <div className="w-64">
-                      {EXPERIENCES_DATA.categories.map((cat) => (
-                        <button
-                          key={cat.id}
-                          onMouseEnter={() => setHoveredCategory(cat.id)}
-                          className={`block w-full text-left text-2xl font-alternate font-medium tracking-wider py-2 transition ${
-                            hoveredCategory === cat.id
-                              ? "text-pink-600"
-                              : "text-gray-800 hover:text-gray-600"
-                          }`}
-                        >
-                          {cat.label}
-                        </button>
-                      ))}
-                    </div>
-
-                    {/* Right Side - Cards Grid */}
-                    <div className="flex-1">
-                      {hoveredCategory && (
-                        <div className="grid grid-cols-5 gap-4">
-                          {EXPERIENCES_DATA.categories
-                            .find((cat) => cat.id === hoveredCategory)
-                            ?.cards.map((card) => (
-                              <Link
-                                key={card.title}
-                                href={card.link}
-                                className="group relative h-72 overflow-hidden rounded"
-                                onClick={closeDropdown}
-                              >
-                                <Image
-                                  src={card.image}
-                                  alt={card.title}
-                                  height={800}
-                                  width={800}
-                                  className="object-cover"
-                                />
-                                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                  <h3 className="text-white text-center font-medium text-xl tracking-[2.5px] whitespace-pre-line leading-5">
-                                    {card.title}
-                                  </h3>
-                                </div>
-                              </Link>
-                            ))}
-                        </div>
-                      )}
-                    </div>
-                  </>
-                )}
-
-                
 
 
-                {/* MENU Dropdown */}
-                {activeTab === "menu" && (
-                  <>
-                    {/* Left Side - Categories */}
-                    <div className="w-48">
-                      {MENU_DATA.categories.map((cat) => (
-                        <button
-                          key={cat.id}
-                          onMouseEnter={() => setHoveredCategory(cat.id)}
-                          className={`block w-full text-left text-2xl font-alternate font-medium tracking-wider py-2 transition ${
-                            hoveredCategory === cat.id
-                              ? "text-pink-600"
-                              : "text-gray-800 hover:text-gray-600"
-                          }`}
-                        >
-                          {cat.label}
-                        </button>
-                      ))}
-                    </div>
-
-                    {/* Right Side - Months Grid */}
-                    <div className="flex-1">
-                      {hoveredCategory === "month" && (
-                        <div className="grid grid-cols-6 gap-4">
-                          {MENU_DATA.months.map((month) => (
-                            <Link
-                              key={month.name}
-                              href={`/inspiration/${month.name.toLowerCase()}`}
-                              className="group relative h-60 overflow-hidden rounded"
-                              onClick={closeDropdown}
-                            >
-                              <Image
-                                src={month.image}
-                                alt={month.name}
-                                height={200}
-                                width={200}
-                                className="object-cover"
-                              />
-                              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors" />
-                              <div className="absolute inset-0 flex items-center justify-center">
-                                <h3 className="text-white text-center font-medium text-xl tracking-[2.5px] whitespace-pre-line leading-5">
-                                  {month.name}
-                                </h3>
-                              </div>
-                            </Link>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
-          )}
-
+         
           {/* Desktop Right Section */}
           <div className="hidden lg:flex items-center gap-5 text-right pe-1">
             <span
@@ -618,6 +420,9 @@ useEffect(() => {
                         INSPIRATION
                       </Link>
 
+
+
+
                       <Link
                           href="/about"
                           onClick={() => setOpen(false)}
@@ -626,12 +431,17 @@ useEffect(() => {
                           ABOUT
                         </Link>
 
+
+
+
                       <Link
                         href="/my-bt"
                         className="block text-2xl tracking-[2.5px] font-medium text-black py-4"
                       >
                         MY BT
                       </Link>
+
+
                       <div className="bg-white pt-4">
                         <div className="flex items-center gap-2">
                           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none">
@@ -681,16 +491,16 @@ useEffect(() => {
                       >
                         A-Z OF COUNTRIES
                       </Link>
-                      {DESTINATIONS_DATA.map((dest) => (
+                      {BY_DESTINATION.map((dest) => (
                         <button
-                          key={dest.continent}
+                          key={dest.slug}
                           onClick={() => {
-                            setSelectedContinent(dest.continent);
+                            setSelectedContinent(dest.title);
                             setMobileMenuLevel('continent');
                           }}
                           className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 uppercase"
                         >
-                          {dest.continent}
+                          {dest.title}
                         </button>
                       ))}
                     </motion.div>
@@ -732,13 +542,13 @@ useEffect(() => {
                       >
                         BROWSE ALL
                       </Link>
-                      {DESTINATIONS_DATA.find((d) => d.continent === selectedContinent)?.countries.map((country) => (
+                      {BY_DESTINATION.map((item) => (
                         <Link
-                          key={country}
-                          href={`/destinations/${country.toLowerCase().replace(/\s+/g, '-')}`}
-                          className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 uppercase"
+                          key={item.slug}
+                          href={`/experience-types/destination/${item.slug}`}
+                          className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600 py-2 uppercase"
                         >
-                          {country}
+                          {item.title}
                         </Link>
                       ))}
                     </motion.div>
@@ -783,6 +593,8 @@ useEffect(() => {
                     </motion.div>
                   )}
 
+
+
                   {/* Experiences Level 2 - Category Items */}
                   {mobileMenuLevel === 'experiences' && selectedExperienceCategory && (
                     <motion.div
@@ -817,8 +629,8 @@ useEffect(() => {
                         ?.cards.map((card) => (
                           <Link
                             key={card.title}
-                            href={card.link}
-                            className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 uppercase"
+href={`/experience-types/traveller/${card.slug}`}      
+                      className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600  py-2 uppercase"
                           >
                             {card.title.replace(/\n/g, ' ')}
                           </Link>

@@ -366,15 +366,12 @@ const whoLinks = [
             <h4 className="font-brandon text-xs tracking-widest text-white font-semibold">
               POPULAR DESTINATIONS
             </h4>
-
             {openSection === "destinations" ? (
               <Minus className="w-4 h-4 text-white" />
             ) : (
               <Plus className="w-4 h-4 text-white" />
             )}
           </button>
-
-
           {openSection === "destinations" && (
             <ul className="pb-5 space-y-2 text-sm">
               {destinations.map((item) => (
