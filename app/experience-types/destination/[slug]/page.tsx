@@ -27,6 +27,8 @@ export default function DestinationPage() {
             alt={destination.title}
             fill
             priority
+            sizes="100vw"
+            quality={100}
             className="object-cover"
           />
 

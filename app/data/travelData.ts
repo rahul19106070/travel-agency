@@ -49,6 +49,8 @@ export type ImageTextSection = {
 
 
 export const EXPERIENCES: Experience[] = [
+
+  
   // honeymoon-holidays
   {
     slug: "honeymoon-holidays",
@@ -137,7 +139,7 @@ export const EXPERIENCES: Experience[] = [
     description:
 "Italy, synonymous with romance, has always been one of the most captivating, irresistible honeymoon destinations. From historic and artistic treasures to some of the world’s finest food and wine – it won’t disappoint."  },
   {
-    slug: "Greece",
+    slug: "greece",
     title: "Greece",
     heading: [],
     imageUrl: "/images/about/Greece-luxury-travel.avif",
@@ -509,6 +511,7 @@ export const EXPERIENCES: Experience[] = [
 ],
 
   },
+
 
   // group-holidays
   {
