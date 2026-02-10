@@ -8,7 +8,7 @@ const BookingPolicy = () => {
   return (
     <>
     <Navbar appearance="home-scroll"  />
-    <section className="max-w-4xl mx-auto px-6 sm:px-10 py-15 lg:py-20 sm:py-20">
+    <section className="max-w-4xl mx-auto px-6 sm:px-10 py-25 lg:py-20 sm:py-30">
       <h1 className="text-3xl sm:text-4xl font-serif font-semibold mb-6 lg:mb-8">ISKY Booking Policy</h1>
       <p className="mb-6">
         At Infinite Sky (ISKY), we craft bespoke travel experiences through carefully curated partnerships 

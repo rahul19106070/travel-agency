@@ -50,7 +50,7 @@ export type ImageTextSection = {
 
 export const EXPERIENCES: Experience[] = [
 
-  
+
   // honeymoon-holidays
   {
     slug: "honeymoon-holidays",
@@ -386,7 +386,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "iceland",
     title: "ICELAND",
     heading: [],
-    imageUrl: "/images/dest/iceland Cover.webp",
+    imageUrl: "/images/dest/Iceland Cover.webp",
     description:
 "Whether you prefer luxury resorts, scenic road trips, or secluded island retreats, Australia's sun-soaked beaches, lush vineyards and vibrant cities provide the perfect backdrop for a memorable couples’ holiday."
   },
@@ -479,7 +479,7 @@ export const EXPERIENCES: Experience[] = [
     slug: "switzerland",
     title: "Switzerland",
     heading: [],
-    imageUrl: "/images/dest/swiz DP.webp",
+    imageUrl: "/images/dest/Swiz DP.webp",
     description:
       "Switzerland is ideal for solo travellers thanks to its lively cities, peaceful beaches and welcoming locals. Immerse yourself in Bangkok's dynamic markets or find peace in Chiang Mai's temples. From exploring ancient ruins to unwinding on tropical shores, Thailand offers endless adventure and discovery.",
   },

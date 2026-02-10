@@ -34,7 +34,7 @@ export default function EnquiryPage() {
             We are open tomorrow at 9.00am &nbsp; 
             </p>
             <p className="text-xl md:text-xl mr-0  font-light text-red-500">
-            +44 207 426 9888
+            +971 52 560 1314
             </p>
         </div>
       </section>

@@ -8,7 +8,7 @@ export default function PrivacyPolicyPage() {
     <>
 <Navbar appearance="home-scroll"  />
     <main className="w-full bg-[#fbfaf7] text-[#1f1f1f]">
-      <section className="max-w-4xl mx-auto px-6 sm:px-10 py-16 sm:py-20">
+      <section className="max-w-4xl mx-auto px-6 sm:px-10 py-25 lg:py-20 sm:py-30">
 
         {/* Title */}
         <h1 className="text-3xl sm:text-4xl font-serif font-semibold mb-6">
