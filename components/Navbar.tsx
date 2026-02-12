@@ -168,11 +168,11 @@ useEffect(() => {
          
           {/* Desktop Right Section */}
          {/* RIGHT */}
-<div className="hidden lg:flex items-center justify-center gap-9 w-full">
+<div className="hidden lg:flex items-center ms-8 justify-center gap-9 w-full">
   
   <Link
     href="/aboutextra/how-it-all-works"
-    className={`text-[15px] font-medium tracking-[1.2px] transition-colors ${
+    className={`text-[15px] ms-6 font-medium tracking-[1.2px] transition-colors ${
       textIsDark
         ? "text-[#444444] hover:text-gray-600"
         : "text-white hover:text-gray-300"
