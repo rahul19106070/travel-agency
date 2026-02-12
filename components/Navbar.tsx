@@ -113,10 +113,10 @@ useEffect(() => {
   `}
 >
   <div className="mx-auto max-w-[1350px] h-full pl-4">
-    <div className="flex items-center justify-between h-full transition-all duration-500">
+<div className="grid grid-cols-3 lg:grid-cols-3 items-center h-full transition-all duration-500 w-full">
 
           {/* Logo */}
-          <div className="lg:w-[300px]">
+          {/* <div className="lg:w-[300px]">
             <Link
               href="/"
               className={` ${textIsDark ? "text-[#444444]" : "text-white"}`}
@@ -133,123 +133,107 @@ useEffect(() => {
                 className="transition-all duration-500"
               />
             </Link>
-          </div>
+          </div> */}
 
-          {/* Desktop Left Section */}
-          <div className="hidden lg:flex gap-4 items-center">
-            <Search
-              className={`h-4 w-4 mx-4 cursor-pointer ${
-                textIsDark ? "text-[#444444]" : "text-white"
-              }`}
-            />
-
-        <nav className="flex items-center gap-8 relative">
-  {NAV_LINKS.map((item) => (
-    <div key={item.label} className="relative group">
-      {item.hasDropdown ? (
-        <Link
-          href={item.href}   // e.g. "/#how-do-you-travel"
-          className={`text-xs font-medium hover:underline
-            hover:underline-offset-6
-            hover:decoration-pink-600
-            hover:decoration-2
-            cursor-pointer transition-colors relative ${
-              activeTab === item.id
-                ? "text-pink-600"
-                : textIsDark
-                ? "text-[#444444] hover:text-gray-600"
-                : "text-white hover:text-gray-300"
-            } tracking-[1.2]`}
-          onClick={() => {
-            // close dropdown + reset states
-            setDropdownOpen(false);
-            setActiveTab(null);
-            setHoveredContinent(null);
-            setHoveredCategory(null);
-          }}
-        >
-          {item.label}
-        </Link>
-      ) : (
-        <Link
-          href={item.href}
-          className={`text-xs font-medium ${
-            textIsDark
-              ? "text-[#444444] tracking-[1.2] hover:text-gray-600"
-              : "text-white hover:text-gray-300"
-          }`}
-        >
-          {item.label}
-        </Link>
-      )}
-    </div>
+         
+{/* LEFT */}
+<nav className="hidden lg:flex items-center gap-20 lg:ms-30 justify-center">
+  {NAV_LINKS.filter(item =>
+    ["ABOUT", "PLACES", "CURATIONS"].includes(item.label.toUpperCase())
+  ).map((item) => (
+    <Link
+      key={item.label}
+      href={item.href}
+      className={`text-lg font-medium tracking-[1.2px] transition-colors ${
+        textIsDark
+          ? "text-[#444444] hover:text-gray-600"
+          : "text-white hover:text-gray-300"
+      }`}
+    >
+      {item.label}
+    </Link>
   ))}
 </nav>
 
+{/* CENTER */}
+<div className="flex items-center  justify-start lg:justify-center">
+  <Link href="/" className={`text-5xl font-semibold tracking-[4px] ${
+    textIsDark ? "text-black" : "text-white"
+  }`}>
+    ISKY
+  </Link>
+</div>
 
-           
-              {/* circular button */}
-                        <Link
-                href="/aboutextra/how-it-all-works"
-                className="ml-4 group relative flex items-center justify-center w-8 h-7 rounded-full 
-                          bg-white text-black overflow-hidden 
-                          shadow-[0_0_0_0_rgba(0,0,0,0)] 
-                          transition-all duration-300
-                          hover:shadow-[0_0_20px_2px_rgba(0,0,0,0.35)]"
-              >
-                {/* glow ring */}
-                <span className="absolute inset-0 rounded-full bg-gradient-to-tr from-white/20 via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-                {/* pulse ring */}
-                <span className="absolute inset-0 rounded-full border border-white/10 animate-pulse" />
-
-                {/* icon */}
-                <Info size={13} className="relative z-10" />
-              </Link>
-          </div>
 
          
           {/* Desktop Right Section */}
-          <div className="hidden lg:flex items-center gap-5 text-right pe-1">
-            <span
-              className={`text-xs tracking-widest font-semibold ${
-                textIsDark ? "text-[#444444]" : "text-white"
-              }`}
-            >
-              +971 52 560 1314
-            </span>
+         {/* RIGHT */}
+<div className="hidden lg:flex items-center justify-center gap-9 w-full">
+  
+  <Link
+    href="/aboutextra/how-it-all-works"
+    className={`text-lg font-medium tracking-[1.2px] transition-colors ${
+      textIsDark
+        ? "text-[#444444] hover:text-gray-600"
+        : "text-white hover:text-gray-300"
+    }`}
+  >
+    CIRCLE
+  </Link>
 
-            <User
-              className={`h-5 w-5 ${
-                textIsDark ? "text-[#444444]" : "text-white"
-              }`}
-            />
 
-            <Link href="/enquiry">
-            <button className="hidden  lg:block bg-pink-600 lg:px-6 lg:py-2.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs rounded-[3px] lg:text-[10px] font-semibold font-brandon text-white hover:bg-pink-700 transition whitespace-nowrap">
-              LET's CONNECT
-            </button>
-          </Link>
-          </div>
+
+  {/* Number */}
+<span
+  className={`text-lg tracking-widest font-semibold grow text-center min-w-[170px] ${
+    textIsDark ? "text-[#444444]" : "text-white"
+  }`}
+>
+  +971 52 560 1314
+</span>
+
+
+
+  <User
+    className={`h-5 w-5 shrink-0 ${
+      textIsDark ? "text-[#444444]" : "text-white"
+    }`}
+  />
+
+  <Link href="/enquiry" className="shrink-0">
+    <button className="bg-pink-600 lg:me-28 px-5 py-2.5 text-[14px] rounded-[3px] font-semibold text-white hover:bg-pink-700 transition whitespace-nowrap">
+      LET’S CONNECT
+    </button>
+  </Link>
+</div>
+
+
+
+
+
+
+
+
 
           {/* Mobile: ENQUIRE NOW button */}
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center gap-3 pb-2 px-4 mt-2 uppercase">
-            <button className="bg-pink-600 px-4 h-7 text-[10px] font-semibold rounded-xs text-white hover:bg-pink-700 transition whitespace-nowrap">
-              ENQUIRE NOW
-            </button>
+          {/* Mobile Right Controls */}
+<div className="lg:hidden absolute right-4 flex items-center gap-3">
+  <button className="bg-pink-600 px-4 h-7 text-[15px] font-semibold rounded-xs text-white hover:bg-pink-700 transition whitespace-nowrap">
+LET’S CONNECT  </button>
 
-            <button
-              onClick={() => setOpen(true)}
-              className={`${
-                textIsDark ? "text-[#444444]" : "text-white"
-              } flex items-center justify-center h-8`}
-              aria-label="Open Menu"
-            >
-              <Menu className="h-5 w-5" />
-            </button>
-          </div>
+  <button
+    onClick={() => setOpen(true)}
+    className={`${
+      textIsDark ? "text-[#444444]" : "text-white"
+    } flex items-center justify-center h-8`}
+    aria-label="Open Menu"
+  >
+    <Menu className="h-5 w-5" />
+  </button>
+</div>
+
         </div>
       </div>
 

@@ -22,7 +22,7 @@ const steps = [
   },
   {
     title: "Personal Welcome",
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/circle/circle2.webp",
     points: [
       "Each Inner Circle member receives:",
       "A thoughtfully curated welcome gift",
@@ -32,7 +32,7 @@ const steps = [
   },
   {
     title: "Priority Experience",
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/circle/circle3.webp",
     points: [
       "Inner Circle members enjoy:",
       "Priority planning and response",
@@ -42,7 +42,7 @@ const steps = [
   },
   {
     title: "Progressive Privileges",
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/circle/circle4.webp",
     points: [
       "With continued travel, members experience:",
       "Added inclusions arranged on their behalf",
@@ -52,7 +52,7 @@ const steps = [
   },
   {
     title: "Journey Support",
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/circle/circle5.webp",
     points: [
       "Members receive:",
       "On-journey assistance",
@@ -62,7 +62,7 @@ const steps = [
   },
   {
     title: "Long-Term Value",
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/circle/circle6.webp",
     points: [
       "Inner Circle is designed as:",
       "An ongoing relationship",
@@ -72,7 +72,7 @@ const steps = [
   },
   {
     title: "Who Inner Circle Is For",
-    image: "/images/triple-creek-ranch.avif",
+    image: "/images/circle/circle7.webp",
     points: [
       "Inner Circle is suited to travellers who:",
       "Value ease, discretion, and clarity",
@@ -105,7 +105,7 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
           end: "+=100%",
           pin: true,
           pinSpacing: true,
-          scrub: 1.2,
+          scrub: 0.6,
           anticipatePin: 1,
           snap: {
             snapTo: 1,
@@ -248,7 +248,7 @@ className="min-h-screen overflow-hidden"
                     alt={step.title}
                     width={1200}
                     height={1200}
-                    className="h-full w-full object-cover object-bottom"
+                    className="h-full w-full object-cover object-top"
                     priority={i === 0}
                   />
                 </div>
@@ -258,9 +258,9 @@ className="min-h-screen overflow-hidden"
                     reverse ? "md:order-1" : "md:order-2"
                   }`}
                 >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  <p className="text-3xl md:text-4xl font-bold mb-6">
                     {step.title}
-                  </h2>
+                  </p>
                   <ul className="space-y-3 text-lg text-gray-600">
                     {step.points.map((p, idx) => (
                       <li key={idx}>• {p}</li>

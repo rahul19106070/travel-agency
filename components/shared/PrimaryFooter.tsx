@@ -42,8 +42,8 @@ const whoLinks = [
       
 
       <div className="max-w-7xl mx-auto py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8">
-        <div className="hidden lg:grid lg:grid-cols-[1.5fr_1fr_1fr_1fr_1fr]
- gap-8">
+      <div className="hidden lg:grid lg:grid-cols-3 gap-16">
+
           {/* ISKY */}
           <div className="space-y-3 sm:space-y-4">
             <p className="font-brandon text-xs tracking-widest text-white font-semibold">
@@ -125,32 +125,7 @@ const whoLinks = [
 
           </div>
 
-          {/* USEFUL INFORMATION */}
-          <div>
-            <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-4">
-              USEFUL INFORMATION
-            </h4>
-            <ul className="space-y-1.5 text-sm">
-              {[
-                "About Us",
-                "Booking Conditions",
-                "Careers",
-                "FAQs",
-                "Online Enquiry",
-                "Press Room",
-                "Privacy Policy",
-                "Regenerative Travel",
-                "Sitemap",
-                "Travel Insurance",
-              ].map((item) => (
-                <li key={item}>
-                  <Link href="#" className="hover:text-white transition">
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          
 
           {/* POPULAR DESTINATIONS */}
           <div>
@@ -191,38 +166,6 @@ const whoLinks = [
     ))}
   </ul>
 </div>
-
-
-          {/* WHAT */}
-          <div>
-            <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-4">
-              WHAT
-            </h4>
-            <ul className="space-y-1.5 text-sm">
-              {[
-                "Pursuit of Feeling",
-                "Feelings Engine",
-                "See You In The Moment",
-                "Take Me On A Story",
-                "James Bond",
-                "Adventures",
-                "Beach",
-                "Blink",
-                "Eclipse",
-                "Field Trip",
-                "Food",
-                "Get Lost",
-                "Safari",
-                "Unusual",
-              ].map((item) => (
-                <li key={item}>
-                  <Link href="#" className="hover:text-white transition">
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
 
           {/* Empty column for 6-column grid */}
           <div></div>
@@ -317,45 +260,7 @@ const whoLinks = [
           </div>
 
 
-          {/* USEFUL INFORMATION */}
-          <div className="border-b border-white/10">
-            <button
-              onClick={() => toggleSection("useful")}
-              className="w-full flex items-center justify-between py-5 text-left"
-            >
-              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold">
-                USEFUL INFORMATION
-              </h4>
-              {openSection === "useful" ? (
-                <Minus className="w-4 h-4 text-white" />
-              ) : (
-                <Plus className="w-4 h-4 text-white" />
-              )}
-            </button>
-            {openSection === "useful" && (
-              <ul className="pb-5 space-y-2 text-sm">
-                {[
-                  "About Us",
-                  "Booking Conditions",
-                  "Careers",
-                  "Frequently Asked Questions",
-                  "Online Enquiry",
-                  "Press Room",
-                  "Privacy Policy",
-                  "Regenerative Travel",
-                  "Sitemap",
-                  "Travel Insurance",
-                ].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="hover:text-white transition">
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-
+        
 
         {/* POPULAR DESTINATIONS */}
         <div className="border-b border-white/10">
@@ -421,48 +326,7 @@ const whoLinks = [
 
           </div>
 
-          {/* WHAT */}
-          <div className="border-b border-white/10">
-            <button
-              onClick={() => toggleSection("what")}
-              className="w-full flex items-center justify-between py-5 text-left"
-            >
-              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold">
-                WHAT
-              </h4>
-              {openSection === "what" ? (
-                <Minus className="w-4 h-4 text-white" />
-              ) : (
-                <Plus className="w-4 h-4 text-white" />
-              )}
-            </button>
-            {openSection === "what" && (
-              <ul className="pb-5 space-y-2 text-sm">
-                {[
-                  "Pursuit of Feeling",
-                  "Feelings Engine",
-                  "See You In The Moment",
-                  "Take Me On A Story",
-                  "James Bond",
-                  "Adventures",
-                  "Beach",
-                  "Blink",
-                  "Eclipse",
-                  "Field Trip",
-                  "Food",
-                  "Get Lost",
-                  "Safari",
-                  "Unusual",
-                ].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="hover:text-white transition">
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
+
         </div>
       </div>
     </footer>
