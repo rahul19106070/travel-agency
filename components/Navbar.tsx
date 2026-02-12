@@ -144,7 +144,7 @@ useEffect(() => {
     <Link
       key={item.label}
       href={item.href}
-      className={`text-lg font-medium tracking-[1.2px] transition-colors ${
+      className={`text-[15px] font-medium tracking-[1.2px] transition-colors ${
         textIsDark
           ? "text-[#444444] hover:text-gray-600"
           : "text-white hover:text-gray-300"
@@ -172,7 +172,7 @@ useEffect(() => {
   
   <Link
     href="/aboutextra/how-it-all-works"
-    className={`text-lg font-medium tracking-[1.2px] transition-colors ${
+    className={`text-[15px] font-medium tracking-[1.2px] transition-colors ${
       textIsDark
         ? "text-[#444444] hover:text-gray-600"
         : "text-white hover:text-gray-300"
@@ -185,7 +185,7 @@ useEffect(() => {
 
   {/* Number */}
 <span
-  className={`text-lg tracking-widest font-semibold grow text-center min-w-[170px] ${
+  className={`text-[15px] tracking-widest font-semibold grow text-center min-w-[170px] ${
     textIsDark ? "text-[#444444]" : "text-white"
   }`}
 >
