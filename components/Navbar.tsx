@@ -203,7 +203,7 @@ useEffect(() => {
   />
 
   <Link href="/enquiry" className="shrink-0">
-    <button style={{ fontFamily: "TheSeasons, serif" }} className="bg-pink-600 lg:me-27 px-4 py-2.5 text-[13px] rounded-[3px] font-semibold text-white hover:bg-pink-700 transition whitespace-nowrap">
+    <button style={{ fontFamily: "TheSeasons, serif" }} className="bg-black lg:me-27 px-4 py-2.5 text-[13px] rounded-[3px] font-semibold text-white hover:bg-gray-400 hover:text-black cursor-pointer transition whitespace-nowrap">
       LET’S CONNECT
     </button>
   </Link>
@@ -222,7 +222,7 @@ useEffect(() => {
           {/* Mobile Menu Button */}
           {/* Mobile Right Controls */}
 <div className="lg:hidden absolute right-4 flex items-center gap-3">
-  <button className="bg-pink-600 px-4 h-7 text-[15px] font-semibold rounded-xs text-white hover:bg-pink-700 transition whitespace-nowrap">
+  <button className="bg-black px-4 h-7 text-[15px] font-semibold rounded-xs text-white hover:bg-gray-400 hover:text-black cursor-pointer transition whitespace-nowrap">
 LET’S CONNECT  </button>
 
   <button
