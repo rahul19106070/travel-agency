@@ -3,97 +3,82 @@ import type { JSX } from "react";
 
 export default function SplitEditorialSection(): JSX.Element {
   return (
-    <section className="w-full bg-white">
+ <section className="w-full bg-[#E3D3C9]">
+  <div className="grid grid-cols-1 md:grid-cols-2">
 
+    {/* Image */}
+    <div className="relative w-full h-[75vh] md:h-screen lg:m-10 sm:m-6">
+      <Image
+        src="/images/tree.webp"
+        alt="Quiet travel moment"
+        fill
+        priority
+        className="object-cover object-bottom"
+      />
 
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/15" />
 
-        {/* ================= Row 1 ================= */}
-        <div className="grid grid-cols-1 md:grid-cols-2">
+      {/* Text on image */}
+      {/* Overlay */}
+<div className="absolute inset-0 bg-black/15 z-10" />
 
+{/* Text on image */}
+<div className="absolute inset-0 z-20 flex items-start justify-center p-6 md:p-12">
+  <div className="text-white text-lg md:text-xl leading-relaxed max-w-md space-y-0 text-center">
+    
+    <p className="">
+      "Quiet morning journeys and
+    </p>
 
-          {/* Image 1 — FIRST on mobile, SECOND on desktop */}
-         <div className="relative w-full aspect-square order-1 md:order-2">
-  <Image
-    src="/images/Approach2.webp"
-    alt="Founders discussion"
-    fill
-    priority
-    className="object-cover"
-  />
+    <p className="text-center">
+      starlit evenings.
+    </p>
+
+    <p className="">
+      Moments that linger long after
+    </p>
+
+    <p className="text-center">
+      they end.
+    </p>
+
+    <p className="">
+      Travel that feels considered,<br/>
+      intentional, and perhaps even<br/>
+      harder to put into words. "
+    </p>
+
+  </div>
 </div>
 
+    </div>
+
+    {/* Text Section */}
+    <div className="flex flex-col justify-center px-6 md:px-16 py-16">
+      <div className="max-w-xl">
+        <h2 className="text-4xl lg:text-5xl font-medium tracking-wider font-alternate mb-6">
+          OUR WAY OF TRAVELLING
+        </h2>
+
+        <p className="text-md text-gray-700 leading-relaxed mb-6">
+          At ISKY, we don't start with an itinerary — we start with you.
+          How you like to move through the world. What makes a place feel right.
+          We build journeys around your rhythm: the right pace, the perfect stays,
+          the details that matter. Travel that's thoughtful, seamless,
+          and unmistakably yours.
+        </p>
+
+        <button className="relative overflow-hidden border border-black bg-black px-4 py-3 text-[11px] font-bold tracking-[1.2px] text-white transition-all duration-300 hover:text-black hover:scale-[1.02] before:absolute before:inset-0 before:bg-white before:opacity-0 before:transition-opacity hover:before:opacity-100">
+          <span className="relative z-10">EXPLORE OUR APPROACH</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
-          {/* Text 1 — SECOND on mobile, FIRST on desktop */}
-          <div className="flex flex-col justify-center h-full px-4 sm:px-6 md:px-8 lg:pb-10 lg:py-8 md:py-3 sm:py-15 py-10  order-2 md:order-1">
-            <div className="max-w-xl mx-auto sm:ml-12 lg:ml-40">
-              <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-medium tracking-wider mb-6 font-alternate">
-                WHAT WE DO
-                <br />
-                AND WHY WE DO IT
-              </h2>
 
-              <p className="text-md text-gray-600 leading-relaxed mb-6">
-               "Quiet morning journeys and starlit evenings.<br/>
-                Moments that linger long after they end.<br />
-                Travel that feels considered, intentional,
-                and perhaps even harder to put into words."
-              </p>
-
-            </div>
-          </div>
-        </div>
-
-
-
-        {/* ================= Row 2 ================= */}
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          {/* Image 2 — THIRD on mobile, FIRST on desktop */}
-          <div className="relative w-full aspect-square order-1 md:order-2">
-  <Image
-    src="/images/Approach1.webp"
-    alt="Founders discussion"
-    fill
-    priority
-    className="object-cover "
-  />
-</div>
-
-          {/* Text 2 — FOURTH on mobile, SECOND on desktop */}
-          <div className="flex flex-col justify-center h-full px-4 sm:px-6 md:px-8 lg:pb-10 lg:py-8  md:py-2 sm:py-15 py-10 order-2 md:order-2">
-            <div className="max-w-xl mx-auto sm:mx-8 lg:mx-20">
-              <h2 className="text-4xl mb-6 sm:text-4xl md:text-4xl lg:text-5xl font-medium tracking-wider  font-alternate">
-                OUR WAY OF TRAVELLING
-              </h2>
-              <p className="text-md text-gray-500 leading-relaxed mb-6">
-                At ISKY, every journey begins with how you like to travel — not a template.
-                <br />
-                From thoughtful pacing to hand-picked stays, we craft travel that feels personal, seamless, and quietly exceptional.
-              </p>
-
-              <button
-                className="
-                  relative overflow-hidden
-                  rounded-xs border border-black/70 bg-black
-                  sm:px-8 px-4 py-2 sm:py-3
-                  text-[11px] leading-[12px] font-bold tracking-[1.2px]
-
-                  text-white
-                  transition-all duration-300 ease-in-out
-                  hover:text-black hover:scale-[1.02]
-
-                  before:absolute before:inset-0
-                  before:bg-white
-                  before:opacity-0
-                  before:transition-opacity before:duration-300 before:ease-in-out
-                  hover:before:opacity-100
-                "
-              >
-                <span className="relative z-10">EXPLORE OUR APPROACH</span>
-              </button>
-            </div>
-          </div>
-        </div>
-    </section>
   );
 }

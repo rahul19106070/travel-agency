@@ -16,7 +16,7 @@ export default function ReadyToStart() {
           block mx-auto mt-6
     relative overflow-hidden
     rounded-xs border border-black/70 bg-black
-    px-4 sm:px-8 py-2 sm:py-3
+    px-4 sm:px-4 py-2 sm:py-3
     text-[11px] leading-[12px] font-bold tracking-[1.2px]
     text-white
     transition-all duration-300 ease-in-out

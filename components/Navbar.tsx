@@ -144,7 +144,8 @@ useEffect(() => {
     <Link
       key={item.label}
       href={item.href}
-      className={`text-[15px] font-medium tracking-[1.2px] transition-colors ${
+      style={{ fontFamily: "TheSeasons, serif" }}
+      className={`text-[15px] font-semibold tracking-[1.2px] transition-colors ${
         textIsDark
           ? "text-[#444444] hover:text-gray-600"
           : "text-white hover:text-gray-300"
@@ -157,7 +158,7 @@ useEffect(() => {
 
 {/* CENTER */}
 <div className="flex items-center  justify-start lg:justify-center">
-  <Link href="/" className={`text-5xl font-semibold tracking-[4px] ${
+  <Link href="/"  style={{ fontFamily: "TheSeasons, serif" }} className={`text-5xl font-semibold tracking-[4px] ${
     textIsDark ? "text-black" : "text-white"
   }`}>
     ISKY
@@ -172,7 +173,8 @@ useEffect(() => {
   
   <Link
     href="/aboutextra/how-it-all-works"
-    className={`text-[15px] ms-10 font-medium tracking-[1.2px] transition-colors ${
+    style={{ fontFamily: "TheSeasons, serif" }}
+    className={`text-[15px] ms-10  font-semibold tracking-[1.2px] transition-colors ${
       textIsDark
         ? "text-[#444444] hover:text-gray-600"
         : "text-white hover:text-gray-300"
@@ -184,7 +186,7 @@ useEffect(() => {
 
 
   {/* Number */}
-<span
+<span style={{ fontFamily: "TheSeasons, serif" }}
   className={`text-[15px] tracking-widest font-semibold grow text-center min-w-[170px] ${
     textIsDark ? "text-[#444444]" : "text-white"
   }`}
@@ -201,7 +203,7 @@ useEffect(() => {
   />
 
   <Link href="/enquiry" className="shrink-0">
-    <button className="bg-pink-600 lg:me-27 px-4 py-2.5 text-[13px] rounded-[3px] font-semibold text-white hover:bg-pink-700 transition whitespace-nowrap">
+    <button style={{ fontFamily: "TheSeasons, serif" }} className="bg-pink-600 lg:me-27 px-4 py-2.5 text-[13px] rounded-[3px] font-semibold text-white hover:bg-pink-700 transition whitespace-nowrap">
       LET’S CONNECT
     </button>
   </Link>
