@@ -76,7 +76,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "february",
   title: "Romance, Warmth, and Escape",
-  heroImage: "/images/month/February.webp",
+  heroImage: "/images/month/HeroImageFeb.webp",
   heroText: "Where to Travel This February",
 
   description:
@@ -131,7 +131,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "march",
   title: "Romance, Warmth, and Escape",
-  heroImage: "/images/month/March.webp",
+  heroImage: "/images/month/HeroImageMarch.webp",
   heroText: "Where to Travel This March",
 
   description:
@@ -185,7 +185,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "april",
   title: "Spring at Its Most Beautiful",
-  heroImage: "/images/month/April.webp",
+  heroImage: "/images/month/HeroImageApril.webp",
   heroText: "Where to Travel This April",
 
   description:
@@ -237,7 +237,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "may",
   title: "Golden Days Before Summer Arrives (May)",
-  heroImage: "/images/month/May.webp",
+  heroImage: "/images/month/HeroImageMay.webp",
   heroText: "Where to Travel This May",
 
   description:
@@ -290,7 +290,7 @@ export const MONTH_DATA: MonthPage[] = [
   slug: "june",
   title: "Summer Begins in Style (June)",
   heroImage: "/images/month/HeroImgJune.webp",
-  heroText: "Where to Travel This June",
+  heroText: "",
 
   description:
 "A sense of anticipation fills the air. This is the season for island escapes, sailing along dramatic coastlines, and iconic summer destinations before they reach their busiest. Imagine beach clubs, mountain air, or elegant cities under endless blue skies. Families find adventure, couples find effortless romance, and groups find celebration in every shared moment. Travel now feels bright and easy — the beginning of summer done beautifully, with experiences shaped by warmth, freedom, and unforgettable luxury.",
@@ -446,7 +446,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "september",
   title: "The World Feels Yours Again (September)",
-  heroImage: "/images/month/HeroImgsep.webp",
+  heroImage: "/images/month/HeroImgSep.webp",
   heroText: "Where to Travel This September",
 
   description:
@@ -498,7 +498,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "october",
   title: "Autumn’s Most Cinematic Chapter (October)",
-  heroImage: "/images/month/heroImageOct.webp",
+  heroImage: "/images/month/HeroImageOct.webp",
   heroText: "Where to Travel This October",
 
   description:
