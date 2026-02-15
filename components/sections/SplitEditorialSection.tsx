@@ -25,7 +25,7 @@ export default function SplitEditorialSection(): JSX.Element {
 
 {/* Text on image */}
 <div className="absolute inset-0 z-20 flex items-start justify-center p-6 md:p-12">
-  <div className="text-white text-lg md:text-xl leading-relaxed max-w-md space-y-0 text-center">
+  <div className="text-white text-xl md:text-xl leading-relaxed max-w-md space-y-0 text-center">
     
     <p className="">
       "Quiet morning journeys and

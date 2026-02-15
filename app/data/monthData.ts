@@ -277,9 +277,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "june", title: "June", image: "/images/month/june.webp" },
-    { slug: "july", title: "July", image: "/images/month/july.webp" },
-    { slug: "august", title: "August", image: "/images/month/august.webp" },
+    { slug: "june", title: "June", image: "/images/month/June.webp" },
+    { slug: "july", title: "July", image: "/images/month/July.webp" },
+    { slug: "august", title: "August", image: "/images/month/August.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -289,7 +289,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "june",
   title: "Summer Begins in Style (June)",
-  heroImage: "/images/month/June.webp",
+  heroImage: "/images/month/HeroImgJune.webp",
   heroText: "Where to Travel This June",
 
   description:
@@ -341,7 +341,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "july",
   title: "Escape Into Cool Horizons (July)",
-  heroImage: "/images/month/July.webp",
+  heroImage: "/images/month/HeroImgJuly.webp",
   heroText: "Where to Travel This July",
 
   description:
@@ -394,7 +394,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "august",
   title: "The Height of Summer, Done Beautifully (August)",
-  heroImage: "/images/month/August.webp",
+  heroImage: "/images/month/HeroImgAugust.webp",
   heroText: "Where to Travel This August",
 
   description:
@@ -446,7 +446,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "september",
   title: "The World Feels Yours Again (September)",
-  heroImage: "/images/month/sept.webp",
+  heroImage: "/images/month/HeroImgsep.webp",
   heroText: "Where to Travel This September",
 
   description:
@@ -498,7 +498,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "october",
   title: "Autumn’s Most Cinematic Chapter (October)",
-  heroImage: "/images/month/october.webp",
+  heroImage: "/images/month/heroImageOct.webp",
   heroText: "Where to Travel This October",
 
   description:
@@ -551,7 +551,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "november",
   title: "A Quiet Escape Before the Year Ends (November)",
-  heroImage: "/images/month/november.webp",
+  heroImage: "/images/month/HeroImageNov.webp",
   heroText: "Where to Travel This November",
 
   description:
@@ -591,9 +591,9 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 
   followingMonths: [
-    { slug: "december", title: "December", image: "/images/month/december.webp" },
-    { slug: "january", title: "January", image: "/images/month/january.webp" },
-    { slug: "february", title: "February", image: "/images/month/february.webp" },
+    { slug: "december", title: "December", image: "/images/month/December.webp" },
+    { slug: "january", title: "January", image: "/images/month/January.webp" },
+    { slug: "february", title: "February", image: "/images/month/February.webp" },
     { slug: "explore", title: "Explore the year", image: "/images/month/explore.png" },
 
   ],
@@ -603,7 +603,7 @@ export const MONTH_DATA: MonthPage[] = [
 {
   slug: "december",
   title: "End the Year Somewhere Magical (December)",
-  heroImage: "/images/month/december.webp",
+  heroImage: "/images/month/HeroImageDec.webp",
   heroText: "Where to Travel This December",
 
   description:

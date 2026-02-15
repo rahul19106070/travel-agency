@@ -158,7 +158,7 @@ useEffect(() => {
 
 {/* CENTER */}
 <div className="flex items-center  justify-start lg:justify-center">
-  <Link href="/"  style={{ fontFamily: "TheSeasons, serif" }} className={`text-5xl font-semibold tracking-[4px] ${
+  <Link href="/"  style={{ fontFamily: "TheSeasons, serif" }} className={`lg:text-5xl md:text-5xl sm:text-4xl text-4xl font-semibold tracking-[4px] ${
     textIsDark ? "text-black" : "text-white"
   }`}>
     ISKY
@@ -222,7 +222,7 @@ useEffect(() => {
           {/* Mobile Menu Button */}
           {/* Mobile Right Controls */}
 <div className="lg:hidden absolute right-4 flex items-center gap-3">
-  <button className="bg-black px-4 h-7 text-[15px] font-semibold rounded-xs text-white hover:bg-gray-400 hover:text-black cursor-pointer transition whitespace-nowrap">
+  <button className="bg-black px-4 h-7 text-[12px] font-semibold rounded-xs text-white hover:bg-gray-400 hover:text-black cursor-pointer transition whitespace-nowrap">
 LET’S CONNECT  </button>
 
   <button
