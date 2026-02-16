@@ -161,7 +161,7 @@ useEffect(() => {
   <Link href="/"  style={{ fontFamily: "TheSeasons, serif" }} className={`lg:text-5xl md:text-5xl sm:text-4xl text-4xl font-semibold tracking-[4px] ${
     textIsDark ? "text-black" : "text-white"
   }`}>
-    ISKY
+    I SKY
   </Link>
 </div>
 
@@ -187,7 +187,7 @@ useEffect(() => {
 
   {/* Number */}
 <span style={{ fontFamily: "TheSeasons, serif" }}
-  className={`text-[15px] tracking-widest font-semibold grow text-center min-w-[170px] ${
+  className={`text-[15px] tracking-widest font-semibold grow text-center cursor-pointer min-w-[170px] ${
     textIsDark ? "text-[#444444]" : "text-white"
   }`}
 >

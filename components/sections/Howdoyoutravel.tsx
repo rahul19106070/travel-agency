@@ -126,7 +126,7 @@ const Wrapper = ({
         </h2>
 
         {/* Tabs */}
-        <div className="mt-6 flex justify-center gap-8 text-xs tracking-widest flex-wrap">
+        <div className="mt-6 flex justify-center gap-8 text-lg tracking-widest flex-wrap">
           {[
             { id: "traveller", label: "TRAVEL STYLE" },
             { id: "destination", label: "TOP PICKS" },
@@ -136,12 +136,12 @@ const Wrapper = ({
               key={tab.id}
               onClick={() => setActiveTab(tab.id as any)}
               className={`relative pb-2 ${
-                activeTab === tab.id ? "text-pink-600" : "text-black/70"
+                activeTab === tab.id ? "text-black-600" : "text-black/70"
               }`}
             >
               {tab.label}
               {activeTab === tab.id && (
-                <span className="absolute left-0 bottom-0 h-[2px] w-full bg-pink-600" />
+                <span className="absolute left-0 bottom-0 h-[2px] w-full bg-black/60" />
               )}
             </button>
           ))}
@@ -158,10 +158,10 @@ const Wrapper = ({
                 className="group relative aspect-[3/4] overflow-hidden"
               >
                 <Image src={item.imageUrl} alt={item.title} fill className="object-cover "/>
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 transition pointer-events-none" />
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition pointer-events-none" />
 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
 
-                  <p className="text-sm font-semibold tracking-widest text-white">
+                  <p className="lg:text-lg sm:text-sm font-bold tracking-widest text-white">
                     {item.title}
                   </p>
                 </div>
@@ -195,6 +195,8 @@ const Wrapper = ({
               ))}
             </div>
 
+
+
             {/* Desktop */}
             <div className="hidden md:grid grid-cols-5 gap-6">
               {data.map((item, index) => (
@@ -207,7 +209,7 @@ const Wrapper = ({
                   <Image src={item.imageUrl} alt={item.title} fill className="object-cover  object-left" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-sm font-semibold tracking-widest text-white text-center">
+                    <span className="lg:text-lg sm:text-sm font-bold tracking-widest text-white text-center">
                       {item.title}
                     </span>
                   </div>

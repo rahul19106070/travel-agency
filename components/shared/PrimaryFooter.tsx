@@ -4,9 +4,13 @@ import type { JSX } from "react";
 import Link from "next/link";
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
-import Image from "next/image";
-import { Instagram, Facebook, Linkedin, Twitter, Youtube } from "lucide-react";
-
+import {
+  Instagram,
+  Facebook,
+  Linkedin,
+  X,
+  Youtube,
+} from "lucide-react";
 
 export default function PrimaryFooter(): JSX.Element {
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -18,159 +22,159 @@ export default function PrimaryFooter(): JSX.Element {
     { name: "Japan", slug: "japan" },
     { name: "Maldives", slug: "maldives" },
     { name: "Morocco", slug: "morocco" },
-    { name: "New-zealand", slug: "new-zealand" },
-  { name: "Switzerland", slug: "switzerland" },
-  { name: "Tanzania", slug: "tanzania" },
-  { name: "United Kingdom", slug: "uk" },
-];
+    { name: "New Zealand", slug: "new-zealand" },
+    { name: "Switzerland", slug: "switzerland" },
+    { name: "Tanzania", slug: "tanzania" },
+    { name: "United Kingdom", slug: "uk" },
+  ];
 
+  const whoLinks = [
+    { slug: "family-holidays", name: "Family" },
+    { slug: "romantic-holidays", name: "Couples" },
+    { slug: "group-holidays", name: "Group" },
+    { slug: "honeymoon-holidays", name: "Honeymoons" },
+    { slug: "solo-holidays", name: "Solo" },
+  ];
 
-const whoLinks = [
-  { slug: "family-holidays", name: "Family" },
-  { slug: "romantic-holidays", name: "Couples" },
-  { slug: "group-holidays", name: "Group" },
-  { slug: "honeymoon-holidays", name: "Honeymoons" },
-  { slug: "solo-holidays", name: "Solo" },
-];
-
+  const months = [
+    { name: "January", slug: "january" },
+    { name: "February", slug: "february" },
+    { name: "March", slug: "march" },
+    { name: "April", slug: "april" },
+    { name: "May", slug: "may" },
+    { name: "June", slug: "june" },
+    { name: "July", slug: "july" },
+    { name: "August", slug: "august" },
+    { name: "September", slug: "september" },
+    { name: "October", slug: "october" },
+    { name: "November", slug: "november" },
+    { name: "December", slug: "december" },
+  ];
 
   const toggleSection = (section: string) => {
     setOpenSection(openSection === section ? null : section);
   };
+
   return (
     <footer className="bg-[#242323] text-gray-300">
-      
-
       <div className="max-w-7xl mx-auto py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8">
-      <div className="hidden lg:grid lg:grid-cols-3 gap-16">
+
+        {/* DESKTOP */}
+        <div className="hidden lg:grid lg:grid-cols-5 gap-16">
 
           {/* ISKY */}
-          <div className="space-y-3 sm:space-y-4">
-            <p className="font-brandon text-xs tracking-widest text-white font-semibold">
-              ISKY
+          <div>
+            <p className="font-brandon text-[17px] tracking-widest text-white font-semibold mb-4">
+              I SKY
             </p>
 
-            <ul className="space-y-1.5 text-sm">
-              <li>
-                <Link href="#" className="hover:text-white transition">
-                  GET IN TOUCH
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="hover:text-white transition">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="/booking-policy" className="hover:text-white transition">
-                  Booking Policy
-                </Link>
-              </li>
-              <li>
-                <Link href="/privacy-policy" className="hover:text-white transition">
-                  Privacy Policy
-                </Link>
-              </li>
-
-
-
-<li className="space-y-3">
-  <span className="hover:text-white transition cursor-default">
-    FOLLOW US
-  </span>
-
-  <div className="flex gap-4 items-center mt-2">
-    <Link href="https://instagram.com" target="_blank" className="hover:text-white transition">
-      <Instagram className="w-5 h-5" />
-    </Link>
-
-    <Link href="https://facebook.com" target="_blank" className="hover:text-white transition">
-      <Facebook className="w-5 h-5" />
-    </Link>
-
-    <Link href="https://twitter.com" target="_blank" className="hover:text-white transition">
-      <Twitter className="w-5 h-5" />
-    </Link>
-
-    <Link href="https://linkedin.com" target="_blank" className="hover:text-white transition">
-      <Linkedin className="w-5 h-5" />
-    </Link>
-
-    <Link href="https://youtube.com" target="_blank" className="hover:text-white transition">
-      <Youtube className="w-5 h-5" />
-    </Link>
-  </div>
-</li>
-
-
+            <ul className="space-y-1.5 text-[16px]">
+              <li><Link href="/contact" className="hover:text-white transition">Get in Touch</Link></li>
+              <li><Link href="/about" className="hover:text-white transition">About</Link></li>
+              <li><Link href="/booking-policy" className="hover:text-white transition">Booking Policy</Link></li>
+              <li><Link href="/privacy-policy" className="hover:text-white transition">Privacy Policy</Link></li>
             </ul>
 
-            {/* <div className="mt-6 sm:mt-8">
-              <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-3">
-                SIGN UP TO OUR NEWSLETTER
-              </h4>
-              <div className="flex border border-white/20 bg-white/5 text-black w-70">
-                <input
-                  type="email"
-                  placeholder="youremail@example.com"
-                  className="bg-white/90 text-black  sm:px-4 py-2 sm:py-3 text-xs sm:text-sm flex-1 outline-none"
-                />
-                <button className="px-5 lg:px-5 py-4 sm:px-4 border-l bg-black text-white border-white/20 hover:bg-white/10 transition text-sm sm:text-base">
-                  →
-                </button>
-              </div>
-            </div> */}
+            {/* NEWSLETTER */}
+<div className="mt-6">
+  <h4 className="font-brandon text-[17px] tracking-widest text-white font-semibold mb-3">
+    SIGN UP TO OUR NEWSLETTER
+  </h4>
 
-
+  <div className="flex border border-white/20 bg-white/5">
+    <input
+      type="email"
+      placeholder="youremail@example.com"
+      className="bg-white/90 text-black px-4 py-2 text-sm flex-1 outline-none"
+    />
+    <button
+      aria-label="Subscribe"
+      className="ms-0 px-4 py-2 border-l bg-black  outline-none  text-white cursor-pointer transition"
+    >
+      →
+    </button>
+  </div>
+</div>
 
           </div>
 
-          
-
           {/* POPULAR DESTINATIONS */}
           <div>
-            <h4 className=" font-brandon text-xs tracking-widest text-white font-semibold mb-4">
+            <h4 className="font-brandon text-[17px] tracking-widest text-white font-semibold mb-4">
               POPULAR DESTINATIONS
             </h4>
-           <ul className="space-y-1.5 text-sm">
-  {destinations.map((item) => (
-    <li key={item.slug}>
-      <Link
-        href={`/experience-types/destination/${item.slug}`}
-        className="hover:text-white transition"
-      >
-        {item.name}
-      </Link>
-    </li>
-  ))}
-</ul>
 
+            <ul className="space-y-1.5 text-[16px]">
+              {destinations.map((item) => (
+                <li key={item.slug}>
+                  <Link
+                    href={`/experience-types/destination/${item.slug}`}
+                    className="hover:text-white transition"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* WHO */}
           <div>
-  <h4 className="font-brandon text-xs tracking-widest text-white font-semibold mb-4">
-    WHO
-  </h4>
+            <h4 className="font-brandon text-[17px] tracking-widest text-white font-semibold mb-4">
+              WHO
+            </h4>
 
-  <ul className="space-y-1.5 text-sm">
-    {whoLinks.map((item) => (
-      <li key={item.slug}>
-        <Link
-          href={`/experience-types/traveller/${item.slug}`}
-          className="hover:text-white transition"
-        >
-          {item.name}
-        </Link>
-      </li>
-    ))}
-  </ul>
-</div>
+            <ul className="space-y-1.5 text-[16px]">
+              {whoLinks.map((item) => (
+                <li key={item.slug}>
+                  <Link
+                    href={`/experience-types/traveller/${item.slug}`}
+                    className="hover:text-white transition"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-          {/* Empty column for 6-column grid */}
-          <div></div>
+          {/* WHEN */}
+          <div>
+            <h4 className="font-brandon text-[17px] tracking-widest text-white font-semibold mb-4">
+              WHEN
+            </h4>
+
+            <ul className="space-y-1.5 text-[16px]">
+              {months.map((month) => (
+                <li key={month.slug}>
+                  <Link
+                    href={`/experience-types/month/${month.slug}`}
+                    className="hover:text-white transition"
+                  >
+                    {month.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* FOLLOW US */}
+          <div>
+            <h4 className="font-brandon text-[17px] tracking-widest text-white font-semibold mb-4">
+              FOLLOW US
+            </h4>
+
+            <div className="flex flex-wrap gap-4">
+              <Link href="https://instagram.com" target="_blank"><Instagram className="w-6 h-6 hover:text-white transition" /></Link>
+              <Link href="https://facebook.com" target="_blank"><Facebook className="w-6 h-6 hover:text-white transition" /></Link>
+              <Link href="https://X.com" target="_blank"><X className="w-6 h-6 hover:text-white transition" /></Link>
+              <Link href="https://linkedin.com" target="_blank"><Linkedin className="w-6 h-6 hover:text-white transition" /></Link>
+              <Link href="https://youtube.com" target="_blank"><Youtube className="w-6 h-6 hover:text-white transition" /></Link>
+            </div>
+          </div>
         </div>
 
+      
 
 
 
@@ -226,34 +230,27 @@ const whoLinks = [
                   </li>
                 </ul>
 
-                {/* FOLLOW US */}
-                <div className="pt-3">
-                  <p className="font-brandon text-xs tracking-widest text-white font-semibold mb-3">
-                    FOLLOW US
-                  </p>
+               {/* NEWSLETTER (Mobile) */}
+<div className="pt-5">
+  <p className="font-brandon text-xs tracking-widest text-white font-semibold mb-3">
+    SIGN UP TO OUR NEWSLETTER
+  </p>
 
-                  <div className="flex gap-5 items-center">
-                    <Link href="https://instagram.com" target="_blank" className="hover:text-white transition">
-                      <Instagram className="w-5 h-5" />
-                    </Link>
+  <div className="flex border border-white/20 bg-white/5">
+    <input
+      type="email"
+      placeholder="youremail@example.com"
+      className="bg-white/90 text-black px-3 py-2 text-sm flex-1 outline-none"
+    />
+    <button
+      aria-label="Subscribe"
+      className="px-4 border-l border-white/20 text-white"
+    >
+      →
+    </button>
+  </div>
+</div>
 
-                    <Link href="https://facebook.com" target="_blank" className="hover:text-white transition">
-                      <Facebook className="w-5 h-5" />
-                    </Link>
-
-                    <Link href="https://twitter.com" target="_blank" className="hover:text-white transition">
-                      <Twitter className="w-5 h-5" />
-                    </Link>
-
-                    <Link href="https://linkedin.com" target="_blank" className="hover:text-white transition">
-                      <Linkedin className="w-5 h-5" />
-                    </Link>
-
-                    <Link href="https://youtube.com" target="_blank" className="hover:text-white transition">
-                      <Youtube className="w-5 h-5" />
-                    </Link>
-                  </div>
-                </div>
 
               </div>
             )}
@@ -326,8 +323,70 @@ const whoLinks = [
 
           </div>
 
+{/* WHEN */}
+<div className="border-b border-white/10">
+  <button
+    onClick={() => toggleSection("when")}
+    className="w-full flex items-center justify-between py-5 text-left"
+  >
+    <h4 className="font-brandon text-xs tracking-widest text-white font-semibold">
+      WHEN
+    </h4>
+    {openSection === "when" ? (
+      <Minus className="w-4 h-4 text-white" />
+    ) : (
+      <Plus className="w-4 h-4 text-white" />
+    )}
+  </button>
+
+  {openSection === "when" && (
+    <ul className="pb-5 space-y-2 text-sm">
+      {months.map((month) => (
+        <li key={month.slug}>
+          <Link
+            href={`/experience-types/when/${month.slug}`}
+            className="hover:text-white transition block"
+          >
+            {month.name}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  )}
+</div>
+
+
+
+{/* FOLLOW US */}
+<div className="border-b border-white/10">
+  <button
+    onClick={() => toggleSection("follow")}
+    className="w-full flex items-center justify-between py-5 text-left"
+  >
+    <h4 className="font-brandon text-xs tracking-widest text-white font-semibold">
+      FOLLOW US
+    </h4>
+    {openSection === "follow" ? (
+      <Minus className="w-4 h-4 text-white" />
+    ) : (
+      <Plus className="w-4 h-4 text-white" />
+    )}
+  </button>
+
+  {openSection === "follow" && (
+    <div className="pb-5 flex gap-5">
+      <Link href="https://instagram.com" target="_blank"><Instagram className="w-5 h-5" /></Link>
+      <Link href="https://facebook.com" target="_blank"><Facebook className="w-5 h-5" /></Link>
+      <Link href="https://X.com" target="_blank"><X className="w-5 h-5" /></Link>
+      <Link href="https://linkedin.com" target="_blank"><Linkedin className="w-5 h-5" /></Link>
+      <Link href="https://youtube.com" target="_blank"><Youtube className="w-5 h-5" /></Link>
+    </div>
+  )}
+</div>
+
 
         </div>
+ 
       </div>
     </footer>
   );

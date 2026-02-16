@@ -127,7 +127,7 @@ const tl = gsap.timeline({
               <br />
               KNOW ABOUT TRAVEL
             </h2>
-            <p className="text-gray-500 text-lg sm:text-xl md:text-base lg:text-md leading-relaxed">
+            <p className="text-gray-500 text-lg sm:text-xl md:text-xl lg:text-md leading-relaxed">
               And we&apos;re on a mission to create remarkable experiences that
               thoughtfully connect our clients to the world and inspire them
               to explore it with curiosity, humility and a sense of wonder.
@@ -140,22 +140,22 @@ const tl = gsap.timeline({
 
 
       {/* Second Content Section - What We're About */}
-      <div className="relative bg-white mb-20  md:mb-25 lg:mb-40">
+      <div className="relative bg-white mb-20  md:mb-25 lg:mb-70">
         <div className="px-7 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8  items-start">
             {/* Left Content */}
-            <div className="space-y-4 lg:py-8 md:space-y-6 order-2 lg:order-1 lg:col-span-4 ">
+            <div className="space-y-4 lg:py-0 md:space-y-6 order-2 lg:order-1 lg:col-span-4 ">
               <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-medium leading-tight uppercase">
                 It began with a feeling
               </h2>
               {/* <p className="text-xl md:text-sm tracking-wider font-medium uppercase text-gray-600">
                 Black Tomato was founded in 2005 by Tom, James and Matt
               </p> */}
-              <p className="leading-relaxed text-gray-400 text-xl md:text-base lg:text-md">
+              <p className="leading-relaxed text-gray-400 text-xl md:text-xl lg:text-md">
                 A trio of friends who wanted to sweep aside the prevailing
                 current of &apos;package&apos; trips and same-same vacations.
               </p>
-              <p className=" leading-relaxed text-gray-400 text-xl md:text-base lg:text-md">
+              <p className=" leading-relaxed text-gray-400 text-xl md:text-xl lg:text-md">
                 Since then, we&apos;ve become award-winning curators of tailor-made
                 travel experiences – all crafted with inspirational engineering
                 and an incomparable attention to detail. For us, the most
@@ -187,7 +187,7 @@ const tl = gsap.timeline({
         <div className="container mx-auto  md:px-8 px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Image */}
-            <div className="relative w-full max-w-md mx-auto lg:max-w-none lg:w-[80%] aspect-[4/3]">
+            <div className="relative w-full max-w-md mx-auto lg:max-w-none lg:w-[100%] aspect-[4/3]">
               <Image
                 src="/images/about/ABOUT US 03.webp"
                 alt="Dramatic mountain landscape"
@@ -207,10 +207,10 @@ const tl = gsap.timeline({
               {/* <p className="text-xs md:text-sm tracking-wider font-medium uppercase text-gray-600">
                And we want to make the remarkable happen
               </p> */}
-              <p className="text-gray-400 text-sm md:text-base lg:text-md w-full md:w-9/10 leading-relaxed">
+              <p className="text-gray-400  sm:text-xl md:text-xl lg:text-md w-full md:w-9/10 leading-relaxed">
 I-SKY works with travellers who want to experience places more deeply—without feeling overwhelmed or over-planned. Whether it’s a milestone celebration, a meaningful escape, or time taken just for yourself, our journeys are designed to feel right, not rushed.
               </p>
-              <p className="text-gray-400 text-lg sm:text-xl md:text-base lg:text-md w-full  leading-relaxed">
+              <p className="text-gray-400 sm:text-xl md:text-xl lg:text-md w-full  leading-relaxed">
 Because travel isn’t about seeing everything.
 It’s about experiencing what stays with you.              </p>
             </div>
@@ -221,32 +221,37 @@ It’s about experiencing what stays with you.              </p>
 
 
 {/* 4th section */}
-      <div className="relative mb-18 md:mb-25  lg:mb-40">
-        <div className=" mx-auto px-4 md:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-16  items-start">
-            {/* Left Image */}
-            <div className="relative mt-10 md:mt-0 md:-mt-32 lg:-mt-10 z-10 w-full lg:w-[130%] md:w-[70%] h-[60vh] md:h-[80vh]">
-              <Image
-                src="/images/about/About_us_04 (1).webp"
-                alt="Dramatic mountain landscape"
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
-            {/* Right Content */}
-            <div className="space-y-4 md:space-y-3 lg:pl-40 order-2 lg:order-1 lg:mb-12 ">
-              <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-medium leading-tight uppercase">
-               How We Design Every Journey              </h2>
-              <p className="text-gray-400 text-lg sm:text-xl md:text-base lg:text-md w-full  leading-relaxed">
-               Every journey at I-SKY begins with listening. We take time to understand what matters to you, how you like to travel, and what you want this experience to feel like. From there, we plan with care—balancing comfort, discovery, and ease. We curate thoughtfully, handle the details quietly, and adjust as your journey takes shape. Nothing is rushed, nothing is copied. Each trip is planned with intention, so when you travel, it feels effortless, personal, and exactly right for you.              </p>
-              {/* <p className="text-gray-400 text-sm md:text-base lg:text-md w-full  leading-relaxed">
-               Today, we take people to all seven continents, designing all of our trips from the ground up. This way, no two journeys are ever quite alike. Trekking with the tribes of Borneo; learning the trade of tanning in Morocco; joining the jostling crowds of Sienna&apos;s palio. It&apos;s a wide, wild world. And your travels should be the same.
-              </p> */}
-            </div>
-          </div>
-        </div>
+     {/* 4th section */}
+<div className="relative mb-16 md:mb-24 lg:mb-40">
+  <div className="mx-auto max-w-7xl px-4 md:px-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 items-center">
+
+      {/* Image */}
+      <div className="relative w-full h-[45vh] sm:h-[55vh] md:h-[60vh] lg:h-[80vh] lg:-mt-16">
+        <Image
+          src="/images/about/About_us_04 (1).webp"
+          alt="Dramatic mountain landscape"
+          fill
+          className="object-cover"
+          priority
+        />
       </div>
+
+      {/* Content */}
+      <div className="space-y-4 md:space-y-5 lg:space-y-6">
+        <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-medium leading-tight uppercase">
+          How We Design Every Journey
+        </h2>
+
+        <p className="text-gray-400 text-base sm:text-lg md:text-base lg:text-lg leading-relaxed">
+          Every journey at I-SKY begins with listening. We take time to understand what matters to you, how you like to travel, and what you want this experience to feel like. From there, we plan with care—balancing comfort, discovery, and ease. We curate thoughtfully, handle the details quietly, and adjust as your journey takes shape. Nothing is rushed, nothing is copied. Each trip is planned with intention, so when you travel, it feels effortless, personal, and exactly right for you.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 
 
@@ -256,7 +261,7 @@ It’s about experiencing what stays with you.              </p>
     <div className="grid grid-cols-1 lg:grid-cols-12  lg:gap-8  items-start">
 
       {/* IMAGE — comes FIRST on mobile */}
-      <div className="relative w-full h-[200px] sm:h-[290px]  lg:hidden">
+      <div className="relative sm:mt-10 w-full h-[200px] sm:h-[290px] order-2 lg:hidden">
         <Image
           src="/images/about/AboutUs05.webp"
           alt="Coastal mountain view"
@@ -267,7 +272,7 @@ It’s about experiencing what stays with you.              </p>
       </div>
 
       {/* TEXT */}
-      <div className="space-y-4 md:space-y-6 lg:col-span-5 lg:pr-12 lg:mx-10">
+      <div className="space-y-4 md:space-y-6 order-1 md:mt-6 sm:mt-20 lg:order-none md:mt-10 lg:col-span-5 lg:pr-20 md:pr-10 lg:ml-10">
         <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-medium leading-tight uppercase">
           Where It All Comes Together
         </h2>

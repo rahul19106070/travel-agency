@@ -59,11 +59,11 @@ export default function Hero() {
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/20" />
 
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
-        <h1 className="max-w-4xl text-2xl sm:text-4xl md:text-4xl lg:text-[55px] font-medium tracking-widest font-alternate ">
+        <h1 className="max-w-4xl text-5xl sm:text-5xl md:text-5xl lg:text-[55px] font-medium tracking-widest font-alternate ">
           MOMENTS THAT MOVE YOU
         </h1>
         {/* <p className=" my-8 text-xs sm:text-sm md:text-sm tracking-widest text-white/90 font-brandon">
@@ -112,7 +112,7 @@ const ScrollIndicator: React.FC<{ onClick: () => void }> = ({ onClick }) => {
       aria-label="Scroll to content"
     >
       <span className="text-xs sm:text-sm uppercase tracking-widest mt-4 font-brandon">
-        Scroll
+        More
       </span>
       <div className="w-[2px] h-12 bg-white/50 animate-pulse-scale origin-top"></div>
       <style jsx>{`
