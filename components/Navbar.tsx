@@ -157,7 +157,7 @@ useEffect(() => {
 </nav>
 
 {/* CENTER */}
-<div className="flex items-center  justify-start lg:justify-center">
+<div className="flex items-center  justify-start lg:justify-center whitespace-nowrap">
   <Link href="/"  style={{ fontFamily: "TheSeasons, serif" }} className={`lg:text-5xl md:text-5xl sm:text-4xl text-4xl font-semibold tracking-[4px] ${
     textIsDark ? "text-black" : "text-white"
   }`}>
@@ -221,7 +221,7 @@ useEffect(() => {
 
           {/* Mobile Menu Button */}
           {/* Mobile Right Controls */}
-<div className="lg:hidden absolute right-4 flex items-center gap-3">
+<div className="lg:hidden absolute right-4 flex items-center gap-4">
   <button className="bg-black px-4 h-7 text-[12px] font-semibold rounded-xs text-white hover:bg-gray-400 hover:text-black cursor-pointer transition whitespace-nowrap">
 LET’S CONNECT  </button>
 
