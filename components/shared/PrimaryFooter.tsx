@@ -85,7 +85,7 @@ export default function PrimaryFooter(): JSX.Element {
     <input
       type="email"
       placeholder="youremail@example.com"
-      className="bg-white/90 text-black px-4 py-2 text-sm flex-1 outline-none"
+      className="bg-white/90 text-black px-1 py-2 text-sm flex-1 outline-none"
     />
     <button
       aria-label="Subscribe"
@@ -164,7 +164,7 @@ export default function PrimaryFooter(): JSX.Element {
               FOLLOW US
             </h4>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-2">
               <Link href="https://instagram.com" target="_blank"><Instagram className="w-6 h-6 hover:text-white transition" /></Link>
               <Link href="https://facebook.com" target="_blank"><Facebook className="w-6 h-6 hover:text-white transition" /></Link>
               <Link href="https://X.com" target="_blank"><X className="w-6 h-6 hover:text-white transition" /></Link>
