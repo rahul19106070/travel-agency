@@ -75,22 +75,27 @@ export default function Hero() {
               const el = document.getElementById("journey");
                 if (el) el.scrollIntoView({ behavior: "smooth" });
               }}
-              className="
-                relative overflow-hidden
-                rounded-xs border border-white/70
-                sm:px-5  py-4 sm:py-3 lg:py-3 lg:px-3 px-3
-                text-[13px] leading-[12px] font-bold tracking-[1.2px]
-                text-white
+             className="
+  relative overflow-hidden
+  rounded-xs border border-white/70
 
-                transition-all duration-300 ease-in-out
-                hover:text-black hover:scale-[1.02]
+  px-3 py-4
+  sm:px-5 sm:py-3
+  lg:px-3 lg:py-3
 
-                before:absolute before:inset-0
-                before:bg-white
-                before:opacity-0
-                before:transition-opacity before:duration-300 before:ease-in-out
-                hover:before:opacity-100
-              "
+  text-[13px] leading-[12px] font-bold tracking-[1.2px]
+  text-white
+
+  transition-colors duration-300 ease-in-out
+  hover:text-black
+
+  before:absolute before:inset-0
+  before:bg-white
+  before:opacity-0
+  before:transition-opacity before:duration-300 before:ease-in-out
+  hover:before:opacity-100
+"
+
             >
               <span className="relative z-10" >
                 JOURNEYS THAT INSPIRE</span>

@@ -69,9 +69,25 @@ export default function SplitEditorialSection(): JSX.Element {
           and unmistakably yours.
         </p>
 
-        <button className="relative overflow-hidden border border-black bg-black px-4 py-3 text-[11px] font-bold tracking-[1.2px] text-white transition-all duration-300 hover:text-black hover:scale-[1.02] before:absolute before:inset-0 before:bg-white before:opacity-0 before:transition-opacity hover:before:opacity-100">
-          <span className="relative z-10">EXPLORE OUR APPROACH</span>
-        </button>
+       <button
+  className="
+    relative overflow-hidden 
+    border border-black bg-black rounded-xs
+    px-4 py-3
+    text-[11px] font-bold tracking-[1.2px]
+    text-white
+    transition-colors duration-300 ease-in-out
+    hover:text-black
+    before:absolute before:inset-0
+    before:bg-white
+    before:opacity-0
+    before:transition-opacity before:duration-300
+    hover:before:opacity-100
+  "
+>
+  <span className="relative z-10">EXPLORE OUR APPROACH</span>
+</button>
+
       </div>
     </div>
 
