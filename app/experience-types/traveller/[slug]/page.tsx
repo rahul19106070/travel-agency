@@ -78,8 +78,8 @@ export default function ExperiencePage() {
 
 
       {/* ================= INTRO ================= */}
-      <section className="max-w-6xl mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15">
-        <div className="text-center max-w-3xl mx-auto">
+      <section className="mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15">
+        <div className="text-center max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-3xl lg:text-4xl font-light mb-5">
             {experience.title}
           </h1>
@@ -113,7 +113,7 @@ export default function ExperiencePage() {
 
       {/* ================= HIGHLIGHTS ================= */}
       {experience.soloTrips && (
-        <section className="max-w-7xl mx-auto px-5 py-7  lg:py-7">
+        <section className="mx-auto px-5 py-7  lg:py-7">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
 
             {/* LEFT TEXT */}
@@ -195,6 +195,59 @@ export default function ExperiencePage() {
           </div>
         </section>
       )}
+
+
+{/* ================= IMAGE GRID SECTIONS ================= */}
+{experience.imageContentSections && (
+  <section className=" mx-auto px-5 pb-7 pt-2 my-16 bg-[#E1E2E2]">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      {experience.imageContentSections.map((section, idx) => (
+        <div key={idx} className="flex flex-col">
+          
+          {/* IMAGE */}
+<div className="relative w-full h-[320px] sm:h-[380px] lg:h-[420px] mb-6 overflow-hidden">
+            <Image
+              src={section.image}
+              alt={section.heading}
+              fill
+              className="object-cover"
+            />
+          </div>
+
+          {/* HEADING */}
+          <h3 className="text-2xl sm:text-3xl font-light uppercase tracking-wide mb-4">
+            {section.heading}
+          </h3>
+
+          {/* PARA */}
+          <p className="text-gray-600 leading-relaxed mb-6">
+            {section.description}
+          </p>
+
+          {/* BUTTON */}
+          <Link href={section.ctaLink ?? "#"} className="mt-auto">
+            <button
+              className="
+                relative overflow-hidden bg-black text-white
+                border border-black
+                px-6 py-3
+                text-[11px] font-bold tracking-[1.2px]
+                transition-all duration-300
+                hover:text-black
+                before:absolute before:inset-0
+                before:bg-white before:opacity-0
+                hover:before:opacity-100
+              "
+            >
+              <span className="relative z-10">{section.ctaText}</span>
+            </button>
+          </Link>
+
+        </div>
+      ))}
+    </div>
+  </section>
+)}
 
 
      {/* ================= GALLERY ================= */}

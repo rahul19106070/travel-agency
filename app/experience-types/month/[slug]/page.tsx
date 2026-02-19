@@ -178,7 +178,7 @@ export default function MonthPage() {
 
 
         {/* FOLLOWING MONTHS */}
-        <section className="max-w-7xl mx-auto px-5 py-10 my-20 bg-gray-300">
+        <section className="mx-auto px-5 py-10 my-20 bg-gray-300">
     <h3 className="text-4xl font-light text-center mb-10">
       MORE SEASONS ?
     </h3>

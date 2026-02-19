@@ -67,12 +67,9 @@ export default function DestinationPage() {
         </section>
 
 
-
-
-
       {/* ================= INTRO ================= */}
-      <section className="max-w-6xl mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15 lg:pb-25">
-        <div className="text-center max-w-3xl mx-auto">
+      <section className="mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15 lg:pb-25">
+        <div className="text-center max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-3xl lg:text-4xl font-light mb-5">
             {destination.title}
           </h1>
@@ -93,7 +90,7 @@ export default function DestinationPage() {
               px-6 py-3
               text-[11px] font-bold tracking-[1.2px]
               text-white
-              transition-all duration-300
+              transition-all duration-300 rounded-xs
               hover:text-black
               before:absolute before:inset-0
               before:bg-white before:opacity-0
@@ -110,7 +107,7 @@ export default function DestinationPage() {
 
       {/* ===== IMAGE + TEXT SPLIT SECTION ===== */}
       {destination.SplitSection && (
-        <section className="max-w-7xl mx-auto px-8 py-17 lg:mb-20 sm:mb-10">
+        <section className="mx-auto px-8 py-17 lg:mb-20 sm:mb-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
             {/* LEFT TEXT */}
@@ -122,28 +119,30 @@ export default function DestinationPage() {
               <p className="text-gray-600 leading-relaxed text-lg">
                 {destination.SplitSection.text}
               </p>
-              <button
-                  className="
-                    mt-4 inline-block
-                     relative overflow-hidden
-                     border border-white text-white
-                      px-5 py-2 bg-black
-                      text-[10px] font-bold tracking-[1.2px]
-                      transition-all duration-300
-                      hover:text-black hover:border-black
-                      before:absolute before:inset-0
-                       before:bg-white before:opacity-0
-                       hover:before:opacity-100
-                      "
-                        >
-                      <span className="relative z-10">ENQUIRE</span>
-                     </button>
+               <button
+            className="
+              mt-8 inline-block
+              relative overflow-hidden rounded-xs
+              border border-black bg-black
+              px-6 py-3
+              text-[11px] font-bold tracking-[1.2px]
+              text-white
+              transition-all duration-300
+              hover:text-black
+              before:absolute before:inset-0
+              before:bg-white before:opacity-0
+              before:transition-opacity
+              hover:before:opacity-100
+            "
+          >
+            <span className="relative z-10">ENQUIRE</span>
+          </button>
             </div>
 
             {/* RIGHT IMAGES */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full">
 
-            <div className="relative w-full h-[560px] sm:h-[520px] overflow-hidden">
+            <div className="relative w-full h-[560px] sm:h-[590px] overflow-hidden">
               <Image
                 src={destination.SplitSection.images[0]}
                 alt=""
@@ -152,7 +151,7 @@ export default function DestinationPage() {
               />
             </div>
 
-            <div className="relative w-full h-[560px] sm:h-[520px] overflow-hidden">
+            <div className="relative w-full h-[560px] sm:h-[590px] overflow-hidden">
               <Image
                 src={destination.SplitSection.images[1]}
                 alt=""
@@ -170,11 +169,9 @@ export default function DestinationPage() {
 
 
 
-
-
         {/* ===== HIGHLIGHTS ===== */}
          {destination.soloTrips && (
-                <section className="max-w-7xl mx-auto px-5 py-7  lg:py-7">
+                <section className="mx-auto px-5 py-7  lg:py-7">
                   <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         
                     {/* LEFT TEXT */}

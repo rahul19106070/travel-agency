@@ -9,6 +9,7 @@ export type Experience = {
   heroImage: string;
   description: string;
   imgTextSection?: ImageTextSection;
+  imageContentSections?: ImageContentBlock[];
   cta?: string;
   highlights: string[]; // e.g., features/benefits
   galleryImages: string[]; // images to show in sections
@@ -25,6 +26,15 @@ export type SoloTrip = {
    soloTrips?: SoloTrip[];
    topDestinations?: TopDestination[];
 };
+export type ImageContentBlock = {
+  image: string;
+  heading: string;
+  description: string;
+  ctaText: string;
+  ctaLink?: string;
+  imagePosition: "left" | "right";
+};
+
 export type SectionIntro = {
   heading: string;
   subheading?: string;
@@ -71,6 +81,28 @@ export const EXPERIENCES: Experience[] = [
     "Seamless & safe travel",
   ],
   galleryImages: [],
+
+    imageContentSections: [
+  {
+    image: "/images/experience/Maldives_section.webp",
+    heading: "MALDIVES",
+    description:
+"The Maldives is chosen by couples who want uninterrupted time together. Days revolve around private beaches, overwater stays, snorkelling, spa rituals, and slow sunsets. There’s no rush, no crowds—just space to disconnect from the world and focus entirely on each other.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/maldives",
+    imagePosition: "left",
+  },
+  {
+    image: "/images/experience/Newz_section.webp",
+    heading: "New Zealand",
+    description:
+"New Zealand appeals to couples who want their honeymoon to feel open and adventurous. Scenic road journeys, lakeside stays, mountain views, and quiet nature experiences create a sense of freedom. It’s ideal for couples who enjoy exploring by day and retreating into peaceful, private stays by night.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/new-zealand",
+    imagePosition: "right",
+  },
+],
+
   soloSectionIntro: {
     heading: "Our Favourite\n Luxury Honeymoons",
     subheading:
@@ -188,6 +220,28 @@ export const EXPERIENCES: Experience[] = [
     "Seamless & safe travel",
   ],
   galleryImages: [],
+
+  imageContentSections: [
+  {
+    image: "/images/experience/Iceland_section.webp",
+    heading: "ICELAND",
+    description:
+"Iceland attracts solo travellers seeking space and perspective. Long drives through dramatic landscapes, waterfalls, geothermal springs, and quiet moments under open skies create a deeply personal journey. It’s a destination where solitude feels empowering, not lonely—perfect for reflection and reset.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/iceland",
+    imagePosition: "left",
+  },
+  {
+    image: "/images/experience/Tanzania_section.webp",
+    heading: "TANZANIA",
+    description:
+"Tanzania offers solo travelers a powerful sense of immersion. Wildlife safaris, nature walks, and meaningful encounters with landscapes and local life create experiences that feel grounding and unforgettable. The journey is paced with care, allowing you to observe, absorb, and reconnect with the world around you.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/tanzania",
+    imagePosition: "right",
+  },
+],
+
   soloSectionIntro: {
     heading: "OUR FAVOURITE\n SOLO ESCAPES",
     subheading:
@@ -306,6 +360,28 @@ export const EXPERIENCES: Experience[] = [
     "Seamless & safe travel",
   ],
   galleryImages: [],
+
+      imageContentSections: [
+  {
+    image: "/images/experience/Italy_section.webp",
+    heading: "ITALY",
+    description:
+"Italy draws couples who enjoy slow pleasures and timeless beauty. Days unfold over vineyard drives, historic towns, countryside stays, and coastal strolls, while evenings are reserved for long dinners and quiet moments. Whether it’s art, food, or scenery, Italy offers romance that feels natural—perfect for couples who value connection over schedules.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/italy",
+    imagePosition: "left",
+  },
+  {
+    image: "/images/experience/greece_section.webp",
+    heading: "GREECE",
+    description:
+"Greece is loved for its relaxed rhythm and effortless charm. Couples spend their days island-hopping, swimming in clear waters, wandering whitewashed villages, or simply watching sunsets from quiet terraces. The pace is unhurried, the atmosphere light, and every moment feels designed for togetherness without pressure.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/greece",
+    imagePosition: "right",
+  },
+],
+
   soloSectionIntro: {
     heading: "Our favourite luxury couples holidays",
     subheading:
@@ -394,8 +470,6 @@ export const EXPERIENCES: Experience[] = [
   },
 
 
-
-
 // family-holidays
    {
     slug: "family-holidays",
@@ -417,6 +491,29 @@ export const EXPERIENCES: Experience[] = [
     "Seamless & safe travel",
   ],
   galleryImages: [],
+
+       imageContentSections: [
+  {
+    image: "/images/experience/switz_section2.webp",
+    heading: "SWITZERLAND",
+    description:
+"Switzerland is loved by families for how easy and rewarding it feels. Scenic train rides, lakeside boat trips, chocolate and cheese workshops, and gentle alpine walks keep children engaged, while parents enjoy the safety, cleanliness, and smooth logistics. Days flow effortlessly between nature and charming towns—making it a destination where learning, play, and rest come together naturally. ",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/switzerland",
+    imagePosition: "left",
+  },
+  {
+    image: "/images/experience/japan_section.webp",
+    heading: "JAPAN",
+    description:
+"Japan fascinates families with its mix of tradition and modern wonder. From hands-on cultural experiences like tea ceremonies and calligraphy to interactive museums, themed trains, and peaceful temple towns, there’s something for every age. The country’s efficiency, safety, and thoughtful design make it easy for families to explore without stress, turning curiosity into shared memories.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/japan",
+    imagePosition: "right",
+  },
+],
+
+
   soloSectionIntro: {
     heading: "Our Favourite Luxury Holidays for Families",
     subheading:
@@ -532,6 +629,28 @@ export const EXPERIENCES: Experience[] = [
     "Seamless & safe travel",
   ],
   galleryImages: [],
+
+     imageContentSections: [
+  {
+    image: "/images/experience/Morocco_section.webp",
+    heading: "MOROCCO",
+    description:
+"Morocco excites groups with its colour, culture, and shared experiences. From exploring vibrant souks and historic medinas to staying in beautiful riads and venturing into open desert landscapes, every day brings something new. It’s a destination where groups bond through discovery, food, and stories—while still enjoying comfort and balance.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/morocco",
+    imagePosition: "left",
+  },
+  {
+    image: "/images/experience/uk_section.webp",
+    heading: "UNITED KINGDOM",
+    description:
+"The United Kingdom works beautifully for group travel because of its variety and accessibility. Scenic countryside drives, coastal walks, heritage towns, and iconic cities offer something for everyone. Groups can enjoy history, nature, and relaxed evenings together, with smooth travel connections keeping the journey comfortable and well-paced.",
+    ctaText: "EXPLORE",
+    ctaLink: "/experience-types/destination/uk",
+    imagePosition: "right",
+  },
+],
+
   soloSectionIntro: {
     heading: "Our Favourite Group Trips",
     subheading:
