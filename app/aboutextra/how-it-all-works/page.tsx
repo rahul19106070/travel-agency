@@ -81,14 +81,22 @@ const steps = [
     ],
   },
 ];
+const stepBgColors = [
+  "#6F6825", // Step 1 – warm off-white
+  "#586E82", // Step 2 – soft sage
+  "#BDD6F0", // Step 3 – muted lavender
+  "#616161", // Step 4 – dusty rose
+  "#B6B6B6", // Step 5 – cool blue-grey
+  "#D6A29B", // Step 6 – calm green-grey
+  "#98C4C3", // Step 7 – sand tone
+];
 
 export default function MembershipPage() {
   const [activeStep, setActiveStep] = useState(0);
   const activeStepRef = useRef(0);
   // const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
   // const sectionRefs = useRef<HTMLDivElement[]>([]);
-const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
-
+const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
   const numberRef = useRef<HTMLSpanElement | null>(null);
 
   /* ---------------- SCROLL LOGIC ---------------- */
@@ -101,17 +109,17 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
       triggers.push(
         ScrollTrigger.create({
           trigger: section,
-          start: "top top",
+          start: "top top", 
           end: "+=100%",
           pin: true,
           pinSpacing: true,
           scrub: 0.6,
           anticipatePin: 1,
-          snap: {
-            snapTo: 1,
-            duration: { min: 0.6, max: 1.2 },
-            ease: "power3.inOut",
-          },
+          // snap: {
+          //   snapTo: 1,
+          //   duration: { min: 0.6, max: 1.2 },
+          //   ease: "power3.inOut",
+          // },
           onToggle: (self) => {
             if (self.isActive && activeStepRef.current !== i) {
               activeStepRef.current = i;
@@ -153,8 +161,8 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
     {
       opacity: 1,
       duration: 1.8,          // 👈 slow
-      delay:0.25,
-      ease: "power1.out",     // 👈 soft
+      delay:0.1,
+      ease: "elastic.inOut",     // 👈 soft
     }
   );
 }, [activeStep]);
@@ -170,22 +178,23 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
         <Navbar />
       </div>
 
-      <div className="relative" >
-        {/* Fixed Heading */}
-        <p className="fixed top-24 left-1/2 -translate-x-1/2 sm:text-4xl text-4xl lg:text-5xl font-semibold uppercase z-20">
+
+<div className="relative">
+   {/* Fixed Heading */}
+        <p className="fixed top-24 left-1/2 -translate-x-1/2 sm:text-3xl text-3xl lg:text-4xl font-semibold uppercase text-white z-20">
           How it all works
         </p>
 
         {/* Fixed Circle */}
         <div
-          className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-gray-300 z-20"
+          className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-gray-100 z-20"
           style={{ width: RADIUS * 2, height: RADIUS * 2 }}
         >
           {/* Animated Number */}
           <div className="absolute inset-0 flex items-center justify-center">
             <span
               key={activeStep} // 👈 forces React remount (CRITICAL)
-              className="text-7xl font-semibold tracking-widest"
+              className="text-7xl font-semibold tracking-widest text-white"
               ref={(el) => {
                 if (!el) return;
 
@@ -212,8 +221,8 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
                 key={i}
                 className={`absolute rounded-full ${
                   activeStep === i
-                    ? "bg-black"
-                    : "border-2 border-gray-400"
+                    ? "bg-white"
+                    : "border-2 border-white"
                 }`}
                 style={{
                   width: BALL,
@@ -233,6 +242,7 @@ const sectionRefs = useRef<Array<HTMLDivElement | null>>([]);
           return (
           <section
   key={i}
+  style={{height: "10vh", backgroundColor: stepBgColors[i] }}
   ref={(el: HTMLDivElement | null) => {
     if (!el) return;
     sectionRefs.current[i] = el;
@@ -247,7 +257,7 @@ className="min-h-screen overflow-hidden"
                     src={step.image}
                     alt={step.title}
                     width={1200}
-                    height={1200}
+                    height={500}
                     className="h-full w-full object-cover object-top"
                     priority={i === 0}
                   />
@@ -258,10 +268,10 @@ className="min-h-screen overflow-hidden"
                     reverse ? "md:order-1" : "md:order-2"
                   }`}
                 >
-                  <p className="text-3xl md:text-4xl font-bold mb-6">
+                  <p className="text-3xl md:text-4xl font-bold mb-6 pt-10  text-white">
                     {step.title}
                   </p>
-                  <ul className="space-y-3 text-lg text-gray-600">
+                  <ul className="space-y-3 text-[15px] pb-10 text-white">
                     {step.points.map((p, idx) => (
                       <li key={idx}>• {p}</li>
                     ))}
