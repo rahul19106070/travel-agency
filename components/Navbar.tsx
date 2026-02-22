@@ -11,7 +11,13 @@ import { EXPERIENCES_DATA } from "@/app/data/navbar";
 import { MENU_DATA } from "@/app/data/navbar";
 import { motion, AnimatePresence } from "framer-motion";
 import { Info } from "lucide-react";
-
+import {
+  Phone,
+  MessageCircle,
+  UserPlus,
+  Video,
+  Copy
+} from "lucide-react";
 
 type NavTab = "destinations" | "experiences" | "menu";
 type NavAppearance =
@@ -33,8 +39,7 @@ export default function Navbar({ appearance }: NavbarProps) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<NavTab | null>(null);
   const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);
-  // const [scrolled, setScrolled] = useState(false);
-
+const [showContactCard, setShowContactCard] = useState(false);
 
   
   // Mobile menu navigation states
@@ -94,6 +99,22 @@ useEffect(() => {
 
     return () => cancelAnimationFrame(id);
   }, [dropdownOpen, usesPastHero]);
+
+
+
+// to close card on outside click
+  useEffect(() => {
+  const handler = (e: MouseEvent) => {
+    const target = e.target as HTMLElement;
+    if (!target.closest(".contact-card-wrapper")) {
+      setShowContactCard(false);
+    }
+  };
+
+  document.addEventListener("click", handler);
+  return () => document.removeEventListener("click", handler);
+}, []);
+
 
   const closeDropdown = () => {
     setDropdownOpen(false);
@@ -186,13 +207,72 @@ useEffect(() => {
 
 
   {/* Number */}
-<span style={{ fontFamily: "TheSeasons, serif" }}
-  className={`text-[15px] tracking-widest font-semibold grow text-center cursor-pointer min-w-[170px] ${
-    textIsDark ? "text-[#444444]" : "text-white"
-  }`}
->
-  +971 52 560 1314
-</span>
+<div className="relative contact-card-wrapper grow text-center min-w-[170px]">
+  <span
+    onClick={() => setShowContactCard(v => !v)}
+    style={{ fontFamily: "TheSeasons, serif" }}
+    className={`text-[15px] tracking-widest font-semibold cursor-pointer ${
+      textIsDark ? "text-[#444444]" : "text-white"
+    }`}
+  >
+    +971 52 560 1314
+  </span>
+
+  <AnimatePresence>
+    {showContactCard && (
+      <motion.div
+        initial={{ opacity: 0, y: 8, scale: 0.96 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        exit={{ opacity: 0, y: 8, scale: 0.96 }}
+        transition={{ duration: 0.2 }}
+        className="absolute right-0 mt-3 w-56 bg-white text-black rounded-md shadow-xl border border-gray-200 z-50"
+      >
+        <ul className="text-sm text-left" style={{ fontFamily: "TheSeasons, serif" }}>
+  <li className="px-4 py-2 hover:bg-gray-100">
+    <a
+      href="tel:+971525601314"
+      className="flex items-center gap-3"
+    >
+      <Phone className="h-4 w-4" />
+      <span>Call</span>
+    </a>
+  </li>
+
+  <li className="px-4 py-2 hover:bg-gray-100">
+    <a
+      href="sms:+971525601314"
+      className="flex items-center gap-3"
+    >
+      <MessageCircle className="h-4 w-4" />
+      <span>Send Message</span>
+    </a>
+  </li>
+
+  <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center gap-3">
+    <UserPlus className="h-4 w-4" />
+    <span>Add to Contacts</span>
+  </li>
+
+  <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center gap-3">
+    <Video className="h-4 w-4" />
+    <span>FaceTime</span>
+  </li>
+
+  <li
+    className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center gap-3"
+    onClick={() => {
+      navigator.clipboard.writeText("+971 52 560 1314");
+      setShowContactCard(false);
+    }}
+  >
+    <Copy className="h-4 w-4" />
+    <span>Copy Number</span>
+  </li>
+</ul>
+      </motion.div>
+    )}
+  </AnimatePresence>
+</div>
 
 
 
@@ -296,14 +376,14 @@ LET’S CONNECT  </button>
                     transition={{ duration: 0.2 }}
                     className="px-6 py-1 border-b border-gray-200 bg-white"
                   >
-                    <div className="flex items-center justify-between gap-2">
+                    {/* <div className="flex items-center justify-between gap-2">
                       <input
                         type="text"
                         placeholder="Search"
                         className="flex-1 bg-transparent font-brandon border-none outline-none text-lg py-1 text-black placeholder:text-gray-400"
                       />
                       <Search className="h-4 w-4 text-black" />
-                    </div>
+                    </div> */}
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -320,6 +400,49 @@ LET’S CONNECT  </button>
                       exit={{ opacity: 0, x: 100 }}
                       transition={{ duration: 0.3 }}
                     >
+                     <div className="relative contact-card-wrapper">
+  <button
+    onClick={() => setShowContactCard(v => !v)}
+    className="block w-full text-left text-2xl tracking-[2.5px] font-medium text-black py-4"
+  >
+    +971 52 560 1314
+  </button>
+
+  <AnimatePresence>
+    {showContactCard && (
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: 8 }}
+        transition={{ duration: 0.2 }}
+        className="mt-2 w-full bg-white text-black rounded-md shadow-lg border border-gray-200"
+      >
+        <ul className="text-sm">
+          <li className="px-4 py-3 border-b">
+            <a href="tel:+971525601314">📞 Call</a>
+          </li>
+          <li className="px-4 py-3 border-b">
+            <a href="sms:+971525601314">💬 Send Message</a>
+          </li>
+          <li className="px-4 py-3 border-b cursor-pointer">
+            👤 Add to Contacts
+          </li>
+          <li
+            className="px-4 py-3 cursor-pointer"
+            onClick={() => {
+              navigator.clipboard.writeText("+971 52 560 1314");
+              setShowContactCard(false);
+            }}
+          >
+            📋 Copy Number
+          </li>
+        </ul>
+      </motion.div>
+    )}
+  </AnimatePresence>
+</div>
+                      <hr/>
+
                       <button
                         onClick={() => setMobileMenuLevel('destinations')}
                         className="block w-full text-left text-2xl tracking-[2.5px] font-medium text-black py-4"

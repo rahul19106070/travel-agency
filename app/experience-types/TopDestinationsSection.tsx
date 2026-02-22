@@ -72,8 +72,8 @@ if (i % 3 === 1 && first && second) {
   }
 
   return (
-    <section className="mx-auto px-6 py-24 space-y-20">
-      <h2 className="text-6xl mb-9 font-extralight leading-tight text-center">
+    <section className="mx-auto px-6  pt-16 pb-24 space-y-20">
+      <h2 className="text-5xl lg:text-5xl sm:text-4xl  mb-9 font-extralight leading-tight text-center">
         {heading}
       </h2>
 
