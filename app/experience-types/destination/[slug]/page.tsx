@@ -28,7 +28,6 @@ export default function DestinationPage() {
             fill
             priority
             sizes="100vw"
-            quality={100}
             className="object-cover"
           />
 
@@ -145,8 +144,9 @@ export default function DestinationPage() {
             <div className="relative w-full h-[560px] sm:h-[590px] overflow-hidden">
               <Image
                 src={destination.SplitSection.images[0]}
-                alt=""
+                alt="Switzerland image"
                 fill
+                 sizes="(max-width: 640px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
@@ -154,8 +154,9 @@ export default function DestinationPage() {
             <div className="relative w-full h-[560px] sm:h-[590px] overflow-hidden">
               <Image
                 src={destination.SplitSection.images[1]}
-                alt=""
+                alt="Switzerland image"
                 fill
+                 sizes="(max-width: 640px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
@@ -203,6 +204,8 @@ export default function DestinationPage() {
                                         src={trip.image}
                                         alt={trip.title}
                                         fill
+                                        sizes="(max-width: 640px) 100vw, 50vw"
+
                                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                                       />
                     

@@ -233,7 +233,7 @@ It’s about experiencing what stays with you.              </p>
           alt="Dramatic mountain landscape"
           fill
           className="object-cover"
-          priority
+          sizes="(max-width: 1024px) 100vw, 50vw"
         />
       </div>
 
@@ -272,7 +272,7 @@ It’s about experiencing what stays with you.              </p>
       </div>
 
       {/* TEXT */}
-      <div className="space-y-4 md:space-y-6 order-1 md:mt-6 sm:mt-20 lg:order-none md:mt-10 lg:col-span-5 lg:pr-20 md:pr-10 lg:ml-10">
+      <div className="space-y-4 md:space-y-6 order-1 md:mt-6 mb-10 sm:mt-20 lg:order-none md:mt-10 lg:col-span-5 lg:pr-20 md:pr-10 lg:ml-10">
         <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-medium leading-tight uppercase">
           Where It All Comes Together
         </h2>
@@ -285,7 +285,7 @@ It’s about experiencing what stays with you.              </p>
   </div>
 
   {/* DESKTOP ONLY IMAGE */}
-  <div className="hidden lg:block absolute top-0 right-0 h-full w-[60%] mx-6">
+  <div className="hidden lg:block absolute top-0 right-0 h-full w-[60%] h-[80vh] mx-6">
     <Image
       src="/images/about/AboutUs05.webp"
       alt="Coastal mountain view"

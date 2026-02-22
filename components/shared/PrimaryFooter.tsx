@@ -344,7 +344,8 @@ export default function PrimaryFooter(): JSX.Element {
       {months.map((month) => (
         <li key={month.slug}>
           <Link
-            href={`/experience-types/when/${month.slug}`}
+            href={`/experience-types/month/${month.slug}`}
+
             className="hover:text-white transition block"
           >
             {month.name}

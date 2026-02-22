@@ -466,12 +466,12 @@ LET’S CONNECT  </button>
                       >
                         EXPERIENCES
                       </button>
-                      <Link
+                      {/* <Link
                         href="/inspiration"
                         className="block text-2xl tracking-[2.5px] font-medium text-black py-4"
                       >
                         INSPIRATION
-                      </Link>
+                      </Link> */}
 
 
 
@@ -487,12 +487,12 @@ LET’S CONNECT  </button>
 
 
 
-                      <Link
+                      {/* <Link
                         href="/my-bt"
                         className="block text-2xl tracking-[2.5px] font-medium text-black py-4"
                       >
                         MY BT
-                      </Link>
+                      </Link> */}
 
 
                       <div className="bg-white pt-4">
@@ -553,53 +553,7 @@ LET’S CONNECT  </button>
                     </motion.div>
                   )}
 
-                  {/* Destinations Level 2 - Countries */}
-                  {mobileMenuLevel === 'continent' && selectedContinent && (
-                    <motion.div
-                      key="continent-menu"
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: -100 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      {/* Header with Back and Close */}
-                      <div className="flex items-center justify-between pb-4 border-b border-gray-200 mb-4">
-                        <button
-                          onClick={() => {
-                            setMobileMenuLevel('destinations');
-                            setSelectedContinent(null);
-                          }}
-                          className="flex items-center gap-2 text-sm text-pink-600 font-medium"
-                        >
-                          <span>←</span> BACK
-                        </button>
-                        <button onClick={() => {
-                          setOpen(false);
-                          setMobileMenuLevel('main');
-                          setSelectedContinent(null);
-                          setSelectedExperienceCategory(null);
-                        }}>
-                          <X className="h-5 w-5 text-black" />
-                        </button>
-                      </div>
-                      <h2 className="text-2xl font-medium tracking-[2.5px] mb-6 text-black uppercase ">{selectedContinent}</h2>
-                      <Link
-                        href={`/destinations/${selectedContinent.toLowerCase().replace(/\s+/g, '-')}`}
-                        className="block text-md tracking-[1.5px] font-brandon font-semibold text-gray-600 mb-4 uppercase"
-                      >
-                        BROWSE ALL
-                      </Link>
-                      {BY_DESTINATION.map((item) => (
-                        <Link
-                          key={item.slug}
-                          href={`/experience-types/destination/${item.slug}`}
-                          className="block w-full text-left text-md tracking-[1.5px] font-brandon font-semibold text-gray-600 py-2 uppercase"
-                        >
-                          {item.title}
-                        </Link>
-                      ))}
-                    </motion.div>
-                  )}
+                
 
                   {/* Experiences Level 1 - Categories */}
                   {mobileMenuLevel === 'experiences' && !selectedExperienceCategory && (

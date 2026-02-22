@@ -259,7 +259,8 @@ className="min-h-screen overflow-hidden"
                     width={1200}
                     height={500}
                     className="h-full w-full object-cover object-top"
-                    priority={i === 0}
+                     priority={i === 0}
+  loading={i === 0 ? "eager" : "lazy"}
                   />
                 </div>
 

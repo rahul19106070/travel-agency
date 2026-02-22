@@ -93,6 +93,7 @@ function ImageBlock({ dest }: { dest: TopDestination }) {
         src={dest.imageUrl}
         alt={dest.title}
         fill
+        sizes="(max-width: 1024px) 92vw, 45vw"
         className="object-cover"
       />
     </Link>
