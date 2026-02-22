@@ -417,26 +417,37 @@ LET’S CONNECT  </button>
         transition={{ duration: 0.2 }}
         className="mt-2 w-full bg-white text-black rounded-md shadow-lg border border-gray-200"
       >
-        <ul className="text-sm">
-          <li className="px-4 py-3 border-b">
-            <a href="tel:+971525601314">📞 Call</a>
-          </li>
-          <li className="px-4 py-3 border-b">
-            <a href="sms:+971525601314">💬 Send Message</a>
-          </li>
-          <li className="px-4 py-3 border-b cursor-pointer">
-            👤 Add to Contacts
-          </li>
-          <li
-            className="px-4 py-3 cursor-pointer"
-            onClick={() => {
-              navigator.clipboard.writeText("+971 52 560 1314");
-              setShowContactCard(false);
-            }}
-          >
-            📋 Copy Number
-          </li>
-        </ul>
+        <ul className="text-sm text-left" style={{ fontFamily: "TheSeasons, serif" }}>
+  <li className="px-4 py-3 border-b">
+    <a href="tel:+971525601314" className="flex items-center gap-3">
+      <Phone className="h-4 w-4" />
+      <span>Call</span>
+    </a>
+  </li>
+
+  <li className="px-4 py-3 border-b">
+    <a href="sms:+971525601314" className="flex items-center gap-3">
+      <MessageCircle className="h-4 w-4" />
+      <span>Send Message</span>
+    </a>
+  </li>
+
+  <li className="px-4 py-3 border-b flex items-center gap-3 cursor-pointer">
+    <UserPlus className="h-4 w-4" />
+    <span>Add to Contacts</span>
+  </li>
+
+  <li
+    className="px-4 py-3 flex items-center gap-3 cursor-pointer"
+    onClick={() => {
+      navigator.clipboard.writeText("+971 52 560 1314");
+      setShowContactCard(false);
+    }}
+  >
+    <Copy className="h-4 w-4" />
+    <span>Copy Number</span>
+  </li>
+</ul>
       </motion.div>
     )}
   </AnimatePresence>
