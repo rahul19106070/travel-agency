@@ -1,5 +1,16 @@
+export type HeroMeta = {
+  country: string;
+  headline: string;
+  when: string;
+  price: {
+    label: string;
+    note?: string;
+  };
+  duration: string;
+};
 export type Destination = {
-  slug: string;
+  heroMeta?: HeroMeta;
+  slug : string;
   title: string;
   subtitle: string;
   heroImage: string;
@@ -15,6 +26,7 @@ export type Destination = {
 };
 
 export type SoloTrip = {
+  slug ?: string;
   image: string;
   title: string;
   subtitle?: string;
@@ -91,6 +103,7 @@ export const DESTINATIONS: Destination[] = [
     },
     soloTrips: [
       {
+        slug: "classic-alps",
         image: "/images/triple-creek-ranch.avif",
         title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
         duration: "3 Days",
@@ -154,6 +167,17 @@ export const DESTINATIONS: Destination[] = [
 //   italy
  {
     slug: "italy",
+    heroMeta: {
+    country: "ITALY",
+    headline:
+      "LAKE GARDA, THE DOLOMITES & THE PROSECCO HILLS: A LUXURY SUMMER HOLIDAY IN NORTHERN ITALY",
+    when: "May–October",
+    price: {
+      label: "From £8,500pp excl. flights",
+      note: "(based on 2 ppl sharing)",
+    },
+    duration: "11 nights ideal length",
+  },
     title: "Not Just Italy. Your Story in Italy.",
     subtitle: "Cultural Wonders",
     heroImage: "/images/dest/Italy Cover.webp",

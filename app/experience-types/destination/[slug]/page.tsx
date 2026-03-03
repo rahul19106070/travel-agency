@@ -1,6 +1,6 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { DESTINATIONS } from "@/app/data/destinationData";
 import TopDestinationsSection from "../../TopDestinationsSection";
@@ -9,11 +9,20 @@ import Navbar from "@/components/Navbar";
 
 export default function DestinationPage() {
   const params = useParams<{ slug: string }>();
-  const slug = params?.slug;
+const { slug } = useParams<{ slug: string }>();
   const destination = DESTINATIONS.find(dest => dest.slug === slug);
+  const router = useRouter();
+
+if (!slug) return <div className="pt-32 text-center">Loading...</div>;
+if (!destination)
+  return <div className="pt-32 text-center text-xl font-semibold">
+    Destination not found
+  </div>;
+
+
   
-  if (!slug) return <div className="pt-32 text-center">Loading...</div>;
-  if (!destination) return <div className="pt-32 text-center text-xl font-semibold">Destination not found</div>;
+  // if (!slug) return <div className="pt-32 text-center">Loading...</div>;
+  // if (!destination) return <div className="pt-32 text-center text-xl font-semibold">Destination not found</div>;
 
   return (
     <>
@@ -245,6 +254,11 @@ export default function DestinationPage() {
                                             before:bg-white before:opacity-0
                                             hover:before:opacity-100
                                           "
+                                          onClick={() =>
+                                            router.push(
+                                              `/experience-types/destination/${destination.slug}/packages/${trip.slug}`
+                                            )
+                                          }
                                         >
                                           <span className="relative z-10">GET IN TOUCH</span>
                                         </button>
