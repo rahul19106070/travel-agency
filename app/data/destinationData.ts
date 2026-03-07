@@ -392,6 +392,7 @@ export const DESTINATIONS: Destination[] = [
 
      soloTrips: [
       {
+        slug:"c",
         image: "/images/triple-creek-ranch.avif",
         title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
         duration: "3 Days",

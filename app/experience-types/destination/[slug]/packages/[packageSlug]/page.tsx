@@ -5,6 +5,7 @@ import { PACKAGES } from "@/app/data/packageData";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 
 export default function PackagePage() {
@@ -19,15 +20,37 @@ export default function PackagePage() {
       p.packageSlug === packageSlug
   );
 
-  const similarPackages = PACKAGES.filter(
-  (p) =>
-    p.slug === slug && // same destination
-    p.packageSlug !== packageSlug // exclude current
-); 
+//   const similarPackages = PACKAGES.filter(
+//   (p) =>
+//     p.slug === slug && // same destination
+//     p.packageSlug !== packageSlug // exclude current
+// ); 
+const similarPackages = pkg?.similarPackages || [];
 
   if (!pkg) {
     return <div style={{ padding: 200 }}>Package not found</div>;
   }
+const [active, setActive] = useState(0);
+
+useEffect(() => {
+  const sections = document.querySelectorAll(".min-h-screen");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const index = Array.from(sections).indexOf(entry.target);
+          setActive(index);
+        }
+      });
+    },
+    { threshold: 0.6 }
+  );
+
+  sections.forEach((sec) => observer.observe(sec));
+
+  return () => observer.disconnect();
+}, []);
 
 
 return (
@@ -77,55 +100,116 @@ return (
 
 
     {/* INTRO */}
-    <section className="max-w-4xl mx-auto px-6 mt-20 pb-16 text-lg text-gray-700 leading-relaxed text-center">
-      {pkg.intro}
-    </section>
+    <section className="max-w-4xl mx-auto px-6 mt-20 pb-16 text-lg text-gray-700 leading-relaxed text-left">
+  {pkg.intro.split("\n").map((line, i) => (
+    <p key={i} className="mb-4"
+    >{line}</p>
+  ))}
+</section>
 
-    {/* STORY SECTIONS */}
-    <section className=" max-w-4xl  space-y-2 mx-auto px-7 pb-24 text-center">
+
+{/* STORY SECTIONS */}
+<section className="max-w-6xl mx-auto px-7 pb-20 md:pb-25 lg:pb-20">
+
+  {/* DESKTOP LAYOUT */}
+  <div className="hidden lg:grid grid-cols-2 gap-16">
+
+    {/* LEFT TEXT */}
+    <div>
       {pkg.sections.map((section, index) => (
         <div
           key={index}
-          className="items-center  mx-auto"
+          className="min-h-screen flex items-center"
         >
           <div>
-            <h2 className="text-4xl font-light mb-3 text-start">
-              {section.title}
-            </h2>
-            <p className="text-gray-700 leading-relaxed">
-              {section.description}
+            <p className="text-4xl font-semibold mb-4">
+              {section.title1}
+            </p>
+
+            <p className="text-gray-700 leading-relaxed text-lg">
+              {section.description1}
             </p>
           </div>
-
-          
         </div>
       ))}
-    </section>
+    </div>
+
+   {/* RIGHT STICKY IMAGE */}
+<div className="sticky top-7 h-screen flex items-center">
+
+  <div className="relative w-full h-[500px]">
+    <Image
+      src={pkg.sections[active].image1}
+      alt=""
+      fill
+      sizes="(max-width: 1024px) 100vw, 50vw"
+      className="object-cover shadow-lg transition-opacity duration-500"
+    />
+  </div>
+
+</div>
+
+  </div>
+
+
+  {/* MOBILE LAYOUT */}
+  <div className="lg:hidden space-y-16">
+
+  {pkg.sections.map((section, index) => (
+    <div key={index}>
+
+      <div className="relative w-full h-[300px] mb-6">
+        <Image
+          src={section.image1}
+          alt={section.title1}
+          fill
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
+
+      <p className="text-3xl font-semibold mb-3">
+        {section.title1}
+      </p>
+
+      <p className="text-gray-700 leading-relaxed">
+        {section.description1}
+      </p>
+
+    </div>
+  ))}
+
+</div>
+
+</section>
+
+
 
     {/* HOTELS */}
-    {/* <section className="max-w-6xl mx-auto px-6 pb-24">
-      <h2 className="text-3xl font-light text-center mb-12">
-        Where You'll Stay
-      </h2>
+    <section className="max-w-6xl mx-auto px-6 pb-24">
+      <h1 className="text-5xl font-light text-center mb-12">
+        HANDPICKED HOTELS
+      </h1>
 
-      <div className="grid md:grid-cols-2 gap-12">
+      <div className="grid md:grid-cols-3 gap-12">
         {pkg.hotels.map((hotel, index) => (
           <div key={index}>
-            <div className="relative h-72 w-full mb-4">
+            <div className="relative h-100 w-full mb-4">
               <Image
                 src={hotel.image}
                 alt={hotel.name}
                 fill
-                className="object-cover rounded-lg"
+                className="object-cover"
               />
             </div>
-            <h3 className="text-xl font-medium">
+            <h1 className="text-4xl mb-4 font-medium">
               {hotel.name}
-            </h3>
+            </h1>
+            <p className="text-gray-600">{hotel.desc}</p>
           </div>
         ))}
       </div>
-    </section> */}
+    </section>
 
 
 
@@ -147,11 +231,13 @@ return (
         </p>
       </div>
 
+
+
       {/* RIGHT CARDS */}
       <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {similarPackages.map((trip, idx) => (
           <Link
-            key={idx}
+            key={trip.packageSlug}
             href={`/experience-types/destination/${trip.slug}/packages/${trip.packageSlug}`}
             className="
               group relative overflow-hidden rounded-lg
@@ -207,6 +293,45 @@ return (
     </div>
   </section>
 )}
+
+
+
+{/* cTA */}
+<section className="relative w-full h-[40vh] sm:h-[25vh] lg:h-[38vh] flex items-center justify-center">
+
+  {/* Background Image */}
+  <Image
+    src="/images/packages/PACKAGESCTA.webp"
+    alt="Start your journey"
+    fill
+    className="object-cover"
+  />
+
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/20" />
+
+  {/* Content */}
+  <div className="relative text-center text-white px-6">
+
+    <h2 className="text-3xl lg:text-5xl font-light mb-6">
+      Ready to Start?
+    </h2>
+
+    <button
+      className="
+        border border-white
+        px-8 py-3
+        text-sm tracking-widest
+        hover:bg-white hover:text-black
+        transition
+      "
+    >
+      START
+    </button>
+
+  </div>
+
+</section>
   </div>
 );
 }
