@@ -119,7 +119,7 @@ return (
       {pkg.sections.map((section, index) => (
         <div
           key={index}
-          className="min-h-screen flex items-center"
+          className="min-h-[140vh] flex items-center"
         >
           <div>
             <p className="text-4xl font-semibold mb-4">
