@@ -33,7 +33,7 @@ const similarPackages = pkg?.similarPackages || [];
 const [active, setActive] = useState(0);
 
 useEffect(() => {
-  const sections = document.querySelectorAll(".min-h-screen");
+  const sections = document.querySelectorAll(".story-section");
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -44,7 +44,7 @@ useEffect(() => {
         }
       });
     },
-    { threshold: 0.6 }
+    { threshold: 0.5 }
   );
 
   sections.forEach((sec) => observer.observe(sec));
@@ -119,7 +119,7 @@ return (
       {pkg.sections.map((section, index) => (
         <div
           key={index}
-          className="min-h-[100vh] flex items-center"
+          className="story-section min-h-[120vh] flex items-center"
         >
           <div>
             <p className="text-4xl font-semibold mb-4">
