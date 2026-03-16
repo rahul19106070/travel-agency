@@ -126,13 +126,13 @@ return (
               {section.title1}
             </p>
 
-            <p className="text-gray-700 leading-relaxed text-lg">
+            <div className="text-gray-700 leading-relaxed text-lg">
                {section.description1.split("\n").map((line, i) => (
-    <p key={i} className="mb-4"
-    > {line}</p>
+    <div key={i} className="mb-4"
+    > {line}</div>
   ))}
               
-            </p>
+            </div>
           </div>
         </div>
       ))}
