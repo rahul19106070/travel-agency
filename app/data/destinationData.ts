@@ -392,41 +392,53 @@ export const DESTINATIONS: Destination[] = [
 
      soloTrips: [
       {
-        slug:"c",
+        slug:"OKINAWA_BLUE_SERENITY",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "OKINAWA BLUE SERENITY",
+        duration: "6 Nights",
+        description: "Discover Japan’s tropical side through a journey that blends Ryukyu culture, pristine coral lagoons, and tranquil island...",
       },
       {
+        slug:"IMPERIAL_JAPAN",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+        duration: "10 Nights",
+        description: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa...",
       },
        {
+        slug:"JAPAN_WINTER_JOURNEY",
         image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
+        title: "Japan Winter Journey: Culture & Legendary Powder",
+        duration: "12 Nights",
+        description: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes and world-renowned alpine adventure....",
       },
       {
+        slug:"YIN_YAG_JAPAN",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
+        duration: "8 Nights",
+        description: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo and the serene traditions of Kyoto...",
       },
-      {
+      { 
+        slug:"SOUL_OF_JAPAN",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "THE SOUL OF JAPAN: A CULTURAL IMMERSION",
+        duration: "12 Nights",
+        description: "Japan reveals itself slowly — not through monuments alone, but through rituals, craftsmanship, and centuries-old traditions that continue to shape everyday life...",
       },
        {
+        slug:"ECHOES_OF_OLD_JAPAN",
         image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
+        title: "ECHOES OF OLD JAPAN: A Journey Through Time",
+        duration: "12 Nights",
+        description: "This journey explores the deeper cultural layers of Japan - from the disciplined traditions of samurai and sumo to the quiet...",
+      },
+       {
+        slug:"FLAVOURS_OF_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "FLAVOURS OF JAPAN",
+        duration: "12 Nights",
+        description: "Japan’s cuisine is as rich and diverse as its culture. This culinary journey explores the country through its most beloved traditions...",
       },
     ],
     topDestinations: [
@@ -725,6 +737,7 @@ export const DESTINATIONS: Destination[] = [
       },
     ],
   },
+
 
 //   tanzania
  {

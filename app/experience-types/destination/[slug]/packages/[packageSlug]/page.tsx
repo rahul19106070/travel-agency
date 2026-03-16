@@ -87,7 +87,7 @@ return (
       </div>
     </section>
     
-<section className="relative w-full h-[60vh] sm:h-[75vh] lg:h-[90vh]">
+<section className="relative w-full h-[60vh] sm:h-[75vh] lg:h-[100vh]">
   <Image
     src={pkg.heroImage}
     alt={pkg.title}
@@ -100,7 +100,7 @@ return (
 
 
     {/* INTRO */}
-    <section className="max-w-4xl mx-auto px-6 mt-20 pb-16 text-lg text-gray-700 leading-relaxed text-left">
+    <section className="max-w-4xl mx-auto px-6 mt-15 pb-16 text-lg text-gray-700 leading-relaxed text-left">
   {pkg.intro.split("\n").map((line, i) => (
     <p key={i} className="mb-4"
     >{line}</p>
@@ -127,7 +127,11 @@ return (
             </p>
 
             <p className="text-gray-700 leading-relaxed text-lg">
-              {section.description1}
+               {section.description1.split("\n").map((line, i) => (
+    <p key={i} className="mb-4"
+    > {line}</p>
+  ))}
+              
             </p>
           </div>
         </div>
@@ -223,7 +227,7 @@ return (
         <h2 className="text-3xl uppercase sm:text-4xl lg:text-6xl font-extralight leading-tight">
           Similar
           <br />
-          Packages
+          Journeys
         </h2>
 
         <p className="mt-4 text-gray-600 italic">
