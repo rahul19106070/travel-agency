@@ -259,7 +259,7 @@ export const PACKAGES: Package[] = [
     ],
   },
 
-
+  // ---------------------------------------------------------------------------
 
   // japan package 1 -- okinawa blue serenity
    {
@@ -953,4 +953,787 @@ export const PACKAGES: Package[] = [
   }
 ]
   },
+
+  // ------------------------------------------------------------------------------
+
+  // tanzania pacakage 1 -- tanzania wildlife & culture
+   {
+    slug: "tanzania",
+    packageSlug: "FROM_CRATERS_TO_CORAL",
+    title: "FROM CRATERS TO CORAL: TANZANIA’S ULTIMATE WILD-TO-WATER ESCAPE",
+    heroImage: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_HERO.webp",
+
+    heroMeta: {
+      country: "TANZANIA",
+      headline: "FROM CRATERS TO CORAL: TANZANIA’S ULTIMATE WILD-TO-WATER ESCAPE",
+      when: "June – October",
+      price: {
+        label: "$14,900 per person (excluding international flights)",
+      },
+      duration: "12 Nights",
+    },
+
+    intro:
+"This extraordinary journey through Tanzania combines some of Africa’s most dramatic wildlife landscapes with the tranquil beauty of the Indian Ocean. Beginning in the lush foothills of Mount Meru near Arusha, the experience moves through northern Tanzania’s iconic safari circuit — where elephants roam Tarangire, lions dominate the Ngorongoro Crater, and the vast Serengeti plains host one of the planet’s most extraordinary wildlife spectacles.\n The adventure concludes on the pristine white sands of Mnemba Island near Zanzibar, where turquoise waters, coral reefs, and barefoot luxury offer the perfect contrast to the thrill of safari. Designed for travelers seeking both wilderness and serenity, this itinerary seamlessly blends African adventure with tropical island escape.",
+   sections: [
+  {
+    title1: "DAY 1–3 — ARUSHA & TARANGIRE: BEGINNING THE SAFARI",
+    description1:
+"Arrive in Arusha beneath the slopes of Mount Meru and settle into a peaceful coffee-estate lodge surrounded by lush gardens and panoramic views. After a relaxed introduction to Tanzania, travel to the wildlife-rich Tarangire region to begin your safari experience.\n Tarangire is known for its vast elephant herds and iconic baobab trees. Guided game drives and walking safaris reveal the rhythms of the African wilderness, while a champagne bush lunch offers a memorable moment in the heart of the savannah.",
+    image1: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Block01.webp",
+  },
+  {
+    title1: "DAY 4–6 — NGORONGORO CRATER: AFRICA’S NATURAL WONDER",
+    description1:
+"Journey toward the legendary Ngorongoro Conservation Area, where the world’s largest intact volcanic caldera shelters an extraordinary concentration of wildlife.\n Game drives inside the crater offer exceptional opportunities to encounter the Big Five, while cultural visits introduce the traditions of the Maasai people. With dramatic crater views and rich ecosystems, this region provides one of Africa’s most unique safari landscapes.",
+    image1: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Block02.webp",
+  },
+  {
+    title1: "DAY 7–10 — SERENGETI: THE HEART OF THE WILD",
+    description1:
+"Continue to the endless plains of the Serengeti, Tanzania’s most iconic national park. Here, classic game drives reveal vast herds of wildlife, roaming predators, and breathtaking African sunsets.\n A highlight of your stay is a sunrise hot-air balloon safari, floating silently above the plains before landing for a champagne breakfast in the bush. Evenings conclude with lantern-lit dinners beneath the African sky.",
+    image1: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Block03.webp",
+  },
+   {
+    title1: "DAY 11–12 — MNEMBA ISLAND: INDIAN OCEAN PARADISE",
+    description1:
+"Fly from the Serengeti to Zanzibar before continuing to the private island sanctuary of Mnemba Island, one of East Africa’s most exclusive beach destinations.\n Surrounded by coral reefs and turquoise waters, the island offers days of relaxation and exploration — snorkeling, diving, sailing, and quiet moments on powder-soft beaches. The setting provides the perfect transition from safari adventure to barefoot island luxury.",
+    image1: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Block04.webp",
+  },
+  {
+    title1: "DAY 13 — DEPARTURE",
+    description1:
+"Enjoy a final morning by the Indian Ocean before departing Zanzibar, bringing to a close a journey that blends Tanzania’s extraordinary wildlife with the serene beauty of its tropical coast.",
+    image1: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Block05.webp",
+  }
+
+
+],
+
+    hotels: [
+      {
+        name: "ARUSHA COFFEE LODGE – ARUSHA ",
+        image: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Hotel01.webp",
+        desc:"A charming plantation-style lodge surrounded by coffee fields at the foothills of Mount Meru.",
+      },
+      {
+        name: "NGORONGORO CRATER LODGE – NGORONGORO",
+        image: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Hotel02.webp",
+        desc:"One of Africa’s most spectacular safari lodges, offering dramatic views over the crater floor.",
+      },
+       {
+        name: "MNEMBA ISLAND LODGE – ZANZIBAR",
+        image: "/images/packages/FROM_CRATERS_TO_CORAL_Tanzania_Hotel03.webp",
+        desc:"An exclusive private island retreat known for pristine beaches, coral reefs, and barefoot luxury.",
+      },
+    ],
+
+    similarPackages: [
+  {
+    slug: "tanzania",
+    packageSlug: "interlaken-adventure",
+    title: "Interlaken Adventure",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "5 DAYS",
+      headline: "Explore lakes and alpine adventures in Interlaken."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "jungfrau-glacier",
+    title: "Jungfrau Glacier Escape",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "4 DAYS",
+      headline: "Experience the Top of Europe and stunning glacier views."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "lucerne-lake-tour",
+    title: "Lucerne Lake Journey",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "3 DAYS",
+      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+    }
+  }
+]
+  },
+
+
+   // tanzania pacakage 2 -- KILIMANJARO & ZANZIBAR
+   {
+    slug: "tanzania",
+    packageSlug: "KILIMANJARO_SUMMIT",
+    title: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
+
+    heroMeta: {
+      country: "TANZANIA",
+      headline: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+      when: " January – March, June – October",
+      price: {
+        label: "$13,800 per person (excluding international flights)",
+      },
+      duration: "12 Nights",
+    },
+
+    intro:
+"This journey combines one of the world’s most iconic mountain climbs with the serene beauty of the Indian Ocean. Beginning in Arusha at the foothills of Mount Kilimanjaro, the adventure follows the remote Northern Circuit route — considered one of the most scenic and successful paths to Africa’s highest summit.\n Trekking across Kilimanjaro’s diverse landscapes, from lush rainforest to alpine desert and glacial summit terrain, the expedition culminates at Uhuru Peak, the highest point on the African continent. After the exhilaration of the climb, the journey concludes on the tranquil beaches of Zanzibar, where turquoise waters, coral reefs, and barefoot luxury offer the perfect recovery.",
+   sections: [
+  {
+    title1: "DAY 1–3 — ARUSHA & NORTHERN CIRCUIT: BEGINNING THE CLIMB",
+    description1:
+"Arrive in Arusha and settle into a comfortable lodge near the slopes of Mount Kilimanjaro. After final preparations and briefing with your trekking guides, transfer to Kilimanjaro National Park to begin the Northern Circuit route.\n The early stages of the trek pass through lush montane forests and rolling moorlands, allowing gradual acclimatization while revealing the dramatic scenery surrounding Africa’s tallest mountain.",
+    image1: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Block01.webp",
+  },
+  {
+    title1: "DAY 4–6 — KILIMANJARO TREKKING: ALPINE LANDSCAPES",
+    description1:
+"As the trek progresses along Kilimanjaro’s northern slopes, the landscape transitions from moorland to alpine desert. Wide volcanic plains and dramatic views toward Kenya create a remote and awe-inspiring environment.\n Crossing the saddle between Kilimanjaro’s main peak and the jagged Mawenzi summit, trekkers experience one of the mountain’s most spectacular high-altitude landscapes.",
+    image1: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Block02.webp",
+  },
+  {
+    title1: "DAY 7–8 — SUMMIT ATTEMPT: UHURU PEAK",
+    description1:
+"After final acclimatization at high camp, the summit push begins before dawn. Trekking beneath a star-filled sky, climbers ascend slowly toward Uhuru Peak (5,895 m) — the highest point in Africa.\n Reaching the summit at sunrise reveals sweeping views across glaciers, volcanic plains, and the vast African horizon before beginning the descent.",
+    image1: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Block03.webp",
+  },
+   {
+    title1: "DAY 9–10 — ARUSHA TO ZANZIBAR: FROM MOUNTAIN TO OCEAN",
+    description1:
+"Descend through Kilimanjaro’s rainforest and return to Arusha to celebrate the achievement before flying to Zanzibar.\n Upon arrival, transfer to a luxury beach resort where the rhythm of the journey shifts from adventure to relaxation along the Indian Ocean.",
+    image1: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Block04.webp",
+  },
+  {
+    title1: "DAY 11–12 — ZANZIBAR: ISLAND RECOVERY",
+    description1:
+"The final days are spent unwinding on Zanzibar’s pristine beaches. Snorkeling, diving, sailing, and spa treatments offer the perfect recovery after the Kilimanjaro ascent.\n With warm turquoise waters and powder-soft sand, Zanzibar provides a serene and luxurious conclusion to this extraordinary adventure.",
+    image1: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Block05.webp",
+  },
+  {
+    title1: "DAY 13 — DEPARTURE",
+    description1:
+"Enjoy a final morning by the Indian Ocean before departing Tanzania, completing a journey that blends the exhilaration of Africa’s highest summit with the peaceful beauty of Zanzibar’s tropical coast.",
+    image1: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Block05.webp",
+  }
+
+
+],
+
+    hotels: [
+      {
+        name: "LEGENDARY LODGE – ARUSHA",
+        image: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Hotel01.webp",
+        desc:"A tranquil plantation-style lodge set within lush tropical gardens near Mount Kilimanjaro.",
+      },
+      {
+        name: "KILIMANJARO TREKKING CAMPS",
+        image: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Hotel02.webp",
+        desc:"Comfortable expedition camps along the Northern Circuit route, designed to support safe acclimatization and summit success.",
+      },
+       {
+        name: "ZURI ZANZIBAR – ZANZIBAR",
+        image: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_Hotel03.webp",
+        desc:"A luxury beachfront resort surrounded by tropical gardens and turquoise Indian Ocean waters.",
+      },
+    ],
+
+    similarPackages: [
+  {
+    slug: "tanzania",
+    packageSlug: "interlaken-adventure",
+    title: "Interlaken Adventure",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "5 DAYS",
+      headline: "Explore lakes and alpine adventures in Interlaken."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "jungfrau-glacier",
+    title: "Jungfrau Glacier Escape",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "4 DAYS",
+      headline: "Experience the Top of Europe and stunning glacier views."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "lucerne-lake-tour",
+    title: "Lucerne Lake Journey",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "3 DAYS",
+      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+    }
+  }
+]
+  },
+
+
+// TANZANIA PACKAGE 3 -- TANZANIA WILDLIFE & BEACHES
+  {
+  slug: "tanzania",
+  packageSlug: "GORILLAS_ZANZIBAR",
+  title: "GORILLAS & ZANZIBAR PRIVATE ISLAND ESCAPE",
+  heroImage: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_HERO.webp",
+
+  heroMeta: {
+    country: "RWANDA & TANZANIA",
+    headline: "GORILLAS & ZANZIBAR PRIVATE ISLAND ESCAPE",
+    when: "June – October, December – February",
+    price: {
+      label: "$12,600 per person (excluding international flights)",
+    },
+    duration: "8 Nights",
+  },
+
+  intro:
+"This remarkable journey blends one of the world’s most extraordinary wildlife encounters with the tranquil beauty of the Indian Ocean. Beginning in Rwanda’s lush volcanic highlands, the experience centers on intimate encounters with the rare mountain gorillas of Volcanoes National Park — one of Africa’s most profound and emotional safari experiences.\n From dense rainforest trekking and conservation experiences to the turquoise waters of Zanzibar’s private islands, the itinerary balances adventure with serene luxury. The journey concludes on Mnemba Island, where coral reefs, dhow sunsets, and barefoot elegance create the perfect ending to an unforgettable East African escape.",
+
+sections: [
+{
+title1: "DAY 1–2 — KIGALI & VOLCANOES NATIONAL PARK",
+description1:
+"Arrive in Kigali and begin with a private city tour that introduces Rwanda’s culture, resilience, and modern identity. The journey then continues north toward the dramatic landscapes of Volcanoes National Park, home to the endangered mountain gorillas.\n Nestled among mist-covered volcanic peaks, your eco-lodge offers an intimate base for exploring Rwanda’s remarkable wilderness.",
+image1: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Block01.webp",
+},
+
+{
+title1: "DAY 3–4 — GORILLA & GOLDEN MONKEY TREKKING",
+description1:
+"Set out early for the extraordinary experience of mountain gorilla trekking, hiking through lush rainforest with expert guides to observe these gentle giants in their natural habitat. The moment of encountering a gorilla family in the wild is one of Africa’s most powerful wildlife experiences.\n The following day offers a different perspective with golden monkey tracking, along with insights into conservation initiatives protecting the region’s fragile ecosystems.",
+image1: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Block02.webp",
+},
+
+{
+title1: "DAY 5 — RWANDA TO ZANZIBAR",
+description1:
+"Depart Rwanda and fly toward the Indian Ocean, arriving in Zanzibar via historic Stone Town, once a major trading hub along East Africa’s Swahili Coast.\n From here, continue onward to one of the region’s most exclusive island retreats, where turquoise waters and coral reefs signal a shift from jungle adventure to barefoot luxury.",
+image1: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Block03.webp",
+},
+
+{
+title1: "DAY 6–7 — MNEMBA ISLAND: PRIVATE ISLAND LUXURY",
+description1:
+"Settle into the idyllic rhythm of Mnemba Island, an exclusive private island sanctuary surrounded by vibrant coral reefs.\n Days are spent snorkeling among tropical fish, kayaking across crystal-clear lagoons, and sailing traditional dhow boats at sunset. The island’s relaxed elegance offers the perfect balance of adventure and serenity.",
+image1: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Block04.webp",
+},
+
+{
+title1: "DAY 8–9 — ZANZIBAR: ISLAND RELAXATION & DEPARTURE",
+description1:
+"Enjoy your final days immersed in island life. Relax on powder-soft beaches, explore coral reefs, or simply unwind with oceanfront dining and breathtaking sunset views.\n On your final morning, depart Zanzibar with memories of Rwanda’s rare wildlife encounters and the peaceful beauty of the Indian Ocean.",
+image1: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Block05.webp",
+}
+
+],
+
+hotels: [
+{
+name: "SINGITA KWITONDA LODGE – VOLCANOES NATIONAL PARK",
+image: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Hotel01.webp",
+desc: "A luxurious eco-lodge offering stunning views of Rwanda’s volcanic mountains and exceptional access to gorilla trekking experiences.",
+},
+{
+name: "BISATE LODGE – VOLCANOES NATIONAL PARK",
+image: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Hotel02.webp",
+desc: "An award-winning conservation lodge known for its striking architecture and immersive rainforest setting.",
+},
+{
+name: "MNEMBA ISLAND LODGE – ZANZIBAR",
+image: "/images/packages/GORILLAS_ZANZIBAR_PRIVATE_ISLAND_ESCAPE_Tanzania_Hotel03.webp",
+desc: "A private island retreat offering barefoot luxury, coral reefs, and pristine white-sand beaches.",
+}
+],
+
+similarPackages: [
+{
+slug: "rwanda-tanzania",
+packageSlug: "serengeti-safari",
+title: "Serengeti Safari Experience",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Witness the vast wildlife plains of the Serengeti."
+}
+},
+{
+slug: "rwanda-tanzania",
+packageSlug: "ngorongoro-crater",
+title: "Ngorongoro Crater Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
+}
+},
+{
+slug: "rwanda-tanzania",
+packageSlug: "zanzibar-island-retreat",
+title: "Zanzibar Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Relax on white-sand beaches and turquoise waters."
+}
+}
+]
+},
+
+
+// TANZANIA PACKAGE 4 -- CLASSIC SERENGETI, TARANGIRE & ZANZIBAR
+{
+  slug: "tanzania",
+  packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+  title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
+  heroImage: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Hero.webp",
+
+  heroMeta: {
+    country: "TANZANIA",
+    headline: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
+    when: "June – October, January – March",
+    price: {
+      label: "$13,200 per person (excluding international flights)",
+    },
+    duration: "11 Nights",
+  },
+
+  intro:
+"This classic East African journey captures the essence of Tanzania’s legendary safari landscapes before transitioning to the turquoise waters of the Indian Ocean. Beginning in the vast plains of the Serengeti, travelers encounter one of the world’s greatest wildlife ecosystems, where lions, elephants, and vast herds of wildebeest roam across dramatic savannah horizons.\n The journey continues to the private wilderness concessions of Tarangire, known for its remarkable elephant populations and ancient baobab trees, before concluding along the white-sand beaches of Zanzibar. Combining thrilling wildlife encounters with relaxed coastal luxury, this itinerary offers the perfect balance of safari adventure and tropical escape.",
+
+sections: [
+{
+title1: "DAY 1–3 — ARUSHA & SERENGETI: BEGINNING THE SAFARI",
+description1:
+"Arrive in Tanzania via Dar es Salaam before continuing onward to Arusha, the gateway to the country’s northern safari circuit. From here, a scenic flight carries you deep into the Serengeti, one of Africa’s most celebrated wildlife reserves.\n Settle into a classic safari lodge surrounded by endless plains. Early game drives introduce the region’s extraordinary biodiversity, where elephants, giraffes, and predators roam freely across vast landscapes.",
+image1: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Block01.webp",
+},
+
+{
+title1: "DAY 4–5 — SERENGETI: PREDATORS & GREAT PLAINS",
+description1:
+"The Serengeti offers some of the most dramatic wildlife encounters on the African continent. Guided game drives explore predator-rich territories where lions, cheetahs, and leopards hunt across the golden savannah.\n Expert guides track wildlife movements while revealing the delicate balance of the Serengeti ecosystem. Evenings conclude with lantern-lit dinners beneath star-filled skies.",
+image1: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Block02.webp",
+},
+
+{
+title1: "DAY 6–7 — TARANGIRE PRIVATE CONCESSION",
+description1:
+"Fly south toward the Tarangire region and the private wilderness concessions surrounding the national park. Known for its enormous elephant herds and iconic baobab trees, Tarangire offers a more intimate safari experience.\n Activities here include walking safaris, Big Five tracking, and bush drives across remote landscapes rarely visited by other travelers. A champagne bush lunch beneath ancient trees provides a memorable highlight of the experience.",
+image1: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Block03.webp",
+},
+
+{
+title1: "DAY 8–9 — ZANZIBAR & STONE TOWN",
+description1:
+"Depart the safari landscapes and fly to Zanzibar, the historic island of spice traders and Swahili culture. Begin with a guided exploration of Stone Town, a UNESCO World Heritage Site filled with labyrinthine streets, carved wooden doors, and centuries of maritime history.\n From here, transfer to a luxury beachfront resort where the rhythm shifts from adventure to relaxation beside the Indian Ocean.",
+image1: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Block04.webp",
+},
+
+{
+title1: "DAY 10–12 — ZANZIBAR COASTLINE",
+description1:
+"Spend your final days enjoying the serene beauty of Zanzibar’s coastline. Snorkeling among coral reefs, sailing traditional dhow boats, and visiting nearby islands such as Prison Island reveal the vibrant marine life of the region.\n The journey concludes with leisurely beach days and oceanfront dining, offering the perfect ending to an unforgettable East African adventure.",
+image1: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Block05.webp",
+}
+
+],
+
+hotels: [
+{
+name: "SERENGETI BUSHTOPS – SERENGETI",
+image: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Hotel01.webp",
+desc: "An elegant safari camp offering luxury tented suites overlooking the vast plains of the Serengeti.",
+},
+{
+name: "CHEM CHEM LODGE – TARANGIRE",
+image: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Hotel02.webp",
+desc: "A refined wilderness lodge set within a private concession between Tarangire and Lake Manyara.",
+},
+{
+name: "ZURI ZANZIBAR – ZANZIBAR",
+image: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Hotel03.webp",
+desc: "A luxury beachfront resort surrounded by tropical gardens and turquoise waters of the Indian Ocean.",
+}
+],
+
+similarPackages: [
+{
+slug: "tanzania",
+packageSlug: "serengeti-safari",
+title: "Serengeti Safari Experience",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Witness the vast wildlife plains of the Serengeti."
+}
+},
+{
+slug: "tanzania",
+packageSlug: "ngorongoro-crater",
+title: "Ngorongoro Crater Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
+}
+},
+{
+slug: "tanzania",
+packageSlug: "zanzibar-island-retreat",
+title: "Zanzibar Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Relax on white-sand beaches and turquoise waters."
+}
+}
+]
+},
+
+// TANZANIA PACKAGE 5 -- SAVANNAH_CHIMPANZEE_SHORES TANZANIA WILDLIFE & CULTURE
+{
+  slug: "tanzania",
+  packageSlug: "SAVANNAH_CHIMPANZEE",
+  title: "SAVANNAH TO CHIMPANZEE SHORES: TANZANIA’S WILDEST ESCAPE",
+  heroImage: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Hero.webp",
+
+  heroMeta: {
+    country: "TANZANIA",
+    headline: "SAVANNAH TO CHIMPANZEE SHORES: TANZANIA’S WILDEST ESCAPE",
+    when: "June – October",
+    price: {
+      label: "$12,900 per person (excluding international flights)",
+    },
+    duration: "9 Nights",
+  },
+
+  intro:
+"This extraordinary Tanzanian journey combines the legendary wildlife plains of the Serengeti with one of Africa’s most remote and untouched primate habitats. Beginning in the vast savannah landscapes of the Serengeti, travelers experience classic safari encounters among migrating herds, powerful predators, and sweeping golden horizons.\n The adventure then shifts westward to the remote shores of Lake Tanganyika within the Mahale Mountains National Park — one of the most spectacular and isolated wildlife destinations in Africa. Here, dense rainforest meets turquoise lake waters, offering the rare opportunity to trek among wild chimpanzees before unwinding along pristine lakeside beaches.",
+
+sections: [
+{
+title1: "DAY 1–3 — ARUSHA & SERENGETI: CLASSIC SAFARI BEGINNING",
+description1:
+"Arrive in Arusha and settle into a peaceful coffee-estate lodge surrounded by lush gardens and views toward Mount Meru. From here, a scenic bush flight carries you deep into the Serengeti, one of Africa’s most iconic wildlife ecosystems.\n Game drives across the sweeping plains reveal vast herds of wildebeest, zebras, elephants, and predators that define the Serengeti’s extraordinary biodiversity.",
+image1: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Block01.webp",
+},
+
+{
+title1: "DAY 4 — SERENGETI: MIGRATION & PREDATOR TERRITORIES",
+description1:
+"Spend the day exploring the Serengeti’s diverse habitats with experienced safari guides. Depending on the season, the plains may host the dramatic movements of the Great Migration, one of the world’s most remarkable wildlife spectacles.\n Evenings conclude with classic safari traditions — sundowners overlooking the savannah as the sun sets over the endless plains.",
+image1: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Block02.webp",
+},
+
+{
+title1: "DAY 5 — JOURNEY TO MAHALE MOUNTAINS",
+description1:
+"Depart the Serengeti and fly west across Tanzania toward the remote wilderness of Mahale Mountains National Park, located along the pristine shores of Lake Tanganyika.\n Accessible only by light aircraft and boat, this remote destination offers one of Africa’s most extraordinary wilderness experiences, where rainforest-covered mountains rise dramatically from crystal-clear lake waters.",
+image1: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Block03.webp",
+},
+
+{
+title1: "DAY 6–8 — MAHALE MOUNTAINS: CHIMPANZEE TREKKING & LAKE ADVENTURES",
+description1:
+"The Mahale Mountains are home to one of the world’s largest populations of wild chimpanzees. Guided treks through dense rainforest offer the rare opportunity to observe these intelligent primates in their natural habitat.\n Beyond chimpanzee tracking, the region offers waterfall hikes, kayaking across the clear waters of Lake Tanganyika, dhow cruises at sunset, and relaxed beach dining beside the lake.",
+image1: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Block04.webp",
+},
+
+{
+title1: "DAY 9–10 — LAKESIDE RELAXATION & DEPARTURE",
+description1:
+"Spend your final days enjoying the tranquility of the lakeside lodge. Swim in the warm waters of Lake Tanganyika, relax along the white-sand beaches, or simply enjoy the serenity of this extraordinary wilderness setting.\n After breakfast on your final morning, depart Tanzania with memories of an adventure that combines iconic safari landscapes with one of Africa’s most remote primate experiences.",
+image1: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Block05.webp",
+}
+
+],
+
+hotels: [
+{
+name: "ARUSHA COFFEE LODGE – ARUSHA",
+image: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Hotel01.webp",
+desc: "A charming plantation-style lodge surrounded by coffee estates near the foothills of Mount Meru.",
+},
+{
+name: "SERENGETI SAFARI CAMP – SERENGETI",
+image: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Hotel02.webp",
+desc: "A luxury tented safari camp offering immersive wildlife experiences in the heart of the Serengeti plains.",
+},
+{
+name: "GREYSTOKE MAHALE – LAKE TANGANYIKA",
+image: "/images/packages/SAVANNAH_TO_CHIMPANZEE_SHORES_Tanzania_Hotel03.webp",
+desc: "One of Africa’s most iconic remote lodges, set between rainforest mountains and the turquoise waters of Lake Tanganyika.",
+}
+],
+
+similarPackages: [
+{
+slug: "tanzania",
+packageSlug: "serengeti-safari",
+title: "Serengeti Safari Experience",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Witness the vast wildlife plains of the Serengeti."
+}
+},
+{
+slug: "tanzania",
+packageSlug: "ngorongoro-crater",
+title: "Ngorongoro Crater Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
+}
+},
+{
+slug: "tanzania",
+packageSlug: "zanzibar-island-retreat",
+title: "Zanzibar Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Relax on white-sand beaches and turquoise waters."
+}
+}
+]
+},
+
+// TANZANIA PACKAGE 6 -- SELOUS & PEMBA ESCAPE
+{
+  slug: "tanzania",
+  packageSlug: "SAVANNAH_SECLUDED_ISLAND_SHORES",
+  title: "SAVANNAH TO SECLUDED ISLAND SHORES: SELOUS & PEMBA ESCAPE",
+  heroImage: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_HERO.webp",
+
+  heroMeta: {
+    country: "TANZANIA",
+    headline: "SAVANNAH TO SECLUDED ISLAND SHORES: SELOUS & PEMBA ESCAPE",
+    when: "June – October",
+    price: {
+      label: "$11,800 per person (excluding international flights)",
+    },
+    duration: "8 Nights",
+  },
+
+  intro:
+"This remarkable Tanzanian journey combines one of Africa’s most untouched safari regions with the secluded tropical beauty of the Zanzibar Archipelago. Beginning in the vast wilderness of the Selous Game Reserve, travelers explore one of the continent’s largest protected ecosystems, where rivers, forests, and savannah plains support extraordinary wildlife far from the crowds of more visited parks.\n Game drives, walking safaris, and river explorations along the Rufiji River reveal elephants, lions, hippos, crocodiles, and abundant birdlife thriving within this remote landscape. Evenings are spent in peaceful riverside camps surrounded by the sounds of the African wilderness.\n The journey then transitions to the hidden island of Pemba, one of the least explored islands of the Zanzibar Archipelago. Here, lush green hills meet turquoise waters and vibrant coral reefs, offering a perfect setting for snorkeling, diving, and quiet relaxation along pristine tropical beaches.",
+
+sections: [
+{
+title1: "DAY 1–2 — SELOUS GAME RESERVE: ARRIVAL INTO UNTAMED WILDERNESS",
+description1:
+"Arrive in Dar es Salaam and board a scenic light aircraft flight into the vast Selous Game Reserve, a UNESCO-listed protected area known for its untouched landscapes and extraordinary biodiversity.\n Upon arrival, settle into a riverside safari lodge overlooking the Rufiji River, where hippos and crocodiles gather along the water’s edge. Afternoon game drives introduce the reserve’s remarkable wildlife, including elephants, giraffes, buffalo, and predators roaming the open plains.\n Evenings are spent enjoying classic safari traditions — sundowners overlooking the river followed by dinners beneath starlit African skies.",
+image1: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Block01.webp",
+},
+
+{
+title1: "DAY 3 — WALKING SAFARIS & RIVER BOAT EXPLORATION",
+description1:
+"Selous offers one of Africa’s most authentic safari experiences, including guided walking safaris led by expert trackers. Exploring the bush on foot allows travelers to discover the finer details of the ecosystem, from animal tracks to rare plants and birdlife often overlooked during vehicle safaris.\n Later in the day, embark on a boat safari along the Rufiji River, drifting quietly past hippos, crocodiles, and abundant water birds. The golden evening light reflecting across the river creates one of the most beautiful safari moments in Tanzania.",
+image1: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Block02.webp",
+},
+
+{
+title1: "DAY 4 — BESPOKE SAFARI EXPERIENCES",
+description1:
+"Spend the day enjoying flexible safari activities tailored to your interests. Additional game drives offer opportunities to encounter lions, leopards, and large herds of elephants moving through the reserve’s diverse habitats.\n Alternatively, relax at the lodge overlooking the river, enjoy a bush breakfast in the wilderness, or simply take in the tranquility of one of Africa’s most remote safari regions.",
+image1: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Block03.webp",
+},
+
+{
+title1: "DAY 5–6 — PEMBA ISLAND: HIDDEN SHORES OF ZANZIBAR",
+description1:
+"Depart Selous and fly east toward the Zanzibar Archipelago, arriving on the secluded island of Pemba. Known for its emerald hills, mangrove forests, and vibrant coral reefs, Pemba remains one of the Indian Ocean’s most untouched island destinations.\n Settle into a beachfront retreat where white sands meet crystal-clear waters. Days unfold at a relaxed pace with snorkeling excursions across coral reefs, swimming in warm turquoise lagoons, and exploring the island’s quiet coastal villages.",
+image1: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Block04.webp",
+},
+
+{
+title1: "DAY 7–8 — CORAL REEFS & ISLAND RELAXATION",
+description1:
+"Pemba Island is considered one of East Africa’s premier diving and snorkeling destinations, home to thriving coral reefs and extraordinary marine biodiversity.\n Optional experiences include scuba diving along dramatic underwater drop-offs, mangrove canoeing through coastal forests, traditional dhow sailing at sunset, or spa treatments overlooking the Indian Ocean.\n Evenings conclude with relaxed beachside dining beneath the stars as the gentle sound of the ocean provides a peaceful ending to each day.",
+image1: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Block05.webp",
+},
+
+{
+title1: "DAY 9 — DEPARTURE",
+description1:
+"Spend your final morning enjoying the serenity of Pemba Island — perhaps with a sunrise swim or breakfast overlooking the Indian Ocean.\n Later, transfer to the airstrip for your return flight to Dar es Salaam, concluding a journey that blends one of Africa’s most untouched safari regions with the secret shores of the Zanzibar archipelago.",
+image1: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Block02.webp",
+}
+
+],
+
+hotels: [
+{
+name: "SIWANDU CAMP – SELOUS GAME RESERVE",
+image: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Hotel01.webp",
+desc: "A luxury tented safari camp located along the Rufiji River, offering immersive wildlife experiences in one of Africa’s largest wilderness areas.",
+},
+{
+name: "THE MANTA RESORT – PEMBA ISLAND",
+image: "/images/packages/SELOUS_PEMBA_ESCAPE_Tanzania_Hotel02.webp",
+desc: "A secluded beachfront resort known for its pristine coral reefs, turquoise waters, and unique Indian Ocean island atmosphere.",
+}
+],
+
+similarPackages: [
+{
+slug: "tanzania",
+packageSlug: "serengeti-safari",
+title: "Serengeti Safari Experience",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Witness the vast wildlife plains of the Serengeti."
+}
+},
+{
+slug: "tanzania",
+packageSlug: "ngorongoro-crater",
+title: "Ngorongoro Crater Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
+}
+},
+{
+slug: "tanzania",
+packageSlug: "zanzibar-island-retreat",
+title: "Zanzibar Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Relax on white-sand beaches and turquoise waters."
+}
+}
+]
+},
+
+// --------------------------------------------------------------------------------------
+// GREECE PACKAGE 1 -- 
+{
+  slug: "greece",
+  packageSlug: "LEGENDS_LEISURE_GREECE",
+  title: "LEGENDS & LEISURE: A FAMILY ODYSSEY THROUGH GREECE",
+  heroImage: "/images/packages/Greece_LEGENDS_LEISURE_HERO.webp",
+
+  heroMeta: {
+    country: "GREECE",
+    headline: "LEGENDS & LEISURE: A FAMILY ODYSSEY THROUGH GREECE",
+    when: "April – October",
+    price: {
+      label: "$9,800 per person (excluding international flights)",
+    },
+    duration: "11–12 Nights",
+  },
+
+  intro:
+"This thoughtfully designed Greek journey blends mythology, culture, and coastal leisure across three of the country’s most captivating destinations. Beginning in Athens, travelers explore the birthplace of Western civilization through immersive guided experiences among legendary landmarks including the Acropolis and the ancient Oracle site of Delphi.\n The adventure then moves to the cosmopolitan island of Mykonos, where pristine beaches, charming whitewashed villages, and vibrant Aegean landscapes create the perfect setting for relaxation and exploration. A private yacht journey to the sacred island of Delos adds a unique historical dimension to the island experience.\n The journey concludes in Crete, Greece’s largest island, where ancient Minoan civilization, dramatic mountain landscapes, and picturesque coastal towns offer a rich blend of culture and natural beauty. From exploring the legendary Palace of Knossos to discovering hidden villages and seaside harbors, this itinerary offers a seamless balance of discovery and leisure for families seeking an unforgettable Greek adventure.",
+
+sections: [
+{
+title1: "DAY 1–2 — ATHENS: ARRIVAL & CLASSICAL GREEK HERITAGE",
+description1:
+"Arrive in Athens and settle into your luxury hotel in the heart of the historic city. Spend the afternoon exploring charming neighbourhoods such as Plaka and Monastiraki, where cobbled streets, boutique shops, and lively cafés introduce the vibrant spirit of the Greek capital.\n The following day begins with a private excursion to the Argolis region of the Peloponnese, visiting the ancient theatre of Epidaurus — one of the best-preserved classical theatres in the world — and the historic city of Nafplio, once Greece’s first modern capital.",
+image1: "/images/packages/Greece_LEGENDS_LEISURE_Block01.webp",
+},
+
+{
+title1: "DAY 3–4 — DELPHI & THE MYTHOLOGICAL WORLD OF THE ACROPOLIS",
+description1:
+"Journey north from Athens to the UNESCO-listed archaeological site of Delphi, once believed by the ancient Greeks to be the center of the world. Explore the Temple of Apollo, the ancient theatre, and the fascinating Delphi Museum with a knowledgeable guide who brings the stories of Greek mythology and history vividly to life.\n Back in Athens, enjoy a unique family-focused exploration of the Acropolis and its legendary monuments. Interactive storytelling reveals the myths of Athena, Poseidon, and Zeus while visiting the Parthenon, Erechtheion, and the Acropolis Museum.",
+image1: "/images/packages/Greece_LEGENDS_LEISURE_Block02.webp",
+},
+
+{
+title1: "DAY 5–7 — MYKONOS: AEGEAN ISLAND LEISURE",
+description1:
+"Fly from Athens to the beautiful island of Mykonos, known for its whitewashed villages, sparkling blue waters, and laid-back island atmosphere. After settling into your seaside resort, enjoy time at leisure along the island’s famous beaches.\n A highlight of your stay is a private yacht excursion to the nearby island of Delos — one of Greece’s most significant archaeological sites and the legendary birthplace of Apollo and Artemis. Explore ancient temples and ruins before enjoying swimming and snorkeling in the surrounding crystal-clear waters.",
+image1: "/images/packages/Greece_LEGENDS_LEISURE_Block03.webp",
+},
+
+{
+title1: "DAY 8–9 — CRETE: MINOAN CIVILIZATION & HERAKLION",
+description1:
+"Continue your journey with a flight to Heraklion on the island of Crete, transferring to the elegant coastal town of Elounda. This region offers spectacular views across Mirabello Bay and serves as a gateway to Crete’s rich history and natural beauty.\n Visit the legendary Palace of Knossos, the center of the ancient Minoan civilization and the mythical home of the Minotaur. Later, explore the vibrant city of Heraklion with its Venetian harbor, local markets, and historic architecture.",
+image1: "/images/packages/Greece_LEGENDS_LEISURE_Block04.webp",
+},
+
+{
+title1: "DAY 10–11 — CRETE ADVENTURES & COASTAL DISCOVERY",
+description1:
+"Venture into Crete’s mountainous interior to explore the legendary Cave of Zeus, believed in mythology to be the birthplace of the king of the Greek gods. The journey offers spectacular views across the island’s rugged landscapes and traditional villages.\n Later experiences include a boat excursion to the historic island of Spinalonga and a relaxed stroll through the charming harbor town of Agios Nikolaos, known for its scenic waterfront cafés and lively atmosphere.",
+image1: "/images/packages/Greece_LEGENDS_LEISURE_Block05.webp",
+},
+
+{
+title1: "DAY 12 — DEPARTURE",
+description1:
+"Spend your final morning enjoying the coastal beauty of Crete before transferring to the airport for your onward journey. Depart Greece with lasting memories of ancient myths, vibrant island life, and unforgettable family experiences.",
+image1: "/images/packages/Greece_LEGENDS_LEISURE_Block06.webp",
+}
+
+],
+
+hotels: [
+{
+name: "GRANDE BRETAGNE – ATHENS",
+image: "/images/packages/Greece_LEGENDS_LEISURE_Hotel01.webp",
+desc: "A landmark luxury hotel overlooking Syntagma Square, offering elegant rooms and spectacular views of the Acropolis.",
+},
+{
+name: "MYCONIAN COLLECTION RESORT – MYKONOS",
+image: "/images/packages/Greece_LEGENDS_LEISURE_Hotel02.webp",
+desc: "A stylish Aegean resort combining contemporary luxury with breathtaking views of the island’s beaches.",
+},
+{
+name: "DOMES OF ELOUNDA – CRETE",
+image: "/images/packages/Greece_LEGENDS_LEISURE_Hotel03.webp",
+desc: "An award-winning luxury resort overlooking Mirabello Bay, offering private villas and exceptional Mediterranean hospitality.",
+}
+],
+
+similarPackages: [
+{
+slug: "greece",
+packageSlug: "santorini-escape",
+title: "Santorini Escape",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+}
+},
+{
+slug: "greece",
+packageSlug: "athens-history-tour",
+title: "Athens Cultural Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Dive into the ancient history and vibrant culture of Athens."
+}
+},
+{
+slug: "greece",
+packageSlug: "crete-island-retreat",
+title: "Crete Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Discover Crete’s beaches, history, and scenic landscapes."
+}
+}
+]
+},
 ];
