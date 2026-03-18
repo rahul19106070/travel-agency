@@ -235,7 +235,7 @@ export const PACKAGES: Package[] = [
     title1: "DAY 6 — DEPARTURE",
     description1:
 "Enjoy a final morning overlooking Lake Zurich, perhaps with a leisurely breakfast along the waterfront promenade before departing Switzerland.\n Your journey concludes having uncovered the elegant contrasts that make Zurich one of Europe’s most intriguing and creative cities.",
-    image1: "/images/packages/HIDDEN_ZURICH_Block05.webp",
+    image1: "/images/packages/HIDDENZURICH-Block05.webp",
   }
   
 ],
@@ -1620,7 +1620,7 @@ headline: "Relax on white-sand beaches and turquoise waters."
 },
 
 // --------------------------------------------------------------------------------------
-// GREECE PACKAGE 1 -- 
+// GREECE PACKAGE 1 -- LEGENDS_LEISURE_GREECE
 {
   slug: "greece",
   packageSlug: "LEGENDS_LEISURE_GREECE",
@@ -1736,4 +1736,726 @@ headline: "Discover Crete’s beaches, history, and scenic landscapes."
 }
 ]
 },
+
+// GREECE PACKAGE 2 -- NORTHERN_AEGEAN_REVERIE: CITIES, SEAS & ARTISAN ISLES
+{
+  slug: "greece",
+  packageSlug: "AEGEAN_REVERIE",
+  title: "NORTHERN AEGEAN REVERIE: CITIES, SEAS & ARTISAN ISLES",
+  heroImage: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Hero.webp",
+
+  heroMeta: {
+    country: "GREECE",
+    headline: "NORTHERN AEGEAN REVERIE: CITIES, SEAS & ARTISAN ISLES",
+    when: "May – October",
+    price: {
+      label: "$9,400 per person (excluding international flights)",
+    },
+    duration: "11 Nights",
+  },
+
+  intro:
+"This immersive journey through northern Greece and the Aegean islands reveals a side of the country often overlooked by traditional itineraries. Combining vibrant coastal cities, unspoiled peninsulas, and artisan island traditions, the experience offers a rich blend of culture, gastronomy, and scenic island exploration.\n The journey begins in Thessaloniki, Greece’s lively northern capital, where Byzantine heritage, Ottoman influences, and an acclaimed culinary scene create one of the country’s most vibrant cultural hubs.\n From here, the adventure continues to the stunning peninsula of Halkidiki, known for its pine-covered landscapes, hidden coves, and tranquil beaches. Sailing south into the Sporades archipelago, travelers discover secluded islands, emerald waters, and charming harbors accessible only by boat.\n The journey concludes with time in Athens before venturing to the island of Sifnos, where traditional crafts, culinary heritage, and authentic Cycladic charm provide a memorable finale to this unique Greek exploration.",
+
+sections: [
+{
+title1: "DAY 1–2 — THESSALONIKI: NORTHERN GREECE’S CULTURAL CAPITAL",
+description1:
+"Arrive in Thessaloniki and settle into a boutique hotel overlooking the Thermaic Gulf. Spend your first evening strolling along the city’s lively waterfront promenade, where cafés, restaurants, and historic landmarks create a vibrant atmosphere.\n The following day explores Thessaloniki’s celebrated culinary heritage. Visit bustling local markets and artisan food stalls while discovering the city’s famous meze culture — a rich tradition of small shared dishes reflecting centuries of Greek, Balkan, and Mediterranean influences.",
+image1: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Block1.webp",
+},
+
+{
+title1: "DAY 3–4 — HALKIDIKI: COASTAL PENINSULAS & HIDDEN VILLAGES",
+description1:
+"Depart Thessaloniki and drive south to the Halkidiki peninsula, renowned for its crystal-clear waters and lush Mediterranean landscapes.\n Explore the Sithonia region, where pine forests meet quiet beaches and scenic coastal roads reveal spectacular views across the Aegean Sea.\n A relaxed day follows, offering time to enjoy the beaches of Halkidiki or visit the charming hilltop village of Old Nikiti, where stone houses, local bakeries, and traditional tavernas reflect the region’s authentic character.",
+image1: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Block2.webp",
+},
+
+{
+title1: "DAY 5–6 — SPORADES ISLANDS: PRIVATE SAILING ADVENTURE",
+description1:
+"Board a private yacht and sail into the emerald waters of the Sporades archipelago. En route, stop at the remote island of Kyra Panagia, known for its pristine coastline and turquoise bays.\n Arrive on the island of Alonissos, part of the National Marine Park of the Northern Sporades — one of Europe’s most important marine ecosystems.\n The following day includes a coastal hike through scenic landscapes before sailing onward to the picturesque island of Skopelos, famous for its whitewashed houses cascading down hillsides above the sea.",
+image1: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Block3.webp",
+},
+
+{
+title1: "DAY 7–8 — SKIATHOS & RETURN TO ATHENS",
+description1:
+"Continue exploring the Sporades with a beach day on the island of Skiathos, home to some of the most beautiful beaches in Greece. Visit the famous Lalaria Beach with its dramatic white cliffs and the golden sands of Koukounaries, surrounded by fragrant pine forests.\n Later, sail back toward the mainland before taking a flight to Athens, where the journey transitions back to Greece’s historic capital.",
+image1: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Block4.webp",
+},
+
+{
+title1: "DAY 9–11 — SIFNOS: ARTISAN TRADITIONS & ISLAND GASTRONOMY",
+description1:
+"From Athens, travel by speedboat to the Cycladic island of Sifnos, celebrated for its culinary heritage and artisan crafts.\n Enjoy a hands-on cooking experience where local chefs share traditional recipes passed down through generations.\n The island is also famous for its pottery tradition. Participate in a masterclass with local artisans, learning about the craftsmanship that has shaped Sifnos’ identity for centuries.\n Between experiences, explore picturesque villages, scenic coastal trails, and quiet beaches that capture the timeless beauty of the Cyclades.",
+image1: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Block5.webp",
+},
+
+{
+title1: "DAY 12 — DEPARTURE",
+description1:
+"Spend your final morning enjoying the relaxed pace of island life before transferring back to Athens for your onward departure.\n Depart Greece with lasting memories of vibrant cities, secluded islands, and authentic cultural encounters across the northern Aegean.",
+image1: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Block6.webp",
+}
+
+],
+
+hotels: [
+{
+name: "ONOMA HOTEL – THESSALONIKI",
+image: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Hotel1.webp",
+desc: "A contemporary boutique hotel offering modern design and panoramic views across the city.",
+},
+{
+name: "EKIES ALL SENSES RESORT – HALKIDIKI",
+image: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Hotel2.webp",
+desc: "A stylish beachfront retreat surrounded by pine forests and crystal-clear waters.",
+},
+{
+name: "SKOPELOS VILLAGE HOTEL – SPORADES",
+image: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Hotel3.webp",
+desc: "A charming seaside hotel overlooking the Aegean, blending traditional island architecture with elegant comfort.",
+},
+// {
+// name: "VERINA ASTRA – SIFNOS",
+// image: "/images/packages/Greece_NORTHERN_AEGEAN_REVERIE_Hotel4.webp",
+// desc: "A refined boutique retreat with sweeping views across the Cycladic landscape.",
+// }
+],
+
+similarPackages: [
+{
+slug: "greece",
+packageSlug: "santorini-escape",
+title: "Santorini Escape",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+}
+},
+{
+slug: "greece",
+packageSlug: "athens-history-tour",
+title: "Athens Cultural Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Dive into the ancient history and vibrant culture of Athens."
+}
+},
+{
+slug: "greece",
+packageSlug: "crete-island-retreat",
+title: "Crete Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Discover Crete’s beaches, history, and scenic landscapes."
+}
+}
+]
+},
+
+// GREECE PACKAGE 3 -- CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE
+{
+  slug: "greece",
+  packageSlug: "AEGEAN_ICONS_EPICUREAN_ISLES",
+  title: "AEGEAN ICONS & EPICUREAN ISLES",
+  heroImage: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_HERO.webp",
+
+  heroMeta: {
+    country: "GREECE",
+    headline: "AEGEAN ICONS & EPICUREAN ISLES",
+    when: "May – October",
+    price: {
+      label: "$8,900 per person (excluding international flights)",
+    },
+    duration: "9 Nights",
+  },
+
+  intro:
+"This refined island journey explores some of the most captivating destinations of the Cyclades, combining Greece’s historic capital with three distinctive Aegean islands known for their culinary traditions, elegant villages, and breathtaking coastal scenery.\n Beginning in Athens, travelers experience the legendary Acropolis and ancient landmarks that shaped Western civilization before sailing into the heart of the Cyclades.\n The journey continues to Sifnos, an island celebrated for its gastronomic heritage and charming whitewashed villages perched above turquoise coves. From here, the adventure moves to Paros and nearby Antiparos, where Venetian architecture, hidden caves, and pristine beaches offer a balance of discovery and leisure.\n The final chapter unfolds on the iconic island of Santorini, where dramatic volcanic cliffs rise above the Aegean Sea. Here, luxury caldera-view stays, private winery tastings, and unforgettable sunset sailing experiences provide a spectacular conclusion to this elegant island-hopping journey.",
+
+sections: [
+{
+title1: "DAY 1–2 — ATHENS: CLASSICAL LANDMARKS & AEGEAN GATEWAY",
+description1:
+"Arrive in Athens and settle into a luxury hotel overlooking the Acropolis, offering panoramic views of the city’s ancient skyline.\n Spend the afternoon wandering through historic districts such as Plaka and Kolonaki, where neoclassical architecture, elegant cafés, and boutique shops create a vibrant introduction to Greek culture.\n The following day begins with a guided exploration of the Acropolis and its surrounding archaeological landmarks. Discover the Parthenon, the Temple of Athena Nike, and the Acropolis Museum while learning about the myths and legends that shaped ancient Greece.\n Later in the afternoon, transfer to the port of Piraeus and board a ferry to the Cycladic island of Sifnos.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block01.webp",
+},
+
+{
+title1: "DAY 3–4 — SIFNOS: GASTRONOMY & COASTAL CHARM",
+description1:
+"Sifnos is widely regarded as one of Greece’s culinary capitals, known for its traditional recipes and rich food culture.\n Begin your stay with a hands-on cooking class led by a local chef, where you learn to prepare classic Greek dishes using fresh island ingredients. Later, explore the charming harbor village of Vathi and enjoy dinner at a traditional seaside taverna while watching the sunset over the Aegean.\n The following day offers time at leisure to enjoy the island’s tranquil beaches, scenic walking trails, or optional private boat excursions exploring hidden coves and turquoise bays along the coastline.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block02.webp",
+},
+
+{
+title1: "DAY 5–6 — PAROS & ANTIPAROS: CYCLADIC BEAUTY",
+description1:
+"Travel by ferry to the picturesque island of Paros, known for its elegant Cycladic architecture and lively waterfront villages.\n Explore the Venetian Kastro in the historic town of Naoussa and wander through narrow marble-paved streets lined with boutique shops and cafés.\n A short boat excursion brings you to the nearby island of Antiparos, where you can visit the famous Antiparos Cave — an impressive cavern filled with dramatic stalactites and stalagmites — before enjoying swimming and relaxation along secluded beaches.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block03.webp",
+},
+
+{
+title1: "DAY 7 — SANTORINI: THE AEGEAN’S MOST ICONIC ISLAND",
+description1:
+"Continue your journey with a ferry to Santorini, one of the most spectacular islands in the Mediterranean.\n Upon arrival, settle into a luxury cliffside hotel overlooking the caldera — the vast volcanic basin that defines Santorini’s dramatic landscape.\n Spend the evening exploring the whitewashed villages of Oia or Imerovigli, where terraces, infinity pools, and candlelit restaurants overlook the deep blue waters of the Aegean Sea.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block04.webp",
+},
+
+{
+title1: "DAY 8–9 — SANTORINI: WINE, VOLCANOES & SUNSET SAILING",
+description1:
+"Santorini’s volcanic soil has created one of Greece’s most distinctive wine regions. Enjoy a private winery tour visiting several boutique vineyards while sampling renowned local varieties such as Assyrtiko.\n Later, explore the island’s dramatic volcanic landscapes and black-sand beaches shaped by ancient eruptions.\n A highlight of your stay is a sunset sailing cruise around the caldera. Swim in secluded coves, enjoy views of the island’s towering cliffs, and savor a freshly prepared dinner onboard as the sun sets over the Aegean.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block05.webp",
+},
+
+{
+title1: "DAY 10 — DEPARTURE",
+description1:
+"Spend your final morning relaxing on the terrace of your caldera-view hotel, taking in the remarkable scenery of Santorini.\n Later, transfer to the airport or ferry port for your onward journey, concluding an unforgettable exploration of Greece’s most beautiful islands.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block06.webp",
+}
+
+],
+
+hotels: [
+{
+name: "GRANDE BRETAGNE – ATHENS",
+image: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Hotel01.webp",
+desc: "A historic luxury hotel overlooking Syntagma Square with exceptional views of the Acropolis.",
+},
+{
+name: "VERINA ASTRA – SIFNOS",
+image: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Hotel02.webp",
+desc: "A refined boutique retreat offering sweeping views of the Aegean and authentic Cycladic elegance.",
+},
+{
+name: "PARILIO HOTEL – PAROS",
+image: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Hotel03.webp",
+desc: "A contemporary luxury sanctuary near Naoussa known for its minimalist Cycladic design.",
+}
+],
+
+similarPackages: [
+{
+slug: "greece",
+packageSlug: "santorini-escape",
+title: "Santorini Escape",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+}
+},
+{
+slug: "greece",
+packageSlug: "athens-history-tour",
+title: "Athens Cultural Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Dive into the ancient history and vibrant culture of Athens."
+}
+},
+{
+slug: "greece",
+packageSlug: "crete-island-retreat",
+title: "Crete Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Discover Crete’s beaches, history, and scenic landscapes."
+}
+}
+]
+},
+
+// GREECE PACKAGE 4 -- CYCLADIC_CALM_ISLAND_HOPPING_ESCAPE
+{
+  slug: "greece",
+  packageSlug: "CYCLADIC_CALM",
+  title: "CYCLADIC CALM: AN ISLAND-HOPPING ESCAPE",
+  heroImage: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_HERO.webp",
+
+  heroMeta: {
+    country: "GREECE",
+    headline: "CYCLADIC CALM: AN ISLAND-HOPPING ESCAPE",
+    when: "May – October",
+    price: {
+      label: "$7,900 per person (excluding international flights)",
+    },
+    duration: "8 Nights",
+  },
+
+  intro:
+"This elegant island-hopping journey through the Cyclades reveals a slower, more refined side of Greece, where relaxed coastal villages, turquoise bays, and timeless island traditions create the perfect Mediterranean escape.\n Beginning in Athens, the gateway to the Greek islands, travelers soon transition to the laid-back charm of Paros — an island known for its elegant fishing villages, secluded coves, and vibrant waterfront life.\n The journey continues to the peaceful island of Sifnos, celebrated for its culinary heritage and scenic walking trails connecting whitewashed villages and hidden beaches.\n The final chapter unfolds on the dramatic volcanic island of Santorini, where caldera cliffs, legendary sunsets, and luxury cliffside stays create one of the Mediterranean’s most unforgettable travel experiences.",
+
+sections: [
+{
+title1: "DAY 1–2 — PAROS: CYCLADIC VILLAGES & COASTAL BEAUTY",
+description1:
+"Arrive in Athens and take a short domestic flight to the island of Paros, where the relaxed pace of the Cyclades immediately sets the tone for your journey.\n After settling into your boutique seaside hotel, spend the afternoon unwinding along the island’s beautiful coastline or exploring the charming harbor town of Naoussa.\n The following day reveals the island’s diverse landscapes, from traditional villages and hidden coves to the sculpted granite formations of Kolymbithres Bay. Enjoy leisurely exploration through narrow Cycladic streets lined with cafés, boutiques, and whitewashed homes overlooking the sea.",
+image1: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_Block01.webp",
+},
+
+{
+title1: "DAY 3–4 — ANTIPAROS & SIFNOS: ISLAND DISCOVERY",
+description1:
+"Take a short boat excursion to the nearby island of Antiparos, a peaceful destination known for its relaxed atmosphere, quiet beaches, and dramatic natural cave formations.\n Spend the day exploring its charming village and swimming in secluded bays before returning to Paros.\n The next day, continue your island-hopping journey by boat to Sifnos, an island celebrated for its authentic Cycladic architecture and rich culinary traditions. Upon arrival, settle into your hillside retreat overlooking the Aegean Sea.",
+image1: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_Block02.webp",
+},
+
+{
+title1: "DAY 5–6 — SIFNOS: CULINARY TRADITIONS & ISLAND TRAILS",
+description1:
+"Sifnos is widely regarded as one of Greece’s gastronomic capitals, known for recipes and cooking techniques passed down through generations.\n Participate in a hands-on cooking class led by a local chef, preparing classic Greek dishes using seasonal island ingredients.\n Beyond its culinary heritage, Sifnos offers scenic walking paths connecting picturesque villages, monasteries, and quiet beaches. Spend the following day exploring hidden coves, hiking traditional stone pathways, or simply enjoying the tranquil pace of island life.",
+image1: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_Block03.webp",
+},
+
+{
+title1: "DAY 7–8 — SANTORINI: CALDERA VIEWS & VOLCANIC LANDSCAPES",
+description1:
+"Continue your journey by boat to Santorini, one of the Mediterranean’s most iconic destinations. Upon arrival, check into your luxury caldera-view hotel perched dramatically above the sea.\n Spend your evening wandering through the enchanting village of Oia, where narrow lanes, boutique galleries, and elegant terraces overlook Santorini’s legendary sunsets.\n The following day explores the island’s unique volcanic heritage with a visit to the ancient ruins of Akrotiri — a remarkably preserved Bronze Age settlement often referred to as the “Pompeii of the Aegean.”\n Later, enjoy time to relax at your hotel spa or soak in the dramatic scenery from your private terrace overlooking the caldera.",
+image1: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "PARILIO HOTEL – PAROS",
+image: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_Hotel1.webp",
+desc: "A refined Cycladic retreat combining minimalist design with tranquil gardens and elegant suites.",
+},
+{
+name: "VERINA ASTRA – SIFNOS",
+image: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_Hotel2.webp",
+desc: "A boutique hillside property offering sweeping views across the Aegean and authentic island charm.",
+},
+{
+name: "CANAVES OIA SUITES – SANTORINI",
+image: "/images/packages/Greece_CYCLADIC_CALM_AN_ISLAND_Hotel3.webp",
+desc: "A luxury cliffside sanctuary featuring iconic caldera views, private terraces, and unforgettable sunset scenery.",
+}
+],
+
+similarPackages: [
+{
+slug: "greece",
+packageSlug: "santorini-escape",
+title: "Santorini Escape",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+}
+},
+{
+slug: "greece",
+packageSlug: "athens-history-tour",
+title: "Athens Cultural Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Dive into the ancient history and vibrant culture of Athens."
+}
+},
+{
+slug: "greece",
+packageSlug: "crete-island-retreat",
+title: "Crete Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Discover Crete’s beaches, history, and scenic landscapes."
+}
+}
+]
+},
+
+// GREECE PACKAGE 5 -- EMPIRES_AEGEAN_DREAMS: GREECE & TURKEY EXPLORATION
+{
+  slug: "greece",
+  packageSlug: "EMPIRES_AEGEAN_DREAMS",
+  title: "EMPIRES & AEGEAN DREAMS",
+  heroImage: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_HERO.webp",
+
+  heroMeta: {
+    country: "GREECE & TURKEY",
+    headline: "EMPIRES & AEGEAN DREAMS",
+    when: "April – October",
+    price: {
+      label: "$11,900 per person (excluding international flights)",
+    },
+    duration: "13 Nights",
+  },
+
+  intro:
+"This extraordinary journey blends the glamour of the Greek islands with the grandeur of two ancient empires, creating a seamless exploration of Mediterranean elegance and historic wonder.\n The journey begins in Mykonos, where turquoise waters, iconic windmills, and sophisticated beach clubs create one of the most vibrant atmospheres in the Aegean. From here, a scenic helicopter transfer leads to the dramatic volcanic island of Santorini, where cliffside villages and caldera views offer one of the world’s most breathtaking island settings.\n Continuing to Athens, travelers explore the legendary landmarks of ancient Greece before crossing into Turkey to discover the imperial heritage of Istanbul — a city where Byzantine and Ottoman influences meet along the Bosphorus.\n The journey concludes in the surreal landscapes of Cappadocia, where fairy chimneys, cave dwellings, and sunrise hot-air balloon flights create an unforgettable finale.",
+
+sections: [
+{
+title1: "DAY 1–3 — MYKONOS: AEGEAN GLAMOUR & BEACHFRONT LUXURY",
+description1:
+"Arrive on the island of Mykonos and settle into your luxury beachfront hotel overlooking the crystal-clear waters of the Aegean Sea.\n Spend your first evening exploring Mykonos Town, where whitewashed alleyways, charming boutiques, and vibrant cafés create a lively island atmosphere. Visit the iconic windmills overlooking Little Venice as the sun sets over the harbor.\n The following days offer time to enjoy the island’s famous beach clubs and secluded coves. Whether relaxing on golden sands or enjoying private yacht excursions along the coastline, Mykonos provides the perfect introduction to the glamour of the Greek islands.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block01.webp",
+},
+
+{
+title1: "DAY 4–6 — SANTORINI: VOLCANIC LANDSCAPES & CALDERA LUXURY",
+description1:
+"Depart Mykonos by helicopter for a spectacular aerial journey to Santorini, offering unforgettable views across the Cycladic islands.\n Upon arrival, settle into your luxury cliffside hotel overlooking the island’s dramatic caldera. Spend time exploring the enchanting villages of Oia and Fira, where narrow lanes, boutique galleries, and elegant terraces reveal breathtaking views across the Aegean Sea.\n The island’s rich volcanic history is revealed through visits to the ancient ruins of Akrotiri, one of the most remarkable archaeological sites in the Mediterranean. Continue with a wine tasting experience at a local vineyard before visiting Santorini’s famous Red Beach, where striking volcanic cliffs meet deep blue waters.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block02.webp",
+},
+
+{
+title1: "DAY 7–8 — ATHENS: LEGENDS OF ANCIENT GREECE",
+description1:
+"Travel from Santorini to Athens, Greece’s historic capital and the birthplace of Western civilization.\n Explore the Acropolis and its remarkable monuments including the Parthenon and the Temple of Athena Nike. Your guide brings ancient myths and historical stories to life while revealing the significance of these extraordinary landmarks.\n Later, ascend Lycabettus Hill for panoramic views across the city before enjoying time to explore Athens’ vibrant neighbourhoods filled with cafés, galleries, and traditional tavernas.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block03.webp",
+},
+
+{
+title1: "DAY 9–13 — ISTANBUL & CAPPADOCIA: EMPIRES & ANCIENT LANDSCAPES",
+description1:
+"Fly to Istanbul, where East meets West in one of the world’s most captivating historic cities. Explore the magnificent Hagia Sophia, the opulent Topkapi Palace, and the colorful labyrinth of the Grand Bazaar.\n Continue your journey with a flight to Cappadocia, a region famous for its surreal landscapes shaped by volcanic activity over thousands of years.\n Discover the region’s remarkable fairy chimneys, ancient cave dwellings, and the hilltop fortress of Uçhisar Castle. A highlight of your stay is a sunrise hot-air balloon flight drifting above Cappadocia’s extraordinary valleys — one of the most unforgettable experiences in Turkey.",
+image1: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "MYCONIAN COLLECTION RESORT – MYKONOS",
+image: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Hotel01.webp",
+desc: "A sophisticated luxury resort offering elegant suites, private pools, and sweeping views across the Aegean Sea.",
+},
+{
+name: "CANAVES OIA SUITES – SANTORINI",
+image: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Hotel02.webp",
+desc: "A legendary caldera-side property featuring luxurious cave-style suites and breathtaking sunset views.",
+},
+{
+name: "HOTEL GRANDE BRETAGNE – ATHENS",
+image: "/images/packages/AEGEAN_ICONS_EPICUREAN_ISLES_Hotel03.webp",
+desc: "A historic luxury hotel overlooking Syntagma Square with panoramic views of the Acropolis.",
+},
+// {
+// name: "ARGOS IN CAPPADOCIA – CAPPADOCIA",
+// image: "/images/packages/EMPIRES_AEGEAN_DREAMS_Hotel04.webp",
+// desc: "A stunning cave hotel set within ancient stone dwellings offering dramatic views across Cappadocia’s valleys.",
+// }
+],
+
+similarPackages: [
+{
+slug: "greece",
+packageSlug: "santorini-escape",
+title: "Santorini Escape",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+}
+},
+{
+slug: "greece",
+packageSlug: "athens-history-tour",
+title: "Athens Cultural Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Dive into the ancient history and vibrant culture of Athens."
+}
+},
+{
+slug: "greece",
+packageSlug: "crete-island-retreat",
+title: "Crete Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Discover Crete’s beaches, history, and scenic landscapes."
+}
+}
+]
+},
+
+// GREECE PACKAGE 6 -- FROM_POLIS_TO_PARADISE
+{
+  slug: "greece",
+  packageSlug: "FROM_POLIS_TO_PARADISE",
+  title: "FROM POLIS TO PARADISE: A TIMELESS GREEK ESCAPE",
+  heroImage: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_HERO.webp",
+
+  heroMeta: {
+    country: "GREECE",
+    headline: "FROM POLIS TO PARADISE: A TIMELESS GREEK ESCAPE",
+    when: "April – October",
+    price: {
+      label: "$9,600 per person (excluding international flights)",
+    },
+    duration: "8 Nights",
+  },
+
+  intro:
+"This elegant journey through mainland Greece and the Saronic islands reveals a timeless blend of classical heritage, coastal beauty, and refined luxury experiences.\n Beginning in Athens, travelers explore the legendary landmarks of ancient Greece while enjoying the modern sophistication of the Athens Riviera. From sunrise visits to the Acropolis to sunset views at the Temple of Poseidon, the journey offers an immersive introduction to the country’s rich cultural heritage.\n The adventure then continues to the charming island of Spetses, known for its elegant harbor, horse-drawn carriages, and relaxed seaside atmosphere. Nearby Hydra, one of Greece’s most picturesque islands, offers a car-free environment where cobbled streets and stone mansions preserve the island’s historic character.\n The journey concludes in the Peloponnese at Amanzoe, one of Greece’s most exclusive resorts, where wellness experiences, ancient sanctuaries, and serene Mediterranean landscapes provide a tranquil finale.",
+
+sections: [
+{
+title1: "DAY 1–2 — ATHENS: ANCIENT LANDMARKS & RIVIERA LIFESTYLE",
+description1:
+"Arrive in Athens and settle into your luxury resort along the Athens Riviera, where sweeping views across the Aegean Sea create a serene introduction to Greece.\n The following morning begins with an early sunrise hike to the Acropolis, offering a peaceful exploration of the Parthenon and surrounding monuments before the crowds arrive. Later, enjoy a guided food tour through Athens’ vibrant neighborhoods, discovering traditional bakeries, bustling markets, and authentic Greek flavors that reflect the city’s rich culinary heritage.",
+image1: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_Block01.webp",
+},
+
+{
+title1: "DAY 3 — CAPE SOUNION: TEMPLES & AEGEAN SUNSETS",
+description1:
+"Venture south along the scenic Athens Riviera to Cape Sounion, one of the most dramatic coastal landscapes in Greece.\n Here, the Temple of Poseidon stands atop towering cliffs overlooking the Aegean Sea. As the sun begins to set, the temple’s marble columns glow in golden light, creating one of the most unforgettable sunset views in the Mediterranean.",
+image1: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_Block02.webp",
+},
+
+{
+title1: "DAY 4–5 — SPETSES & HYDRA: SARONIC ISLAND CHARM",
+description1:
+"Travel by water taxi across the Saronic Gulf to the island of Spetses, known for its elegant neoclassical architecture and charming harbor lined with cafés and boutique hotels.\n Spend the day exploring the island’s relaxed atmosphere before embarking on a boat excursion to Hydra — one of Greece’s most beautiful and historic islands. With no cars allowed, Hydra preserves a timeless character where donkeys and boats remain the primary means of transport.\n Stroll through its cobbled streets, visit historic mansions overlooking the harbor, and enjoy leisurely seaside dining in this enchanting island setting.",
+image1: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_Block03.webp",
+},
+
+{
+title1: "DAY 6–8 — PELOPONNESE: WELLNESS & CLASSICAL HERITAGE",
+description1:
+"Continue your journey to the Peloponnese peninsula and arrive at Amanzoe, a world-renowned luxury resort set among rolling hills overlooking the Aegean Sea.\n Designed with classical Greek inspiration, Amanzoe offers a serene retreat focused on wellness and relaxation. Spend your time enjoying spa treatments, private pools, and tranquil Mediterranean landscapes.\n A highlight of your stay includes visiting the ancient healing sanctuary of Epidaurus, famous for its remarkable theatre and its historic role as a center of medicine in the ancient Greek world.",
+image1: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "FOUR SEASONS ASTIR PALACE – ATHENS RIVIERA",
+image: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_Hotel01.webp",
+desc: "A legendary luxury resort offering private beaches, world-class dining, and panoramic views across the Aegean Sea.",
+},
+{
+name: "POSEIDONION GRAND HOTEL – SPETSES",
+image: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_Hotel02.webp",
+desc: "An iconic Belle Époque hotel overlooking Spetses’ historic harbor, known for its timeless elegance.",
+},
+{
+name: "AMANZOE – PELOPONNESE",
+image: "/images/packages/FROM_POLIS_TO_PARADISE_Greece_Hotel03.webp",
+desc: "One of Greece’s most exclusive resorts, combining classical architecture with extraordinary wellness experiences and breathtaking coastal views.",
+}
+],
+
+similarPackages: [
+{
+slug: "greece",
+packageSlug: "santorini-escape",
+title: "Santorini Escape",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 DAYS",
+headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+}
+},
+{
+slug: "greece",
+packageSlug: "athens-history-tour",
+title: "Athens Cultural Journey",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "4 DAYS",
+headline: "Dive into the ancient history and vibrant culture of Athens."
+}
+},
+{
+slug: "greece",
+packageSlug: "crete-island-retreat",
+title: "Crete Island Retreat",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 DAYS",
+headline: "Discover Crete’s beaches, history, and scenic landscapes."
+}
+}
+]
+},
+
+// ------------------------------------------------------------------------------------
+
+// morocco PACKAGE 1 -- FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY
+{
+  slug: "morocco",
+  packageSlug: "IMPERIAL_CITIES_SAHARA_STARS",
+  title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+  heroImage: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_HERO.webp",
+
+  heroMeta: {
+    country: "MOROCCO",
+    headline: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+    when: "March – May & September – November",
+    price: {
+      label: "$12,800 per person (excluding international flights)",
+    },
+    duration: "13 Nights",
+  },
+
+  intro:
+"This extraordinary journey through Morocco reveals a captivating blend of imperial cities, desert landscapes, ancient kasbahs, and refined luxury experiences.\n Beginning in Casablanca, travelers are welcomed into Morocco before continuing to the enchanting blue town of Chefchaouen nestled within the Rif Mountains. The journey then unfolds through the historic imperial city of Fez, where labyrinthine medinas, artisan traditions, and centuries-old architecture offer a glimpse into Morocco’s rich cultural heritage.\n The adventure continues into the Sahara Desert where golden dunes stretch endlessly across the horizon. Here, a night beneath the stars at a luxury desert camp creates one of the most magical experiences in North Africa.\n From the dramatic gorges and palm oases of southern Morocco to the vibrant energy of Marrakech, the journey blends cultural discovery with exceptional comfort. The experience concludes peacefully in the Atlas Mountains, where Morocco’s landscapes and traditions meet in serene luxury surroundings.",
+
+sections: [
+{
+title1: "DAY 1–2 — CHEFCHAOUEN: THE BLUE PEARL OF MOROCCO",
+description1:
+"Arrive in Casablanca before beginning a scenic journey into the Rif Mountains toward Chefchaouen, one of Morocco’s most picturesque towns known for its striking blue-washed streets and relaxed mountain atmosphere.\n Upon arrival, settle into a charming riad and explore the peaceful medina as the evening light casts soft shades across the city’s famous blue walls.\n The following day is dedicated to discovering Chefchaouen’s hidden corners with a guided photography walk through its winding alleys, vibrant artisan shops, and quiet squares. The town’s tranquil rhythm offers a beautiful introduction to Morocco’s unique charm and culture.",
+image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block01.webp",
+},
+
+{
+title1: "DAY 3–5 — FEZ: MEDIEVAL TRADITIONS & ARTISAN HERITAGE",
+description1:
+"Travel south toward the imperial city of Fez, stopping along the way at the ancient Roman ruins of Volubilis and the sacred town of Moulay Idriss.\n In Fez, step into one of the world’s oldest living medieval cities. A private guided tour through the UNESCO-listed medina reveals bustling souks, intricate madrasas, historic mosques, and the famous leather tanneries that have operated for centuries.\n Beyond the city, visit nearby villages such as Sefrou and Bhalil where traditional crafts and Berber culture continue to thrive. These intimate encounters offer a deeper understanding of Morocco’s artisan heritage and rural life.",
+image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block02.webp",
+},
+
+{
+title1: "DAY 6–9 — SAHARA DESERT & SOUTHERN OASES",
+description1:
+"Journey across the Middle Atlas Mountains toward the vast Sahara Desert. As landscapes shift from cedar forests to dramatic desert terrain, the golden dunes of Erg Chebbi appear on the horizon.\n Arrive at a luxury desert camp where camel rides across the dunes and candlelit dinners beneath star-filled skies create an unforgettable Sahara experience.\n Continue through the dramatic Todra Gorge before reaching the palm-filled Skoura Oasis. Along the legendary “Route of a Thousand Kasbahs,” explore ancient fortified villages and the fragrant Valley of the Roses before traveling toward Marrakech via the iconic kasbah of Aït Ben Haddou.",
+image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block03.webp",
+},
+
+{
+title1: "DAY 10–13 — MARRAKECH & ATLAS MOUNTAINS",
+description1:
+"Arriving in Marrakech, experience the vibrant energy of one of Morocco’s most iconic cities. Explore the lively medina by vintage sidecar, wander through colorful souks, and discover hidden riads and spice markets.\n A sunrise hot air balloon flight over the surrounding desert plains offers a breathtaking perspective of the Atlas Mountains in the distance, followed by a traditional Moroccan cooking experience.\n The journey concludes in the Atlas Mountains at the legendary Kasbah Tamadot. Here, peaceful Berber villages, dramatic mountain landscapes, and luxurious wellness experiences provide the perfect finale to this unforgettable Moroccan adventure.",
+image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "ROYAL MANSOUR – MARRAKECH",
+image: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Hotel01.webp",
+desc: "One of Morocco’s most extraordinary luxury hotels, offering private riads, exceptional dining, and impeccable Moroccan craftsmanship.",
+},
+{
+name: "SAHARA LUXURY DESERT CAMP – ERG CHEBBI",
+image: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Hotel02.webp",
+desc: "An exclusive desert camp combining traditional Berber design with refined comfort beneath the vast Sahara sky.",
+},
+{
+name: "KASBAH TAMADOT – ATLAS MOUNTAINS",
+image: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Hotel03.webp",
+desc: "Sir Richard Branson’s renowned mountain retreat featuring breathtaking views, tranquil gardens, and world-class hospitality.",
+}
+],
+
+similarPackages: [
+{
+slug: "morocco",
+packageSlug: "BEYOND_THE_ATLAS",
+title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "10 NIGHTS",
+headline: "This extraordinary journey ventures beyond Morocco’s well-known cities into the country’s most remote desert landscapes, ancient caravan routes, and hidden oasis valleys."
+}
+},
+]
+},
+
+// MOROCCO PACKAGE 2
+{
+  slug: "morocco",
+  packageSlug: "BEYOND_THE_ATLAS",
+  title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
+  heroImage: "/images/packages/BEYONDTHEATLASMOROCCO'S_HERO.webp",
+
+  heroMeta: {
+    country: "MOROCCO",
+    headline: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
+    when: "March – May & September – November",
+    price: {
+      label: "$11,400 per person (excluding international flights)",
+    },
+    duration: "10 Nights",
+  },
+
+  intro:
+"This extraordinary journey ventures beyond Morocco’s well-known cities into the country’s most remote desert landscapes, ancient caravan routes, and hidden oasis valleys.\n Beginning in Marrakech, travelers explore the vibrant medina and historic landmarks before crossing the dramatic High Atlas Mountains via remote mountain passes and cinematic kasbah villages.\n The journey continues through the palm-filled Skoura Oasis and the vast Draa Valley, where centuries-old caravan routes once connected Morocco to the great trading cities of the Sahara.\n Deep in the southern desert, the towering dunes of Erg Chigaga offer one of the most secluded Sahara experiences in North Africa. Here, camel treks, stargazing, and evenings around desert fires create unforgettable moments beneath the vast Sahara sky.\n The journey concludes in Taroudant, a charming fortified town often called “Little Marrakech,” where traditional souks, peaceful riads, and mountain scenery offer a tranquil finale before returning to Marrakech.",
+
+sections: [
+{
+title1: "DAY 1–2 — MARRAKECH: MEDINA DISCOVERY & ATLAS GATEWAY",
+description1:
+"Arrive in Marrakech, Morocco’s most vibrant and iconic city. Settle into a beautifully restored riad hidden within the historic medina before beginning your exploration of this captivating destination.\n A guided medina tour reveals colorful souks, intricate palaces, and centuries-old mosques while the lively Jemaa el-Fnaa square introduces travelers to the energy of traditional Moroccan street life.\n The following day, depart Marrakech and begin crossing the High Atlas Mountains via the scenic Telouet route, passing dramatic landscapes and remote Berber villages on the way toward the southern desert regions.",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block01.webp",
+},
+
+{
+title1: "DAY 3–4 — SKOURA & DADES VALLEY: KASBAHS AND OASIS LANDSCAPES",
+description1:
+"Arriving in Skoura Oasis, discover a tranquil landscape filled with palm groves, ancient kasbahs, and fertile valleys.\n Visit the legendary Kasbah Amridil, one of Morocco’s most beautifully preserved desert fortresses, before continuing toward the Valley of Roses and the dramatic cliffs of the Dades Valley.\n Guided walks through these scenic landscapes reveal traditional Berber villages, terraced farms, and remote canyon trails surrounded by spectacular desert scenery.",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block02.webp",
+},
+
+{
+title1: "DAY 5–7 — DRAA VALLEY & ERG CHIGAGA: SAHARA ADVENTURE",
+description1:
+"Travel deeper into southern Morocco along the legendary Draa Valley, where vast palm oases stretch for miles along ancient caravan routes.\n In Zagora, explore the historic Mellah quarter and enjoy a sunset picnic overlooking the surrounding desert landscapes.\n Continue to the sacred village of Tamegroute, famous for its ancient library and distinctive green pottery, before venturing by 4x4 into the remote Sahara dunes of Erg Chigaga.\n Here, towering dunes rise from the desert floor, offering one of the most untouched Sahara environments in Morocco. Enjoy camel treks across the dunes, traditional desert music, and unforgettable nights beneath the stars at a luxury desert camp.",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block03.webp",
+},
+
+{
+title1: "DAY 8–10 — TAROUDANT: SOUTHERN MOROCCAN CHARM",
+description1:
+"Depart the Sahara and journey west toward Taroudant, a historic trading town surrounded by impressive ramparts and framed by the Anti-Atlas Mountains.\n Often referred to as “Little Marrakech,” Taroudant offers a quieter and more authentic glimpse into Moroccan life. Wander through vibrant souks, visit artisan workshops, and enjoy peaceful afternoons within the gardens of your luxury riad.\n A highlight of your stay includes time to relax with traditional Moroccan spa treatments and explore the surrounding countryside before returning to Marrakech for your final evening.",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "LA SULTANA – MARRAKECH",
+image: "/images/packages/BEYONDTHEATLASMOROCCO'S_Hotel01.webp",
+desc: "An elegant riad-style luxury hotel in the heart of the medina, known for its exceptional service and rooftop views across Marrakech.",
+},
+{
+name: "DAR AHLAM – SKOURA OASIS",
+image: "/images/packages/BEYONDTHEATLASMOROCCO'S_Hotel02.webp",
+desc: "One of Morocco’s most unique luxury properties, offering private experiences, dramatic desert landscapes, and personalized hospitality.",
+},
+{
+name: "ERG CHIGAGA LUXURY DESERT CAMP",
+image: "/images/packages/BEYONDTHEATLASMOROCCO'S_Hotel03.webp",
+desc: "An exclusive Sahara camp combining traditional Berber design with refined comfort amid Morocco’s most remote dunes.",
+}
+],
+
+similarPackages: [
+{
+slug: "morocco",
+packageSlug: "IMPERIAL_CITIES_SAHARA_STARS",
+title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "13 NIGHTS",
+headline: "This extraordinary journey through Morocco reveals a captivating blend of imperial cities, desert landscapes, ancient kasbahs, and refined luxury experiences."
+}
+},
+]
+},
+
 ];

@@ -669,41 +669,20 @@ export const DESTINATIONS: Destination[] = [
     },
     soloTrips: [
       {
+        slug:"IMPERIAL_CITIES_SAHARA_STARS",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+        duration: "13 NIGHTS",
+        description: "This extraordinary journey through Morocco reveals a captivating blend of imperial cities, desert landscapes, ancient kasbahs, and refined luxury experiences.",
       },
       {
+        slug: "BEYOND_THE_ATLAS",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
+        duration: "10 NIGHTS",
+        description: "This extraordinary journey ventures beyond Morocco’s well-known cities into the country’s most remote desert landscapes, ancient caravan routes, and hidden oasis valleys.",
       },
-       {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
-      },
-      {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
-      },
-      {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
-      },
-       {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
-      },
+       
     ],
     topDestinations: [
       {
