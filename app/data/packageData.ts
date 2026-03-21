@@ -43,7 +43,8 @@ export type Package = {
 };
 export const PACKAGES: Package[] = [
 
-  // switzerland package 1 -- alpine peaks to amalfi dreams
+  
+// switzerland package 1 -- alpine peaks to amalfi dreams    DONE
   {
     slug: "switzerland",
     packageSlug: "ALPINE_PEAKS_TO_AMALFI_DREAMS",
@@ -113,9 +114,31 @@ export const PACKAGES: Package[] = [
         desc:"A legendary Amalfi Coast hotel overlooking the Mediterranean, celebrated for its refined design and spectacular coastal views.",
       },
     ],
+      similarPackages: [
+  {
+    slug: "switzerland",
+    packageSlug: "SWISS_STORYBOOK_ESCAPE",
+    title: "SWISS STORYBOOK ESCAPE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "6 NIGHTS",
+      headline: "Switzerland feels like a storybook brought to life — alpine villages, sparkling lakes, mountain railways...",
+    }
+  },
+  {
+    slug: "switzerland",
+    packageSlug: "HIDDEN_ZURICH",
+    title: "Hidden Zurich",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "5 NIGHTS",
+      headline: "Zurich is often associated with banking and efficiency, yet beneath its polished surface lies one of Europe’s..."
+    }
+  },
+]
   },
 
-  // switzerland package 2 -- swiss storybook escape
+  // switzerland package 2 -- swiss storybook escape    DONE
   {
     slug: "switzerland",
     packageSlug: "SWISS_STORYBOOK_ESCAPE",
@@ -185,9 +208,32 @@ export const PACKAGES: Package[] = [
         desc:"A Belle Époque landmark hotel overlooking Lake Geneva and the surrounding Alps.",
       },
     ],
+
+          similarPackages: [
+  {
+    slug: "switzerland",
+    packageSlug: "ALPINE_PEAKS_TO_AMALFI_DREAMS",
+    title: "ALPINE PEAKS TO AMALFI DREAMS",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This journey combines the dramatic beauty of the Swiss Alps with the effortless elegance of the Italian Riviera....",
+    }
+  },
+  {
+    slug: "switzerland",
+    packageSlug: "HIDDEN_ZURICH",
+    title: "Hidden Zurich",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "5 NIGHTS",
+      headline: "Zurich is often associated with banking and efficiency, yet beneath its polished surface lies one of Europe’s..."
+    }
+  },
+]
   },
 
-  // switzerland package 3 -- hidden zurich
+  // switzerland package 3 -- hidden zurich    DONE
   {
     slug: "switzerland",
     packageSlug: "HIDDEN_ZURICH",
@@ -257,6 +303,28 @@ export const PACKAGES: Package[] = [
         desc:"A charming riverside hotel offering elegant rooms and stunning views over the Limmat River.",
       },
     ],
+          similarPackages: [
+  {
+    slug: "switzerland",
+    packageSlug: "SWISS_STORYBOOK_ESCAPE",
+    title: "SWISS STORYBOOK ESCAPE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "6 NIGHTS",
+      headline: "Switzerland feels like a storybook brought to life — alpine villages, sparkling lakes, mountain railways...",
+    }
+  },
+   {
+    slug: "switzerland",
+    packageSlug: "ALPINE_PEAKS_TO_AMALFI_DREAMS",
+    title: "ALPINE PEAKS TO AMALFI DREAMS",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This journey combines the dramatic beauty of the Swiss Alps with the effortless elegance of the Italian Riviera....",
+    }
+  },
+]
   },
 
   // ---------------------------------------------------------------------------
