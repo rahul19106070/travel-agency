@@ -2811,4 +2811,658 @@ headline: "This grand journey through Britain blends royal heritage, storybook c
 
 ]
 },
+
+
+// --------------------------------------------------------------------------------------------------------
+
+// maldives package 1 -- EMERALD ISLES & INDIAN OCEAN DREAMS    DONE-IMG PENDING
+{
+  slug: "maldives",
+  packageSlug: "EMERALD_ISLES_INDIAN_OCEAN_DREAMS",
+  title: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY",
+  heroImage: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_HERO.webp",
+
+  heroMeta: {
+    country: "SRI LANKA & MALDIVES",
+    headline: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY",
+    when: "December – April",
+    price: {
+      label: "$14,900 per person (excluding international flights)",
+    },
+    duration: "12 Nights",
+  },
+
+  intro:
+"This unforgettable Indian Ocean journey blends Sri Lanka’s extraordinary cultural heritage and wildlife with the ultimate barefoot luxury of the Maldives.\n\nBeginning in Sri Lanka, travelers discover ancient kingdoms, emerald tea plantations, and extraordinary wildlife reserves through curated private experiences and stays in some of the island’s most celebrated luxury retreats.\n\nFrom the Cultural Triangle’s historic temples and ancient rock fortresses to the rolling tea plantations of Sri Lanka’s highlands, the journey reveals the island’s remarkable diversity of landscapes and traditions.\n\nContinuing south to the wild coastal landscapes of Yala National Park, guests enjoy an exceptional luxury safari experience surrounded by extraordinary wildlife and dramatic scenery.\n\nAfter exploring Sri Lanka’s colonial heritage in historic Galle, the journey concludes in the Maldives — where crystal lagoons, private overwater villas, and barefoot island luxury provide the perfect finale.",
+
+sections: [
+{
+title1: "DAY 1–3 — SRI LANKA CULTURAL TRIANGLE: ANCIENT KINGDOMS & HERITAGE",
+description1:
+"Your journey begins in Sri Lanka where a private chauffeur greets you upon arrival and escorts you north into the Cultural Triangle — home to some of the island’s most remarkable historic monuments.\n\nYour retreat at Ulagalla is set amid tranquil rice paddies and lush countryside, offering peaceful surroundings and private villas with plunge pools.\n\nOver the next days, explore Sri Lanka’s ancient civilizations with visits to UNESCO-listed heritage sites including the extraordinary rock fortress of Sigiriya and the sacred temple complexes of the ancient capitals.\n\nEvenings are spent relaxing in the serenity of your villa, watching the sun set over the surrounding countryside.",
+image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block01.webp",
+},
+
+{
+title1: "DAY 4–5 — TEA COUNTRY: COLONIAL BUNGALOWS & HIGHLAND LANDSCAPES",
+description1:
+"Continue inland to the cool highlands of Sri Lanka’s celebrated tea country.\n\nHere the landscapes transform into rolling hills carpeted in vibrant tea plantations. Your stay at the renowned Tea Trails estate introduces the elegance of Sri Lanka’s colonial heritage through beautifully restored plantation bungalows.\n\nSpend your days exploring the surrounding tea estates, learning about the art of tea production, or enjoying leisurely walks through the scenic hillsides.\n\nAfternoons invite relaxation with croquet on manicured lawns, afternoon tea overlooking the plantations, and refined dining in the warm atmosphere of these historic homes.",
+image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block02.webp",
+},
+
+{
+title1: "DAY 6–8 — YALA NATIONAL PARK & GALLE: WILDLIFE SAFARI & COLONIAL HISTORY",
+description1:
+"Your journey continues southeast to the dramatic coastal wilderness of Yala National Park, home to one of the highest concentrations of leopards in the world.\n\nStay at the remarkable Wild Coast Tented Lodge where luxury tented suites blend seamlessly with the surrounding natural environment.\n\nPrivate safari drives reveal a remarkable diversity of wildlife including elephants, sloth bears, crocodiles, and abundant birdlife.\n\nFrom Yala travel to the historic coastal town of Galle where centuries of Portuguese, Dutch, and British history have shaped one of Asia’s most beautiful fortified cities.\n\nWithin the walls of the Dutch fort, explore charming streets, colonial architecture, and vibrant boutiques before relaxing at the iconic Amangalla hotel.",
+image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block03.webp",
+},
+
+{
+title1: "DAY 9–12 — MALDIVES: PRIVATE ISLAND LUXURY",
+description1:
+"Conclude your journey with a short flight to the Maldives where turquoise lagoons and white sand beaches create one of the world’s most idyllic island escapes.\n\nArrive by seaplane or speedboat at the legendary Gili Lankanfushi resort — a sanctuary of barefoot luxury surrounded by crystal-clear waters.\n\nYour overwater villa offers total privacy with direct access to the lagoon and panoramic views across the Indian Ocean.\n\nSpend your days snorkeling vibrant coral reefs, enjoying spa treatments above the water, or simply relaxing on your private deck.\n\nFor ultimate seclusion, the resort’s iconic Crusoe Residences offer private island-style villas accessible only by boat — the perfect setting to end this extraordinary Indian Ocean journey.",
+image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block04.webp",
+}
+],
+
+hotels: [
+{
+name: "ULAGALLA – CULTURAL TRIANGLE",
+image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel01.webp",
+desc: "A tranquil luxury retreat surrounded by rice paddies offering private villas and serene countryside views.",
+},
+{
+name: "CEYLON TEA TRAILS – TEA COUNTRY",
+image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel02.webp",
+desc: "Elegant colonial plantation bungalows set amid Sri Lanka’s breathtaking tea estates.",
+},
+{
+name: "WILD COAST TENTED LODGE – YALA",
+image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel03.webp",
+desc: "A unique luxury safari lodge offering immersive wildlife experiences along Sri Lanka’s southern coastline.",
+},
+{
+name: "GILI LANKANFUSHI – MALDIVES",
+image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel04.webp",
+desc: "One of the Maldives’ most celebrated private island resorts offering exceptional overwater villas and barefoot luxury.",
+}
+],
+
+similarPackages: [
+{
+slug: "maldives",
+packageSlug: "PRIVATE_WELLNESS_ISLES",
+title: "THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "7 NIGHTS",
+headline: "This extraordinary wellness journey blends dramatic Arabian landscapes with the pristine island beauty of the Maldives, creating the ultimate spa and beach escape across two of the Indian Ocean’s most breathtaking destinations."
+}
+},
+{
+slug: "maldives",
+packageSlug: "SONEVA_SIGNATURE_ESCAPE",
+title: "THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "8 NIGHTS",
+headline: "This exceptional Maldivian journey redefines the idea of a tropical escape by combining two of the world’s most celebrated private island resorts into one seamless luxury experience."
+}
+},
+
+]
+},
+
+// maldives package 2 -- THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE    DONE-IMG PENDING
+{
+  slug: "maldives",
+  packageSlug: "PRIVATE_WELLNESS_ISLES",
+  title: "THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE",
+  heroImage: "/images/packages/PRIVATE_WELLNESS_ISLES_HERO.webp",
+
+  heroMeta: {
+    country: "OMAN & MALDIVES",
+    headline: "THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE",
+    when: "October – April",
+    price: {
+      label: "$12,600 per person (excluding international flights)",
+    },
+    duration: "7 Nights",
+  },
+
+  intro:
+"This extraordinary wellness journey blends dramatic Arabian landscapes with the pristine island beauty of the Maldives, creating the ultimate spa and beach escape across two of the Indian Ocean’s most breathtaking destinations.\n\nBeginning in Oman’s secluded Musandam Peninsula, travelers arrive at the remarkable Six Senses Zighy Bay where dramatic mountains descend into a private golden beach. Here, luxury villas, world-class wellness experiences, and authentic Omani culture create an atmosphere of complete serenity.\n\nFrom Oman, the journey continues to the Maldives where turquoise lagoons, coral reefs, and private overwater villas await at Six Senses Laamu. Surrounded by the endless Indian Ocean, guests enjoy barefoot luxury, marine adventures, and exceptional spa experiences.\n\nCombining relaxation, adventure, and indulgent wellness rituals, this carefully curated escape offers a perfect balance of privacy, luxury, and rejuvenation.",
+
+sections: [
+{
+title1: "DAY 1–3 — MUSANDAM PENINSULA: PRIVATE ARRIVAL & OMANI SERENITY",
+description1:
+"Arrive in Dubai where you will be greeted by your private chauffeur for the scenic journey toward the spectacular Musandam Peninsula in Oman.\n\nYour destination is the iconic Six Senses Zighy Bay, a secluded luxury retreat tucked between dramatic mountain cliffs and a pristine private beach.\n\nFor a truly unforgettable arrival, guests may choose the resort’s legendary paraglide entrance, soaring above the mountains before landing directly on the golden sands of the bay. Alternatively, arrive by private speedboat across the clear waters of the Arabian Sea.\n\nUpon arrival, settle into your private pool villa where your personal butler ensures every detail of your stay is perfectly arranged.\n\nThe following days invite relaxation and exploration—whether hiking through the rugged mountains, sailing across the tranquil bay at sunset, or discovering nearby Omani villages and traditional souks.",
+image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block01.webp",
+},
+
+{
+title1: "DAY 4 — ZIGHY BAY: WELLNESS & COASTAL ADVENTURE",
+description1:
+"Spend your final day in Oman enjoying the many experiences offered by the resort.\n\nAdventure seekers may explore the peninsula by 4×4 safari or dive into the Arabian Sea on guided scuba excursions. Alternatively, unwind with a sunset dhow cruise across the calm waters of the bay.\n\nFor complete relaxation, indulge in the Six Senses Spa where traditional therapies and signature wellness rituals create a deeply restorative experience. One highlight is the renowned Bamboo Massage, an ancient technique designed to relieve deep muscular tension while restoring balance and harmony to the body.\n\nAs evening falls, enjoy a refined dining experience overlooking the bay beneath a sky filled with desert stars.",
+image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block02.webp",
+},
+
+{
+title1: "DAY 5–7 — MALDIVES: BAREFOOT ISLAND PARADISE",
+description1:
+"From Oman, fly onward to the Maldives where a scenic seaplane transfer brings you to the breathtaking private island of Six Senses Laamu.\n\nHere, turquoise lagoons stretch endlessly around the island while coral reefs teem with vibrant marine life.\n\nYour overwater villa provides the ultimate sanctuary, suspended above crystal-clear waters with panoramic views across the Indian Ocean.\n\nDays are spent exploring the surrounding reefs with a marine biologist, surfing gentle waves, or setting out on a dolphin safari across the open ocean.\n\nThe resort’s extraordinary Six Senses Spa offers a range of treatments inspired by the island’s natural ingredients—from coconut and papaya wraps to soothing spice-infused massages.",
+image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block03.webp",
+},
+
+{
+title1: "DAY 8 — MALDIVES: STARS, SEA & ISLAND FINALE",
+description1:
+"Your final full day invites complete relaxation in one of the world’s most idyllic island settings.\n\nSpend the morning snorkeling vibrant coral reefs or unwinding on your private deck as tropical fish glide beneath your villa.\n\nAs evening approaches, enjoy one final unforgettable experience with the resort’s resident astronomer who will guide you through the constellations visible across the clear Maldivian skies.\n\nDinner is served on the beach beneath the stars, with candlelight flickering across the sand and the gentle sound of the ocean completing this perfect finale to your Indian Ocean escape.",
+image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block04.webp",
+}
+],
+
+hotels: [
+{
+name: "SIX SENSES ZIGHY BAY – OMAN",
+image: "/images/packages/PRIVATE_WELLNESS_ISLES_Hotel01.webp",
+desc: "A spectacular luxury retreat set between dramatic mountains and a secluded private beach on the Musandam Peninsula.",
+},
+{
+name: "SIX SENSES LAAMU – MALDIVES",
+image: "/images/packages/PRIVATE_WELLNESS_ISLES_Hotel02.webp",
+desc: "One of the Maldives’ most celebrated island resorts offering exceptional overwater villas, marine adventures, and world-class wellness experiences.",
+}
+],
+
+similarPackages: [
+  {
+slug: "maldives",
+packageSlug: "SONEVA_SIGNATURE_ESCAPE",
+title: "THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "8 NIGHTS",
+headline: "This exceptional Maldivian journey redefines the idea of a tropical escape by combining two of the world’s most celebrated private island resorts into one seamless luxury experience."
+}
+},
+{
+  slug: "maldives",
+packageSlug: "EMERALD_ISLES_INDIAN_OCEAN_DREAMS",
+title: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY"
+}
+}
+],
+},
+
+// maldives package 3 -- THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE    DONE-IMG PENDING
+{
+  slug: "maldives",
+  packageSlug: "SONEVA_SIGNATURE_ESCAPE",
+  title: "THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE",
+  heroImage: "/images/packages/SONEVA_SIGNATURE_ESCAPE_HERO.webp",
+
+  heroMeta: {
+    country: "MALDIVES",
+    headline: "THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE",
+    when: "November – April",
+    price: {
+      label: "$18,800 per person (excluding international flights)",
+    },
+    duration: "8 Nights",
+  },
+
+  intro:
+"This exceptional Maldivian journey redefines the idea of a tropical escape by combining two of the world’s most celebrated private island resorts into one seamless luxury experience.\n\nSet across the pristine Baa and Noonu Atolls, this curated escape blends barefoot elegance, extraordinary marine life, and signature Soneva experiences into a journey that is both indulgent and deeply immersive.\n\nBeginning at Soneva Fushi, the original Maldivian castaway paradise, guests experience island living in its purest form—where jungle meets beach, and luxury is defined by space, privacy, and nature.\n\nThe journey then continues in extraordinary fashion aboard a private yacht, sailing across the Indian Ocean before arriving at Soneva Jani, a destination known for its iconic overwater villas, water slides, and celestial dining experiences.\n\nDesigned for those seeking exclusivity, romance, and once-in-a-lifetime moments, this is the ultimate Maldives escape—elevated to an art form.",
+
+sections: [
+{
+title1: "DAY 1–4 — SONEVA FUSHI: CASTAWAY LUXURY & ISLAND EXPERIENCES",
+description1:
+"Arrive in the Maldives where a scenic seaplane transfer brings you to the lush island sanctuary of Soneva Fushi.\n\nSurrounded by dense tropical jungle and pristine white-sand beaches, your private beachfront villa offers complete seclusion, with expansive living spaces and direct access to the crystal-clear lagoon.\n\nThe following days are yours to embrace the island’s effortless luxury lifestyle. With your dedicated Mr. Friday butler managing every detail, each experience is tailored entirely to your preferences.\n\nBegin your stay with a signature wellness ritual at the Six Senses Spa before indulging in the island’s exceptional culinary experiences—from dining in the organic herb gardens to private beachfront dinners under the stars.\n\nAdventures range from snorkeling with manta rays and dolphin encounters to open-air cinema experiences beneath the night sky. A highlight of your stay is a private sandbank experience, where a secluded island is transformed into your personal dining retreat, complete with a private chef and candlelit setting surrounded by the ocean.",
+image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block01.webp",
+},
+
+{
+title1: "DAY 5–6 — SONEVA IN AQUA: PRIVATE YACHT JOURNEY",
+description1:
+"Depart Soneva Fushi in the most exclusive way possible—aboard Soneva in Aqua, the brand’s private luxury yacht.\n\nOver the next two days, sail across the Indian Ocean through some of the Maldives’ most untouched waters, where vibrant coral reefs and hidden lagoons create an ever-changing seascape.\n\nYour floating residence features a master suite with a glass-bottom spa tub, expansive sun decks, and a dedicated crew including a private chef, dive master, massage therapist, and personal butler.\n\nDays are spent snorkeling remote reefs, swimming in secluded lagoons, or simply relaxing on deck as the horizon stretches endlessly before you.\n\nEvenings offer a unique experience of dining under the stars, where the ocean and sky merge into one unforgettable setting.",
+image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block02.webp",
+},
+
+{
+title1: "DAY 7–8 — SONEVA JANI: OVERWATER ICONS & ISLAND LIFE",
+description1:
+"Arrive at the extraordinary Soneva Jani, a private island retreat renowned for its iconic overwater villas set within a vast turquoise lagoon.\n\nYour Water Retreat Villa offers expansive living spaces, infinity pools, private slides into the lagoon, and retractable roofs that reveal the night sky from the comfort of your bed.\n\nDays are filled with curated island experiences including dolphin safaris, private sandbank picnics, and snorkeling excursions through vibrant coral ecosystems.\n\nDining at Soneva Jani is equally exceptional, from the playful So Cool ice cream and chocolate rooms to elevated culinary experiences set across the island.",
+image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block03.webp",
+},
+
+{
+title1: "DAY 9 — CELESTIAL FINALE & DEPARTURE",
+description1:
+"Your final moments in the Maldives are designed to be truly unforgettable.\n\nExperience the island’s signature Full Moon Dinner on a secluded sandbank, where candlelight, ocean reflections, and the lunar glow create an atmosphere of pure magic.\n\nFor a deeper connection to the night sky, visit So Starstruck—the Maldives’ first overwater observatory—where an expert astronomer guides you through constellations visible across the Indian Ocean.\n\nAs your journey concludes, take a final moment to relax on your private deck or within your villa before your departure, carrying with you memories of one of the most exclusive island experiences in the world.",
+image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block04.webp",
+}
+],
+
+hotels: [
+{
+name: "SONEVA FUSHI – BAA ATOLL",
+image: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Hotel01.webp",
+desc: "A pioneering luxury island resort offering barefoot elegance, expansive villas, and immersive nature experiences.",
+},
+{
+name: "SONEVA IN AQUA – PRIVATE YACHT",
+image: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Hotel02.webp",
+desc: "An ultra-exclusive floating residence combining bespoke service, ocean exploration, and unparalleled privacy.",
+},
+{
+name: "SONEVA JANI – NOONU ATOLL",
+image: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Hotel03.webp",
+desc: "A world-renowned overwater resort featuring iconic villas, innovative dining, and extraordinary lagoon experiences.",
+}
+],
+
+similarPackages: [
+  {
+slug: "maldives",
+packageSlug: "PRIVATE_WELLNESS_ISLES",
+title: "THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "7 NIGHTS",
+headline: "This extraordinary wellness journey blends dramatic Arabian landscapes with the pristine island beauty of the Maldives, creating the ultimate spa and beach escape across two of the Indian Ocean’s most breathtaking destinations."
+}
+},
+{
+  slug: "maldives",
+packageSlug: "EMERALD_ISLES_INDIAN_OCEAN_DREAMS",
+title: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY"
+}
+},
+]
+},
+
+// -----------------------------------------------------------------------------------------
+// iceland package1
+{
+  slug: "iceland",
+  packageSlug: "NORDIC_LEGENDS_ICELAND",
+  title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+  heroImage: "/images/packages/NORDIC_LEGENDS_ICELAND_HERO.webp",
+
+  heroMeta: {
+    country: "ICELAND",
+    headline: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+    when: "May – September",
+    price: {
+      label: "$14,900 per person (excluding international flights)",
+    },
+    duration: "6 Nights",
+  },
+
+  intro:
+"This extraordinary journey introduces travelers to Iceland’s dramatic landscapes through a carefully curated blend of adventure, nature, and refined comfort.\n\nBeginning in Reykjavík, Iceland’s vibrant Nordic capital, guests are welcomed into a land shaped by volcanic forces, ancient glaciers, and breathtaking natural wonders. Private experiences across lava fields, coastal waters, and volcanic terrain offer an exciting introduction to the island’s untamed beauty.\n\nThe journey then ventures deeper into Iceland’s wilderness where remote valleys, glacier landscapes, and geothermal wonders create a setting unlike anywhere else on Earth.\n\nConcluding with some of Iceland’s most remarkable natural experiences—including snorkeling between tectonic plates and relaxing in the Blue Lagoon’s famous geothermal waters—the journey offers a rare combination of adventure and tranquility in one of the world’s most extraordinary destinations.",
+
+  sections: [
+    {
+      title1: "DAY 1 — ARRIVAL IN REYKJAVÍK & LAVA FIELD ADVENTURE",
+      description1:
+"Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s vibrant capital.\n\nAfter settling into your hotel, your adventure begins with an exhilarating quad biking experience across the Reykjanes Peninsula’s volcanic lava fields. Riding through dramatic black landscapes formed by ancient eruptions, you explore rugged terrain, steaming geothermal vents, and coastal cliffs that showcase Iceland’s remarkable geology.\n\nThe evening is yours to enjoy Reykjavík’s charming Nordic atmosphere. Stroll through the colorful harbour district or enjoy a refined dining experience featuring Icelandic seafood and seasonal Nordic cuisine.",
+      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block01.webp",
+    },
+
+    {
+      title1: "DAY 2 — WHALE WATCHING & ICELANDIC HORSE RIDING",
+      description1:
+"Today introduces you to Iceland’s remarkable wildlife and countryside traditions.\n\nBegin with a private whale watching experience in Faxaflói Bay, one of the country’s most active marine habitats. Guided by local experts, observe humpback whales, minke whales, and dolphins as they surface against a backdrop of distant mountains and open ocean.\n\nLater in the day, experience Iceland’s countryside through one of its most iconic traditions—riding the Icelandic horse. Known for its gentle temperament and unique gait, this ancient breed offers a peaceful way to explore volcanic landscapes and open valleys.\n\nAlternatively, adventurous travelers may visit a nearby volcanic crater for a guided geological exploration.",
+      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block02.webp",
+    },
+
+    {
+      title1: "DAY 3–4 — ÞÓRSMÖRK VALLEY & GLACIER EXPLORATION",
+      description1:
+"Depart Reykjavík in a specially modified Super-Jeep designed to navigate Iceland’s rugged terrain as you journey toward the spectacular Þórsmörk Valley.\n\nSurrounded by glaciers, volcanic ridges, and braided rivers, this remote region is considered one of Iceland’s most breathtaking natural landscapes.\n\nYour stay at the exclusive Torfhús Retreat offers an authentic yet luxurious Icelandic experience inspired by traditional turf houses. Private geothermal hot tubs and panoramic mountain views create a serene atmosphere immersed in nature.\n\nThe following day brings a guided exploration of Sólheimajökull Glacier, where expert guides lead you across ancient ice formations, deep crevasses, and dramatic glacial ridges while sharing insights into Iceland’s fascinating glacial landscapes.",
+      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block03.webp",
+    },
+
+    {
+      title1: "DAY 5–6 — GLACIER ADVENTURES & GEOTHERMAL RELAXATION",
+      description1:
+"Your Icelandic adventure continues with an exhilarating snowmobiling experience across Langjökull Glacier, the country’s second-largest ice cap. Riding across the vast white landscape offers sweeping views of Iceland’s highland wilderness.\n\nLater, explore the legendary Golden Circle, visiting iconic natural wonders including the erupting Strokkur geyser and the majestic Gullfoss waterfall.\n\nOn your final day, experience one of Iceland’s most unique natural phenomena—snorkeling in the crystal-clear waters of Silfra, where you swim between the tectonic plates of North America and Eurasia.\n\nThe journey concludes with a luxurious VIP soak at the Blue Lagoon, Iceland’s famous geothermal spa, where mineral-rich waters provide the perfect moment of relaxation before your private transfer to the airport for departure.",
+      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block04.webp",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "THE EDITION REYKJAVÍK – REYKJAVÍK",
+      image: "/images/packages/NORDIC_LEGENDS_ICELAND_Hotel01.webp",
+      desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
+    },
+    {
+      name: "TORFHÚS RETREAT – ÞÓRSMÖRK REGION",
+      image: "/images/packages/NORDIC_LEGENDS_ICELAND_Hotel02.webp",
+      desc: "A unique luxury lodge inspired by traditional Icelandic turf houses, featuring private geothermal pools and breathtaking mountain views.",
+    },
+    {
+      name: "THE RETREAT AT BLUE LAGOON – GRINDAVÍK",
+      image: "/images/packages/NORDIC_LEGENDS_ICELAND_Hotel03.webp",
+      desc: "One of Iceland’s most exclusive spa hotels, offering private lagoon access, serene suites, and immersive geothermal wellness experiences.",
+    }
+  ],
+
+  similarPackages: [
+     {
+slug: "iceland",
+packageSlug: "FIRE_ICE_SILENCE_ICELAND",
+title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.",
+},
+     },
+{
+slug: "iceland",
+packageSlug: "CHASING_AURORA_ESCAPE",
+title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
+},
+     }
+
+  ]
+},
+
+// iceland package 2
+{
+  slug: "iceland",
+  packageSlug: "FIRE_ICE_SILENCE_ICELAND",
+  title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+  heroImage: "/images/packages/SAGA_FIRE_ICE_SILENCE_HERO.webp",
+
+  heroMeta: {
+    country: "ICELAND",
+    headline: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+    when: "May – September",
+    price: {
+      label: "$18,900 per person (excluding international flights)",
+    },
+    duration: "9 Nights",
+  },
+
+  intro:
+"This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.\n\nBeginning in Reykjavík, Iceland’s vibrant Nordic capital, guests are welcomed into a world shaped by ancient volcanic forces and breathtaking natural beauty. Exclusive experiences introduce travelers to Iceland’s geological wonders, including a descent into a dormant volcano’s magma chamber and scenic helicopter flights above lava fields and glaciers.\n\nThe journey then ventures deep into the Icelandic highlands and along the dramatic south coast, where waterfalls, glaciers, and geothermal landscapes define the country’s raw beauty.\n\nContinuing north to the remote wilderness of Deplar Farm, guests experience Iceland’s Arctic frontier through curated adventure experiences before concluding with relaxation at the iconic Blue Lagoon Retreat—one of the country’s most celebrated luxury spa destinations.",
+
+  sections: [
+    {
+      title1: "DAY 1–2 — REYKJAVÍK: VOLCANOES & HELICOPTER VIEWS",
+      description1:
+"Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s stylish Nordic capital.\n\nAfter settling into your hotel, the evening begins with a refined gourmet dining experience showcasing modern Icelandic cuisine inspired by local seafood, lamb, and seasonal ingredients.\n\nThe following day introduces one of Iceland’s most extraordinary geological experiences—a guided descent into a dormant volcano magma chamber, where visitors enter the vast interior of an ancient volcanic crater.\n\nLater, enjoy a spectacular private helicopter flight above Iceland’s lava fields and volcanic landscapes, offering breathtaking aerial views of glaciers, mountains, and rugged coastline that reveal the powerful forces shaping the island.",
+      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block01.webp",
+    },
+
+    {
+      title1: "DAY 3–4 — HIGHLANDS ADVENTURE & SOUTH COAST GLACIERS",
+      description1:
+"Depart Reykjavík in a specially modified Super-Jeep, designed to navigate Iceland’s rugged highland terrain as you journey into the dramatic wilderness of the interior.\n\nYour destination is the extraordinary Torfhús Retreat, a luxury lodge inspired by traditional Icelandic turf houses and surrounded by mountain landscapes and pristine nature.\n\nThe following day explores Iceland’s famous South Coast, where towering waterfalls cascade from volcanic cliffs and vast glaciers dominate the horizon.\n\nVisit iconic sites such as Seljalandsfoss and Skógafoss before embarking on a guided glacier hike across Sólheimajökull, where deep crevasses and shimmering blue ice formations create one of Iceland’s most unforgettable natural experiences.",
+      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block02.webp",
+    },
+
+    {
+      title1: "DAY 5–7 — GOLDEN CIRCLE & ARCTIC WILDERNESS",
+      description1:
+"Today’s journey takes you through the legendary Golden Circle, Iceland’s most famous scenic route.\n\nWitness the erupting Strokkur geyser, explore the historic landscapes of Thingvellir National Park, and enjoy a unique geothermal culinary experience, where lunch is prepared using Iceland’s natural geothermal heat.\n\nFrom Reykjavík, continue north by scenic flight toward Iceland’s remote Arctic region, arriving at the spectacular Deplar Farm, a luxury wilderness lodge set within dramatic mountain landscapes.\n\nOver the following days, enjoy curated Arctic adventures tailored to your interests. Activities may include sea kayaking through quiet fjords, horseback riding across remote valleys, hiking untouched mountain trails, or exploring Iceland’s northern coastline with expert guides.",
+      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block03.webp",
+    },
+
+    {
+      title1: "DAY 8–9 — REYKJANES PENINSULA & BLUE LAGOON RETREAT",
+      description1:
+"Returning south, explore the dramatic volcanic landscapes of the Reykjanes Peninsula, where steaming geothermal fields and black lava plains create one of Iceland’s most surreal environments.\n\nYour final stay is at the exclusive Retreat at Blue Lagoon, a world-renowned luxury spa hotel built within Iceland’s iconic geothermal landscape.\n\nSpend your final day relaxing in the mineral-rich waters of the private lagoon, enjoying spa treatments inspired by Iceland’s volcanic elements, and soaking in the tranquil atmosphere of this remarkable retreat.\n\nThis peaceful finale offers the perfect conclusion to your Iceland expedition before your private transfer to the airport for departure.",
+      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block04.webp",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "THE REYKJAVÍK EDITION – REYKJAVÍK",
+      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel01.webp",
+      desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
+    },
+    {
+      name: "TORFHÚS RETREAT – HIGHLANDS REGION",
+      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel02.webp",
+      desc: "A distinctive luxury lodge inspired by traditional Icelandic turf houses, offering geothermal pools and spectacular mountain surroundings.",
+    },
+    {
+      name: "DEPLAR FARM – NORTHERN ICELAND",
+      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel03.webp",
+      desc: "A remote luxury wilderness lodge renowned for its world-class adventure experiences, wellness spa, and dramatic mountain setting.",
+    },
+    {
+      name: "THE RETREAT AT BLUE LAGOON – REYKJANES",
+      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel04.webp",
+      desc: "One of Iceland’s most exclusive spa hotels offering private lagoon access, serene suites, and immersive geothermal wellness experiences.",
+    }
+  ],
+
+  similarPackages: [
+     {
+slug: "iceland",
+packageSlug: "NORDIC_LEGENDS_ICELAND",
+title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "7 NIGHTS",
+headline: "This extraordinary journey introduces travelers to Iceland’s dramatic landscapes through a carefully curated blend of adventure, nature, and refined comfort."
+}
+},
+{
+slug: "iceland",
+packageSlug: "CHASING_AURORA_ESCAPE",
+title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
+},
+     }
+
+  ]
+},
+
+// iceland package 3
+{
+  slug: "iceland",
+  packageSlug: "CHASING_AURORA_ESCAPE",
+  title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+  heroImage: "/images/packages/CHASING_AURORA_ESCAPE_HERO.webp",
+
+  heroMeta: {
+    country: "ICELAND",
+    headline: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+    when: "November – March",
+    price: {
+      label: "$12,900 per person (excluding international flights)",
+    },
+    duration: "5 Nights",
+  },
+
+  intro:
+"This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.\n\nBeginning in Reykjavík, Iceland’s stylish Nordic capital, guests experience the city’s vibrant culinary culture and contemporary design before venturing into the country’s dramatic winter landscapes.\n\nThe journey then travels through Iceland’s volcanic countryside and remote valleys where geothermal hot springs, glacier landscapes, and vast wilderness create an unforgettable Arctic setting.\n\nDesigned around some of Iceland’s most iconic winter experiences—including glacier adventures, Super-Jeep exploration, and private Northern Lights hunting—this itinerary combines thrilling adventure with the comfort of luxurious wilderness retreats.",
+
+  sections: [
+    {
+      title1: "DAY 1 — ARRIVAL IN REYKJAVÍK & CULINARY DISCOVERY",
+      description1:
+"Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s vibrant Nordic capital.\n\nAfter settling into your hotel, the afternoon offers time to explore Reykjavík’s charming streets, boutique shops, and contemporary Nordic design culture.\n\nIn the evening, join a curated Reykjavík food walk, where a local culinary expert introduces you to the city’s evolving gastronomic scene. Sampling traditional Icelandic dishes alongside modern Nordic cuisine, this experience offers an authentic introduction to Iceland’s culinary heritage.",
+      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block01.webp",
+    },
+
+    {
+      title1: "DAY 2 — BLUE LAGOON & NORTHERN LIGHTS EXPERIENCE",
+      description1:
+"Depart Reykjavík and journey through the dramatic volcanic landscapes of the Reykjanes Peninsula, where steaming geothermal fields and black lava plains create one of Iceland’s most unique environments.\n\nYour first stop is the famous Blue Lagoon, where mineral-rich geothermal waters offer a relaxing spa experience surrounded by striking lava formations.\n\nContinuing into Iceland’s countryside, arrive at the beautiful Torfhús Retreat, a luxury lodge inspired by traditional Icelandic turf houses and set within a tranquil mountain landscape.\n\nAs darkness falls, embark on an exclusive Northern Lights hunt, where expert guides lead you away from light pollution to search for the spectacular aurora borealis dancing across the Arctic sky.",
+      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block02.webp",
+    },
+
+    {
+      title1: "DAY 3 — GOLDEN CIRCLE & GLACIER SUPER-JEEP ADVENTURE",
+      description1:
+"Today’s journey explores Iceland’s legendary Golden Circle, a route that reveals some of the country’s most iconic natural wonders.\n\nWitness the dramatic eruption of the Strokkur geyser, explore the historic landscapes of Thingvellir National Park, and admire the powerful Gullfoss waterfall cascading through a frozen canyon.\n\nThe adventure continues with a thrilling Super-Jeep excursion onto Langjökull Glacier, where vast snow-covered landscapes stretch endlessly across Iceland’s winter highlands.",
+      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block03.webp",
+    },
+
+    {
+      title1: "DAY 4–5 — SOUTH COAST GLACIERS & WINTER WATERFALLS",
+      description1:
+"Travel along Iceland’s spectacular South Coast, where towering waterfalls, volcanic cliffs, and glacial landscapes define one of the country’s most dramatic regions.\n\nVisit the famous Seljalandsfoss and Skógafoss waterfalls, which in winter transform into stunning frozen cascades surrounded by icy formations.\n\nLater, embark on a guided glacier walk across Sólheimajökull, where deep crevasses, shimmering blue ice, and dramatic ridges create an unforgettable Arctic adventure.\n\nYour final day offers a scenic return journey toward Reykjavík before your private transfer to the airport for departure.",
+      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block04.webp",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "THE REYKJAVÍK EDITION – REYKJAVÍK",
+      image: "/images/packages/CHASING_AURORA_ESCAPE_Hotel01.webp",
+      desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
+    },
+    {
+      name: "TORFHÚS RETREAT – SOUTH ICELAND",
+      image: "/images/packages/CHASING_AURORA_ESCAPE_Hotel02.webp",
+      desc: "A distinctive countryside retreat inspired by traditional Icelandic turf houses, offering private geothermal hot tubs and tranquil mountain surroundings.",
+    }
+  ],
+
+  similarPackages: [
+         {
+slug: "iceland",
+packageSlug: "NORDIC_LEGENDS_ICELAND",
+title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "7 NIGHTS",
+headline: "This extraordinary journey introduces travelers to Iceland’s dramatic landscapes through a carefully curated blend of adventure, nature, and refined comfort."
+}
+},
+  {
+slug: "iceland",
+packageSlug: "FIRE_ICE_SILENCE_ICELAND",
+title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.",
+},
+     },
+  ]
+},
+
+// ----------------------------------------------------------------------------------
+// italy package 1 -- THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY   DONE
+{
+  slug: "italy",
+  packageSlug: "DOLCE_VITA_ESCAPE",
+  title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+  heroImage: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-HERO.webp",
+
+  heroMeta: {
+    country: "ITALY",
+    headline: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+    when: "April – October",
+    price: {
+      label: "$10,200 per person (excluding international flights)",
+    },
+    duration: "9 Nights",
+  },
+
+  intro:
+"This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.\n\nBeginning in the heart of Tuscany, guests are immersed in a world of countryside charm, historic towns, and world-renowned wine culture. Private experiences reveal the region’s rich culinary heritage and timeless Italian lifestyle.\n\nThe journey then continues south to Sorrento, where coastal elegance and Mediterranean views define the experience. From charming streets and historic sites to curated wine tastings and cultural exploration, each moment reflects the refined spirit of southern Italy.\n\nConcluding along the Amalfi Coast, travelers experience one of the world’s most breathtaking coastlines through private excursions, scenic drives, and exclusive experiences that embody the true meaning of la dolce vita.",
+
+sections: [
+{
+title1: "DAY 1–3 — TUSCANY: COUNTRYSIDE RETREAT & WINE CULTURE",
+description1:
+"Arrive in Florence, where a private transfer welcomes you before continuing into the rolling landscapes of Tuscany.\n\nYour stay at a luxury countryside estate such as Borgo Pignano offers an immersive introduction to Italy’s rural elegance, surrounded by vineyards, olive groves, and panoramic valley views.\n\nSpend your days at leisure enjoying the estate’s refined amenities, including infinity pools, spa treatments, and curated culinary experiences that highlight seasonal Tuscan ingredients.\n\nExplore the historic towns of Siena and Montalcino, where private wine tastings introduce you to some of Italy’s most celebrated wines, paired with authentic dining experiences that reflect the region’s rich culinary traditions.",
+image1: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-Block01.webp",
+},
+
+{
+title1: "DAY 4–5 — SORRENTO: COASTAL ELEGANCE & LEISURE",
+description1:
+"Travel south toward the Mediterranean, arriving in the charming coastal town of Sorrento.\n\nCheck into a luxury hotel such as Bellevue Syrene, where panoramic sea views and refined interiors create a sophisticated coastal retreat.\n\nYour time in Sorrento is designed for relaxed exploration. Stroll through picturesque streets lined with artisan boutiques, enjoy seaside cafés, and take in the serene beauty of the Bay of Naples.\n\nOptional experiences include private coastal excursions or simply unwinding at the hotel while enjoying the Mediterranean atmosphere.",
+image1: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-Block02.webp",
+},
+
+{
+title1: "DAY 6–7 — CULTURE, WINE & AMALFI COAST",
+description1:
+"Discover the cultural richness of the region with visits to historic sites, monasteries, and hidden gems that reflect southern Italy’s layered heritage.\n\nEnjoy a unique wine tasting experience inside a Roman grotto cellar, offering a distinctive perspective on Italy’s ancient winemaking traditions.\n\nContinue your journey along the legendary Amalfi Coast, arriving in Praiano at an elegant property such as Casa Angelina, where minimalist luxury meets breathtaking coastal views.\n\nSpend your time soaking in the dramatic scenery, enjoying curated dining experiences, and experiencing the relaxed yet refined lifestyle that defines the Amalfi Coast.",
+image1: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-Block03.webp",
+},
+
+{
+title1: "DAY 8–9 — AMALFI COAST EXPLORATION & CULINARY EXPERIENCES",
+description1:
+"Explore the iconic towns of Positano, Ravello, and Amalfi, each offering its own charm, from pastel-coloured cliffside villages to historic villas and panoramic viewpoints.\n\nA highlight of the journey is a private boat experience to Capri, where crystal-clear waters, hidden coves, and dramatic rock formations create an unforgettable coastal adventure.\n\nOn your final day, explore the ancient ruins of Pompeii or Herculaneum, gaining insight into Italy’s fascinating history.\n\nThe experience concludes with a private Neapolitan cooking experience, where traditional recipes and local ingredients come together in an intimate and memorable culinary setting.",
+image1: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-Block04.webp",
+}
+],
+
+hotels: [
+{
+name: "BORGO PIGNANO – TUSCANY",
+image: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-Hotel01.webp",
+desc: "A luxurious countryside estate offering refined rustic elegance, panoramic views, and immersive Tuscan experiences.",
+},
+{
+name: "BELLEVUE SYRENE – SORRENTO",
+image: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-Hotel02.webp",
+desc: "An iconic cliffside hotel known for its historic charm, sea views, and refined Mediterranean hospitality.",
+},
+{
+name: "CASA ANGELINA – PRAIANO",
+image: "/images/packages/THEULTIMATEDOLCEVITAESCAPE-Hotel03.webp",
+desc: "A contemporary luxury retreat offering minimalist design, breathtaking Amalfi Coast views, and an intimate boutique atmosphere.",
+}
+],
+
+similarPackages: [
+{
+slug: "italy",
+packageSlug: "CROWNED_KINGDOM_ROYAL_JOURNEY",
+title: "CROWNED KINGDOM ROYAL JOURNEY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey through England and Scotland celebrates the grandeur of Britain’s royal heritage, combining historic palaces, refined city living, and iconic countryside estates."
+}
+},
+{
+slug: "uk",
+packageSlug: "BIG_SMOKE_TO_WILD_GLENS",
+title: "FROM BIG SMOKE TO WILD GLENS: A GRAND JOURNEY THROUGH BRITAIN",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This grand journey through Britain blends royal heritage, storybook countryside, and dramatic Highland wilderness into an unforgettable luxury travel experience"
+}
+},
+
+]
+
+},
 ];

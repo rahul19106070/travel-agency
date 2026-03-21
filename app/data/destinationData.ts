@@ -193,10 +193,11 @@ export const DESTINATIONS: Destination[] = [
     },
     soloTrips: [
       {
+        slug:"DOLCE_VITA_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+        duration: "9 Nights",
+        description: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
       },
       {
         image: "/images/triple-creek-ranch.avif",
@@ -286,41 +287,27 @@ export const DESTINATIONS: Destination[] = [
     },
     soloTrips: [
       {
+        slug:"EMERALD_ISLES_INDIAN_OCEAN_DREAMS",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY",
+        duration: "12 Nights",
+        description: "This unforgettable Indian Ocean journey blends Sri Lanka’s extraordinary cultural heritage and wildlife with the ultimate barefoot luxury of the Maldives.",
       },
       {
+        slug:"PRIVATE_WELLNESS_ISLES",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE",
+        duration: "7 Nights",
+        description: "This extraordinary wellness journey blends dramatic Arabian landscapes with the pristine island beauty of the Maldives, creating the ultimate spa and beach escape across two of the Indian Ocean’s most breathtaking destinations.",
       },
        {
+        slug:"SONEVA_SIGNATURE_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
+        title: "THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE",
+        duration: "8 Nights",
+        description: "This exceptional Maldivian journey redefines the idea of a tropical escape by combining two of the world’s most celebrated private island resorts into one seamless luxury experience.",
       },
-      {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
-      },
-      {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
-      },
-       {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
-      },
+     
     ],
     topDestinations: [
       {
@@ -822,22 +809,25 @@ export const DESTINATIONS: Destination[] = [
     },
     soloTrips: [
       {
+        slug:"NORDIC_LEGENDS_ICELAND",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+        duration: "6 Nights",
+        description: "This extraordinary journey introduces travelers to Iceland’s dramatic landscapes through a carefully curated blend of adventure, nature, and refined comfort.",
       },
       {
+        slug:"FIRE_ICE_SILENCE_ICELAND",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+        duration: "9 Nights",
+        description: "This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.",
       },
        {
+        slug:"CHASING_AURORA_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
+        title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+        duration: "5 Nights",
+        description: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
       },
       {
         image: "/images/triple-creek-ranch.avif",
