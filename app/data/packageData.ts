@@ -2526,4 +2526,289 @@ headline: "This extraordinary journey through Morocco reveals a captivating blen
 ]
 },
 
+// ----------------------------------------------------------------------------------
+// uk package 1 -- FROM BIG SMOKE TO WILD GLENS: A GRAND JOURNEY THROUGH BRITAIN  DONE-IMG PENDING
+{
+  slug: "uk",
+  packageSlug: "BIG_SMOKE_TO_WILD_GLENS",
+  title: "FROM BIG SMOKE TO WILD GLENS: A GRAND JOURNEY THROUGH BRITAIN",
+  heroImage: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_HERO.webp",
+
+  heroMeta: {
+    country: "UNITED KINGDOM",
+    headline: "FROM BIG SMOKE TO WILD GLENS: A GRAND JOURNEY THROUGH BRITAIN",
+    when: "May – September",
+    price: {
+      label: "$18,900 per person (excluding international flights)",
+    },
+    duration: "14 Nights",
+  },
+
+  intro:
+"This grand journey through Britain blends royal heritage, storybook countryside, and dramatic Highland wilderness into an unforgettable luxury travel experience.\n Beginning in London, travelers explore the capital’s iconic landmarks, world-class museums, and vibrant culinary scene through carefully curated private experiences.\n From there, the journey moves into the idyllic landscapes of the Cotswolds, where charming villages, historic estates, and refined countryside hospitality offer a tranquil escape from the city.\n Continuing north into Scotland, the atmosphere transforms dramatically. Edinburgh’s medieval streets lead into the breathtaking landscapes of the Highlands, where ancient castles, remote glens, and dramatic lochs reveal the wild beauty of Britain’s northern frontier.\n The journey concludes at the legendary Gleneagles estate, where refined hospitality, classic sporting traditions, and Michelin-starred cuisine provide an exceptional finale.",
+
+sections: [
+{
+title1: "DAY 1–3 — LONDON: ROYAL HERITAGE & CITY CULTURE",
+description1:
+"Arrive in London where a private chauffeur greets you for a seamless transfer to your luxury hotel in the heart of the city. After settling in, enjoy the remainder of the day at leisure exploring nearby neighborhoods or relaxing at the hotel.\n The following day introduces you to London’s rich royal history with a privately guided visit to the Tower of London, home to the Crown Jewels and centuries of royal intrigue. Continue to one of the city’s world-renowned museums before spending the evening enjoying a spectacular performance in London’s famous West End theatre district.\n Your final day in the capital includes a curated walking exploration of Westminster, visiting historic landmarks such as Westminster Abbey and Parliament Square before enjoying a private food tour that highlights London’s vibrant culinary scene.",
+image1: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Block01.webp",
+},
+
+{
+title1: "DAY 4–6 — THE COTSWOLDS: ENGLISH COUNTRYSIDE ELEGANCE",
+description1:
+"Depart London for the picturesque landscapes of the Cotswolds. Along the way, visit Windsor Castle, one of the official residences of the British monarchy, before continuing into the rolling countryside.\n Your luxury countryside estate offers the perfect base for discovering the region’s most charming villages including Bibury, Bourton-on-the-Water, and Stow-on-the-Wold.\n A highlight of your stay includes a visit to the magnificent Blenheim Palace, one of England’s most impressive aristocratic estates. Evenings are spent enjoying refined countryside dining and relaxing spa experiences within the tranquil surroundings of your country retreat.\n From here, continue north by first-class train toward Scotland.",
+image1: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Block02.webp",
+},
+
+{
+title1: "DAY 7–11 — EDINBURGH & THE SCOTTISH HIGHLANDS",
+description1:
+"Arrive in Edinburgh, Scotland’s historic capital, where dramatic castle views and cobbled streets create one of Europe’s most atmospheric cities.\n Explore Edinburgh Castle and stroll along the Royal Mile before enjoying a private whisky tasting experience introducing Scotland’s most celebrated spirit.\n Continue north into the Scottish Highlands where vast landscapes of mountains, forests, and glens offer an extraordinary sense of wilderness.\n Highlights include visiting Balmoral Castle, enjoying a traditional Highland picnic in a remote bothy, and exploring the breathtaking landscapes of Glencoe. Outdoor adventures such as kayaking across Loch Shiel and scenic hikes reveal the raw beauty of Scotland’s natural environment.",
+image1: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Block03.webp",
+},
+
+{
+title1: "DAY 12–14 — GLENEAGLES: SCOTTISH ESTATE LIVING",
+description1:
+"Your final destination is Gleneagles, one of the world’s most celebrated luxury estates.\n Set within the rolling landscapes of Perthshire, the estate offers a refined countryside lifestyle with activities including falconry, archery, horseback riding, and championship golf.\n Guests may also relax at the estate’s renowned spa or explore the surrounding countryside before enjoying an exceptional Michelin-starred dining experience showcasing Scotland’s finest seasonal ingredients.\n This elegant retreat provides the perfect grand finale to your journey through Britain before your departure.",
+image1: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "THE SAVOY – LONDON",
+image: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Hotel01.webp",
+desc: "A legendary riverside hotel offering timeless British elegance and exceptional service.",
+},
+{
+name: "ESTELLE MANOR – COTSWOLDS",
+image: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Hotel02.webp",
+desc: "A luxurious countryside estate blending historic charm with contemporary refinement.",
+},
+{
+name: "THE BALMORAL – EDINBURGH",
+image: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Hotel03.webp",
+desc: "An iconic Scottish hotel overlooking Edinburgh Castle with refined hospitality and heritage.",
+},
+{
+name: "GLENEAGLES – PERTHSHIRE",
+image: "/images/packages/BIG_SMOKE_TO_WILD_GLENS_United_Kingdom_Hotel04.webp",
+desc: "One of the world’s most celebrated luxury estates offering exceptional sporting experiences and Michelin-starred dining.",
+}
+],
+
+similarPackages: [
+{
+slug: "uk",
+packageSlug: "CROWNED_KINGDOM_ROYAL_JOURNEY",
+title: "CROWNED KINGDOM ROYAL JOURNEY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey through England and Scotland celebrates the grandeur of Britain’s royal heritage, combining historic palaces, refined city living, and iconic countryside estates."
+}
+},
+{
+slug: "uk",
+packageSlug: "DOWNTON_TO_MAYFAIR",
+title: "DOWNTON TO MAYFAIR: A QUINTESSENTIAL ENGLISH LIFESTYLE ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 NIGHTS",
+headline: "This elegant journey offers a refined introduction to the English countryside and the sophisticated lifestyle of London."
+}
+},
+]
+},
+
+// UK PACKAGE 2 -- THE CROWNED KINGDOM: AN ENGLAND & SCOTLAND ROYAL JOURNEY      DONE
+{
+  slug: "uk",
+  packageSlug: "CROWNED_KINGDOM_ROYAL_JOURNEY",
+  title: "THE CROWNED KINGDOM: AN ENGLAND & SCOTLAND ROYAL JOURNEY",
+  heroImage: "/images/packages/CROWN&COUNTRYSIDEALONDON-HERO.webp",
+
+  heroMeta: {
+    country: "UNITED KINGDOM",
+    headline: "THE CROWNED KINGDOM: AN ENGLAND & SCOTLAND ROYAL JOURNEY",
+    when: "May – September",
+    price: {
+      label: "$15,800 per person (excluding international flights)",
+    },
+    duration: "9 Nights",
+  },
+
+  intro:
+"This elegant journey through England and Scotland celebrates the grandeur of Britain’s royal heritage, combining historic palaces, refined city living, and iconic countryside estates.\n Beginning in London, travelers discover the city’s royal landmarks, prestigious fashion houses, and historic riverside districts through carefully curated private experiences.\n From the elegance of Mayfair and Kensington to a scenic Thames journey past historic palaces and gardens, the first part of the journey offers a deep immersion into the traditions of Britain’s monarchy.\n The adventure then continues north to Scotland, where the legendary Gleneagles estate introduces the world of Scottish country pursuits, from fly fishing and golf to dramatic Highland landscapes.\n The journey concludes in Edinburgh, one of Europe’s most atmospheric capitals, where medieval streets, royal residences, and breathtaking castle views provide the perfect finale.",
+
+sections: [
+{
+title1: "DAY 1–3 — LONDON: ROYAL LIFESTYLE & PRIVATE CITY EXPERIENCES",
+description1:
+"Arrive in London where a private chauffeur welcomes you for a seamless transfer to your luxury hotel in Mayfair, one of the city’s most prestigious districts.\n After settling in, enjoy time at leisure exploring elegant boutiques, private members’ clubs, and refined dining establishments that define London’s sophisticated lifestyle.\n The following day focuses on London’s royal heritage with a privately guided exploration of the city’s most famous royal residences including Buckingham Palace and Kensington Palace. These historic landmarks reveal centuries of British royal history while offering remarkable architectural beauty.\n Your third day introduces London’s celebrated fashion heritage with visits to prestigious fashion houses and bespoke ateliers. A private designer consultation offers insight into the craftsmanship and artistry behind Britain’s luxury fashion industry.",
+image1: "/images/packages/CROWN&COUNTRYSIDEALONDON-Block01.webp",
+},
+
+{
+title1: "DAY 4–5 — THE THAMES & JOURNEY TO SCOTLAND",
+description1:
+"Today experience London from a unique perspective with a private journey along the River Thames. This elegant cruise reveals historic riverside landmarks including Hampton Court Palace, Richmond, and the beautiful botanical gardens of Kew.\n These riverside districts offer a peaceful contrast to central London while showcasing some of England’s most historic royal landscapes.\n The following day depart London and travel north toward Scotland, arriving at the legendary Gleneagles estate. Nestled within the rolling countryside of Perthshire, this celebrated retreat is renowned for its exceptional hospitality and classic Scottish elegance.",
+image1: "/images/packages/CROWN&COUNTRYSIDEALONDON-Block02.webp",
+},
+
+{
+title1: "DAY 6–7 — GLENEAGLES: SCOTTISH ESTATE LIFE",
+description1:
+"Your stay at Gleneagles introduces the traditions of Scottish country estate living.\n Guests may choose from a variety of classic countryside pursuits including fly fishing on Highland rivers, clay shooting, archery, or championship golf across the estate’s famous courses.\n Beyond these activities, the surrounding landscapes reveal beautiful lochs, rolling hills, and historic estates that have inspired countless royal visits and cinematic settings — including locations featured in the acclaimed series The Crown.\n These experiences offer a deeper connection to Scotland’s heritage while enjoying the comfort and refinement of one of Britain’s most celebrated luxury estates.",
+image1: "/images/packages/CROWN&COUNTRYSIDEALONDON-Block03.webp",
+},
+
+{
+title1: "DAY 8–9 — ST ANDREWS & EDINBURGH: SCOTTISH CAPITAL FINALE",
+description1:
+"Depart Gleneagles and travel east toward the historic coastal town of St Andrews, widely regarded as the home of golf. Explore the famous Old Course and stroll through the charming university town before continuing onward to Edinburgh.\n In Scotland’s capital, discover one of Europe’s most atmospheric historic cities. Visit Edinburgh Castle perched dramatically above the city skyline and walk along the historic Royal Mile lined with medieval architecture and hidden courtyards.\n Your final evening offers the opportunity to enjoy Scotland’s exceptional cuisine and whisky culture before concluding your royal journey through Britain.",
+image1: "/images/packages/CROWN&COUNTRYSIDEALONDON-Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "THE CONNAUGHT – LONDON",
+image: "/images/packages/CROWN&COUNTRYSIDEALONDON-Hotel01.webp",
+desc: "A legendary Mayfair hotel known for its refined British elegance, exceptional service, and world-renowned dining.",
+},
+{
+name: "GLENEAGLES – PERTHSHIRE",
+image: "/images/packages/CROWN&COUNTRYSIDEALONDON-Hotel02.webp",
+desc: "One of the world’s most celebrated luxury estates offering classic Scottish country pursuits and exceptional hospitality.",
+},
+{
+name: "THE BALMORAL – EDINBURGH",
+image: "/images/packages/CROWN&COUNTRYSIDEALONDON-Hotel03.webp",
+desc: "An iconic Scottish hotel overlooking Edinburgh Castle, combining historic grandeur with contemporary luxury.",
+}
+],
+
+similarPackages: [
+{
+slug: "uk",
+packageSlug: "BIG_SMOKE_TO_WILD_GLENS",
+title: "FROM BIG SMOKE TO WILD GLENS: A GRAND JOURNEY THROUGH BRITAIN",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This grand journey through Britain blends royal heritage, storybook countryside, and dramatic Highland wilderness into an unforgettable luxury travel experience"
+}
+},
+{
+slug: "uk",
+packageSlug: "DOWNTON_TO_MAYFAIR",
+title: "DOWNTON TO MAYFAIR: A QUINTESSENTIAL ENGLISH LIFESTYLE ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "6 NIGHTS",
+headline: "This elegant journey offers a refined introduction to the English countryside and the sophisticated lifestyle of London."
+}
+},
+]
+},
+
+// uk package 3 -- DOWNTON TO MAYFAIR: A QUINTESSENTIAL ENGLISH LIFESTYLE ESCAPE    DONE-IMG PENDING
+{
+  slug: "uk",
+  packageSlug: "DOWNTON_TO_MAYFAIR",
+  title: "DOWNTON TO MAYFAIR: A QUINTESSENTIAL ENGLISH LIFESTYLE ESCAPE",
+  heroImage: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_HERO.webp",
+
+  heroMeta: {
+    country: "ENGLAND",
+    headline: "DOWNTON TO MAYFAIR: A QUINTESSENTIAL ENGLISH LIFESTYLE ESCAPE",
+    when: "April – October",
+    price: {
+      label: "$9,800 per person (excluding international flights)",
+    },
+    duration: "6 Nights",
+  },
+
+  intro:
+"This elegant journey offers a refined introduction to the English countryside and the sophisticated lifestyle of London.\n Beginning in the rolling landscapes of rural England, travelers are welcomed into a world of historic estates, charming villages, and timeless traditions. Private experiences at Highclere Castle—known globally as the setting of Downton Abbey—reveal the grandeur of aristocratic country life.\n The journey then continues through Oxfordshire’s picturesque countryside, where boutique manor hotels, village tea rooms, and tranquil gardens showcase the charm of rural England.\n Concluding in London’s prestigious Mayfair district, guests experience the capital’s refined shopping arcades, historic streets, and iconic River Thames through curated private experiences that celebrate British elegance.",
+
+sections: [
+{
+title1: "DAY 1–2 — ENGLISH COUNTRYSIDE & HIGHCLERE CASTLE",
+description1:
+"Arrive in London where a private chauffeur greets you before beginning your journey into the English countryside in a classic vintage car. Rolling landscapes, charming stone villages, and historic estates create the perfect introduction to rural England.\n Your countryside retreat offers refined comfort and tranquil surroundings where you can unwind with a seasonal fine-dining experience featuring locally sourced British ingredients.\n The following day is dedicated to one of England’s most celebrated historic estates—Highclere Castle, famously known as the filming location for Downton Abbey. Enjoy a private guided tour of the castle and its grand interiors before experiencing traditional countryside pursuits such as clay shooting on the estate grounds.",
+image1: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_Block01.webp",
+},
+
+{
+title1: "DAY 3 — OXFORDSHIRE: COUNTRY MANORS & VILLAGE LIFE",
+description1:
+"Travel through Oxfordshire’s picturesque countryside where elegant manor houses and peaceful gardens define the region’s charm.\n Your stay at the renowned Le Manoir aux Quat’Saisons introduces the refined hospitality of one of England’s most celebrated boutique country hotels.\n Spend the day exploring nearby villages, strolling along quiet lanes lined with stone cottages, and enjoying traditional tea rooms that capture the essence of English countryside culture.",
+image1: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_Block02.webp",
+},
+
+{
+title1: "DAY 4–5 — LONDON: MAYFAIR ELEGANCE & ROYAL HERITAGE",
+description1:
+"Depart the countryside and arrive in London where you check into a luxury hotel in the prestigious Mayfair district.\n The following day is dedicated to discovering London’s refined shopping and cultural heritage. Stroll through Burlington Arcade—one of the city’s most elegant historic shopping galleries—before visiting renowned British luxury brands and boutiques.\n A private historian-led walking experience reveals the fascinating stories behind Mayfair’s historic streets, grand townhouses, and royal connections.",
+image1: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_Block03.webp",
+},
+
+{
+title1: "DAY 6 — THE THAMES: CLASSIC LONDON FINALE",
+description1:
+"Your final day in London offers a relaxing yet memorable conclusion to the journey.\n Board a vintage boat for a private cruise along the River Thames, passing some of the city’s most iconic landmarks including Tower Bridge, the Houses of Parliament, and St Paul’s Cathedral.\n As the evening skyline illuminates the riverbanks, enjoy a refined dinner experience aboard the vessel while taking in panoramic views of London’s historic skyline.\n This elegant finale perfectly captures the timeless charm of England before your departure.",
+image1: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_Block04.webp",
+}
+
+],
+
+hotels: [
+{
+name: "COWORTH PARK – BERKSHIRE",
+image: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_Hotel01.webp",
+desc: "A refined countryside estate offering elegant rooms, peaceful gardens, and exceptional English hospitality.",
+},
+{
+name: "LE MANOIR AUX QUAT’SAISONS – OXFORDSHIRE",
+image: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_Hotel02.webp",
+desc: "A world-renowned country house hotel celebrated for its gardens, Michelin-starred cuisine, and boutique luxury atmosphere.",
+},
+{
+name: "CLARIDGE’S – LONDON",
+image: "/images/packages/DOWNTON_TO_MAYFAIR_ESCAPE_England_Hotel03.webp",
+desc: "An iconic Mayfair hotel known for its Art Deco elegance, exceptional service, and prestigious London location.",
+}
+],
+
+similarPackages: [
+{
+slug: "uk",
+packageSlug: "CROWNED_KINGDOM_ROYAL_JOURNEY",
+title: "CROWNED KINGDOM ROYAL JOURNEY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey through England and Scotland celebrates the grandeur of Britain’s royal heritage, combining historic palaces, refined city living, and iconic countryside estates."
+}
+},
+{
+slug: "uk",
+packageSlug: "BIG_SMOKE_TO_WILD_GLENS",
+title: "FROM BIG SMOKE TO WILD GLENS: A GRAND JOURNEY THROUGH BRITAIN",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This grand journey through Britain blends royal heritage, storybook countryside, and dramatic Highland wilderness into an unforgettable luxury travel experience"
+}
+},
+
+]
+},
 ];
