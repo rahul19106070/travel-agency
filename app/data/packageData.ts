@@ -2815,12 +2815,12 @@ headline: "This grand journey through Britain blends royal heritage, storybook c
 
 // --------------------------------------------------------------------------------------------------------
 
-// maldives package 1 -- EMERALD ISLES & INDIAN OCEAN DREAMS    DONE-IMG PENDING
+// maldives package 1 -- EMERALD ISLES & INDIAN OCEAN DREAMS    --   DONE
 {
   slug: "maldives",
   packageSlug: "EMERALD_ISLES_INDIAN_OCEAN_DREAMS",
   title: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOURNEY",
-  heroImage: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_HERO.webp",
+  heroImage: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-HERO.webp",
 
   heroMeta: {
     country: "SRI LANKA & MALDIVES",
@@ -2840,52 +2840,52 @@ sections: [
 title1: "DAY 1–3 — SRI LANKA CULTURAL TRIANGLE: ANCIENT KINGDOMS & HERITAGE",
 description1:
 "Your journey begins in Sri Lanka where a private chauffeur greets you upon arrival and escorts you north into the Cultural Triangle — home to some of the island’s most remarkable historic monuments.\n\nYour retreat at Ulagalla is set amid tranquil rice paddies and lush countryside, offering peaceful surroundings and private villas with plunge pools.\n\nOver the next days, explore Sri Lanka’s ancient civilizations with visits to UNESCO-listed heritage sites including the extraordinary rock fortress of Sigiriya and the sacred temple complexes of the ancient capitals.\n\nEvenings are spent relaxing in the serenity of your villa, watching the sun set over the surrounding countryside.",
-image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block01.webp",
+image1: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Block01.webp",
 },
 
 {
 title1: "DAY 4–5 — TEA COUNTRY: COLONIAL BUNGALOWS & HIGHLAND LANDSCAPES",
 description1:
 "Continue inland to the cool highlands of Sri Lanka’s celebrated tea country.\n\nHere the landscapes transform into rolling hills carpeted in vibrant tea plantations. Your stay at the renowned Tea Trails estate introduces the elegance of Sri Lanka’s colonial heritage through beautifully restored plantation bungalows.\n\nSpend your days exploring the surrounding tea estates, learning about the art of tea production, or enjoying leisurely walks through the scenic hillsides.\n\nAfternoons invite relaxation with croquet on manicured lawns, afternoon tea overlooking the plantations, and refined dining in the warm atmosphere of these historic homes.",
-image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block02.webp",
+image1: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Block02.webp",
 },
 
 {
 title1: "DAY 6–8 — YALA NATIONAL PARK & GALLE: WILDLIFE SAFARI & COLONIAL HISTORY",
 description1:
 "Your journey continues southeast to the dramatic coastal wilderness of Yala National Park, home to one of the highest concentrations of leopards in the world.\n\nStay at the remarkable Wild Coast Tented Lodge where luxury tented suites blend seamlessly with the surrounding natural environment.\n\nPrivate safari drives reveal a remarkable diversity of wildlife including elephants, sloth bears, crocodiles, and abundant birdlife.\n\nFrom Yala travel to the historic coastal town of Galle where centuries of Portuguese, Dutch, and British history have shaped one of Asia’s most beautiful fortified cities.\n\nWithin the walls of the Dutch fort, explore charming streets, colonial architecture, and vibrant boutiques before relaxing at the iconic Amangalla hotel.",
-image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block03.webp",
+image1: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Block03.webp",
 },
 
 {
 title1: "DAY 9–12 — MALDIVES: PRIVATE ISLAND LUXURY",
 description1:
 "Conclude your journey with a short flight to the Maldives where turquoise lagoons and white sand beaches create one of the world’s most idyllic island escapes.\n\nArrive by seaplane or speedboat at the legendary Gili Lankanfushi resort — a sanctuary of barefoot luxury surrounded by crystal-clear waters.\n\nYour overwater villa offers total privacy with direct access to the lagoon and panoramic views across the Indian Ocean.\n\nSpend your days snorkeling vibrant coral reefs, enjoying spa treatments above the water, or simply relaxing on your private deck.\n\nFor ultimate seclusion, the resort’s iconic Crusoe Residences offer private island-style villas accessible only by boat — the perfect setting to end this extraordinary Indian Ocean journey.",
-image1: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Block04.webp",
+image1: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Block04.webp",
 }
 ],
 
 hotels: [
 {
 name: "ULAGALLA – CULTURAL TRIANGLE",
-image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel01.webp",
+image: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Hotel01.webp",
 desc: "A tranquil luxury retreat surrounded by rice paddies offering private villas and serene countryside views.",
 },
 {
 name: "CEYLON TEA TRAILS – TEA COUNTRY",
-image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel02.webp",
+image: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Hotel02.webp",
 desc: "Elegant colonial plantation bungalows set amid Sri Lanka’s breathtaking tea estates.",
 },
 {
 name: "WILD COAST TENTED LODGE – YALA",
-image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel03.webp",
+image: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Hotel03.webp",
 desc: "A unique luxury safari lodge offering immersive wildlife experiences along Sri Lanka’s southern coastline.",
 },
-{
-name: "GILI LANKANFUSHI – MALDIVES",
-image: "/images/packages/EMERALD_ISLES_INDIAN_OCEAN_DREAMS_Hotel04.webp",
-desc: "One of the Maldives’ most celebrated private island resorts offering exceptional overwater villas and barefoot luxury.",
-}
+// {
+// name: "GILI LANKANFUSHI – MALDIVES",
+// image: "/images/packages/EMERALDISLES&INDIANOCEANDREAMS-Hotel04.webp",
+// desc: "One of the Maldives’ most celebrated private island resorts offering exceptional overwater villas and barefoot luxury.",
+// }
 ],
 
 similarPackages: [
@@ -3093,12 +3093,12 @@ headline: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOU
 },
 
 // -----------------------------------------------------------------------------------------
-// iceland package1
+// iceland package1  NORDIC LEGENDS -- DONE
 {
   slug: "iceland",
   packageSlug: "NORDIC_LEGENDS_ICELAND",
   title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
-  heroImage: "/images/packages/NORDIC_LEGENDS_ICELAND_HERO.webp",
+  heroImage: "/images/packages/NORDICLEGENDS-HERO.webp",
 
   heroMeta: {
     country: "ICELAND",
@@ -3118,45 +3118,45 @@ headline: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOU
       title1: "DAY 1 — ARRIVAL IN REYKJAVÍK & LAVA FIELD ADVENTURE",
       description1:
 "Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s vibrant capital.\n\nAfter settling into your hotel, your adventure begins with an exhilarating quad biking experience across the Reykjanes Peninsula’s volcanic lava fields. Riding through dramatic black landscapes formed by ancient eruptions, you explore rugged terrain, steaming geothermal vents, and coastal cliffs that showcase Iceland’s remarkable geology.\n\nThe evening is yours to enjoy Reykjavík’s charming Nordic atmosphere. Stroll through the colorful harbour district or enjoy a refined dining experience featuring Icelandic seafood and seasonal Nordic cuisine.",
-      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block01.webp",
+      image1: "/images/packages/NORDICLEGENDS-Block01.webp",
     },
 
     {
       title1: "DAY 2 — WHALE WATCHING & ICELANDIC HORSE RIDING",
       description1:
 "Today introduces you to Iceland’s remarkable wildlife and countryside traditions.\n\nBegin with a private whale watching experience in Faxaflói Bay, one of the country’s most active marine habitats. Guided by local experts, observe humpback whales, minke whales, and dolphins as they surface against a backdrop of distant mountains and open ocean.\n\nLater in the day, experience Iceland’s countryside through one of its most iconic traditions—riding the Icelandic horse. Known for its gentle temperament and unique gait, this ancient breed offers a peaceful way to explore volcanic landscapes and open valleys.\n\nAlternatively, adventurous travelers may visit a nearby volcanic crater for a guided geological exploration.",
-      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block02.webp",
+      image1: "/images/packages/NORDICLEGENDS-Block02.webp",
     },
 
     {
       title1: "DAY 3–4 — ÞÓRSMÖRK VALLEY & GLACIER EXPLORATION",
       description1:
 "Depart Reykjavík in a specially modified Super-Jeep designed to navigate Iceland’s rugged terrain as you journey toward the spectacular Þórsmörk Valley.\n\nSurrounded by glaciers, volcanic ridges, and braided rivers, this remote region is considered one of Iceland’s most breathtaking natural landscapes.\n\nYour stay at the exclusive Torfhús Retreat offers an authentic yet luxurious Icelandic experience inspired by traditional turf houses. Private geothermal hot tubs and panoramic mountain views create a serene atmosphere immersed in nature.\n\nThe following day brings a guided exploration of Sólheimajökull Glacier, where expert guides lead you across ancient ice formations, deep crevasses, and dramatic glacial ridges while sharing insights into Iceland’s fascinating glacial landscapes.",
-      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block03.webp",
+      image1: "/images/packages/NORDICLEGENDS-Block03.webp",
     },
 
     {
       title1: "DAY 5–6 — GLACIER ADVENTURES & GEOTHERMAL RELAXATION",
       description1:
 "Your Icelandic adventure continues with an exhilarating snowmobiling experience across Langjökull Glacier, the country’s second-largest ice cap. Riding across the vast white landscape offers sweeping views of Iceland’s highland wilderness.\n\nLater, explore the legendary Golden Circle, visiting iconic natural wonders including the erupting Strokkur geyser and the majestic Gullfoss waterfall.\n\nOn your final day, experience one of Iceland’s most unique natural phenomena—snorkeling in the crystal-clear waters of Silfra, where you swim between the tectonic plates of North America and Eurasia.\n\nThe journey concludes with a luxurious VIP soak at the Blue Lagoon, Iceland’s famous geothermal spa, where mineral-rich waters provide the perfect moment of relaxation before your private transfer to the airport for departure.",
-      image1: "/images/packages/NORDIC_LEGENDS_ICELAND_Block04.webp",
+      image1: "/images/packages/NORDICLEGENDS-Block04.webp",
     }
   ],
 
   hotels: [
     {
       name: "THE EDITION REYKJAVÍK – REYKJAVÍK",
-      image: "/images/packages/NORDIC_LEGENDS_ICELAND_Hotel01.webp",
+      image: "/images/packages/NORDICLEGENDS-Hotel01.webp",
       desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
     },
     {
       name: "TORFHÚS RETREAT – ÞÓRSMÖRK REGION",
-      image: "/images/packages/NORDIC_LEGENDS_ICELAND_Hotel02.webp",
+      image: "/images/packages/NORDICLEGENDS-Hotel02.webp",
       desc: "A unique luxury lodge inspired by traditional Icelandic turf houses, featuring private geothermal pools and breathtaking mountain views.",
     },
     {
       name: "THE RETREAT AT BLUE LAGOON – GRINDAVÍK",
-      image: "/images/packages/NORDIC_LEGENDS_ICELAND_Hotel03.webp",
+      image: "/images/packages/NORDICLEGENDS-Hotel03.webp",
       desc: "One of Iceland’s most exclusive spa hotels, offering private lagoon access, serene suites, and immersive geothermal wellness experiences.",
     }
   ],
@@ -3181,17 +3181,27 @@ heroMeta: {
 duration: "5 NIGHTS",
 headline: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
 },
+     },
+     {
+slug: "iceland",
+packageSlug: "ICELAND_FROM_ABOVE",
+title: "ICELAND FROM ABOVE: HELICOPTER ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This extraordinary journey reveals Iceland from a unique perspective—high above its glaciers, volcanoes, and dramatic landscapes.",
+},
      }
 
   ]
 },
 
-// iceland package 2
+// iceland package 2  SAGA OF FIRE, ICE --- DONE
 {
   slug: "iceland",
   packageSlug: "FIRE_ICE_SILENCE_ICELAND",
   title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
-  heroImage: "/images/packages/SAGA_FIRE_ICE_SILENCE_HERO.webp",
+  heroImage: "/images/packages/SAGAOFFIRE,ICE&SILENCE-HERO.webp",
 
   heroMeta: {
     country: "ICELAND",
@@ -3211,52 +3221,52 @@ headline: "This winter journey reveals Iceland in its most magical season, when 
       title1: "DAY 1–2 — REYKJAVÍK: VOLCANOES & HELICOPTER VIEWS",
       description1:
 "Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s stylish Nordic capital.\n\nAfter settling into your hotel, the evening begins with a refined gourmet dining experience showcasing modern Icelandic cuisine inspired by local seafood, lamb, and seasonal ingredients.\n\nThe following day introduces one of Iceland’s most extraordinary geological experiences—a guided descent into a dormant volcano magma chamber, where visitors enter the vast interior of an ancient volcanic crater.\n\nLater, enjoy a spectacular private helicopter flight above Iceland’s lava fields and volcanic landscapes, offering breathtaking aerial views of glaciers, mountains, and rugged coastline that reveal the powerful forces shaping the island.",
-      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block01.webp",
+      image1: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Block01.webp",
     },
 
     {
       title1: "DAY 3–4 — HIGHLANDS ADVENTURE & SOUTH COAST GLACIERS",
       description1:
 "Depart Reykjavík in a specially modified Super-Jeep, designed to navigate Iceland’s rugged highland terrain as you journey into the dramatic wilderness of the interior.\n\nYour destination is the extraordinary Torfhús Retreat, a luxury lodge inspired by traditional Icelandic turf houses and surrounded by mountain landscapes and pristine nature.\n\nThe following day explores Iceland’s famous South Coast, where towering waterfalls cascade from volcanic cliffs and vast glaciers dominate the horizon.\n\nVisit iconic sites such as Seljalandsfoss and Skógafoss before embarking on a guided glacier hike across Sólheimajökull, where deep crevasses and shimmering blue ice formations create one of Iceland’s most unforgettable natural experiences.",
-      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block02.webp",
+      image1: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Block02.webp",
     },
 
     {
       title1: "DAY 5–7 — GOLDEN CIRCLE & ARCTIC WILDERNESS",
       description1:
 "Today’s journey takes you through the legendary Golden Circle, Iceland’s most famous scenic route.\n\nWitness the erupting Strokkur geyser, explore the historic landscapes of Thingvellir National Park, and enjoy a unique geothermal culinary experience, where lunch is prepared using Iceland’s natural geothermal heat.\n\nFrom Reykjavík, continue north by scenic flight toward Iceland’s remote Arctic region, arriving at the spectacular Deplar Farm, a luxury wilderness lodge set within dramatic mountain landscapes.\n\nOver the following days, enjoy curated Arctic adventures tailored to your interests. Activities may include sea kayaking through quiet fjords, horseback riding across remote valleys, hiking untouched mountain trails, or exploring Iceland’s northern coastline with expert guides.",
-      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block03.webp",
+      image1: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Block03.webp",
     },
 
     {
       title1: "DAY 8–9 — REYKJANES PENINSULA & BLUE LAGOON RETREAT",
       description1:
 "Returning south, explore the dramatic volcanic landscapes of the Reykjanes Peninsula, where steaming geothermal fields and black lava plains create one of Iceland’s most surreal environments.\n\nYour final stay is at the exclusive Retreat at Blue Lagoon, a world-renowned luxury spa hotel built within Iceland’s iconic geothermal landscape.\n\nSpend your final day relaxing in the mineral-rich waters of the private lagoon, enjoying spa treatments inspired by Iceland’s volcanic elements, and soaking in the tranquil atmosphere of this remarkable retreat.\n\nThis peaceful finale offers the perfect conclusion to your Iceland expedition before your private transfer to the airport for departure.",
-      image1: "/images/packages/SAGA_FIRE_ICE_SILENCE_Block04.webp",
+      image1: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Block04.webp",
     }
   ],
 
   hotels: [
     {
       name: "THE REYKJAVÍK EDITION – REYKJAVÍK",
-      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel01.webp",
+      image: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Hotel01.webp",
       desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
     },
     {
       name: "TORFHÚS RETREAT – HIGHLANDS REGION",
-      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel02.webp",
+      image: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Hotel02.webp",
       desc: "A distinctive luxury lodge inspired by traditional Icelandic turf houses, offering geothermal pools and spectacular mountain surroundings.",
     },
     {
       name: "DEPLAR FARM – NORTHERN ICELAND",
-      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel03.webp",
+      image: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Hotel03.webp",
       desc: "A remote luxury wilderness lodge renowned for its world-class adventure experiences, wellness spa, and dramatic mountain setting.",
     },
-    {
-      name: "THE RETREAT AT BLUE LAGOON – REYKJANES",
-      image: "/images/packages/SAGA_FIRE_ICE_SILENCE_Hotel04.webp",
-      desc: "One of Iceland’s most exclusive spa hotels offering private lagoon access, serene suites, and immersive geothermal wellness experiences.",
-    }
+    // {
+    //   name: "THE RETREAT AT BLUE LAGOON – REYKJANES",
+    //   image: "/images/packages/SAGAOFFIRE,ICE&SILENCE-Hotel04.webp",
+    //   desc: "One of Iceland’s most exclusive spa hotels offering private lagoon access, serene suites, and immersive geothermal wellness experiences.",
+    // }
   ],
 
   similarPackages: [
@@ -3279,17 +3289,27 @@ heroMeta: {
 duration: "5 NIGHTS",
 headline: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
 },
+     },
+         {
+slug: "iceland",
+packageSlug: "ICELAND_FROM_ABOVE",
+title: "ICELAND FROM ABOVE: HELICOPTER ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This extraordinary journey reveals Iceland from a unique perspective—high above its glaciers, volcanoes, and dramatic landscapes.",
+},
      }
 
   ]
 },
 
-// iceland package 3
+// iceland package 3  CHASING THE AURORA -- DONE
 {
   slug: "iceland",
   packageSlug: "CHASING_AURORA_ESCAPE",
   title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
-  heroImage: "/images/packages/CHASING_AURORA_ESCAPE_HERO.webp",
+  heroImage: "/images/packages/CHASINGTHEAURORA-HERO.webp",
 
   heroMeta: {
     country: "ICELAND",
@@ -3309,40 +3329,40 @@ headline: "This winter journey reveals Iceland in its most magical season, when 
       title1: "DAY 1 — ARRIVAL IN REYKJAVÍK & CULINARY DISCOVERY",
       description1:
 "Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s vibrant Nordic capital.\n\nAfter settling into your hotel, the afternoon offers time to explore Reykjavík’s charming streets, boutique shops, and contemporary Nordic design culture.\n\nIn the evening, join a curated Reykjavík food walk, where a local culinary expert introduces you to the city’s evolving gastronomic scene. Sampling traditional Icelandic dishes alongside modern Nordic cuisine, this experience offers an authentic introduction to Iceland’s culinary heritage.",
-      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block01.webp",
+      image1: "/images/packages/CHASINGTHEAURORA-Block01.webp",
     },
 
     {
       title1: "DAY 2 — BLUE LAGOON & NORTHERN LIGHTS EXPERIENCE",
       description1:
 "Depart Reykjavík and journey through the dramatic volcanic landscapes of the Reykjanes Peninsula, where steaming geothermal fields and black lava plains create one of Iceland’s most unique environments.\n\nYour first stop is the famous Blue Lagoon, where mineral-rich geothermal waters offer a relaxing spa experience surrounded by striking lava formations.\n\nContinuing into Iceland’s countryside, arrive at the beautiful Torfhús Retreat, a luxury lodge inspired by traditional Icelandic turf houses and set within a tranquil mountain landscape.\n\nAs darkness falls, embark on an exclusive Northern Lights hunt, where expert guides lead you away from light pollution to search for the spectacular aurora borealis dancing across the Arctic sky.",
-      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block02.webp",
+      image1: "/images/packages/CHASINGTHEAURORA-Block02.webp",
     },
 
     {
       title1: "DAY 3 — GOLDEN CIRCLE & GLACIER SUPER-JEEP ADVENTURE",
       description1:
 "Today’s journey explores Iceland’s legendary Golden Circle, a route that reveals some of the country’s most iconic natural wonders.\n\nWitness the dramatic eruption of the Strokkur geyser, explore the historic landscapes of Thingvellir National Park, and admire the powerful Gullfoss waterfall cascading through a frozen canyon.\n\nThe adventure continues with a thrilling Super-Jeep excursion onto Langjökull Glacier, where vast snow-covered landscapes stretch endlessly across Iceland’s winter highlands.",
-      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block03.webp",
+      image1: "/images/packages/CHASINGTHEAURORA-Block03.webp",
     },
 
     {
       title1: "DAY 4–5 — SOUTH COAST GLACIERS & WINTER WATERFALLS",
       description1:
 "Travel along Iceland’s spectacular South Coast, where towering waterfalls, volcanic cliffs, and glacial landscapes define one of the country’s most dramatic regions.\n\nVisit the famous Seljalandsfoss and Skógafoss waterfalls, which in winter transform into stunning frozen cascades surrounded by icy formations.\n\nLater, embark on a guided glacier walk across Sólheimajökull, where deep crevasses, shimmering blue ice, and dramatic ridges create an unforgettable Arctic adventure.\n\nYour final day offers a scenic return journey toward Reykjavík before your private transfer to the airport for departure.",
-      image1: "/images/packages/CHASING_AURORA_ESCAPE_Block04.webp",
+      image1: "/images/packages/CHASINGTHEAURORA-Block04.webp",
     }
   ],
 
   hotels: [
     {
       name: "THE REYKJAVÍK EDITION – REYKJAVÍK",
-      image: "/images/packages/CHASING_AURORA_ESCAPE_Hotel01.webp",
+      image: "/images/packages/CHASINGTHEAURORA-Hotel01.webp",
       desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
     },
     {
       name: "TORFHÚS RETREAT – SOUTH ICELAND",
-      image: "/images/packages/CHASING_AURORA_ESCAPE_Hotel02.webp",
+      image: "/images/packages/CHASINGTHEAURORA-Hotel02.webp",
       desc: "A distinctive countryside retreat inspired by traditional Icelandic turf houses, offering private geothermal hot tubs and tranquil mountain surroundings.",
     }
   ],
@@ -3368,7 +3388,320 @@ duration: "9 NIGHTS",
 headline: "This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.",
 },
      },
+         {
+slug: "iceland",
+packageSlug: "ICELAND_FROM_ABOVE",
+title: "ICELAND FROM ABOVE: HELICOPTER ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This extraordinary journey reveals Iceland from a unique perspective—high above its glaciers, volcanoes, and dramatic landscapes.",
+},
+     }
   ]
+},
+
+// iceland package 4 -- ICELAND FROM ABOVE --   DONE
+{
+  slug: "iceland",
+  packageSlug: "ICELAND_FROM_ABOVE",
+  title: "ICELAND FROM ABOVE: HELICOPTER ADVENTURE",
+  heroImage: "/images/packages/ICELANDFROMABOVE-HERO.webp",
+
+  heroMeta: {
+    country: "ICELAND",
+    headline: "ICELAND FROM ABOVE: HELICOPTER ADVENTURE",
+    when: "May – September",
+    price: {
+      label: "$16,900 per person (excluding international flights)",
+    },
+    duration: "5 Nights",
+  },
+
+  intro:
+"This extraordinary journey reveals Iceland from a unique perspective—high above its glaciers, volcanoes, and dramatic landscapes.\n\nBeginning in Reykjavík, Iceland’s vibrant Nordic capital, travelers are welcomed into a world shaped by volcanic forces and breathtaking natural scenery. Private helicopter experiences allow guests to explore regions that are otherwise inaccessible, offering an unparalleled view of Iceland’s most spectacular landscapes.\n\nFrom flying above active volcanic systems and glacial valleys to landing beside remote glacier lagoons and exploring the famous Golden Circle from the air, each experience offers a rare perspective of the island’s remarkable geography.\n\nCombining aerial exploration with refined luxury experiences on the ground, this itinerary offers an exclusive way to discover Iceland’s natural wonders.",
+
+  sections: [
+    {
+      title1: "DAY 1 — ARRIVAL IN REYKJAVÍK & CITY LEISURE",
+      description1:
+"Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s stylish capital.\n\nAfter checking into your luxury hotel, the afternoon is yours to relax and explore the city at your own pace. Reykjavík’s charming streets offer a blend of Nordic design boutiques, art galleries, and scenic harbour walks.\n\nIn the evening, enjoy a refined dining experience at one of the city’s celebrated restaurants where contemporary Icelandic cuisine highlights fresh seafood, seasonal produce, and traditional Nordic flavors.",
+      image1: "/images/packages/ICELANDFROMABOVE-Block01.webp",
+    },
+
+    {
+      title1: "DAY 2 — VOLCANO DESCENT OR WHALE HELICOPTER FLIGHT",
+      description1:
+"Today offers two extraordinary ways to explore Iceland’s volcanic and coastal landscapes.\n\nGuests may choose to descend into the interior of a dormant volcano’s magma chamber, a remarkable geological experience where visitors enter the vast interior of an ancient volcanic crater.\n\nAlternatively, embark on a spectacular helicopter flight along Iceland’s rugged coastline, where sweeping aerial views reveal lava fields, dramatic cliffs, and the open Atlantic Ocean while searching for whales that inhabit these waters.\n\nBoth experiences offer a rare opportunity to witness Iceland’s natural forces from extraordinary perspectives.",
+      image1: "/images/packages/ICELANDFROMABOVE-Block02.webp",
+    },
+
+    {
+      title1: "DAY 3 — EYJAFJALLAJÖKULL HELICOPTER EXPEDITION",
+      description1:
+"Today’s highlight is a private helicopter expedition across Iceland’s dramatic southern landscapes.\n\nFlying above the famous Eyjafjallajökull volcano and glacier, you witness vast ice caps, volcanic ridges, and sweeping valleys that reveal the island’s powerful geological contrasts.\n\nYour helicopter then lands beside a remote glacier lagoon, where floating icebergs drift across calm waters surrounded by dramatic mountain scenery. Here you can explore the pristine environment and experience the quiet beauty of Iceland’s untouched wilderness.",
+      image1: "/images/packages/ICELANDFROMABOVE-Block03.webp",
+    },
+
+    {
+      title1: "DAY 4–5 — GOLDEN CIRCLE HELICOPTER JOURNEY",
+      description1:
+"Experience Iceland’s most iconic landscapes from the air as you embark on a helicopter journey along the Golden Circle.\n\nFlying above Thingvellir National Park, the erupting Strokkur geyser, and the powerful Gullfoss waterfall, this aerial route offers a breathtaking view of the geological features that define Iceland.\n\nDuring the journey, land in a scenic remote location for a luxury gourmet lunch, surrounded by Iceland’s dramatic wilderness.\n\nYour final day offers time to explore the volcanic landscapes of the Reykjanes Peninsula before your private transfer to the airport for departure.",
+      image1: "/images/packages/ICELANDFROMABOVE-Block04.webp",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "THE REYKJAVÍK EDITION – REYKJAVÍK",
+      image: "/images/packages/ICELANDFROMABOVE-Hotel01.webp",
+      desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
+    },
+    {
+      name: "TORFHÚS RETREAT – SOUTH ICELAND",
+      image: "/images/packages/ICELANDFROMABOVE-Hotel02.webp",
+      desc: "A distinctive countryside retreat inspired by traditional Icelandic turf houses, offering private geothermal hot tubs and tranquil mountain surroundings.",
+    }
+  ],
+
+     similarPackages: [
+     {
+slug: "iceland",
+packageSlug: "NORDIC_LEGENDS_ICELAND",
+title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "7 NIGHTS",
+headline: "This extraordinary journey introduces travelers to Iceland’s dramatic landscapes through a carefully curated blend of adventure, nature, and refined comfort."
+}
+},
+{
+slug: "iceland",
+packageSlug: "CHASING_AURORA_ESCAPE",
+title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
+},
+     },
+   {
+slug: "iceland",
+packageSlug: "FIRE_ICE_SILENCE_ICELAND",
+title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.",
+},
+     },
+
+    ]
+},
+
+// iceland package 5 -- SOUL OF ICLAND -- DONE
+{
+  slug: "iceland",
+  packageSlug: "SOUL_OF_ICELAND",
+  title: "SOUL OF ICELAND: CULTURE, FOLKLORE & WELLNESS",
+  heroImage: "/images/packages/SOULOFICELAND-HERO.webp",
+
+  heroMeta: {
+    country: "ICELAND",
+    headline: "SOUL OF ICELAND: CULTURE, FOLKLORE & WELLNESS",
+    when: "May – September",
+    price: {
+      label: "$13,900 per person (excluding international flights)",
+    },
+    duration: "7 Nights",
+  },
+
+  intro:
+"This thoughtfully curated journey reveals Iceland beyond its dramatic landscapes, offering an immersive experience into the island’s culture, folklore, and wellness traditions.\n\nBeginning in Reykjavík, guests discover the capital’s vibrant art scene, Nordic cuisine, and creative culture that reflects Iceland’s modern identity while remaining deeply connected to its Viking heritage.\n\nThe journey then ventures through West Iceland and the legendary Snæfellsnes Peninsula, a region often described as “Iceland in miniature” for its diverse landscapes of lava fields, glaciers, coastal cliffs, and charming fishing villages.\n\nAlong the way, travelers explore Icelandic folklore trails, visit geothermal farms, discover hidden valleys and waterfalls, and unwind in tranquil luxury retreats surrounded by pristine nature.\n\nThe experience concludes with rejuvenating geothermal spa rituals and peaceful moments of wellness inspired by Iceland’s natural elements.",
+
+  sections: [
+    {
+      title1: "DAY 1–2 — REYKJAVÍK CULTURE & FOLKLORE TRAILS",
+      description1:
+"Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s vibrant Nordic capital.\n\nYour first day introduces Reykjavík’s rich artistic and culinary culture. Explore the city’s galleries, contemporary Nordic design boutiques, and lively harbour district before enjoying a curated food immersion experience featuring traditional Icelandic flavours and modern Nordic cuisine.\n\nThe following day ventures into Iceland’s countryside along a fascinating folklore trail, where stories of elves, hidden people, and ancient Viking legends remain deeply rooted in Icelandic culture.\n\nContinue toward the spectacular Glymur Waterfall, once considered Iceland’s tallest cascade. A scenic hike through moss-covered cliffs and dramatic canyon landscapes reveals one of the country’s most beautiful hidden natural wonders.",
+      image1: "/images/packages/SOULOFICELAND-Block01.webp",
+    },
+
+    {
+      title1: "DAY 3 — WEST ICELAND & SNÆFELLSNES PENINSULA",
+      description1:
+"Journey into the scenic landscapes of West Iceland, where rural farms, coastal villages, and volcanic terrain define the region’s peaceful beauty.\n\nVisit local Icelandic farms where guests are introduced to traditional agricultural practices and regional produce that form an important part of the country’s culinary heritage.\n\nContinue toward the magnificent Snæfellsnes Peninsula, a region of dramatic contrasts where lava fields, coastal cliffs, glaciers, and fishing villages create one of Iceland’s most picturesque landscapes.\n\nOften referred to as “Iceland in miniature,” this peninsula offers a rich combination of nature, culture, and folklore.",
+      image1: "/images/packages/SOULOFICELAND-Block02.webp",
+    },
+
+    {
+      title1: "DAY 4–5 — GOLDEN CIRCLE & HEAVEN VALLEY EXPLORATION",
+      description1:
+"Today’s journey explores Iceland’s legendary Golden Circle, a route that showcases some of the country’s most remarkable natural wonders.\n\nVisit Thingvellir National Park, where the North American and Eurasian tectonic plates dramatically meet, before witnessing the powerful eruption of the Strokkur geyser and the magnificent Gullfoss waterfall.\n\nAlong the way, enjoy a unique culinary experience at Friðheimar Farm, where lunch is served inside a geothermal greenhouse surrounded by thriving tomato plants.\n\nContinue toward the tranquil landscapes surrounding Torfhús Retreat, a luxury lodge inspired by traditional Icelandic turf houses.\n\nThe following day explores the spectacular Þjórsárdalur Valley, often called “Heaven Valley,” where hidden waterfalls, lava formations, and wide open landscapes create a peaceful environment for exploration and relaxation.",
+      image1: "/images/packages/SOULOFICELAND-Block03.webp",
+    },
+
+    {
+      title1: "DAY 6–7 — REYKJANES ADVENTURE & GEOTHERMAL WELLNESS",
+      description1:
+"Your final days combine adventure with relaxation.\n\nBegin with an exciting ATV exploration across the volcanic landscapes of the Reykjanes Peninsula, where rugged lava fields, geothermal vents, and dramatic coastline create a truly otherworldly setting.\n\nLater, arrive at the world-renowned Blue Lagoon Retreat, one of Iceland’s most exclusive geothermal spa destinations.\n\nSpend your final day enjoying a rejuvenating wellness experience including geothermal bathing, peaceful yoga sessions, and spa rituals inspired by Iceland’s natural minerals and volcanic elements.\n\nThis serene finale offers the perfect conclusion to your Iceland journey before your private transfer to the airport for departure.",
+      image1: "/images/packages/SOULOFICELAND-Block04.webp",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "THE REYKJAVÍK EDITION – REYKJAVÍK",
+      image: "/images/packages/SOULOFICELAND-Hotel01.webp",
+      desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
+    },
+    {
+      name: "TORFHÚS RETREAT – SOUTH ICELAND",
+      image: "/images/packages/SOULOFICELAND-Hotel02.webp",
+      desc: "A distinctive countryside retreat inspired by traditional Icelandic turf houses, offering private geothermal hot tubs and tranquil mountain surroundings.",
+    },
+    {
+      name: "THE RETREAT AT BLUE LAGOON – REYKJANES",
+      image: "/images/packages/SOULOFICELAND-Hotel03.webp",
+      desc: "An exclusive geothermal spa hotel known for its private lagoon access, luxurious suites, and tranquil wellness experiences.",
+    }
+  ],
+  similarPackages: [
+     {
+slug: "iceland",
+packageSlug: "NORDIC_LEGENDS_ICELAND",
+title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "7 NIGHTS",
+headline: "This extraordinary journey introduces travelers to Iceland’s dramatic landscapes through a carefully curated blend of adventure, nature, and refined comfort."
+}
+},
+{
+slug: "iceland",
+packageSlug: "CHASING_AURORA_ESCAPE",
+title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
+},
+     },
+   {
+slug: "iceland",
+packageSlug: "FIRE_ICE_SILENCE_ICELAND",
+title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.",
+},
+     },
+
+    ]
+},
+
+// iceland package 6 -- MIDNIGHT GIANTS -- DONE
+{
+  slug: "iceland",
+  packageSlug: "MIDNIGHT_GIANTS",
+  title: "MIDNIGHT GIANTS: ARCTIC OCEAN EXPEDITION",
+  heroImage: "/images/packages/MIDNIGHTGIANTS-HERO.webp",
+
+  heroMeta: {
+    country: "ICELAND",
+    headline: "MIDNIGHT GIANTS: ARCTIC OCEAN EXPEDITION",
+    when: "June – August",
+    price: {
+      label: "$14,900 per person (excluding international flights)",
+    },
+    duration: "5 Nights",
+  },
+
+  intro:
+"This extraordinary summer journey explores Iceland’s northern frontier, where dramatic coastlines, Arctic wildlife, and the endless glow of the midnight sun create one of the most remarkable travel experiences in the world.\n\nBeginning in Reykjavík, Iceland’s stylish Nordic capital, travelers are welcomed into a vibrant cultural setting before venturing north toward the remote Arctic coastline.\n\nHere, guests encounter Iceland’s extraordinary marine life, explore volcanic caves, and visit the isolated island of Grímsey—located directly on the Arctic Circle and famous for its thriving puffin colonies.\n\nCombining Arctic exploration with exclusive wellness experiences and dramatic landscapes, this journey offers a rare opportunity to discover Iceland’s northern wilderness in refined comfort.",
+
+  sections: [
+    {
+      title1: "DAY 1 — REYKJAVÍK ARRIVAL & CITY DINING",
+      description1:
+"Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s vibrant capital.\n\nAfter settling into your hotel, spend the afternoon exploring Reykjavík’s charming harbour district, art galleries, and Nordic design boutiques.\n\nIn the evening, enjoy a refined dining experience at one of the city’s celebrated restaurants where Icelandic culinary traditions are elevated through modern Nordic techniques, highlighting fresh seafood, local lamb, and seasonal ingredients.",
+      image1: "/images/packages/2_MIDNIGHTGIANTS-Block01.webp",
+    },
+
+    {
+      title1: "DAY 2 — ARCTIC FLIGHT & THERMAL BATHS",
+      description1:
+"Today your journey continues north with a scenic flight across Iceland’s dramatic landscapes toward the country’s Arctic region.\n\nUpon arrival, explore the peaceful northern coastline where rugged mountains meet the Arctic Ocean.\n\nYour afternoon is dedicated to relaxation at one of Iceland’s Arctic thermal baths, where naturally heated geothermal waters overlook the vast northern seascape. Surrounded by dramatic landscapes and the soft glow of the midnight sun, this tranquil setting offers one of the country’s most peaceful wellness experiences.",
+      image1: "/images/packages/3_MIDNIGHTGIANTS-Block02.webp",
+    },
+
+    {
+      title1: "DAY 3 — ARCTIC COASTLINE & GRÍMSEY ISLAND",
+      description1:
+"Today brings an exciting exploration of Iceland’s Arctic waters.\n\nTravel along the dramatic coastline by Jet Ski, navigating the pristine northern fjords and volcanic shores while enjoying breathtaking views of remote cliffs and ocean landscapes.\n\nLater, continue toward Grímsey Island, the only part of Iceland located directly on the Arctic Circle. This remote island is renowned for its spectacular birdlife, particularly its large colonies of puffins that nest along the dramatic sea cliffs during summer months.\n\nWalking along the island’s rugged coastline offers unforgettable encounters with Arctic wildlife in a pristine natural environment.",
+      image1: "/images/packages/5_MIDNIGHTGIANTS-Block03.webp",
+    },
+
+    {
+      title1: "DAY 4–5 — LAKE MÝVATN LANDSCAPES & WHALE ADVENTURE",
+      description1:
+"Your Arctic exploration continues with a journey toward the remarkable volcanic landscapes surrounding Lake Mývatn, one of Iceland’s most geologically fascinating regions.\n\nDiscover the mystical Lofthellir Ice Cave, where frozen formations and crystal ice sculptures create an extraordinary underground world.\n\nLater, enjoy a unique Arctic adventure as you paddleboard along the calm coastal waters, where humpback whales are frequently spotted feeding in the surrounding fjords.\n\nYour final day returns south toward Reykjavík where a relaxing visit to the iconic Blue Lagoon offers a peaceful conclusion to the journey before your private transfer to the airport for departure.",
+      image1: "/images/packages/1_MIDNIGHTGIANTS-Block04.webp",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "THE REYKJAVÍK EDITION – REYKJAVÍK",
+      image: "/images/packages/7_MIDNIGHTGIANTS-Hotel01.webp",
+      desc: "A contemporary luxury hotel offering refined Nordic design, harbour views, and exceptional dining experiences in Iceland’s vibrant capital.",
+    },
+    {
+      name: "DEPLAR FARM – NORTHERN ICELAND",
+      image: "/images/packages/6_MIDNIGHTGIANTS-Hotel02.webp",
+      desc: "A world-renowned wilderness lodge offering luxury adventure experiences, spa facilities, and spectacular Arctic landscapes.",
+    },
+    {
+      name: "THE RETREAT AT BLUE LAGOON – REYKJANES",
+      image: "/images/packages/4_MIDNIGHTGIANTS-Hotel03.webp",
+      desc: "An exclusive geothermal spa resort offering private lagoon access, serene suites, and exceptional wellness experiences.",
+    }
+  ],
+
+    similarPackages: [
+     {
+slug: "iceland",
+packageSlug: "NORDIC_LEGENDS_ICELAND",
+title: "NORDIC LEGENDS: A LUXURY ICELAND FAMILY ADVENTURE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "7 NIGHTS",
+headline: "This extraordinary journey introduces travelers to Iceland’s dramatic landscapes through a carefully curated blend of adventure, nature, and refined comfort."
+}
+},
+{
+slug: "iceland",
+packageSlug: "CHASING_AURORA_ESCAPE",
+title: "CHASING THE AURORA: NORTHERN LIGHTS ESCAPE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "5 NIGHTS",
+headline: "This winter journey reveals Iceland in its most magical season, when snow-covered landscapes, frozen waterfalls, and star-filled Arctic skies create the perfect setting for witnessing the Northern Lights.",
+},
+     },
+   {
+slug: "iceland",
+packageSlug: "FIRE_ICE_SILENCE_ICELAND",
+title: "SAGA OF FIRE, ICE & SILENCE: A LUXURY ICELAND EXPEDITION",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This remarkable journey reveals Iceland through its most dramatic contrasts—volcanoes and glaciers, remote highlands and refined luxury retreats.",
+},
+     },
+
+    ]
 },
 
 // ----------------------------------------------------------------------------------
