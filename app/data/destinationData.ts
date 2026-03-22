@@ -69,7 +69,7 @@ export type SplitSection = {
 
 /* ---------- Example Data ---------- */
 export const DESTINATIONS: Destination[] = [
-    // switzerland
+    // switzerland  -- done
   {
     slug: "switzerland",
     title: "Not Just Switzerland. Your Switzerland.",
@@ -200,35 +200,40 @@ export const DESTINATIONS: Destination[] = [
         description: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
       },
       {
+        slug:"GRAND_ITALIAN_ODYSSEY",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+        duration: "12 NIGHTS",
+        description: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
       },
        {
+        slug:"ULTIMATE_ITALIAN_HONEYMOON",
         image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
+        title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+        duration: "12 NIGHTS",
+        description: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+      },
+      {
+        slug:"GRAND_NORTHERN_ITALY_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE GRAND NORTHERN ITALY ESCAPE: LAKES, ALPINE PEAKS & PROSECCO INDULGENCE",
+        duration: "11 NIGHTS",
+        description: "This refined journey through Northern Italy blends romantic cities, serene lakes, dramatic alpine landscapes, and world-renowned wine regions into one seamless and immersive experience.",
       },
       {
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
-      },
-      {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "THE ULTIMATE SICILIAN ESCAPE: ANCIENT WONDERS, COASTAL LUXURY & AUTHENTIC INDULGENCE",
+        duration: "10 NIGHTS",
+        description: "This immersive journey through Sicily reveals a captivating blend of ancient history, Mediterranean beauty, and authentic cultural experiences, all curated with refined luxury and privacy.",
       },
        {
+        slug:"ULTIMATE_SICILIAN_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
         title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
+        duration: "10 NIGHTS",
+        description: "This immersive journey through Sicily reveals a captivating blend of ancient history, Mediterranean beauty, and authentic cultural experiences, all curated with refined luxury and privacy.",
       },
+      
     ],
     topDestinations: [
       {
@@ -254,7 +259,7 @@ export const DESTINATIONS: Destination[] = [
   },
 
 
-//   maldives
+//   maldives --- done
  {
     slug: "maldives",
     title: "Not Just the Maldives. Your Private Escape.",
@@ -435,7 +440,7 @@ export const DESTINATIONS: Destination[] = [
     ],
   },
 
-//   greece
+//   greece -- done
  {
     slug: "greece",
     title: "Not Just Greece. Your Sun-Soaked Rhythm.",
@@ -532,7 +537,7 @@ export const DESTINATIONS: Destination[] = [
   },
 
 
-// united kingdom
+// united kingdom -- done
  {
     slug: "uk",
     title: "UNITED KINGDOM",
@@ -608,7 +613,7 @@ export const DESTINATIONS: Destination[] = [
   },
 
 
-//   morocco
+//   morocco -- done
  {
     slug: "morocco",
     title: "Not Just Morocco. Your Passage Through Colour and Calm.",
@@ -778,7 +783,7 @@ export const DESTINATIONS: Destination[] = [
   },
 
 
-//   iceland
+//   iceland --- done
  {
     slug: "iceland",
     title: "Not Just Iceland. Your Edge of the Earth.",
