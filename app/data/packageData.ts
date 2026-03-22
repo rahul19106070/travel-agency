@@ -2913,12 +2913,12 @@ headline: "This exceptional Maldivian journey redefines the idea of a tropical e
 ]
 },
 
-// maldives package 2 -- THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE    DONE-IMG PENDING
+// maldives package 2 -- THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE  --  DONE
 {
   slug: "maldives",
   packageSlug: "PRIVATE_WELLNESS_ISLES",
   title: "THE PRIVATE WELLNESS ISLES: OMAN & MALDIVES SPA ESCAPE",
-  heroImage: "/images/packages/PRIVATE_WELLNESS_ISLES_HERO.webp",
+  heroImage: "/images/packages/THEPRIVATEWELLNESSISLES-HERO.webp",
 
   heroMeta: {
     country: "OMAN & MALDIVES",
@@ -2938,40 +2938,40 @@ sections: [
 title1: "DAY 1–3 — MUSANDAM PENINSULA: PRIVATE ARRIVAL & OMANI SERENITY",
 description1:
 "Arrive in Dubai where you will be greeted by your private chauffeur for the scenic journey toward the spectacular Musandam Peninsula in Oman.\n\nYour destination is the iconic Six Senses Zighy Bay, a secluded luxury retreat tucked between dramatic mountain cliffs and a pristine private beach.\n\nFor a truly unforgettable arrival, guests may choose the resort’s legendary paraglide entrance, soaring above the mountains before landing directly on the golden sands of the bay. Alternatively, arrive by private speedboat across the clear waters of the Arabian Sea.\n\nUpon arrival, settle into your private pool villa where your personal butler ensures every detail of your stay is perfectly arranged.\n\nThe following days invite relaxation and exploration—whether hiking through the rugged mountains, sailing across the tranquil bay at sunset, or discovering nearby Omani villages and traditional souks.",
-image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block01.webp",
+image1: "/images/packages/THEPRIVATEWELLNESSISLES-Block01.webp",
 },
 
 {
 title1: "DAY 4 — ZIGHY BAY: WELLNESS & COASTAL ADVENTURE",
 description1:
 "Spend your final day in Oman enjoying the many experiences offered by the resort.\n\nAdventure seekers may explore the peninsula by 4×4 safari or dive into the Arabian Sea on guided scuba excursions. Alternatively, unwind with a sunset dhow cruise across the calm waters of the bay.\n\nFor complete relaxation, indulge in the Six Senses Spa where traditional therapies and signature wellness rituals create a deeply restorative experience. One highlight is the renowned Bamboo Massage, an ancient technique designed to relieve deep muscular tension while restoring balance and harmony to the body.\n\nAs evening falls, enjoy a refined dining experience overlooking the bay beneath a sky filled with desert stars.",
-image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block02.webp",
+image1: "/images/packages/THEPRIVATEWELLNESSISLES-Block02.webp",
 },
 
 {
 title1: "DAY 5–7 — MALDIVES: BAREFOOT ISLAND PARADISE",
 description1:
 "From Oman, fly onward to the Maldives where a scenic seaplane transfer brings you to the breathtaking private island of Six Senses Laamu.\n\nHere, turquoise lagoons stretch endlessly around the island while coral reefs teem with vibrant marine life.\n\nYour overwater villa provides the ultimate sanctuary, suspended above crystal-clear waters with panoramic views across the Indian Ocean.\n\nDays are spent exploring the surrounding reefs with a marine biologist, surfing gentle waves, or setting out on a dolphin safari across the open ocean.\n\nThe resort’s extraordinary Six Senses Spa offers a range of treatments inspired by the island’s natural ingredients—from coconut and papaya wraps to soothing spice-infused massages.",
-image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block03.webp",
+image1: "/images/packages/THEPRIVATEWELLNESSISLES-Block03.webp",
 },
 
 {
 title1: "DAY 8 — MALDIVES: STARS, SEA & ISLAND FINALE",
 description1:
 "Your final full day invites complete relaxation in one of the world’s most idyllic island settings.\n\nSpend the morning snorkeling vibrant coral reefs or unwinding on your private deck as tropical fish glide beneath your villa.\n\nAs evening approaches, enjoy one final unforgettable experience with the resort’s resident astronomer who will guide you through the constellations visible across the clear Maldivian skies.\n\nDinner is served on the beach beneath the stars, with candlelight flickering across the sand and the gentle sound of the ocean completing this perfect finale to your Indian Ocean escape.",
-image1: "/images/packages/PRIVATE_WELLNESS_ISLES_Block04.webp",
+image1: "/images/packages/THEPRIVATEWELLNESSISLES-Block04.webp",
 }
 ],
 
 hotels: [
 {
 name: "SIX SENSES ZIGHY BAY – OMAN",
-image: "/images/packages/PRIVATE_WELLNESS_ISLES_Hotel01.webp",
+image: "/images/packages/THEPRIVATEWELLNESSISLES-Hotel01.webp",
 desc: "A spectacular luxury retreat set between dramatic mountains and a secluded private beach on the Musandam Peninsula.",
 },
 {
 name: "SIX SENSES LAAMU – MALDIVES",
-image: "/images/packages/PRIVATE_WELLNESS_ISLES_Hotel02.webp",
+image: "/images/packages/THEPRIVATEWELLNESSISLES-Hotel02.webp",
 desc: "One of the Maldives’ most celebrated island resorts offering exceptional overwater villas, marine adventures, and world-class wellness experiences.",
 }
 ],
@@ -3000,12 +3000,12 @@ headline: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOU
 ],
 },
 
-// maldives package 3 -- THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE    DONE-IMG PENDING
+// maldives package 3 -- THE PRIVATE ISLAND DUO PACKAGE --   DONE
 {
   slug: "maldives",
   packageSlug: "SONEVA_SIGNATURE_ESCAPE",
   title: "THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE",
-  heroImage: "/images/packages/SONEVA_SIGNATURE_ESCAPE_HERO.webp",
+  heroImage: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-HERO.webp",
 
   heroMeta: {
     country: "MALDIVES",
@@ -3025,45 +3025,45 @@ sections: [
 title1: "DAY 1–4 — SONEVA FUSHI: CASTAWAY LUXURY & ISLAND EXPERIENCES",
 description1:
 "Arrive in the Maldives where a scenic seaplane transfer brings you to the lush island sanctuary of Soneva Fushi.\n\nSurrounded by dense tropical jungle and pristine white-sand beaches, your private beachfront villa offers complete seclusion, with expansive living spaces and direct access to the crystal-clear lagoon.\n\nThe following days are yours to embrace the island’s effortless luxury lifestyle. With your dedicated Mr. Friday butler managing every detail, each experience is tailored entirely to your preferences.\n\nBegin your stay with a signature wellness ritual at the Six Senses Spa before indulging in the island’s exceptional culinary experiences—from dining in the organic herb gardens to private beachfront dinners under the stars.\n\nAdventures range from snorkeling with manta rays and dolphin encounters to open-air cinema experiences beneath the night sky. A highlight of your stay is a private sandbank experience, where a secluded island is transformed into your personal dining retreat, complete with a private chef and candlelit setting surrounded by the ocean.",
-image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block01.webp",
+image1: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-Block01.webp",
 },
 
 {
 title1: "DAY 5–6 — SONEVA IN AQUA: PRIVATE YACHT JOURNEY",
 description1:
 "Depart Soneva Fushi in the most exclusive way possible—aboard Soneva in Aqua, the brand’s private luxury yacht.\n\nOver the next two days, sail across the Indian Ocean through some of the Maldives’ most untouched waters, where vibrant coral reefs and hidden lagoons create an ever-changing seascape.\n\nYour floating residence features a master suite with a glass-bottom spa tub, expansive sun decks, and a dedicated crew including a private chef, dive master, massage therapist, and personal butler.\n\nDays are spent snorkeling remote reefs, swimming in secluded lagoons, or simply relaxing on deck as the horizon stretches endlessly before you.\n\nEvenings offer a unique experience of dining under the stars, where the ocean and sky merge into one unforgettable setting.",
-image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block02.webp",
+image1: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-Block02.webp",
 },
 
 {
 title1: "DAY 7–8 — SONEVA JANI: OVERWATER ICONS & ISLAND LIFE",
 description1:
 "Arrive at the extraordinary Soneva Jani, a private island retreat renowned for its iconic overwater villas set within a vast turquoise lagoon.\n\nYour Water Retreat Villa offers expansive living spaces, infinity pools, private slides into the lagoon, and retractable roofs that reveal the night sky from the comfort of your bed.\n\nDays are filled with curated island experiences including dolphin safaris, private sandbank picnics, and snorkeling excursions through vibrant coral ecosystems.\n\nDining at Soneva Jani is equally exceptional, from the playful So Cool ice cream and chocolate rooms to elevated culinary experiences set across the island.",
-image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block03.webp",
+image1: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-Block03.webp",
 },
 
 {
 title1: "DAY 9 — CELESTIAL FINALE & DEPARTURE",
 description1:
 "Your final moments in the Maldives are designed to be truly unforgettable.\n\nExperience the island’s signature Full Moon Dinner on a secluded sandbank, where candlelight, ocean reflections, and the lunar glow create an atmosphere of pure magic.\n\nFor a deeper connection to the night sky, visit So Starstruck—the Maldives’ first overwater observatory—where an expert astronomer guides you through constellations visible across the Indian Ocean.\n\nAs your journey concludes, take a final moment to relax on your private deck or within your villa before your departure, carrying with you memories of one of the most exclusive island experiences in the world.",
-image1: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Block04.webp",
+image1: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-Block04.webp",
 }
 ],
 
 hotels: [
 {
 name: "SONEVA FUSHI – BAA ATOLL",
-image: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Hotel01.webp",
+image: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-Hotel01.webp",
 desc: "A pioneering luxury island resort offering barefoot elegance, expansive villas, and immersive nature experiences.",
 },
 {
 name: "SONEVA IN AQUA – PRIVATE YACHT",
-image: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Hotel02.webp",
+image: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-Hotel02.webp",
 desc: "An ultra-exclusive floating residence combining bespoke service, ocean exploration, and unparalleled privacy.",
 },
 {
 name: "SONEVA JANI – NOONU ATOLL",
-image: "/images/packages/SONEVA_SIGNATURE_ESCAPE_Hotel03.webp",
+image: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-Hotel03.webp",
 desc: "A world-renowned overwater resort featuring iconic villas, innovative dining, and extraordinary lagoon experiences.",
 }
 ],
