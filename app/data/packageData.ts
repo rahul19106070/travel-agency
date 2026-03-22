@@ -2360,12 +2360,12 @@ headline: "Discover Crete’s beaches, history, and scenic landscapes."
 
 // ------------------------------------------------------------------------------------
 
-// morocco PACKAGE 1 -- FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY
+// morocco PACKAGE 1 -- FROM IMPERIAL CITIES TO SAHARA STARS   -- DONE
 {
   slug: "morocco",
   packageSlug: "IMPERIAL_CITIES_SAHARA_STARS",
   title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
-  heroImage: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_HERO.webp",
+  heroImage: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-HERO.webp",
 
   heroMeta: {
     country: "MOROCCO",
@@ -2385,28 +2385,28 @@ sections: [
 title1: "DAY 1–2 — CHEFCHAOUEN: THE BLUE PEARL OF MOROCCO",
 description1:
 "Arrive in Casablanca before beginning a scenic journey into the Rif Mountains toward Chefchaouen, one of Morocco’s most picturesque towns known for its striking blue-washed streets and relaxed mountain atmosphere.\n Upon arrival, settle into a charming riad and explore the peaceful medina as the evening light casts soft shades across the city’s famous blue walls.\n The following day is dedicated to discovering Chefchaouen’s hidden corners with a guided photography walk through its winding alleys, vibrant artisan shops, and quiet squares. The town’s tranquil rhythm offers a beautiful introduction to Morocco’s unique charm and culture.",
-image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block01.webp",
+image1: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-Block01.webp",
 },
 
 {
 title1: "DAY 3–5 — FEZ: MEDIEVAL TRADITIONS & ARTISAN HERITAGE",
 description1:
 "Travel south toward the imperial city of Fez, stopping along the way at the ancient Roman ruins of Volubilis and the sacred town of Moulay Idriss.\n In Fez, step into one of the world’s oldest living medieval cities. A private guided tour through the UNESCO-listed medina reveals bustling souks, intricate madrasas, historic mosques, and the famous leather tanneries that have operated for centuries.\n Beyond the city, visit nearby villages such as Sefrou and Bhalil where traditional crafts and Berber culture continue to thrive. These intimate encounters offer a deeper understanding of Morocco’s artisan heritage and rural life.",
-image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block02.webp",
+image1: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-Block02.webp",
 },
 
 {
 title1: "DAY 6–9 — SAHARA DESERT & SOUTHERN OASES",
 description1:
 "Journey across the Middle Atlas Mountains toward the vast Sahara Desert. As landscapes shift from cedar forests to dramatic desert terrain, the golden dunes of Erg Chebbi appear on the horizon.\n Arrive at a luxury desert camp where camel rides across the dunes and candlelit dinners beneath star-filled skies create an unforgettable Sahara experience.\n Continue through the dramatic Todra Gorge before reaching the palm-filled Skoura Oasis. Along the legendary “Route of a Thousand Kasbahs,” explore ancient fortified villages and the fragrant Valley of the Roses before traveling toward Marrakech via the iconic kasbah of Aït Ben Haddou.",
-image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block03.webp",
+image1: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-Block03.webp",
 },
 
 {
 title1: "DAY 10–13 — MARRAKECH & ATLAS MOUNTAINS",
 description1:
 "Arriving in Marrakech, experience the vibrant energy of one of Morocco’s most iconic cities. Explore the lively medina by vintage sidecar, wander through colorful souks, and discover hidden riads and spice markets.\n A sunrise hot air balloon flight over the surrounding desert plains offers a breathtaking perspective of the Atlas Mountains in the distance, followed by a traditional Moroccan cooking experience.\n The journey concludes in the Atlas Mountains at the legendary Kasbah Tamadot. Here, peaceful Berber villages, dramatic mountain landscapes, and luxurious wellness experiences provide the perfect finale to this unforgettable Moroccan adventure.",
-image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block04.webp",
+image1: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-Block04.webp",
 }
 
 ],
@@ -2414,17 +2414,17 @@ image1: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Block04.webp",
 hotels: [
 {
 name: "ROYAL MANSOUR – MARRAKECH",
-image: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Hotel01.webp",
+image: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-Hotel01.webp",
 desc: "One of Morocco’s most extraordinary luxury hotels, offering private riads, exceptional dining, and impeccable Moroccan craftsmanship.",
 },
 {
 name: "SAHARA LUXURY DESERT CAMP – ERG CHEBBI",
-image: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Hotel02.webp",
+image: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-Hotel02.webp",
 desc: "An exclusive desert camp combining traditional Berber design with refined comfort beneath the vast Sahara sky.",
 },
 {
 name: "KASBAH TAMADOT – ATLAS MOUNTAINS",
-image: "/images/packages/IMPERIAL_CITIES_SAHARA_STARS_Morocco_Hotel03.webp",
+image: "/images/packages/FROMIMPERIALCITIESTOSAHARASTARS-Hotel03.webp",
 desc: "Sir Richard Branson’s renowned mountain retreat featuring breathtaking views, tranquil gardens, and world-class hospitality.",
 }
 ],
@@ -2443,12 +2443,12 @@ headline: "This extraordinary journey ventures beyond Morocco’s well-known cit
 ]
 },
 
-// MOROCCO PACKAGE 2
+// MOROCCO PACKAGE 2 -- BEYOND THE ATLAS    --   DONE
 {
   slug: "morocco",
   packageSlug: "BEYOND_THE_ATLAS",
   title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
-  heroImage: "/images/packages/BEYONDTHEATLASMOROCCO'S_HERO.webp",
+  heroImage: "/images/packages/BEYONDTHEATLASMOROCCO-HERO.webp",
 
   heroMeta: {
     country: "MOROCCO",
@@ -2468,28 +2468,28 @@ sections: [
 title1: "DAY 1–2 — MARRAKECH: MEDINA DISCOVERY & ATLAS GATEWAY",
 description1:
 "Arrive in Marrakech, Morocco’s most vibrant and iconic city. Settle into a beautifully restored riad hidden within the historic medina before beginning your exploration of this captivating destination.\n A guided medina tour reveals colorful souks, intricate palaces, and centuries-old mosques while the lively Jemaa el-Fnaa square introduces travelers to the energy of traditional Moroccan street life.\n The following day, depart Marrakech and begin crossing the High Atlas Mountains via the scenic Telouet route, passing dramatic landscapes and remote Berber villages on the way toward the southern desert regions.",
-image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block01.webp",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO-Block01.webp",
 },
 
 {
 title1: "DAY 3–4 — SKOURA & DADES VALLEY: KASBAHS AND OASIS LANDSCAPES",
 description1:
 "Arriving in Skoura Oasis, discover a tranquil landscape filled with palm groves, ancient kasbahs, and fertile valleys.\n Visit the legendary Kasbah Amridil, one of Morocco’s most beautifully preserved desert fortresses, before continuing toward the Valley of Roses and the dramatic cliffs of the Dades Valley.\n Guided walks through these scenic landscapes reveal traditional Berber villages, terraced farms, and remote canyon trails surrounded by spectacular desert scenery.",
-image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block02.webp",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO-Block02.webp",
 },
 
 {
 title1: "DAY 5–7 — DRAA VALLEY & ERG CHIGAGA: SAHARA ADVENTURE",
 description1:
 "Travel deeper into southern Morocco along the legendary Draa Valley, where vast palm oases stretch for miles along ancient caravan routes.\n In Zagora, explore the historic Mellah quarter and enjoy a sunset picnic overlooking the surrounding desert landscapes.\n Continue to the sacred village of Tamegroute, famous for its ancient library and distinctive green pottery, before venturing by 4x4 into the remote Sahara dunes of Erg Chigaga.\n Here, towering dunes rise from the desert floor, offering one of the most untouched Sahara environments in Morocco. Enjoy camel treks across the dunes, traditional desert music, and unforgettable nights beneath the stars at a luxury desert camp.",
-image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block03.webp",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO-Block03.webp",
 },
 
 {
 title1: "DAY 8–10 — TAROUDANT: SOUTHERN MOROCCAN CHARM",
 description1:
 "Depart the Sahara and journey west toward Taroudant, a historic trading town surrounded by impressive ramparts and framed by the Anti-Atlas Mountains.\n Often referred to as “Little Marrakech,” Taroudant offers a quieter and more authentic glimpse into Moroccan life. Wander through vibrant souks, visit artisan workshops, and enjoy peaceful afternoons within the gardens of your luxury riad.\n A highlight of your stay includes time to relax with traditional Moroccan spa treatments and explore the surrounding countryside before returning to Marrakech for your final evening.",
-image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block04.webp",
+image1: "/images/packages/BEYONDTHEATLASMOROCCO-Block04.webp",
 }
 
 ],
@@ -2497,17 +2497,17 @@ image1: "/images/packages/BEYONDTHEATLASMOROCCO'S_Block04.webp",
 hotels: [
 {
 name: "LA SULTANA – MARRAKECH",
-image: "/images/packages/BEYONDTHEATLASMOROCCO'S_Hotel01.webp",
+image: "/images/packages/BEYONDTHEATLASMOROCCO-Hotel01.webp",
 desc: "An elegant riad-style luxury hotel in the heart of the medina, known for its exceptional service and rooftop views across Marrakech.",
 },
 {
 name: "DAR AHLAM – SKOURA OASIS",
-image: "/images/packages/BEYONDTHEATLASMOROCCO'S_Hotel02.webp",
+image: "/images/packages/BEYONDTHEATLASMOROCCO-Hotel02.webp",
 desc: "One of Morocco’s most unique luxury properties, offering private experiences, dramatic desert landscapes, and personalized hospitality.",
 },
 {
 name: "ERG CHIGAGA LUXURY DESERT CAMP",
-image: "/images/packages/BEYONDTHEATLASMOROCCO'S_Hotel03.webp",
+image: "/images/packages/BEYONDTHEATLASMOROCCO-Hotel03.webp",
 desc: "An exclusive Sahara camp combining traditional Berber design with refined comfort amid Morocco’s most remote dunes.",
 }
 ],
@@ -2527,7 +2527,8 @@ headline: "This extraordinary journey through Morocco reveals a captivating blen
 },
 
 // ----------------------------------------------------------------------------------
-// uk package 1 -- FROM BIG SMOKE TO WILD GLENS: A GRAND JOURNEY THROUGH BRITAIN  DONE-IMG PENDING
+
+// uk package 1 -- FROM BIG SMOKE TO WILD GLENS --  DONE-IMG PENDING
 {
   slug: "uk",
   packageSlug: "BIG_SMOKE_TO_WILD_GLENS",
