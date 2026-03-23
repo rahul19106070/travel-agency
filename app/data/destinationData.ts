@@ -148,7 +148,7 @@ export const DESTINATIONS: Destination[] = [
   },
 
 
-//   italy
+//   italy -- DONE
  {
     slug: "italy",
     heroMeta: {
@@ -228,12 +228,41 @@ export const DESTINATIONS: Destination[] = [
         description: "This immersive journey through Sicily reveals a captivating blend of ancient history, Mediterranean beauty, and authentic cultural experiences, all curated with refined luxury and privacy.",
       },
        {
-        slug:"ULTIMATE_SICILIAN_ESCAPE",
+        slug:"ITALIAN_GASTRONOMY_LUXURY_DRIVE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
+        title: "THE ULTIMATE ITALIAN GASTRONOMY & LUXURY DRIVE: FAST CARS, FINE WINES & ICONIC FLAVOUR",
         duration: "10 NIGHTS",
-        description: "This immersive journey through Sicily reveals a captivating blend of ancient history, Mediterranean beauty, and authentic cultural experiences, all curated with refined luxury and privacy.",
+        description: "This refined journey through Northern Italy is designed for those who appreciate the perfect blend of luxury lifestyle, culinary excellence, and iconic driving experiences.",
       },
+      {
+        slug:"ULTIMATE_PUGLIAN_RETREAT",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE ULTIMATE PUGLIAN RETREAT: COASTAL LUXURY, CULTURE & LA DOLCE VITA",
+        duration: "7 NIGHTS",
+        description: "This refined escape to Puglia offers a seamless blend of coastal luxury, authentic Italian culture, and relaxed Mediterranean living.",
+      },
+      {
+        slug:"WHITE_TRUFFLE_SOCIETY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE WHITE TRUFFLE SOCIETY: A PRIVATE GASTRONOMIC ESCAPE IN PIEDMONT",
+        duration: "5 NIGHTS",
+        description: "This exclusive journey into the heart of Piedmont offers a refined exploration of Italy’s most celebrated gastronomic traditions, set against the rolling vineyards and picturesque landscapes of truffle country.",
+      },
+      {
+        slug:"VOLCANIC_LUXURY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "VOLCANIC LUXURY: SICILY & AEOLIAN ISLAND HOPPING EXPERIENCE",
+        duration: "9 NIGHTS",
+        description: "This extraordinary journey through Sicily and the Aeolian Islands combines coastal elegance, volcanic landscapes, and island-hopping adventure into a truly unique Mediterranean experience.",
+      },
+      {
+        slug:"LA_DOLCE_VITA_ELITE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "LA DOLCE VITA ELITE: MILAN COUTURE & PORTOFINO RIVIERA ESCAPE",
+        duration: "5 NIGHTS",
+        description: "This stylish Italian escape seamlessly blends the world of high fashion, refined gastronomy, and Riviera elegance into one sophisticated journey.",
+      },
+      
       
     ],
     topDestinations: [

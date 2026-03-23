@@ -3915,7 +3915,7 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
   ]
 },
 
-// ITALY PACKAGE 3 -- ULTIMATE ITALIAN HONEYMOON --
+// ITALY PACKAGE 3 -- ULTIMATE ITALIAN HONEYMOON -- DONE
 {
   slug: "italy",
   packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
@@ -3947,14 +3947,14 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
       title1: "DAY 5–7 — TUSCANY: WINE, CULTURE & TIMELESS COUNTRYSIDE",
       description1:
 "Travel to the Tuscan countryside and arrive at a refined estate such as COMO Castello del Nero, where understated luxury meets rolling vineyard landscapes.\n\nSpend your days immersed in Tuscany’s culinary and cultural heritage, beginning with a private exploration of Florence, including exclusive access to the Uffizi Gallery and a sunset climb of the Duomo.\n\nDiscover the charm of Siena and the surrounding Chianti region, where private wine tastings and authentic Tuscan cuisine create an indulgent yet intimate experience.\n\nMoments of leisure at your estate—whether at the spa, infinity pool, or vineyard terraces—offer the perfect balance between exploration and relaxation.",
-      image1: "/images/packages/THEULTIMATEITALIANHONEYMOON-Block02.png",
+      image1: "/images/packages/THEULTIMATEHONEYMOONESCAPE-Block02.png",
     },
 
     {
       title1: "DAY 8–10 — ROME: PRIVATE CULTURE & AUTHENTIC EXPERIENCES",
       description1:
 "Arrive in Rome and check into a prestigious hotel such as Hotel de la Ville, offering elegant surroundings and panoramic views near the Spanish Steps.\n\nExperience the city through an exclusive private Vatican and Rome tour, with early access allowing you to explore iconic landmarks in a more intimate and unhurried setting.\n\nStroll through Rome’s historic streets, discovering hidden corners, artistic avenues, and timeless architecture that reflect the city’s rich heritage.\n\nA unique highlight is a gelato-making experience, where you learn traditional techniques and craft your own signature flavors together, adding a playful and memorable touch to your journey.",
-      image1: "/images/packages/THEULTIMATEITALIANHONEYMOON-Block03.png",
+      image1: "/images/packages/THEULTIMATEHONEYMOONESCAPE-Block03.png",
     },
 
     {
@@ -4129,7 +4129,7 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
   ]
 },
 
-// ITALY PACKAGE 5 -- ULTIMATE SICILIAN ESCAPE
+// ITALY PACKAGE 5 -- ULTIMATE SICILIAN ESCAPE  -- done
 {
   slug: "italy",
   packageSlug: "ULTIMATE_SICILIAN_ESCAPE",
@@ -4202,8 +4202,513 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
     }
   ],
 
-  similarPackages: []
+  similarPackages: [
+            {
+slug: "italy",
+packageSlug: "DOLCE_VITA_ESCAPE",
+title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
 }
+},
+{
+slug: "italy",
+packageSlug: "GRAND_ITALIAN_ODYSSEY",
+title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+}
+},
+    {
+slug: "italy",
+packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
+title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+}
+},
+  ]
+},
+ 
+// ITALY PACKAGE 6 --  ITALIAN GASTRONOMY & LUXURY DRIVE  -- done
+{
+  slug: "italy",
+  packageSlug: "ITALIAN_GASTRONOMY_LUXURY_DRIVE",
+  title: "THE ULTIMATE ITALIAN GASTRONOMY & LUXURY DRIVE: FAST CARS, FINE WINES & ICONIC FLAVOURS",
+  heroImage: "/images/packages/THEULTIMATEITALIANGASTRONOMY-HERO.png",
 
+  heroMeta: {
+    country: "ITALY",
+    headline: "THE ULTIMATE ITALIAN GASTRONOMY & LUXURY DRIVE: FAST CARS, FINE WINES & ICONIC FLAVOURS",
+    when: "April – October",
+    price: {
+      label: "$11,300 per person (excluding international flights)",
+    },
+    duration: "10 Nights",
+  },
 
+  intro:
+"This refined journey through Northern Italy is designed for those who appreciate the perfect blend of luxury lifestyle, culinary excellence, and iconic driving experiences.\n\nBeginning in Milan, Italy’s fashion capital, guests are introduced to a world of contemporary design, cultural sophistication, and curated urban experiences.\n\nThe journey then unfolds along the scenic roads to Lake Como, where timeless elegance, private villas, and lakeside luxury define the experience.\n\nContinuing into Emilia-Romagna, Italy’s gastronomic heartland, travelers explore the origins of the country’s most celebrated flavours through exclusive tastings, private culinary experiences, and immersive encounters with local artisans.\n\nCombining high-performance automotive experiences with world-class cuisine and refined hospitality, this journey offers a truly elevated Italian escape.",
+
+  sections: [
+    {
+      title1: "DAY 1–3 — MILAN: FASHION, CULTURE & LIFESTYLE",
+      description1:
+"Arrive in Milan, where a private transfer welcomes you to a stylish property such as Magna Pars Suites, located in the heart of the city.\n\nDiscover Milan’s vibrant districts including Brera, known for its artistic charm, and Porta Nuova, showcasing modern architecture and luxury lifestyle spaces.\n\nExplore cultural landmarks such as the Fondazione Prada, where contemporary art meets cutting-edge design.\n\nYour time in Milan blends high-end shopping, curated dining experiences, and refined urban exploration, offering an elegant introduction to Italy.",
+      image1: "/images/packages/THEULTIMATEITALIANGASTRONOMY-Block01.png",
+    },
+
+    {
+      title1: "DAY 4–5 — LAKE COMO: VINTAGE DRIVE & LAKESIDE LUXURY",
+      description1:
+"Embark on a scenic journey from Milan to Lake Como in a vintage Alfa Romeo, enjoying one of Italy’s most picturesque drives through rolling landscapes and lakeside roads.\n\nArrive at an iconic property such as Grand Hotel Tremezzo, where timeless elegance and panoramic views create a luxurious lakeside retreat.\n\nA highlight of your stay is a private Riva boat experience, cruising across Lake Como while discovering historic villas, charming towns, and hidden coves.\n\nEnjoy moments of leisure, whether relaxing at the spa, soaking in scenic views, or indulging in curated hotel experiences designed for comfort and exclusivity.",
+      image1: "/images/packages/THEULTIMATEITALIANGASTRONOMY-Block02.png",
+    },
+
+    {
+      title1: "DAY 6–8 — EMILIA-ROMAGNA: CULINARY HERITAGE & AUTHENTIC EXPERIENCES",
+      description1:
+"Travel to Bologna, the culinary capital of Italy, and check into a prestigious hotel such as Grand Hotel Majestic, known for its historic charm and refined atmosphere.\n\nYour journey into Italy’s gastronomic heritage begins with a visit to Parma, where you experience traditional prosciutto tastings, vibrant markets, and a hands-on pasta-making class guided by local experts.\n\nContinue with exclusive visits to local producers, discovering the art behind Parmigiano Reggiano and traditional balsamic vinegar through private tastings and behind-the-scenes experiences.\n\nThese immersive encounters offer a deeper appreciation of Italy’s most iconic flavours and culinary traditions.",
+      image1: "/images/packages/THEULTIMATEITALIANGASTRONOMY-Block03.png",
+    },
+
+    {
+      title1: "DAY 9–10 — BOLOGNA: CULTURE, FOOD & REFINED FINALE",
+      description1:
+"Return to Bologna for a deeper exploration of its rich culinary and cultural identity.\n\nParticipate in a ragu cooking class, learning authentic techniques passed down through generations, followed by a private street food experience paired with curated wine tastings.\n\nStroll through Bologna’s historic streets, lined with porticoes, cafés, and artisan boutiques, offering a relaxed yet refined atmosphere.\n\nYour journey concludes with a final day at leisure, allowing you to soak in the city’s charm before your departure, marking the end of a truly indulgent Italian experience.",
+      image1: "/images/packages/THEULTIMATEITALIANGASTRONOMY-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "MAGNA PARS SUITES – MILAN",
+      image: "/images/packages/THEULTIMATEITALIANGASTRONOMY-Hotel01.png",
+      desc: "A contemporary boutique hotel offering stylish interiors, central location, and refined Milanese hospitality.",
+    },
+    {
+      name: "GRAND HOTEL TREMEZZO – LAKE COMO",
+      image: "/images/packages/THEULTIMATEITALIANGASTRONOMY-Hotel02.png",
+      desc: "An iconic lakeside retreat known for its timeless elegance, floating pool, and panoramic views.",
+    },
+    {
+      name: "GRAND HOTEL MAJESTIC – BOLOGNA",
+      image: "/images/packages/THEULTIMATEITALIANGASTRONOMY-Hotel03.png",
+      desc: "A historic luxury hotel blending classical architecture with modern comfort in the heart of Bologna.",
+    }
+  ],
+
+   similarPackages: [
+            {
+slug: "italy",
+packageSlug: "DOLCE_VITA_ESCAPE",
+title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
+}
+},
+{
+slug: "italy",
+packageSlug: "GRAND_ITALIAN_ODYSSEY",
+title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+}
+},
+    {
+slug: "italy",
+packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
+title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+}
+},
+  ]
+},
+
+// ITALY PACKAGE 7 -- ULTIMATE PUGLIAN RETREAT   -- done
+{
+  slug: "italy",
+  packageSlug: "ULTIMATE_PUGLIAN_RETREAT",
+  title: "THE ULTIMATE PUGLIAN RETREAT: COASTAL LUXURY, CULTURE & LA DOLCE VITA",
+  heroImage: "/images/packages/THEULTIMATEPUGLIANRETREAT-HERO.png",
+
+  heroMeta: {
+    country: "ITALY",
+    headline: "THE ULTIMATE PUGLIAN RETREAT: COASTAL LUXURY, CULTURE & LA DOLCE VITA",
+    when: "May – October",
+    price: {
+      label: "$7,500 per person (excluding international flights)",
+    },
+    duration: "7 Nights",
+  },
+
+  intro:
+"This refined escape to Puglia offers a seamless blend of coastal luxury, authentic Italian culture, and relaxed Mediterranean living.\n\nCentered around the iconic Borgo Egnazia, this journey invites travelers into a world of understated elegance, where traditional architecture meets contemporary luxury along the Adriatic coast.\n\nFrom leisurely days by the sea and curated wellness experiences to cultural explorations of historic towns and UNESCO heritage sites, each moment is designed to reflect the essence of southern Italy.\n\nWith its slower pace, warm hospitality, and immersive local experiences, Puglia offers a deeply authentic yet refined Italian escape.",
+
+  sections: [
+    {
+      title1: "DAY 1–2 — BORGO EGNAZIA: COASTAL LUXURY & LEISURE",
+      description1:
+"Arrive in Puglia, where a private transfer welcomes you to the renowned Borgo Egnazia, an iconic coastal retreat inspired by traditional Apulian architecture.\n\nSet amidst olive groves and overlooking the Adriatic Sea, the resort offers an atmosphere of privacy, serenity, and refined luxury.\n\nSpend your first days at leisure, enjoying the resort’s multiple pools, private beach club, and curated dining experiences that showcase the region’s fresh, seasonal flavours.\n\nIndulge in the award-winning spa, where traditional healing practices and contemporary wellness treatments create a deeply rejuvenating experience.",
+      image1: "/images/packages/THEULTIMATEPUGLIANRETREAT-Block01.png",
+    },
+
+    {
+      title1: "DAY 3–4 — COASTAL EXPERIENCES & ALBEROBELLO DISCOVERY",
+      description1:
+"Enjoy a day along the Adriatic coast, with the option to play a round of golf overlooking the sea or relax at the beach in a private and tranquil setting.\n\nContinue with a cultural excursion to Alberobello, a UNESCO World Heritage Site renowned for its unique Trulli houses, where conical stone structures create a fairytale-like setting.\n\nA private guided experience offers insight into the region’s history and architectural heritage, allowing you to explore at a relaxed and personalized pace.",
+      image1: "/images/packages/THEULTIMATEPUGLIANRETREAT-Block02.png",
+    },
+
+    {
+      title1: "DAY 5–6 — LECCE & MATERA: BAROQUE ELEGANCE & ANCIENT CIVILISATION",
+      description1:
+"Discover the charm of Lecce, often referred to as the “Florence of the South,” where intricate Baroque architecture, elegant piazzas, and artisan boutiques define the city’s character.\n\nContinue your journey to Matera, one of Italy’s most extraordinary destinations, known for its ancient cave dwellings and historic underground city.\n\nExplore this UNESCO-listed site through a private guided tour, uncovering its fascinating history and unique landscape that blends seamlessly with the surrounding terrain.",
+      image1: "/images/packages/THEULTIMATEPUGLIANRETREAT-Block03.png",
+    },
+
+    {
+      title1: "DAY 7 — WELLNESS, LEISURE & FINAL MOMENTS",
+      description1:
+"Your final day is dedicated to relaxation and reflection within the tranquil surroundings of Borgo Egnazia.\n\nEnjoy spa treatments, leisurely cycling through the countryside, or simply unwind by the pool or along the coastline.\n\nThis day offers the perfect opportunity to absorb the essence of Puglia—its calm pace, natural beauty, and understated elegance.\n\nYour journey concludes with a private transfer for departure, leaving you refreshed and rejuvenated after a truly immersive Mediterranean escape.",
+      image1: "/images/packages/THEULTIMATEPUGLIANRETREAT-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "BORGO EGNAZIA – PUGLIA",
+      image: "/images/packages/THEULTIMATEPUGLIANRETREAT-Hotel01.png",
+      desc: "An iconic luxury resort offering authentic Apulian architecture, world-class wellness, and refined coastal living.",
+    }
+  ],
+
+   similarPackages: [
+            {
+slug: "italy",
+packageSlug: "DOLCE_VITA_ESCAPE",
+title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
+}
+},
+{
+slug: "italy",
+packageSlug: "GRAND_ITALIAN_ODYSSEY",
+title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+}
+},
+    {
+slug: "italy",
+packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
+title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+}
+},
+  ]
+},
+
+// ITALY PACKAGE 8 -- WHITE TRUFFLE SOCIETY  -- done
+{
+  slug: "italy",
+  packageSlug: "WHITE_TRUFFLE_SOCIETY",
+  title: "THE WHITE TRUFFLE SOCIETY: A PRIVATE GASTRONOMIC ESCAPE IN PIEDMONT",
+  heroImage: "/images/packages/THEWHITETRUFFLESOCIETY-HERO.png",
+
+  heroMeta: {
+    country: "ITALY",
+    headline: "THE WHITE TRUFFLE SOCIETY: A PRIVATE GASTRONOMIC ESCAPE IN PIEDMONT",
+    when: "September – November",
+    price: {
+      label: "$6,750 per person (excluding international flights)",
+    },
+    duration: "5 Nights",
+  },
+
+  intro:
+"This exclusive journey into the heart of Piedmont offers a refined exploration of Italy’s most celebrated gastronomic traditions, set against the rolling vineyards and picturesque landscapes of truffle country.\n\nBeginning with a private arrival into the region, guests are welcomed into a world of understated luxury, where historic estates, Michelin-level cuisine, and curated culinary experiences define every moment.\n\nFrom hands-on cooking experiences and intimate market visits to the rare and sought-after tradition of white truffle hunting, this journey reveals the essence of Piedmont through its flavours, culture, and heritage.\n\nComplemented by exclusive wine tastings in Barbaresco and immersive visits to the renowned truffle fairs of Alba and Canelli, this experience offers a truly indulgent and deeply authentic Italian escape.",
+
+  sections: [
+    {
+      title1: "DAY 1–2 — ARRIVAL, WINE & CULINARY IMMERSION",
+      description1:
+"Arrive in Genoa, where a private transfer escorts you into the scenic landscapes of Piedmont, arriving at an elegant property such as Relais San Maurizio, a historic estate surrounded by vineyards and rolling hills.\n\nBegin your journey with a private wine tasting, discovering the region’s exceptional varietals, followed by a refined gourmet dining experience that introduces Piedmont’s rich culinary heritage.\n\nThe following day offers a visit to Acqui Terme, where local markets showcase the region’s finest produce, artisanal ingredients, and traditional flavours.\n\nReturn to your estate for a private cooking experience, where you learn to prepare authentic Italian dishes under the guidance of expert chefs, creating a deeply immersive and personalised culinary moment.",
+      image1: "/images/packages/THEWHITETRUFFLESOCIETY-Block01.png",
+    },
+    {
+      title1: "DAY 3 — PRIVATE WHITE TRUFFLE HUNTING EXPERIENCE",
+      description1:
+"Today brings one of Piedmont’s most iconic and exclusive experiences—a private white truffle hunt.\n\nAccompanied by an expert truffle hunter and trained dog, venture into the countryside forests in search of these rare culinary treasures.\n\nThis intimate experience offers a fascinating insight into the traditions and techniques behind truffle hunting, set within serene natural surroundings.\n\nFollowing the hunt, enjoy a curated tasting experience where freshly discovered truffles are incorporated into exquisite dishes, offering a true taste of Piedmont’s gastronomic excellence.",
+      image1: "/images/packages/THEWHITETRUFFLESOCIETY-Block02.png",
+    },
+    {
+      title1: "DAY 4 — ALBA TRUFFLE FAIR & BARBARESCO WINE EXPERIENCE",
+      description1:
+"Explore the renowned Alba White Truffle Fair, one of Italy’s most celebrated culinary events, where the finest truffles, artisanal products, and regional delicacies are showcased.\n\nThis vibrant yet refined setting offers an opportunity to engage with local producers and experience the cultural significance of truffle season.\n\nContinue to the prestigious wine region of Barbaresco, where a private wine tasting introduces you to some of Italy’s most acclaimed wines, set within elegant vineyards and historic cellars.",
+      image1: "/images/packages/THEWHITETRUFFLESOCIETY-Block03.png",
+    },
+    {
+      title1: "DAY 5 — CANELLI EXPERIENCE & GALA FINALE",
+      description1:
+"Travel to Canelli, a UNESCO-listed wine region known for its historic wine cellars and exceptional sparkling wines.\n\nEnjoy curated tastings that highlight the region’s unique production methods and heritage, offering a deeper appreciation of Piedmont’s winemaking tradition.\n\nThe journey concludes with an exclusive gala dining experience, where refined cuisine, fine wines, and an intimate setting create a memorable farewell to your culinary escape.\n\nYour final day offers a relaxed departure, marking the end of an indulgent and unforgettable journey through Piedmont.",
+      image1: "/images/packages/THEWHITETRUFFLESOCIETY-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "RELAIS SAN MAURIZIO – PIEDMONT",
+      image: "/images/packages/THEWHITETRUFFLESOCIETY-Hotel01.png",
+      desc: "A historic luxury estate offering refined elegance, vineyard views, and exceptional culinary experiences in the heart of truffle country.",
+    }
+  ],
+
+   similarPackages: [
+            {
+slug: "italy",
+packageSlug: "DOLCE_VITA_ESCAPE",
+title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
+}
+},
+{
+slug: "italy",
+packageSlug: "GRAND_ITALIAN_ODYSSEY",
+title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+}
+},
+    {
+slug: "italy",
+packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
+title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+}
+},
+  ]
+},
+
+// ITALY PACKAGE 9 -- VOLCANIC LUXURY
+{
+  slug: "italy",
+  packageSlug: "VOLCANIC_LUXURY",
+  title: "VOLCANIC LUXURY: SICILY & AEOLIAN ISLAND HOPPING EXPERIENCE",
+  heroImage: "/images/packages/VOLCANICLUXURY-HERO.png",
+
+  heroMeta: {
+    country: "ITALY",
+    headline: "VOLCANIC LUXURY: SICILY & AEOLIAN ISLAND HOPPING EXPERIENCE",
+    when: "May – October",
+    price: {
+      label: "$7,650 per person (excluding international flights)",
+    },
+    duration: "9 Nights",
+  },
+
+  intro:
+"This extraordinary journey through Sicily and the Aeolian Islands combines coastal elegance, volcanic landscapes, and island-hopping adventure into a truly unique Mediterranean experience.\n\nBeginning in Taormina, guests are introduced to Sicily’s dramatic coastline, refined beachside luxury, and timeless charm overlooking the Ionian Sea.\n\nThe journey then ventures inland to the slopes of Mount Etna, where volcanic terrain, boutique wine estates, and curated experiences reveal a different side of Sicily’s natural beauty.\n\nContinuing to the Aeolian Islands, a secluded archipelago of volcanic origin, travelers experience private island living, crystal-clear waters, and exclusive yacht excursions.\n\nFrom black sand beaches and Vespa explorations to dramatic volcanic eruptions at sunset, this journey offers a rare blend of adventure, luxury, and authenticity.",
+
+  sections: [
+    {
+      title1: "DAY 1–3 — TAORMINA: COASTAL LUXURY & MEDITERRANEAN LEISURE",
+      description1:
+"Arrive in Catania, where a private transfer takes you to the elegant coastal town of Taormina, perched above the Ionian Sea.\n\nCheck into a prestigious property such as Belmond Villa Sant’Andrea, offering beachfront access, refined interiors, and exceptional Sicilian hospitality.\n\nSpend your days at leisure enjoying the tranquil beauty of the Bay of Mazzarò, with opportunities for swimming, sunbathing, and curated beachside experiences.\n\nExplore Taormina’s iconic Greek Theatre, where dramatic cliffside views frame both the sea and Mount Etna, creating one of Sicily’s most memorable landscapes.",
+      image1: "/images/packages/VOLCANICLUXURY-Block01.png",
+    },
+    {
+      title1: "DAY 4–5 — MOUNT ETNA: VOLCANIC LANDSCAPES & WINE EXPERIENCES",
+      description1:
+"Travel inland toward the slopes of Mount Etna, Europe’s most active volcano, and arrive at a boutique estate such as Monaci delle Terre Nere, surrounded by vineyards and lava stone landscapes.\n\nEmbark on a private jeep safari across Mount Etna, exploring volcanic craters, rugged terrain, and panoramic viewpoints that showcase the power of this natural environment.\n\nConclude the day with a sommelier-led wine tasting, where volcanic soil influences create distinctive Sicilian wines paired with local culinary delicacies.",
+      image1: "/images/packages/VOLCANICLUXURY-Block02.png",
+    },
+    {
+      title1: "DAY 6–7 — SALINA ISLAND: SECLUDED ISLAND LIVING",
+      description1:
+"Continue your journey to the tranquil island of Salina, part of the Aeolian archipelago, known for its lush landscapes and relaxed atmosphere.\n\nCheck into an exclusive retreat such as Capofaro Locanda & Malvasia, where vineyard views meet the open sea.\n\nExplore the island by Vespa, discovering charming villages, scenic coastal roads, and hidden beaches, including the region’s distinctive black sand shores.\n\nYour time here offers a balance of exploration and leisure, with opportunities to indulge in local Sicilian flavours and embrace the slow rhythm of island life.",
+      image1: "/images/packages/VOLCANICLUXURY-Block03.png",
+    },
+    {
+      title1: "DAY 8–9 — AEOLIAN ISLANDS: YACHT EXPERIENCE & VOLCANIC FINALE",
+      description1:
+"Set out on a private yacht excursion across the Aeolian Islands, visiting destinations such as Panarea and Stromboli, where turquoise waters, hidden coves, and dramatic coastlines create an unforgettable sailing experience.\n\nEnjoy stops for swimming, snorkeling, and curated onboard dining while exploring this unique volcanic archipelago.\n\nA highlight of the journey is witnessing Stromboli’s volcanic eruptions at sunset, where glowing lava flows illuminate the night sky in a truly extraordinary natural display.\n\nFor those seeking deeper exploration, an optional guided night hike offers a closer encounter with this active volcano.\n\nYour journey concludes with a return to mainland Sicily for departure, marking the end of an unforgettable Mediterranean adventure.",
+      image1: "/images/packages/VOLCANICLUXURY-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "BELMOND VILLA SANT’ANDREA – TAORMINA",
+      image: "/images/packages/VOLCANICLUXURY-Hotel01.png",
+      desc: "A beachfront luxury hotel offering refined elegance, private beach access, and stunning coastal views.",
+    },
+    {
+      name: "MONACI DELLE TERRE NERE – MOUNT ETNA",
+      image: "/images/packages/VOLCANICLUXURY-Hotel02.png",
+      desc: "A boutique estate blending rustic charm, volcanic landscapes, and exceptional wine experiences.",
+    },
+    {
+      name: "CAPOFARO LOCANDA & MALVASIA – SALINA",
+      image: "/images/packages/VOLCANICLUXURY-Hotel03.png",
+      desc: "An exclusive island retreat combining vineyard luxury, sea views, and tranquil island living.",
+    }
+  ],
+
+   similarPackages: [
+            {
+slug: "italy",
+packageSlug: "DOLCE_VITA_ESCAPE",
+title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
+}
+},
+{
+slug: "italy",
+packageSlug: "GRAND_ITALIAN_ODYSSEY",
+title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+}
+},
+    {
+slug: "italy",
+packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
+title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+}
+},
+  ]
+},
+
+// ITALY PACKAGE 10 -- LA DOLCE VITA ELITE
+{
+  slug: "italy",
+  packageSlug: "LA_DOLCE_VITA_ELITE",
+  title: "LA DOLCE VITA ELITE: MILAN COUTURE & PORTOFINO RIVIERA ESCAPE",
+  heroImage: "/images/packages/MILAN_PORTOFINO_HERO.webp",
+
+  heroMeta: {
+    country: "ITALY",
+    headline: "LA DOLCE VITA ELITE: MILAN COUTURE & PORTOFINO RIVIERA ESCAPE",
+    when: "April – October",
+    price: {
+      label: "$8,300 per person (excluding international flights)",
+    },
+    duration: "5 Nights",
+  },
+
+  intro:
+"This stylish Italian escape seamlessly blends the world of high fashion, refined gastronomy, and Riviera elegance into one sophisticated journey.\n\nBeginning in Milan, Italy’s fashion capital, guests are immersed in a curated lifestyle of luxury boutiques, private ateliers, and elevated culinary experiences.\n\nThe journey then transitions into the glamour of the Italian Riviera, where scenic coastal drives, iconic seaside villages, and exclusive experiences define the essence of la dolce vita.\n\nConcluding in Portofino, timeless beauty, private explorations, and relaxed coastal luxury create an effortlessly elegant finale.",
+
+  sections: [
+    {
+      title1: "DAY 1–2 — MILAN: FASHION, DESIGN & GOURMET EXPERIENCES",
+      description1:
+"Arrive in Milan, where a private transfer welcomes you to your luxury hotel, setting the tone for a refined urban escape.\n\nDiscover Milan’s sophisticated character through its fashion districts, elegant streets, and contemporary design spaces.\n\nEnjoy exclusive access to private ateliers or designer boutiques, offering a rare glimpse into the world of Italian couture and craftsmanship.\n\nComplement your experience with a curated wine and truffle tasting, where fine flavours and gourmet indulgence reflect the city’s elevated culinary scene.",
+      image1: "/images/packages/MILAN_PORTOFINO_Block01.webp",
+    },
+    {
+      title1: "DAY 3 — SCENIC DRIVE TO PORTOFINO: VINTAGE STYLE & RIVIERA ARRIVAL",
+      description1:
+"Depart Milan and embark on a scenic journey to the Italian Riviera in a vintage Alfa Romeo, enjoying picturesque countryside views along the way.\n\nArrive in the iconic coastal village of Portofino, known for its pastel-coloured harbour, luxury yachts, and timeless charm.\n\nCheck into a prestigious property such as Belmond Hotel Splendido, perched above the bay, offering panoramic views and refined elegance.\n\nSpend the evening at leisure, soaking in the tranquil atmosphere and coastal beauty.",
+      image1: "/images/packages/MILAN_PORTOFINO_Block02.webp",
+    },
+    {
+      title1: "DAY 4 — CINQUE TERRE: PRIVATE COASTAL EXPLORATION",
+      description1:
+"Discover the beauty of the Cinque Terre, a collection of picturesque villages set along dramatic cliffs overlooking the Mediterranean.\n\nExplore the region through a private guided experience, either by boat or luxury vehicle, allowing you to uncover hidden corners and scenic viewpoints at your own pace.\n\nStroll through charming streets, enjoy local flavours, and take in the breathtaking coastal landscapes that define this UNESCO-listed destination.",
+      image1: "/images/packages/MILAN_PORTOFINO_Block03.webp",
+    },
+    {
+      title1: "DAY 5 — PORTOFINO: RIVIERA LEISURE & SUNSET FINALE",
+      description1:
+"Your final day is dedicated to the relaxed elegance of Portofino.\n\nEnjoy leisurely moments along the harbour, explore boutique shops, or unwind at a private beach club.\n\nAs the day transitions into evening, experience a classic sunset aperitivo, overlooking the bay as golden light reflects across the water.\n\nThis refined and unhurried finale perfectly captures the essence of the Italian Riviera.\n\nYour journey concludes with a private transfer for departure, marking the end of a stylish and memorable Italian escape.",
+      image1: "/images/packages/MILAN_PORTOFINO_Block04.webp",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "LUXURY BOUTIQUE HOTEL – MILAN",
+      image: "/images/packages/MILAN_PORTOFINO_Hotel01.webp",
+      desc: "A refined urban retreat offering contemporary design, central location, and elevated hospitality.",
+    },
+    {
+      name: "BELMOND HOTEL SPLENDIDO – PORTOFINO",
+      image: "/images/packages/MILAN_PORTOFINO_Hotel02.webp",
+      desc: "An iconic Riviera property known for its panoramic views, timeless elegance, and exceptional service.",
+    }
+  ],
+
+ similarPackages: [
+            {
+slug: "italy",
+packageSlug: "DOLCE_VITA_ESCAPE",
+title: "THE ULTIMATE DOLCE VITA ESCAPE: VINEYARDS, COASTLINES & ICONIC ITALIAN LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "9 NIGHTS",
+headline: "This elegant journey captures the essence of Italy’s most iconic landscapes, blending the rolling vineyards of Tuscany with the dramatic coastal beauty of Sorrento and the Amalfi Coast.",
+}
+},
+{
+slug: "italy",
+packageSlug: "GRAND_ITALIAN_ODYSSEY",
+title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+}
+},
+    {
+slug: "italy",
+packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
+title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "12 NIGHTS",
+headline: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+}
+},
+  ]
+},
 ];
