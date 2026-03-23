@@ -1322,7 +1322,7 @@ desc: "A private island retreat offering barefoot luxury, coral reefs, and prist
 
 similarPackages: [
 {
-slug: "rwanda-tanzania",
+slug: "tanzania",
 packageSlug: "serengeti-safari",
 title: "Serengeti Safari Experience",
 heroImage: "/images/triple-creek-ranch.avif",
@@ -1688,7 +1688,7 @@ headline: "Relax on white-sand beaches and turquoise waters."
 },
 
 // --------------------------------------------------------------------------------------
-// GREECE PACKAGE 1 -- LEGENDS_LEISURE_GREECE
+// GREECE PACKAGE 1 -- LEGENDS_LEISURE_GREECE -- DONE
 {
   slug: "greece",
   packageSlug: "LEGENDS_LEISURE_GREECE",
@@ -1774,38 +1774,38 @@ desc: "An award-winning luxury resort overlooking Mirabello Bay, offering privat
 similarPackages: [
 {
 slug: "greece",
-packageSlug: "santorini-escape",
-title: "Santorini Escape",
+packageSlug: "AEGEAN_ICONS_EPICUREAN_ISLES",
+title: "AEGEAN ICONS & EPICUREAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "5 DAYS",
-headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+duration: "9 NIGHTS",
+headline: "This refined island journey explores some of the most captivating destinations of the Cyclades, combining Greece’s historic capital with three distinctive Aegean islands known for their culinary traditions, elegant villages, and breathtaki...",
 }
 },
 {
 slug: "greece",
-packageSlug: "athens-history-tour",
-title: "Athens Cultural Journey",
+packageSlug: "AEGEAN_REVERIE",
+title: "NORTHERN AEGEAN REVERIE: CITIES, SEAS & ARTISAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "4 DAYS",
-headline: "Dive into the ancient history and vibrant culture of Athens."
-}
+duration: "11 NIGHTS",
+headline: "This immersive journey through northern Greece and the Aegean islands reveals a side of the country often overlooked by traditional itineraries.",
+      },
 },
 {
 slug: "greece",
-packageSlug: "crete-island-retreat",
-title: "Crete Island Retreat",
+packageSlug: "CYCLADIC_CALM",
+title: "CYCLADIC CALM: HIDDEN GEMS & SECLUDED BEACHES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "6 DAYS",
-headline: "Discover Crete’s beaches, history, and scenic landscapes."
+duration: "8 NIGHTS",
+headline: "This elegant island-hopping journey through the Cyclades reveals a slower, more refined side of Greece, where relaxed coastal villages, turquoise bays, and timeless island traditions."
 }
 }
 ]
 },
 
-// GREECE PACKAGE 2 -- NORTHERN_AEGEAN_REVERIE: CITIES, SEAS & ARTISAN ISLES
+// GREECE PACKAGE 2 -- NORTHERN_AEGEAN_REVERIE: CITIES, SEAS & ARTISAN ISLES -- DONE
 {
   slug: "greece",
   packageSlug: "AEGEAN_REVERIE",
@@ -1893,41 +1893,42 @@ desc: "A charming seaside hotel overlooking the Aegean, blending traditional isl
 // }
 ],
 
+
 similarPackages: [
 {
 slug: "greece",
-packageSlug: "santorini-escape",
-title: "Santorini Escape",
+packageSlug: "AEGEAN_ICONS_EPICUREAN_ISLES",
+title: "AEGEAN ICONS & EPICUREAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "5 DAYS",
-headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+duration: "9 NIGHTS",
+headline: "This refined island journey explores some of the most captivating destinations of the Cyclades, combining Greece’s historic capital with three distinctive Aegean islands known for their culinary traditions, elegant villages, and breathtaki...",
 }
 },
 {
 slug: "greece",
-packageSlug: "athens-history-tour",
-title: "Athens Cultural Journey",
+packageSlug: "LEGENDS_LEISURE_GREECE",
+title: "LEGENDS & LEISURE: A FAMILY ODYSSEY THROUGH GREECE",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "4 DAYS",
-headline: "Dive into the ancient history and vibrant culture of Athens."
-}
+duration: "11-12 NIGHTS",
+headline: "This thoughtfully designed Greek journey blends mythology, culture, and coastal leisure across three of the country’s most...",
+      },
 },
 {
 slug: "greece",
-packageSlug: "crete-island-retreat",
-title: "Crete Island Retreat",
+packageSlug: "CYCLADIC_CALM",
+title: "CYCLADIC CALM: HIDDEN GEMS & SECLUDED BEACHES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "6 DAYS",
-headline: "Discover Crete’s beaches, history, and scenic landscapes."
+duration: "8 NIGHTS",
+headline: "This elegant island-hopping journey through the Cyclades reveals a slower, more refined side of Greece, where relaxed coastal villages, turquoise bays, and timeless island traditions."
 }
 }
 ]
 },
 
-// GREECE PACKAGE 3 -- CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE
+// GREECE PACKAGE 3 -- AEGEAN_ICONS_EPICUREAN_ISLES -- DONE
 {
   slug: "greece",
   packageSlug: "AEGEAN_ICONS_EPICUREAN_ISLES",
@@ -2013,38 +2014,38 @@ desc: "A contemporary luxury sanctuary near Naoussa known for its minimalist Cyc
 similarPackages: [
 {
 slug: "greece",
-packageSlug: "santorini-escape",
-title: "Santorini Escape",
+packageSlug: "AEGEAN_REVERIE",
+title: "NORTHERN AEGEAN REVERIE: CITIES, SEAS & ARTISAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "5 DAYS",
-headline: "Experience iconic sunsets and cliffside beauty in Santorini."
-}
+duration: "11 NIGHTS",
+headline: "This immersive journey through northern Greece and the Aegean islands reveals a side of the country often overlooked by traditional itineraries.",
+      },
 },
 {
 slug: "greece",
-packageSlug: "athens-history-tour",
-title: "Athens Cultural Journey",
+packageSlug: "LEGENDS_LEISURE_GREECE",
+title: "LEGENDS & LEISURE: A FAMILY ODYSSEY THROUGH GREECE",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "4 DAYS",
-headline: "Dive into the ancient history and vibrant culture of Athens."
-}
+duration: "11-12 NIGHTS",
+headline: "This thoughtfully designed Greek journey blends mythology, culture, and coastal leisure across three of the country’s most...",
+      },
 },
 {
 slug: "greece",
-packageSlug: "crete-island-retreat",
-title: "Crete Island Retreat",
+packageSlug: "CYCLADIC_CALM",
+title: "CYCLADIC CALM: HIDDEN GEMS & SECLUDED BEACHES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "6 DAYS",
-headline: "Discover Crete’s beaches, history, and scenic landscapes."
+duration: "8 NIGHTS",
+headline: "This elegant island-hopping journey through the Cyclades reveals a slower, more refined side of Greece, where relaxed coastal villages, turquoise bays, and timeless island traditions."
 }
 }
 ]
 },
 
-// GREECE PACKAGE 4 -- CYCLADIC_CALM_ISLAND_HOPPING_ESCAPE
+// GREECE PACKAGE 4 -- CYCLADIC_CALM_ISLAND_HOPPING_ESCAPE -- DONE
 {
   slug: "greece",
   packageSlug: "CYCLADIC_CALM",
@@ -2116,38 +2117,38 @@ desc: "A luxury cliffside sanctuary featuring iconic caldera views, private terr
 similarPackages: [
 {
 slug: "greece",
-packageSlug: "santorini-escape",
-title: "Santorini Escape",
+packageSlug: "AEGEAN_ICONS_EPICUREAN_ISLES",
+title: "AEGEAN ICONS & EPICUREAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "5 DAYS",
-headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+duration: "9 NIGHTS",
+headline: "This refined island journey explores some of the most captivating destinations of the Cyclades, combining Greece’s historic capital with three distinctive Aegean islands known for their culinary traditions, elegant villages, and breathtaki...",
 }
 },
 {
 slug: "greece",
-packageSlug: "athens-history-tour",
-title: "Athens Cultural Journey",
+packageSlug: "LEGENDS_LEISURE_GREECE",
+title: "LEGENDS & LEISURE: A FAMILY ODYSSEY THROUGH GREECE",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "4 DAYS",
-headline: "Dive into the ancient history and vibrant culture of Athens."
-}
+duration: "11-12 NIGHTS",
+headline: "This thoughtfully designed Greek journey blends mythology, culture, and coastal leisure across three of the country’s most...",
+      },
 },
 {
 slug: "greece",
-packageSlug: "crete-island-retreat",
-title: "Crete Island Retreat",
+packageSlug: "AEGEAN_REVERIE",
+title: "NORTHERN AEGEAN REVERIE: CITIES, SEAS & ARTISAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "6 DAYS",
-headline: "Discover Crete’s beaches, history, and scenic landscapes."
-}
-}
+duration: "11 NIGHTS",
+headline: "This immersive journey through northern Greece and the Aegean islands reveals a side of the country often overlooked by traditional itineraries.",
+      },
+},
 ]
 },
 
-// GREECE PACKAGE 5 -- EMPIRES_AEGEAN_DREAMS: GREECE & TURKEY EXPLORATION
+// GREECE PACKAGE 5 -- EMPIRES_AEGEAN_DREAMS: GREECE & TURKEY EXPLORATION -- DONE
 {
   slug: "greece",
   packageSlug: "EMPIRES_AEGEAN_DREAMS",
@@ -2224,38 +2225,38 @@ desc: "A historic luxury hotel overlooking Syntagma Square with panoramic views 
 similarPackages: [
 {
 slug: "greece",
-packageSlug: "santorini-escape",
-title: "Santorini Escape",
+packageSlug: "AEGEAN_ICONS_EPICUREAN_ISLES",
+title: "AEGEAN ICONS & EPICUREAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "5 DAYS",
-headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+duration: "9 NIGHTS",
+headline: "This refined island journey explores some of the most captivating destinations of the Cyclades, combining Greece’s historic capital with three distinctive Aegean islands known for their culinary traditions, elegant villages, and breathtaki...",
 }
 },
 {
 slug: "greece",
-packageSlug: "athens-history-tour",
-title: "Athens Cultural Journey",
+packageSlug: "LEGENDS_LEISURE_GREECE",
+title: "LEGENDS & LEISURE: A FAMILY ODYSSEY THROUGH GREECE",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "4 DAYS",
-headline: "Dive into the ancient history and vibrant culture of Athens."
-}
+duration: "11-12 NIGHTS",
+headline: "This thoughtfully designed Greek journey blends mythology, culture, and coastal leisure across three of the country’s most...",
+      },
 },
 {
 slug: "greece",
-packageSlug: "crete-island-retreat",
-title: "Crete Island Retreat",
+packageSlug: "CYCLADIC_CALM",
+title: "CYCLADIC CALM: HIDDEN GEMS & SECLUDED BEACHES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "6 DAYS",
-headline: "Discover Crete’s beaches, history, and scenic landscapes."
+duration: "8 NIGHTS",
+headline: "This elegant island-hopping journey through the Cyclades reveals a slower, more refined side of Greece, where relaxed coastal villages, turquoise bays, and timeless island traditions."
 }
 }
 ]
 },
 
-// GREECE PACKAGE 6 -- FROM_POLIS_TO_PARADISE
+// GREECE PACKAGE 6 -- FROM_POLIS_TO_PARADISE --   DONE
 {
   slug: "greece",
   packageSlug: "FROM_POLIS_TO_PARADISE",
@@ -2327,32 +2328,32 @@ desc: "One of Greece’s most exclusive resorts, combining classical architectur
 similarPackages: [
 {
 slug: "greece",
-packageSlug: "santorini-escape",
-title: "Santorini Escape",
+packageSlug: "AEGEAN_ICONS_EPICUREAN_ISLES",
+title: "AEGEAN ICONS & EPICUREAN ISLES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "5 DAYS",
-headline: "Experience iconic sunsets and cliffside beauty in Santorini."
+duration: "9 NIGHTS",
+headline: "This refined island journey explores some of the most captivating destinations of the Cyclades, combining Greece’s historic capital with three distinctive Aegean islands known for their culinary traditions, elegant villages, and breathtaki...",
 }
 },
 {
 slug: "greece",
-packageSlug: "athens-history-tour",
-title: "Athens Cultural Journey",
+packageSlug: "LEGENDS_LEISURE_GREECE",
+title: "LEGENDS & LEISURE: A FAMILY ODYSSEY THROUGH GREECE",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "4 DAYS",
-headline: "Dive into the ancient history and vibrant culture of Athens."
-}
+duration: "11-12 NIGHTS",
+headline: "This thoughtfully designed Greek journey blends mythology, culture, and coastal leisure across three of the country’s most...",
+      },
 },
 {
 slug: "greece",
-packageSlug: "crete-island-retreat",
-title: "Crete Island Retreat",
+packageSlug: "CYCLADIC_CALM",
+title: "CYCLADIC CALM: HIDDEN GEMS & SECLUDED BEACHES",
 heroImage: "/images/triple-creek-ranch.avif",
 heroMeta: {
-duration: "6 DAYS",
-headline: "Discover Crete’s beaches, history, and scenic landscapes."
+duration: "8 NIGHTS",
+headline: "This elegant island-hopping journey through the Cyclades reveals a slower, more refined side of Greece, where relaxed coastal villages, turquoise bays, and timeless island traditions."
 }
 }
 ]
@@ -3005,7 +3006,7 @@ headline: "EMERALD ISLES & INDIAN OCEAN DREAMS: SRI LANKA TO MALDIVES LUXURY JOU
   slug: "maldives",
   packageSlug: "SONEVA_SIGNATURE_ESCAPE",
   title: "THE PRIVATE ISLAND DUO PACKAGE: SONEVA SIGNATURE MALDIVES ESCAPE",
-  heroImage: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-HERO.webp",
+  heroImage: "/images/packages/THEPRIVATEISLANDDUOPACKAGE-HERO.png",
 
   heroMeta: {
     country: "MALDIVES",
@@ -4519,7 +4520,7 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
   ]
 },
 
-// ITALY PACKAGE 9 -- VOLCANIC LUXURY
+// ITALY PACKAGE 9 -- VOLCANIC LUXURY      -- DONE
 {
   slug: "italy",
   packageSlug: "VOLCANIC_LUXURY",
@@ -4618,12 +4619,12 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
   ]
 },
 
-// ITALY PACKAGE 10 -- LA DOLCE VITA ELITE
+// ITALY PACKAGE 10 -- LA DOLCE VITA ELITE  --- done
 {
   slug: "italy",
   packageSlug: "LA_DOLCE_VITA_ELITE",
   title: "LA DOLCE VITA ELITE: MILAN COUTURE & PORTOFINO RIVIERA ESCAPE",
-  heroImage: "/images/packages/MILAN_PORTOFINO_HERO.webp",
+  heroImage: "/images/packages/LADOLCEVITAELITE-HERO.png",
 
   heroMeta: {
     country: "ITALY",
@@ -4643,37 +4644,37 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
       title1: "DAY 1–2 — MILAN: FASHION, DESIGN & GOURMET EXPERIENCES",
       description1:
 "Arrive in Milan, where a private transfer welcomes you to your luxury hotel, setting the tone for a refined urban escape.\n\nDiscover Milan’s sophisticated character through its fashion districts, elegant streets, and contemporary design spaces.\n\nEnjoy exclusive access to private ateliers or designer boutiques, offering a rare glimpse into the world of Italian couture and craftsmanship.\n\nComplement your experience with a curated wine and truffle tasting, where fine flavours and gourmet indulgence reflect the city’s elevated culinary scene.",
-      image1: "/images/packages/MILAN_PORTOFINO_Block01.webp",
+      image1: "/images/packages/LADOLCEVITAELITE-Block01.png",
     },
     {
       title1: "DAY 3 — SCENIC DRIVE TO PORTOFINO: VINTAGE STYLE & RIVIERA ARRIVAL",
       description1:
 "Depart Milan and embark on a scenic journey to the Italian Riviera in a vintage Alfa Romeo, enjoying picturesque countryside views along the way.\n\nArrive in the iconic coastal village of Portofino, known for its pastel-coloured harbour, luxury yachts, and timeless charm.\n\nCheck into a prestigious property such as Belmond Hotel Splendido, perched above the bay, offering panoramic views and refined elegance.\n\nSpend the evening at leisure, soaking in the tranquil atmosphere and coastal beauty.",
-      image1: "/images/packages/MILAN_PORTOFINO_Block02.webp",
+      image1: "/images/packages/LADOLCEVITAELITE-Block02.png",
     },
     {
       title1: "DAY 4 — CINQUE TERRE: PRIVATE COASTAL EXPLORATION",
       description1:
 "Discover the beauty of the Cinque Terre, a collection of picturesque villages set along dramatic cliffs overlooking the Mediterranean.\n\nExplore the region through a private guided experience, either by boat or luxury vehicle, allowing you to uncover hidden corners and scenic viewpoints at your own pace.\n\nStroll through charming streets, enjoy local flavours, and take in the breathtaking coastal landscapes that define this UNESCO-listed destination.",
-      image1: "/images/packages/MILAN_PORTOFINO_Block03.webp",
+      image1: "/images/packages/LADOLCEVITAELITE-Block03.png",
     },
     {
       title1: "DAY 5 — PORTOFINO: RIVIERA LEISURE & SUNSET FINALE",
       description1:
 "Your final day is dedicated to the relaxed elegance of Portofino.\n\nEnjoy leisurely moments along the harbour, explore boutique shops, or unwind at a private beach club.\n\nAs the day transitions into evening, experience a classic sunset aperitivo, overlooking the bay as golden light reflects across the water.\n\nThis refined and unhurried finale perfectly captures the essence of the Italian Riviera.\n\nYour journey concludes with a private transfer for departure, marking the end of a stylish and memorable Italian escape.",
-      image1: "/images/packages/MILAN_PORTOFINO_Block04.webp",
+      image1: "/images/packages/LADOLCEVITAELITE-Block04.png",
     }
   ],
 
   hotels: [
     {
       name: "LUXURY BOUTIQUE HOTEL – MILAN",
-      image: "/images/packages/MILAN_PORTOFINO_Hotel01.webp",
+      image: "/images/packages/LADOLCEVITAELITE-Hotel01.png",
       desc: "A refined urban retreat offering contemporary design, central location, and elevated hospitality.",
     },
     {
       name: "BELMOND HOTEL SPLENDIDO – PORTOFINO",
-      image: "/images/packages/MILAN_PORTOFINO_Hotel02.webp",
+      image: "/images/packages/LADOLCEVITAELITE-Hotel02.png",
       desc: "An iconic Riviera property known for its panoramic views, timeless elegance, and exceptional service.",
     }
   ],
@@ -4711,4 +4712,536 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
 },
   ]
 },
+// --------------------------------------------------------------------------------
+
+// NEWZEALAND PACKAGE 1 -- PRIVATE HELI JOURNEY -- DONE
+{
+  slug: "new-zealand",
+  packageSlug: "PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
+  title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
+  heroImage: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND_HERO.png",
+
+  heroMeta: {
+    country: "NEW ZEALAND – SOUTH ISLAND",
+    headline: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
+    when: "November – April",
+    price: {
+      label: "$15,900 per person (excluding international flights)",
+    },
+    duration: "10 Nights",
+  },
+
+  intro:
+"This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.\n\nBeginning in Queenstown, the adventure unfolds amidst alpine landscapes, serene lakes, and refined lodge experiences, offering a perfect balance of relaxation and curated exploration.\n\nThe journey elevates with breathtaking aerial experiences over Milford Sound, remote glacier landings, and access to untouched wilderness that few ever encounter.\n\nTransitioning from alpine grandeur to coastal sophistication, the experience continues through Kaikoura and Marlborough, where marine life encounters, vineyard indulgence, and tranquil waterfront luxury create an unforgettable finale.",
+
+  sections: [
+    {
+      title1: "DAY 1–3 — QUEENSTOWN: ALPINE LUXURY & HELICOPTER EXPERIENCES",
+      description1:
+"Arrive in Queenstown, where a private transfer welcomes you to your lakeside luxury retreat, offering uninterrupted views of the surrounding mountains and Lake Wakatipu.\n\nImmerse yourself in Queenstown’s refined alpine charm, with access to fine dining, boutique experiences, and curated leisure tailored to your preferences.\n\nA defining highlight awaits as you embark on a private helicopter journey over the dramatic landscapes of Milford Sound, soaring above fjords, waterfalls, and untouched wilderness.\n\nLand on a remote glacier for an exclusive champagne experience, surrounded by towering ice formations—an unforgettable moment of pure alpine indulgence.",
+      image1: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Block01.png",
+    },
+    {
+      title1: "DAY 4–5 — BLANKET BAY: REMOTE WILDERNESS & ELEVATED SECLUSION",
+      description1:
+"Journey to Blanket Bay Lodge, one of New Zealand’s most exclusive retreats, set amidst pristine alpine wilderness and accessible only through scenic routes that enhance the sense of escape.\n\nHere, luxury meets raw natural beauty, offering a secluded environment designed for complete relaxation and privacy.\n\nEnhance your stay with a hot air balloon experience, drifting gently over expansive valleys, rivers, and dramatic mountain landscapes.\n\nWhether indulging in the lodge’s world-class hospitality or simply unwinding in nature, this chapter offers a rare balance of tranquillity and understated luxury.",
+      image1: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Block02.png",
+    },
+    {
+      title1: "DAY 6–8 — KAIKOURA: COASTAL WILDERNESS & MARINE ENCOUNTERS",
+      description1:
+"Travel through the scenic Canterbury region towards Kaikoura, where rugged coastlines meet abundant marine life.\n\nExperience an intimate encounter with nature as you swim alongside rare Hector’s dolphins in their natural habitat, guided by expert professionals.\n\nElevate the experience further with a private helicopter whale-watching journey, offering a privileged aerial perspective of majestic sperm whales and the dramatic coastline below.\n\nStay at the iconic Hapuku Lodge, where luxury treehouse-style accommodations provide sweeping ocean views, blending architectural elegance with immersive natural surroundings.",
+      image1: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Block03.png",
+    },
+    {
+      title1: "DAY 9–10 — MARLBOROUGH: VINEYARDS, CRUISES & COASTAL INDULGENCE",
+      description1:
+"Your journey concludes in the serene Marlborough Sounds, where luxury takes on a slower, more indulgent rhythm.\n\nCheck into an exclusive waterfront retreat such as Bay of Many Coves, where private cruises through tranquil inlets, gourmet seafood experiences, and curated wine tastings define your stay.\n\nA private helicopter transfer to Cloudy Bay winery offers an elevated vineyard experience, with behind-the-scenes access and premium tastings in one of New Zealand’s most celebrated wine regions.\n\nAs the journey draws to a close, enjoy a leisurely morning surrounded by natural beauty before your private departure transfer—bringing an unforgettable exploration of New Zealand’s South Island to a refined and seamless end.",
+      image1: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "LUXURY LAKESIDE RETREAT – QUEENSTOWN",
+      image: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Hotel01.png",
+      desc: "An elegant alpine sanctuary offering panoramic lake views, refined interiors, and exceptional personalised service.",
+    },
+    {
+      name: "BLANKET BAY LODGE – GLENORCHY",
+      image: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Hotel02.png",
+      desc: "A world-renowned luxury lodge set amidst dramatic wilderness, offering exclusivity, privacy, and immersive natural beauty.",
+    },
+    {
+      name: "HAPUKU LODGE – KAIKOURA",
+      image: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Hotel03.png",
+      desc: "A unique treehouse-style retreat combining contemporary design with breathtaking coastal and mountain views.",
+    },
+    {
+      name: "BAY OF MANY COVES – MARLBOROUGH",
+      image: "/images/packages/PRIVATEHELIJOURNEY-NEWZEALAND-Hotel04.png",
+      desc: "A secluded waterfront resort offering refined comfort, private access, and exceptional culinary experiences.",
+    }
+  ],
+
+  similarPackages: [
+            {
+slug: "new-zealand",
+packageSlug: "ULTIMATE_PACIFIC_PRIVATE_ESCAPE",
+title: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This extraordinary Pacific journey is crafted for travellers seeking a seamless blend of dramatic landscapes, cultural depth...",
+}
+},
+{
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_YACHT_ESCAPE",
+title: "PRIVATE HELI & YACHT ESCAPE: VOLCANOES, VINEYARDS & COASTAL LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This exceptional North Island journey is designed for travellers seeking a seamless fusion of adventure and luxury...",
+}
+},
+    {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
+title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This extraordinary journey brings together two of the world’s most breathtaking landscapes...",
+}
+},
+  ]
+},
+
+// NEWZEALAND PACKAGE 2    ultra private pacific escape -- DONE
+{
+  slug: "new-zealand",
+  packageSlug: "ULTIMATE_PACIFIC_PRIVATE_ESCAPE",
+  title: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+  heroImage: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-HERO.png",
+
+  heroMeta: {
+    country: "NEW ZEALAND & FIJI",
+    headline: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+    when: "October – April",
+    price: {
+      label: "$22,800 per person (excluding international flights)",
+    },
+    duration: "14 Nights",
+  },
+
+  intro:
+"This extraordinary Pacific journey is crafted for travellers seeking a seamless blend of dramatic landscapes, cultural depth, and ultimate island indulgence—experienced through private transfers, exclusive lodges, and curated encounters.\n\nBeginning in New Zealand’s North Island, the journey unfolds through geothermal wonders, volcanic landscapes, and refined countryside retreats, offering an immersive connection to nature and heritage.\n\nFrom helicopter journeys over Taupo’s striking terrain to coastal elegance in Hawke’s Bay and alpine luxury in Queenstown, each moment is thoughtfully designed for privacy, comfort, and elevated exploration.\n\nThe experience then transitions effortlessly into the tropical serenity of Fiji, where pristine beaches, crystal-clear lagoons, and private island living create a tranquil and indulgent finale.",
+
+  sections: [
+    {
+      title1: "DAY 1–4 — AUCKLAND & TAUPO: HELICOPTER JOURNEYS & VOLCANIC LANDSCAPES",
+      description1:
+"Arrive in Auckland, where you are welcomed with a private transfer and a seamless introduction to New Zealand’s refined hospitality.\n\nYour journey elevates as you board a private helicopter to Taupo, arriving at the iconic Huka Lodge, set along the emerald Waikato River in a serene and secluded environment.\n\nDiscover the region’s geothermal beauty through an exclusive helicopter safari, soaring above steaming craters, volcanic formations, and untouched wilderness landscapes.\n\nComplement your experience with moments of cultural and natural immersion—kayaking along ancient Maori carvings or unwinding in geothermal hot pools surrounded by dramatic scenery.",
+      image1: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Block01.png",
+    },
+    {
+      title1: "DAY 5–7 — HAWKE’S BAY: COASTAL LUXURY, WINE & CULTURAL IMMERSION",
+      description1:
+"Journey to Hawke’s Bay, where vineyard-covered hills meet dramatic coastal cliffs, creating one of New Zealand’s most refined wine regions.\n\nCheck into Rosewood Cape Kidnappers, an exclusive clifftop retreat offering panoramic ocean views and world-class hospitality.\n\nIndulge in private wine tastings across the region’s renowned vineyards, paired with gourmet culinary experiences that highlight local flavours and seasonal produce.\n\nEnhance your stay with curated cultural encounters, including Maori traditions and art experiences, offering a deeper connection to the region’s heritage and identity.",
+      image1: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Block02.png",
+    },
+    {
+      title1: "DAY 8–10 — QUEENSTOWN: ALPINE ADVENTURE & REFINED LEISURE",
+      description1:
+"Fly to Queenstown and transition into the dramatic landscapes of New Zealand’s South Island, where alpine beauty meets luxury living.\n\nSettle into Blanket Bay Lodge, a secluded retreat overlooking Lake Wakatipu, offering privacy and breathtaking surroundings.\n\nEnjoy curated experiences tailored to your preferences—from jet boating and fly fishing to exclusive glacier landings with champagne moments in remote alpine settings.\n\nBalance adventure with relaxation, taking time to soak in the serenity, indulge in fine dining, or simply unwind amidst the region’s spectacular natural beauty.",
+      image1: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Block03.png",
+    },
+    {
+      title1: "DAY 11–14 — FIJI: PRIVATE ISLAND LUXURY & TROPICAL INDULGENCE",
+      description1:
+"Depart New Zealand and journey to Fiji, where the atmosphere shifts from alpine grandeur to tropical tranquillity.\n\nArrive via seaplane at Kokomo Private Island, an exclusive sanctuary offering beachfront villas, crystal-clear waters, and unparalleled privacy.\n\nSpend your days immersed in island life—snorkelling vibrant coral reefs, enjoying world-class diving, or indulging in bespoke spa rituals designed for complete relaxation.\n\nAs your journey unfolds, experience the perfect balance of activity and leisure, from curated island experiences to quiet moments beneath swaying palms.\n\nYour escape concludes with a leisurely departure, leaving you refreshed, rejuvenated, and enriched by a journey that seamlessly blends adventure, culture, and indulgence.",
+      image1: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "LUXURY CITY RETREAT – AUCKLAND",
+      image: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Hotel01.png",
+      desc: "A refined urban sanctuary offering contemporary comfort, personalised service, and seamless access to the city.",
+    },
+    {
+      name: "HUKA LODGE – TAUPO",
+      image: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Hotel02.png",
+      desc: "An iconic riverside retreat renowned for its exclusivity, tranquil setting, and exceptional hospitality.",
+    },
+    {
+      name: "ROSEWOOD CAPE KIDNAPPERS – HAWKE’S BAY",
+      image: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Hotel03.png",
+      desc: "A prestigious clifftop lodge offering panoramic ocean views, refined luxury, and world-class experiences.",
+    },
+    // {
+    //   name: "BLANKET BAY LODGE – QUEENSTOWN",
+    //   image: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Hotel04.png",
+    //   desc: "A secluded alpine retreat combining dramatic landscapes with understated elegance and privacy.",
+    // },
+    // {
+    //   name: "KOKOMO PRIVATE ISLAND – FIJI",
+    //   image: "/images/packages/THEULTIMATEPACIFICPRIVATEESCAPE-Hotel05.png",
+    //   desc: "An ultra-luxury island escape offering beachfront villas, personalised experiences, and pristine natural beauty.",
+    // }
+  ],
+
+ similarPackages: [
+            {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
+title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "10 NIGHTS",
+headline: "This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.",
+}
+},
+{
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_YACHT_ESCAPE",
+title: "PRIVATE HELI & YACHT ESCAPE: VOLCANOES, VINEYARDS & COASTAL LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This exceptional North Island journey is designed for travellers seeking a seamless fusion of adventure and luxury...",
+}
+},
+    {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
+title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This extraordinary journey brings together two of the world’s most breathtaking landscapes...",
+}
+},
+  ]
+},
+
+// NEWZEALAND PACKAGE 3 -- PRIVATE HELI & YACHT ESCAPE  -- DONE
+{
+  slug: "new-zealand",
+  packageSlug: "PRIVATE_HELI_YACHT_ESCAPE",
+  title: "PRIVATE HELI & YACHT ESCAPE: VOLCANOES, VINEYARDS & COASTAL LUXURY",
+  heroImage: "/images/packages/PRIVATEHELI&YACHTESCAPE-HERO.png",
+
+  heroMeta: {
+    country: "NEW ZEALAND – NORTH ISLAND",
+    headline: "PRIVATE HELI & YACHT ESCAPE: VOLCANOES, VINEYARDS & COASTAL LUXURY",
+    when: "October – April",
+    price: {
+      label: "$20,900 per person (excluding international flights)",
+    },
+    duration: "10 Nights",
+  },
+
+  intro:
+"This exceptional North Island journey is designed for travellers seeking a seamless fusion of dramatic natural landscapes, refined luxury, and exclusive experiences—crafted through private helicopter transfers, curated stays, and coastal indulgence.\n\nBeginning in Auckland, the journey unfolds into the geothermal heart of New Zealand, where volcanic landscapes, pristine rivers, and secluded luxury lodges create a deeply immersive experience.\n\nFrom helicopter landings on active volcanic terrain to tranquil moments along the Waikato River and vineyard-covered coastlines, each chapter offers a unique perspective of the island’s diverse beauty.\n\nThe experience concludes with a sophisticated blend of city culture and private yacht exploration, culminating in the breathtaking coastal elegance of the Bay of Islands—where luxury meets complete serenity.",
+
+  sections: [
+    {
+      title1: "DAY 1–3 — AUCKLAND & ROTORUA: HELICOPTER JOURNEYS & VOLCANIC LANDSCAPES",
+      description1:
+"Arrive in Auckland, where a private transfer ensures a seamless introduction to New Zealand’s vibrant gateway city, setting the tone for an elevated journey ahead.\n\nYour experience quickly ascends as you embark on a private helicopter transfer to Rotorua, soaring above geothermal terrain and untouched wilderness.\n\nEnjoy exclusive landings on Mount Tarawera and the dramatic White Island volcano, offering a rare and privileged encounter with New Zealand’s raw volcanic power.\n\nContinue onward to Taupo, arriving at the iconic Huka Lodge, where refined luxury meets the tranquillity of the Waikato River, creating an atmosphere of complete seclusion and elegance.",
+      image1: "/images/packages/PRIVATEHELI&YACHTESCAPE-Block01.png",
+    },
+    {
+      title1: "DAY 4–6 — TAUPO & HAWKE’S BAY: RIVERSIDE LUXURY & VINEYARD INDULGENCE",
+      description1:
+"Spend your days in Taupo embracing a slower, more immersive pace, with curated activities such as fly fishing, horse riding, or simply unwinding within your private luxury retreat surrounded by pristine nature.\n\nTransition to Hawke’s Bay, one of New Zealand’s most celebrated wine regions, where rolling vineyards meet dramatic coastal cliffs.\n\nCheck into Rosewood Cape Kidnappers, an exclusive clifftop lodge offering panoramic ocean views and exceptional hospitality.\n\nEnhance your stay with a guided cycling journey through vineyards, complemented by gourmet dining and private wine tastings that showcase the region’s finest vintages.",
+      image1: "/images/packages/PRIVATEHELI&YACHTESCAPE-Block02.png",
+    },
+    {
+      title1: "DAY 7–8 — AUCKLAND: CULTURE, DESIGN & URBAN LUXURY",
+      description1:
+"Return to Auckland, known as the “City of Sails,” where modern sophistication meets a relaxed coastal lifestyle.\n\nDiscover the city through curated experiences—exploring contemporary art galleries, designer boutiques, and an evolving culinary scene that reflects global influences.\n\nImmerse yourself in cultural encounters, including Maori heritage experiences, offering deeper insight into New Zealand’s identity and traditions.\n\nBalance exploration with leisure, enjoying a refined city stay that blends comfort, style, and effortless luxury.",
+      image1: "/images/packages/PRIVATEHELI&YACHTESCAPE-Block03.png",
+    },
+    {
+      title1: "DAY 9–10 — BAY OF ISLANDS & KAURI CLIFFS: PRIVATE YACHT & COASTAL RETREAT",
+      description1:
+"Journey north to the Bay of Islands, where turquoise waters and secluded islands create one of New Zealand’s most picturesque coastal settings.\n\nEmbark on a private yacht experience, sailing across this pristine archipelago, with opportunities for swimming, kayaking, and exploring hidden coves at your own pace.\n\nConclude your journey at Rosewood Kauri Cliffs, an extraordinary clifftop retreat offering sweeping ocean views, refined interiors, and world-class hospitality.\n\nSpend your final days unwinding in complete tranquillity—whether enjoying coastal walks, spa experiences, or simply absorbing the breathtaking natural surroundings.\n\nYour journey concludes with a serene departure, leaving you with a profound sense of escape, discovery, and refined luxury.",
+      image1: "/images/packages/PRIVATEHELI&YACHTESCAPE-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "LUXURY CITY HOTEL – AUCKLAND",
+      image: "/images/packages/PRIVATEHELI&YACHTESCAPE-Hotel01.png",
+      desc: "A sophisticated urban retreat offering contemporary design, harbour views, and seamless access to the city’s finest experiences.",
+    },
+    {
+      name: "HUKA LODGE – TAUPO",
+      image: "/images/packages/PRIVATEHELI&YACHTESCAPE-Hotel02.png",
+      desc: "An iconic riverside sanctuary known for its exclusivity, tranquil setting, and exceptional personalised service.",
+    },
+    {
+      name: "ROSEWOOD CAPE KIDNAPPERS – HAWKE’S BAY",
+      image: "/images/packages/PRIVATEHELI&YACHTESCAPE-Hotel03.png",
+      desc: "A prestigious clifftop lodge offering panoramic ocean views, refined luxury, and immersive vineyard experiences.",
+    },
+    {
+      name: "ROSEWOOD KAURI CLIFFS – BAY OF ISLANDS",
+      image: "/images/packages/PRIVATEHELI&YACHTESCAPE-Hotel04.png",
+      desc: "A world-class coastal retreat combining dramatic landscapes, privacy, and elevated hospitality.",
+    }
+  ],
+
+ similarPackages: [
+     {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
+title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This extraordinary journey brings together two of the world’s most breathtaking landscapes...",
+}
+},
+            {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
+title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "10 NIGHTS",
+headline: "This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.",
+}
+},
+            {
+slug: "new-zealand",
+packageSlug: "ULTIMATE_PACIFIC_PRIVATE_ESCAPE",
+title: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This extraordinary Pacific journey is crafted for travellers seeking a seamless blend of dramatic landscapes, cultural depth...",
+}
+},
+  ]
+},
+
+// NEWZEALAND PACKAGE 4 -- PRIVATE HELI & ULTRA-ISLAND ESCAPE -- DONE
+{
+  slug: "new-zealand",
+  packageSlug: "PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
+  title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+  heroImage: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-HERO.png",
+
+  heroMeta: {
+    country: "NEW ZEALAND & FRENCH POLYNESIA",
+    headline: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+    when: "October – April",
+    price: {
+      label: "$22,200 per person (excluding international flights)",
+    },
+    duration: "14 Nights",
+  },
+
+  intro:
+"This extraordinary journey brings together two of the world’s most breathtaking landscapes—New Zealand’s dramatic alpine wilderness and the untouched serenity of French Polynesia—crafted into one seamless, ultra-luxury escape.\n\nBeginning in the Bay of Islands, the experience unfolds with private yacht exploration, coastal discoveries, and elevated helicopter perspectives over pristine archipelagos.\n\nThe journey then transitions into the heart of New Zealand’s South Island, where alpine grandeur, remote luxury lodges, and exclusive helicopter adventures create moments of unparalleled access and indulgence.\n\nConcluding in the pristine atoll of Tetiaroa, home to The Brando, the experience reaches its most tranquil expression—where barefoot luxury, crystal-clear lagoons, and refined privacy define your final days in paradise.",
+
+  sections: [
+    {
+      title1: "DAY 1–4 — BAY OF ISLANDS: PRIVATE YACHTS, COASTAL EXPLORATION & HELICOPTER VIEWS",
+      description1:
+"Arrive in New Zealand and transfer seamlessly to Eagle’s Nest, an exclusive clifftop retreat offering panoramic views over the Pacific Ocean and complete privacy.\n\nDiscover the Bay of Islands through a private yacht experience, sailing across its 144 islands with opportunities for swimming, kayaking, and landing on secluded beaches accessible only by water.\n\nEnhance your exploration with curated coastal journeys, including visits to Cape Reinga and Russell, where heritage, nature, and marine encounters blend effortlessly.\n\nElevate your perspective with a scenic helicopter flight over the archipelago, revealing its turquoise waters, hidden coves, and dramatic coastline from above.",
+      image1: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Block01.png",
+    },
+    {
+      title1: "DAY 5–7 — QUEENSTOWN: ALPINE LUXURY & HELICOPTER EXPERIENCES",
+      description1:
+"Fly to Queenstown and check into Rosewood Matakauri, an elegant lakeside retreat overlooking Lake Wakatipu and the surrounding peaks.\n\nExperience the grandeur of Milford Sound from above with a private helicopter journey, soaring over fjords and glaciers before landing for an exclusive champagne moment amidst alpine ice fields.\n\nSpend your time indulging in curated experiences—from jet boating and fly fishing to spa rituals and refined dining—balancing adventure with relaxation in one of the world’s most spectacular settings.",
+      image1: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Block02.png",
+    },
+    {
+      title1: "DAY 8–9 — MINARET STATION: ULTRA-REMOTE ALPINE ESCAPE",
+      description1:
+"Venture deeper into New Zealand’s wilderness with a helicopter transfer to Minaret Station, an ultra-exclusive alpine lodge accessible only by air.\n\nSettle into your private chalet surrounded by untouched landscapes, where privacy and tranquillity define every moment.\n\nEngage in bespoke alpine experiences such as heli-hiking, skiing, or simply absorbing uninterrupted views above the clouds, offering a rare sense of isolation and connection with nature.\n\nThis chapter of the journey is designed for complete immersion—where luxury exists in its purest, most understated form.",
+      image1: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Block03.png",
+    },
+    {
+      title1: "DAY 10–14 — THE BRANDO, FRENCH POLYNESIA: PRIVATE ISLAND PARADISE",
+      description1:
+"Depart New Zealand and journey across the Pacific to the pristine atoll of Tetiaroa, arriving via private aircraft at the legendary Brando private island.\n\nSettle into your beachfront villa, where contemporary design blends seamlessly with the natural surroundings, offering ultimate privacy and direct access to crystal-clear lagoons.\n\nSpend your days exploring vibrant coral reefs, enjoying water sports, or indulging in world-class spa rituals inspired by Polynesian traditions.\n\nAs the journey unfolds, experience the essence of barefoot luxury—sunset cocktails, exceptional dining, and moments of complete serenity beneath swaying palms.\n\nYour final days are yours to savour, whether through gentle exploration or pure relaxation, before departing with a renewed sense of calm and unforgettable memories.",
+      image1: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "EAGLE’S NEST – BAY OF ISLANDS",
+      image: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Hotel01.png",
+      desc: "An exclusive clifftop retreat offering private villas, panoramic ocean views, and absolute seclusion.",
+    },
+    {
+      name: "ROSEWOOD MATAKAURI – QUEENSTOWN",
+      image: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Hotel02.png",
+      desc: "A luxury lakeside lodge combining refined elegance with breathtaking alpine surroundings.",
+    },
+    {
+      name: "MINARET STATION – SOUTHERN ALPS",
+      image: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Hotel03.png",
+      desc: "An ultra-remote alpine retreat accessible only by helicopter, offering unmatched privacy and exclusivity.",
+    },
+    {
+      name: "THE BRANDO – TETIAROA, FRENCH POLYNESIA",
+      image: "/images/packages/THEPRIVATEHELI&ULTRA-ISLANDESCAPE-Hotel04.png",
+      desc: "A world-renowned private island sanctuary known for its pristine beauty, sustainability, and unparalleled luxury.",
+    }
+  ],
+
+  similarPackages: [
+    {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_YACHT_ESCAPE",
+title: "PRIVATE HELI & YACHT ESCAPE: VOLCANOES, VINEYARDS & COASTAL LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This exceptional North Island journey is designed for travellers seeking a seamless fusion of adventure and luxury...",
+}
+},
+            {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
+title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "10 NIGHTS",
+headline: "This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.",
+}
+},
+            {
+slug: "new-zealand",
+packageSlug: "ULTIMATE_PACIFIC_PRIVATE_ESCAPE",
+title: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This extraordinary Pacific journey is crafted for travellers seeking a seamless blend of dramatic landscapes, cultural depth...",
+}
+},
+  ]
+},
+
+// NEWZEALAND PACKAGE 5 -- THE ULTIMATE CELEBRATION ESCAPE   -- DONE
+{
+  slug: "new-zealand",
+  packageSlug: "ULTIMATE_CELEBRATION_ESCAPE",
+  title: "THE ULTIMATE CELEBRATION ESCAPE: PRIVATE ADVENTURE, WILDLIFE & LUXURY ISLANDS",
+  heroImage: "/images/packages/THEULTIMATECELEBRATIONESCAPE-HERO.png",
+
+  heroMeta: {
+    country: "NEW ZEALAND",
+    headline: "THE ULTIMATE CELEBRATION ESCAPE: PRIVATE ADVENTURE, WILDLIFE & LUXURY ISLANDS",
+    when: "October – April",
+    price: {
+      label: "$15,200 per person (excluding international flights)",
+    },
+    duration: "14 Nights",
+  },
+
+  intro:
+"This dynamic New Zealand journey is designed as the ultimate celebration of adventure, nature, and refined luxury—crafted for travellers seeking a seamless blend of immersive experiences and exclusive stays.\n\nBeginning in Auckland, the journey unfolds through the geothermal heart of Rotorua, where dramatic landscapes, cultural encounters, and adrenaline-filled adventures create a vibrant start to the experience.\n\nAs the journey progresses, it transitions into elegant countryside estates, coastal retreats, and private island exploration—offering moments of tranquillity balanced with curated activities.\n\nConcluding in the South Island, the experience reaches its peak with marine wildlife encounters and iconic alpine landscapes, delivering a grand finale that captures the essence of New Zealand’s unparalleled diversity.",
+
+  sections: [
+    {
+      title1: "DAY 1–4 — AUCKLAND & ROTORUA: GEOTHERMAL WONDERS & ADVENTURE EXPERIENCES",
+      description1:
+"Arrive in Auckland, where a private transfer welcomes you to New Zealand’s vibrant harbour city, offering a seamless introduction to your journey.\n\nTravel onwards to Rotorua, the country’s geothermal heartland, where steaming geysers, limestone caves, and rich Maori cultural landscapes create a truly unique environment.\n\nImmerse yourself in adventure with curated experiences such as mountain biking through the Whakarewarewa Forest and exhilarating waterfall rafting on the Kaituna River—designed for thrill and exploration.\n\nBalance adventure with moments of calm, kayaking across the tranquil waters of Lake Rotoiti and unwinding in natural thermal hot pools surrounded by dramatic geothermal scenery.",
+      image1: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Block01.png",
+    },
+    {
+      title1: "DAY 5–7 — PALLISER BAY: COUNTRY ESTATE LUXURY & VINEYARD EXPERIENCES",
+      description1:
+"Journey to Palliser Bay and arrive at Wharekauhau Lodge, an exclusive coastal estate retreat set amidst expansive landscapes and overlooking the ocean.\n\nExperience a slower, more refined pace as you explore the estate through curated activities, including private vineyard tours, wine tastings, and 4WD farm safaris across rolling countryside.\n\nIndulge in the lodge’s understated luxury, where personalised service, gourmet dining, and panoramic views create a sense of complete seclusion.\n\nWhether hiking, biking, or simply relaxing within the serene environment, this chapter offers a perfect balance of countryside charm and elevated comfort.",
+      image1: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Block02.png",
+    },
+    {
+      title1: "DAY 8–10 — BAY OF ISLANDS: PRIVATE YACHTS & COASTAL LUXURY",
+      description1:
+"Fly north to the Bay of Islands and check into Rosewood Kauri Cliffs, a world-class coastal retreat offering dramatic ocean views and refined luxury.\n\nDiscover the region through a private yacht experience, sailing across its 144 islands with opportunities for swimming, kayaking, and exploring secluded beaches accessible only by water.\n\nEnhance your stay with curated leisure experiences, from horseback riding along scenic trails to fishing, hiking, or indulging in spa treatments overlooking the Pacific.\n\nThis coastal chapter blends exploration with tranquillity, offering a true sense of escape in one of New Zealand’s most picturesque regions.",
+      image1: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Block03.png",
+    },
+    {
+      title1: "DAY 11–14 — KAIKOURA & QUEENSTOWN: MARINE WILDLIFE & ALPINE FINALE",
+      description1:
+"Journey to Kaikoura, where rugged coastlines and rich marine life create an extraordinary natural setting.\n\nStay at Hapuku Lodge’s unique treehouse-style accommodations, offering elevated views and immersive surroundings.\n\nExperience unforgettable encounters with nature, including swimming with wild dolphins and world-class whale watching, offering rare access to New Zealand’s marine ecosystem.\n\nConclude your journey in Queenstown, where alpine landscapes and iconic experiences define the grand finale—exploring Milford Sound through a scenic flight and private cruise, surrounded by towering fjords and glaciers.\n\nYour final day allows for leisure or optional adventure before departure, leaving you with lasting memories of a journey that seamlessly blends excitement, luxury, and natural beauty.",
+      image1: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Block04.png",
+    }
+  ],
+
+  hotels: [
+    {
+      name: "LUXURY CITY HOTEL – AUCKLAND",
+      image: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Hotel01.png",
+      desc: "A sophisticated urban retreat offering harbour views, contemporary design, and seamless access to the city’s highlights.",
+    },
+    {
+      name: "WHAREKAUHAU LODGE – PALLISER BAY",
+      image: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Hotel02.png",
+      desc: "An exclusive country estate retreat combining coastal beauty, privacy, and refined hospitality.",
+    },
+    {
+      name: "ROSEWOOD KAURI CLIFFS – BAY OF ISLANDS",
+      image: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Hotel03.png",
+      desc: "A world-renowned clifftop property offering panoramic ocean views and exceptional experiences.",
+    },
+    {
+      name: "HAPUKU LODGE – KAIKOURA",
+      image: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Hotel04.png",
+      desc: "A distinctive treehouse-style retreat blending architectural elegance with coastal wilderness.",
+    },
+    // {
+    //   name: "LUXURY ALPINE RETREAT – QUEENSTOWN",
+    //   image: "/images/packages/THEULTIMATECELEBRATIONESCAPE-Hotel05.png",
+    //   desc: "A refined alpine sanctuary offering breathtaking views and elevated comfort.",
+    // }
+  ],
+
+   similarPackages: [
+    {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_YACHT_ESCAPE",
+title: "PRIVATE HELI & YACHT ESCAPE: VOLCANOES, VINEYARDS & COASTAL LUXURY",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This exceptional North Island journey is designed for travellers seeking a seamless fusion of adventure and luxury...",
+}
+},
+            {
+slug: "new-zealand",
+packageSlug: "PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
+title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "10 NIGHTS",
+headline: "This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.",
+}
+},
+            {
+slug: "new-zealand",
+packageSlug: "ULTIMATE_PACIFIC_PRIVATE_ESCAPE",
+title: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+heroImage: "/images/triple-creek-ranch.avif",
+heroMeta: {
+duration: "14 NIGHTS",
+headline: "This extraordinary Pacific journey is crafted for travellers seeking a seamless blend of dramatic landscapes, cultural depth...",
+}
+},
+  ]
+},
+
 ];

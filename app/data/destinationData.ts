@@ -470,7 +470,7 @@ export const DESTINATIONS: Destination[] = [
     ],
   },
 
-//   greece -- done
+//   greece  -- done
  {
     slug: "greece",
     title: "Not Just Greece. Your Sun-Soaked Rhythm.",
@@ -910,7 +910,7 @@ export const DESTINATIONS: Destination[] = [
   },
 
 
-//   new zealand
+//   new zealand -- done
  {
     slug: "new-zealand",
     title: "Not Just New Zealand. Your Freedom to Roam.",
@@ -941,34 +941,39 @@ export const DESTINATIONS: Destination[] = [
     },
     soloTrips: [
       {
+        slug:"PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
+        duration: "10 NIGHTS",
+        description: "This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.",
       },
       {
+        slug:"ULTIMATE_PACIFIC_PRIVATE_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+        duration: "14 NIGHTS",
+        description: "This extraordinary Pacific journey is crafted for travellers seeking a seamless blend of dramatic landscapes, cultural depth...",
       },
        {
+        slug:"PRIVATE_HELI_YACHT_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
+        title: "PRIVATE HELI & YACHT ESCAPE: VOLCANOES, VINEYARDS & COASTAL LUXURY",
+        duration: "10 NIGHTS",
+        description: "This exceptional North Island journey is designed for travellers seeking a seamless fusion of adventure and luxury...",
       },
       {
+        slug:"PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Ultimate Tanzania: Migrations, Masai Tribes & Beach Perfection",
-        duration: "3 Days",
-        description: "Experience East Africa’s charm, incredible landscapes and startling wildlife on our...",
+        title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+        duration: "14 NIGHTS",
+        description: "This extraordinary journey brings together two of the world’s most breathtaking landscapes...",
       },
       {
+        slug:"ULTIMATE_CELEBRATION_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
-        title: "Arusha, Serengeti & Tanganyika: Tanzania with a Twist",
-        duration: "1 Day",
-        description: "Fancy a safari holiday with a bit of a twist and all the perks? Whilst offering all the phenomenal description.",
+        title: "THE ULTIMATE CELEBRATION ESCAPE: PRIVATE ADVENTURE, WILDLIFE & LUXURY ISLANDS",
+        duration: "14 NIGHTS",
+        description: "This dynamic New Zealand journey is designed as the ultimate celebration of adventure, nature, and refined luxury.",
       },
        {
         image: "/images/triple-creek-ranch.avif",
