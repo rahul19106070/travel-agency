@@ -1024,7 +1024,7 @@ export const PACKAGES: Package[] = [
 
   // ------------------------------------------------------------------------------
 
-  // tanzania pacakage 1 -- tanzania wildlife & culture
+  // tanzania pacakage 1 -- tanzania wildlife & culture -- DONE
    {
     slug: "tanzania",
     packageSlug: "FROM_CRATERS_TO_CORAL",
@@ -1099,39 +1099,39 @@ export const PACKAGES: Package[] = [
     similarPackages: [
   {
     slug: "tanzania",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "KILIMANJARO_SUMMIT",
+    title: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "12 NIGHTS",
+      headline: "This journey combines one of the world’s most iconic mountain climbs with the serene beauty of the Indian Ocean.."
     }
   },
   {
     slug: "tanzania",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "GORILLAS_ZANZIBAR",
+    title: "GORILLAS & ZANZIBAR PRIVATE ISLAND ESCAPE",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "8 NIGHTS",
+      headline: "This remarkable journey blends one of the world’s most extraordinary wildlife encounters with the tranquil beauty..."
     }
   },
   {
     slug: "tanzania",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
+    packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+    title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "11 NIGHTS",
+      headline: "This classic East African journey captures the essence of Tanzania’s legendary safari landscapes."
     }
   }
 ]
   },
 
 
-   // tanzania pacakage 2 -- KILIMANJARO & ZANZIBAR
+   // tanzania pacakage 2 -- KILIMANJARO & ZANZIBAR -- DONE
    {
     slug: "tanzania",
     packageSlug: "KILIMANJARO_SUMMIT",
@@ -1212,39 +1212,39 @@ export const PACKAGES: Package[] = [
     similarPackages: [
   {
     slug: "tanzania",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "FROM_CRATERS_TO_CORAL",
+    title: "FROM CRATERS TO CORAL: TANZANIA’S ULTIMATE WILD-TO-WATER ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "12 NIGHTS",
+      headline: "This extraordinary journey through Tanzania combines some of Africa’s most dramatic wildlife..."
     }
   },
   {
     slug: "tanzania",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "GORILLAS_ZANZIBAR",
+    title: "GORILLAS & ZANZIBAR PRIVATE ISLAND ESCAPE",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "8 NIGHTS",
+      headline: "This remarkable journey blends one of the world’s most extraordinary wildlife encounters with the tranquil beauty..."
     }
   },
   {
     slug: "tanzania",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
+    packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+    title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "11 NIGHTS",
+      headline: "This classic East African journey captures the essence of Tanzania’s legendary safari landscapes."
     }
   }
 ]
   },
 
 
-// TANZANIA PACKAGE 3 -- TANZANIA WILDLIFE & BEACHES
+// TANZANIA PACKAGE 3 -- GORILLAS_ZANZIBAR -- DONE
   {
   slug: "tanzania",
   packageSlug: "GORILLAS_ZANZIBAR",
@@ -1320,42 +1320,42 @@ desc: "A private island retreat offering barefoot luxury, coral reefs, and prist
 }
 ],
 
-similarPackages: [
-{
-slug: "tanzania",
-packageSlug: "serengeti-safari",
-title: "Serengeti Safari Experience",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "6 DAYS",
-headline: "Witness the vast wildlife plains of the Serengeti."
-}
-},
-{
-slug: "rwanda-tanzania",
-packageSlug: "ngorongoro-crater",
-title: "Ngorongoro Crater Journey",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "5 DAYS",
-headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
-}
-},
-{
-slug: "rwanda-tanzania",
-packageSlug: "zanzibar-island-retreat",
-title: "Zanzibar Island Retreat",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "4 DAYS",
-headline: "Relax on white-sand beaches and turquoise waters."
-}
-}
+   similarPackages: [
+  {
+    slug: "tanzania",
+    packageSlug: "KILIMANJARO_SUMMIT",
+    title: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This journey combines one of the world’s most iconic mountain climbs with the serene beauty of the Indian Ocean.."
+    }
+  },
+ {
+    slug: "tanzania",
+    packageSlug: "FROM_CRATERS_TO_CORAL",
+    title: "FROM CRATERS TO CORAL: TANZANIA’S ULTIMATE WILD-TO-WATER ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This extraordinary journey through Tanzania combines some of Africa’s most dramatic wildlife..."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+    title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "11 NIGHTS",
+      headline: "This classic East African journey captures the essence of Tanzania’s legendary safari landscapes."
+    }
+  }
 ]
 },
 
 
-// TANZANIA PACKAGE 4 -- CLASSIC SERENGETI, TARANGIRE & ZANZIBAR
+// TANZANIA PACKAGE 4 -- CLASSIC SERENGETI, TARANGIRE & ZANZIBAR -- hotel03 pending
 {
   slug: "tanzania",
   packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
@@ -1431,41 +1431,41 @@ desc: "A luxury beachfront resort surrounded by tropical gardens and turquoise w
 }
 ],
 
-similarPackages: [
-{
-slug: "tanzania",
-packageSlug: "serengeti-safari",
-title: "Serengeti Safari Experience",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "6 DAYS",
-headline: "Witness the vast wildlife plains of the Serengeti."
-}
-},
-{
-slug: "tanzania",
-packageSlug: "ngorongoro-crater",
-title: "Ngorongoro Crater Journey",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "5 DAYS",
-headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
-}
-},
-{
-slug: "tanzania",
-packageSlug: "zanzibar-island-retreat",
-title: "Zanzibar Island Retreat",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "4 DAYS",
-headline: "Relax on white-sand beaches and turquoise waters."
-}
-}
+   similarPackages: [
+  {
+    slug: "tanzania",
+    packageSlug: "KILIMANJARO_SUMMIT",
+    title: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This journey combines one of the world’s most iconic mountain climbs with the serene beauty of the Indian Ocean.."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "GORILLAS_ZANZIBAR",
+    title: "GORILLAS & ZANZIBAR PRIVATE ISLAND ESCAPE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "8 NIGHTS",
+      headline: "This remarkable journey blends one of the world’s most extraordinary wildlife encounters with the tranquil beauty..."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "FROM_CRATERS_TO_CORAL",
+    title: "FROM CRATERS TO CORAL: TANZANIA’S ULTIMATE WILD-TO-WATER ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This extraordinary journey through Tanzania combines some of Africa’s most dramatic wildlife..."
+    }
+  },
 ]
 },
 
-// TANZANIA PACKAGE 5 -- SAVANNAH_CHIMPANZEE_SHORES TANZANIA WILDLIFE & CULTURE
+// TANZANIA PACKAGE 5 -- SAVANNAH_CHIMPANZEE_SHORES TANZANIA WILDLIFE & CULTURE -- DONE
 {
   slug: "tanzania",
   packageSlug: "SAVANNAH_CHIMPANZEE",
@@ -1541,41 +1541,41 @@ desc: "One of Africa’s most iconic remote lodges, set between rainforest mount
 }
 ],
 
-similarPackages: [
-{
-slug: "tanzania",
-packageSlug: "serengeti-safari",
-title: "Serengeti Safari Experience",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "6 DAYS",
-headline: "Witness the vast wildlife plains of the Serengeti."
-}
-},
-{
-slug: "tanzania",
-packageSlug: "ngorongoro-crater",
-title: "Ngorongoro Crater Journey",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "5 DAYS",
-headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
-}
-},
-{
-slug: "tanzania",
-packageSlug: "zanzibar-island-retreat",
-title: "Zanzibar Island Retreat",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "4 DAYS",
-headline: "Relax on white-sand beaches and turquoise waters."
-}
-}
+   similarPackages: [
+  {
+    slug: "tanzania",
+    packageSlug: "KILIMANJARO_SUMMIT",
+    title: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This journey combines one of the world’s most iconic mountain climbs with the serene beauty of the Indian Ocean.."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "GORILLAS_ZANZIBAR",
+    title: "GORILLAS & ZANZIBAR PRIVATE ISLAND ESCAPE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "8 NIGHTS",
+      headline: "This remarkable journey blends one of the world’s most extraordinary wildlife encounters with the tranquil beauty..."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+    title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "11 NIGHTS",
+      headline: "This classic East African journey captures the essence of Tanzania’s legendary safari landscapes."
+    }
+  }
 ]
 },
 
-// TANZANIA PACKAGE 6 -- SELOUS & PEMBA ESCAPE
+// TANZANIA PACKAGE 6 -- SELOUS & PEMBA ESCAPE -- DONE
 {
   slug: "tanzania",
   packageSlug: "SAVANNAH_SECLUDED_ISLAND_SHORES",
@@ -1653,37 +1653,37 @@ desc: "A secluded beachfront resort known for its pristine coral reefs, turquois
 }
 ],
 
-similarPackages: [
-{
-slug: "tanzania",
-packageSlug: "serengeti-safari",
-title: "Serengeti Safari Experience",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "6 DAYS",
-headline: "Witness the vast wildlife plains of the Serengeti."
-}
-},
-{
-slug: "tanzania",
-packageSlug: "ngorongoro-crater",
-title: "Ngorongoro Crater Journey",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "5 DAYS",
-headline: "Explore one of Africa’s most remarkable wildlife sanctuaries."
-}
-},
-{
-slug: "tanzania",
-packageSlug: "zanzibar-island-retreat",
-title: "Zanzibar Island Retreat",
-heroImage: "/images/triple-creek-ranch.avif",
-heroMeta: {
-duration: "4 DAYS",
-headline: "Relax on white-sand beaches and turquoise waters."
-}
-}
+   similarPackages: [
+  {
+    slug: "tanzania",
+    packageSlug: "KILIMANJARO_SUMMIT",
+    title: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+    heroImage: "/images/packages/KILIMANJARO_SUMMIT_Tanzania_HERO.webp",
+    heroMeta: {
+      duration: "12 NIGHTS",
+      headline: "This journey combines one of the world’s most iconic mountain climbs with the serene beauty of the Indian Ocean.."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "GORILLAS_ZANZIBAR",
+    title: "GORILLAS & ZANZIBAR PRIVATE ISLAND ESCAPE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "8 NIGHTS",
+      headline: "This remarkable journey blends one of the world’s most extraordinary wildlife encounters with the tranquil beauty..."
+    }
+  },
+  {
+    slug: "tanzania",
+    packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+    title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
+    heroImage: "/images/triple-creek-ranch.avif",
+    heroMeta: {
+      duration: "11 NIGHTS",
+      headline: "This classic East African journey captures the essence of Tanzania’s legendary safari landscapes."
+    }
+  }
 ]
 },
 
