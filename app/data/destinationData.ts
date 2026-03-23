@@ -221,6 +221,7 @@ export const DESTINATIONS: Destination[] = [
         description: "This refined journey through Northern Italy blends romantic cities, serene lakes, dramatic alpine landscapes, and world-renowned wine regions into one seamless and immersive experience.",
       },
       {
+        slug:"ULTIMATE_SICILIAN_ESCAPE",
         image: "/images/triple-creek-ranch.avif",
         title: "THE ULTIMATE SICILIAN ESCAPE: ANCIENT WONDERS, COASTAL LUXURY & AUTHENTIC INDULGENCE",
         duration: "10 NIGHTS",

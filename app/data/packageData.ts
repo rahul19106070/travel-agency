@@ -3628,7 +3628,6 @@ headline: "This remarkable journey reveals Iceland through its most dramatic con
 "Arrive in Reykjavík where a private chauffeur greets you at the airport before transferring you into Iceland’s vibrant capital.\n\nAfter settling into your hotel, spend the afternoon exploring Reykjavík’s charming harbour district, art galleries, and Nordic design boutiques.\n\nIn the evening, enjoy a refined dining experience at one of the city’s celebrated restaurants where Icelandic culinary traditions are elevated through modern Nordic techniques, highlighting fresh seafood, local lamb, and seasonal ingredients.",
       image1: "/images/packages/2_MIDNIGHTGIANTS-Block01.webp",
     },
-
     {
       title1: "DAY 2 — ARCTIC FLIGHT & THERMAL BATHS",
       description1:
@@ -3809,12 +3808,12 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
 
 },
 
-// italy package2 -- GRAND ITALIAN ODYSSEY -- 
+// italy package2 -- GRAND ITALIAN ODYSSEY --  done
 {
   slug: "italy",
   packageSlug: "GRAND_ITALIAN_ODYSSEY",
   title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
-  heroImage: "/images/packages/GRAND_ITALIAN_ODYSSEY_HERO.webp",
+  heroImage: "/images/packages/THEGRANDITALIANODYSSEY-HERO.png",
 
   heroMeta: {
     country: "ITALY",
@@ -3834,50 +3833,50 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
       title1: "DAY 1–3 — LAKE COMO: PRIVATE VILLAS & LAKESIDE ELEGANCE",
       description1:
 "Arrive in Milan, where a private transfer welcomes you before continuing to the picturesque shores of Lake Como.\n\nCheck into an iconic lakeside retreat such as Grand Hotel Tremezzo, where elegant interiors and panoramic views set the tone for your Italian journey.\n\nExperience Lake Como through a timeless vintage Alfa Romeo drive, exploring scenic roads that wind through charming villages and dramatic lake vistas, followed by a gourmet picnic set against a breathtaking backdrop.\n\nA highlight of your stay is a private boat experience across Lake Como, where you cruise past historic villas, lush gardens, and hidden coves, enjoying an exclusive champagne island picnic along the way.",
-      image1: "/images/packages/GRAND_ITALIAN_ODYSSEY_Block01.webp",
+      image1: "/images/packages/THEGRANDITALIANODYSSEY-Block01.png",
     },
 
     {
       title1: "DAY 4–6 — TUSCANY: VINEYARDS, CULTURE & CULINARY HERITAGE",
       description1:
 "Travel south to Florence, where a guided city experience introduces you to its artistic legacy before continuing into the Tuscan countryside.\n\nYour stay at a refined estate such as Borgo Pignano offers an immersive retreat surrounded by vineyards, olive groves, and rolling hills.\n\nExplore the renowned Chianti wine region, enjoying exclusive tastings at historic wineries including Badia di Coltibuono and Castello di Fonterutoli.\n\nContinue with a cultural exploration of Siena, where medieval architecture, cobbled streets, and local culinary traditions reveal the authentic charm of Tuscany.",
-      image1: "/images/packages/GRAND_ITALIAN_ODYSSEY_Block02.webp",
+      image1: "/images/packages/THEGRANDITALIANODYSSEY-Block02.png",
     },
 
     {
       title1: "DAY 7–9 — ROME: HISTORY, ART & LOCAL EXPERIENCES",
       description1:
 "Arrive in Rome and check into a prestigious property such as Hotel de Russie, ideally located near the Spanish Steps.\n\nDiscover the city through a private guided walking experience, visiting iconic landmarks including the Pantheon, Piazza del Popolo, and the artistic streets of Via Margutta.\n\nExperience Rome’s culinary heritage with a unique gelato masterclass, where you learn traditional techniques alongside a local expert, creating one of Italy’s most beloved delicacies.\n\nYour time in Rome offers a perfect balance of cultural immersion, leisure, and refined urban luxury.",
-      image1: "/images/packages/GRAND_ITALIAN_ODYSSEY_Block03.webp",
+      image1: "/images/packages/THEGRANDITALIANODYSSEY-Block03.png",
     },
 
     {
       title1: "DAY 10–12 — AMALFI COAST: COASTAL LUXURY & ICONIC EXPERIENCES",
       description1:
 "Travel south to the breathtaking Amalfi Coast, arriving in Praiano at an elegant retreat such as Casa Angelina, where minimalist design meets panoramic sea views.\n\nExplore the region’s most iconic destinations including Positano, Ravello, and Amalfi, each offering its own blend of charm, history, and dramatic scenery.\n\nA highlight of your stay is a private boat experience to Capri, where crystal-clear waters, hidden grottos, and scenic coastlines create an unforgettable Mediterranean journey.\n\nFor those seeking active exploration, the famous Path of the Gods hike offers spectacular views across the coastline, followed by moments of relaxation in Positano’s seaside setting.\n\nYour journey concludes with a final morning of leisure before your departure, marking the end of an unforgettable Italian odyssey.",
-      image1: "/images/packages/GRAND_ITALIAN_ODYSSEY_Block04.webp",
+      image1: "/images/packages/THEGRANDITALIANODYSSEY-Block04.png",
     }
   ],
 
   hotels: [
     {
       name: "GRAND HOTEL TREMEZZO – LAKE COMO",
-      image: "/images/packages/GRAND_ITALIAN_ODYSSEY_Hotel01.webp",
+      image: "/images/packages/THEGRANDITALIANODYSSEY-Hotel01.png",
       desc: "An iconic lakeside hotel offering timeless elegance, stunning views, and exceptional Italian hospitality.",
     },
     {
       name: "BORGO PIGNANO – TUSCANY",
-      image: "/images/packages/GRAND_ITALIAN_ODYSSEY_Hotel02.webp",
+      image: "/images/packages/THEGRANDITALIANODYSSEY-Hotel02.png",
       desc: "A luxurious countryside estate offering refined rustic charm, panoramic landscapes, and immersive Tuscan experiences.",
     },
     {
       name: "HOTEL DE RUSSIE – ROME",
-      image: "/images/packages/GRAND_ITALIAN_ODYSSEY_Hotel03.webp",
+      image: "/images/packages/THEGRANDITALIANODYSSEY-Hotel03.png",
       desc: "A prestigious luxury hotel blending classical elegance with contemporary comfort in the heart of Rome.",
     },
     {
       name: "CASA ANGELINA – PRAIANO",
-      image: "/images/packages/GRAND_ITALIAN_ODYSSEY_Hotel04.webp",
+      image: "/images/packages/THEGRANDITALIANODYSSEY-Hotel04.png",
       desc: "A sophisticated boutique retreat offering minimalist design, panoramic sea views, and an intimate Amalfi Coast experience.",
     }
   ],
@@ -3921,7 +3920,7 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
   slug: "italy",
   packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
   title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
-  heroImage: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_HERO.webp",
+  heroImage: "/images/packages/THEULTIMATEITALIANHONEYMOON-HERO.png",
 
   heroMeta: {
     country: "ITALY",
@@ -3941,50 +3940,50 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
       title1: "DAY 1–4 — LAKE COMO: LAKESIDE ROMANCE & PRIVATE EXPERIENCES",
       description1:
 "Arrive in Milan, where a private transfer escorts you to the tranquil beauty of Lake Como, setting the tone for your honeymoon.\n\nCheck into an iconic property such as Grand Hotel Tremezzo, where elegant suites, lakefront views, and refined service create an intimate and luxurious atmosphere.\n\nExperience the charm of Lake Como with a vintage Alfa Romeo drive, winding through scenic roads and picturesque villages, culminating in a private gourmet picnic set against breathtaking views.\n\nA highlight of your stay is a private Riva boat experience, where you cruise across the lake, passing historic villas and hidden coves while enjoying champagne moments designed exclusively for two.\n\nEnjoy a day at leisure indulging in spa treatments, lakeside relaxation, and romantic dining experiences overlooking the water.",
-      image1: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Block01.webp",
+      image1: "/images/packages/THEULTIMATEITALIANHONEYMOON-Block01.png",
     },
 
     {
       title1: "DAY 5–7 — TUSCANY: WINE, CULTURE & TIMELESS COUNTRYSIDE",
       description1:
 "Travel to the Tuscan countryside and arrive at a refined estate such as COMO Castello del Nero, where understated luxury meets rolling vineyard landscapes.\n\nSpend your days immersed in Tuscany’s culinary and cultural heritage, beginning with a private exploration of Florence, including exclusive access to the Uffizi Gallery and a sunset climb of the Duomo.\n\nDiscover the charm of Siena and the surrounding Chianti region, where private wine tastings and authentic Tuscan cuisine create an indulgent yet intimate experience.\n\nMoments of leisure at your estate—whether at the spa, infinity pool, or vineyard terraces—offer the perfect balance between exploration and relaxation.",
-      image1: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Block02.webp",
+      image1: "/images/packages/THEULTIMATEITALIANHONEYMOON-Block02.png",
     },
 
     {
       title1: "DAY 8–10 — ROME: PRIVATE CULTURE & AUTHENTIC EXPERIENCES",
       description1:
 "Arrive in Rome and check into a prestigious hotel such as Hotel de la Ville, offering elegant surroundings and panoramic views near the Spanish Steps.\n\nExperience the city through an exclusive private Vatican and Rome tour, with early access allowing you to explore iconic landmarks in a more intimate and unhurried setting.\n\nStroll through Rome’s historic streets, discovering hidden corners, artistic avenues, and timeless architecture that reflect the city’s rich heritage.\n\nA unique highlight is a gelato-making experience, where you learn traditional techniques and craft your own signature flavors together, adding a playful and memorable touch to your journey.",
-      image1: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Block03.webp",
+      image1: "/images/packages/THEULTIMATEITALIANHONEYMOON-Block03.png",
     },
 
     {
       title1: "DAY 11–12 — AMALFI COAST: COASTAL ELEGANCE & ROMANTIC FINALE",
       description1:
 "Travel south to the breathtaking Amalfi Coast, arriving at a refined retreat such as Casa Angelina in Praiano, known for its minimalist design and uninterrupted sea views.\n\nExplore the coastline through a private boat experience to Capri, discovering hidden grottos, crystal-clear waters, and secluded coves, complemented by curated gourmet touches onboard.\n\nFor those seeking scenic adventure, the iconic Path of the Gods hike offers panoramic views of the coastline, creating one of the most memorable moments of the journey.\n\nYour honeymoon concludes with a private rooftop candlelight dinner overlooking the Mediterranean, where the setting sun and serene atmosphere create a truly unforgettable finale.\n\nEnjoy a final morning at leisure before your departure, marking the end of a beautifully curated Italian honeymoon.",
-      image1: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Block04.webp",
+      image1: "/images/packages/THEULTIMATEITALIANHONEYMOON-Block04.png",
     }
   ],
 
   hotels: [
     {
       name: "GRAND HOTEL TREMEZZO – LAKE COMO",
-      image: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Hotel01.webp",
+      image: "/images/packages/THEULTIMATEITALIANHONEYMOON-Hotel01.png",
       desc: "An iconic lakeside retreat offering timeless elegance, floating pools, and refined romantic experiences.",
     },
     {
       name: "COMO CASTELLO DEL NERO – TUSCANY",
-      image: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Hotel02.webp",
+      image: "/images/packages/THEULTIMATEITALIANHONEYMOON-Hotel02.png",
       desc: "A sophisticated countryside estate blending historic charm, Michelin-starred dining, and serene vineyard surroundings.",
     },
     {
       name: "HOTEL DE LA VILLE – ROME",
-      image: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Hotel03.webp",
+      image: "/images/packages/THEULTIMATEITALIANHONEYMOON-Hotel03.png",
       desc: "A luxurious Roman retreat combining contemporary style with classic elegance in a prime central location.",
     },
     {
       name: "CASA ANGELINA – PRAIANO",
-      image: "/images/packages/ULTIMATE_ITALIAN_HONEYMOON_Hotel04.webp",
+      image: "/images/packages/THEULTIMATEITALIANHONEYMOON-Hotel04.png",
       desc: "A chic boutique hotel offering minimalist design, panoramic sea views, and an intimate Amalfi Coast experience.",
     }
   ],
@@ -4023,12 +4022,12 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
   ]
 },
 
-// ITALY PACKAGE 4 -- GRAND NORTHERN ITALY ESCAPE
+// ITALY PACKAGE 4 -- GRAND NORTHERN ITALY ESCAPE  -- done
 {
   slug: "italy",
   packageSlug: "GRAND_NORTHERN_ITALY_ESCAPE",
   title: "THE GRAND NORTHERN ITALY ESCAPE: LAKES, ALPINE PEAKS & PROSECCO INDULGENCE",
-  heroImage: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_HERO.webp",
+  heroImage: "/images/packages/THEGRANDNORTHERNITALYESCAPE-HERO.png",
 
   heroMeta: {
     country: "NORTHERN ITALY",
@@ -4048,50 +4047,50 @@ headline: "This refined journey through Northern Italy blends romantic cities, s
       title1: "DAY 1–3 — VERONA & LAKE GARDA: ROMANCE & LAKESIDE ELEGANCE",
       description1:
 "Arrive in Venice, where a private transfer escorts you to the historic city of Verona, known for its romantic charm and cultural heritage.\n\nCheck into an elegant property such as Hotel Due Torri, offering classic Italian sophistication in the heart of the city.\n\nExplore Verona’s iconic landmarks and charming streets before continuing to the tranquil shores of Lake Garda, where your stay at Lefay Resort & Spa offers breathtaking views over the lake.\n\nA highlight of your time here is a private boat experience on Lake Garda, where you explore picturesque villages, historic villas, and lemon groves set against the dramatic alpine backdrop.",
-      image1: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Block01.webp",
+      image1: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Block01.png",
     },
 
     {
       title1: "DAY 4–6 — LAKE GARDA TO THE DOLOMITES: SCENIC ADVENTURE & ALPINE LUXURY",
       description1:
 "Ascend Mount Baldo for panoramic views across Lake Garda, followed by a guided scenic hike through alpine trails leading toward Malcesine.\n\nContinue your journey into the spectacular Dolomites, where dramatic peaks and serene valleys define one of Europe’s most breathtaking mountain regions.\n\nCheck into a luxury alpine retreat such as Rosa Alpina, where refined interiors and warm hospitality offer a perfect balance of comfort and exclusivity.\n\nEnjoy a unique stargazing experience at a mountain observatory, followed by an intimate dinner in a traditional alpine chalet, combining natural beauty with curated culinary moments.",
-      image1: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Block02.webp",
+      image1: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Block02.png",
     },
 
     {
       title1: "DAY 7–8 — DOLOMITES: ADVENTURE & IMMERSIVE MOUNTAIN EXPERIENCES",
       description1:
 "Explore the Dolomites through guided hiking trails and via ferrata experiences, offering both adventure and unparalleled scenic views.\n\nFor a deeper connection with the region, spend a night in a traditional mountain rifugio, where the simplicity of alpine living is elevated through exclusive access and breathtaking surroundings.\n\nReturn through scenic valleys and panoramic landscapes, capturing the essence of the Dolomites’ raw beauty while enjoying curated moments of relaxation and exploration.",
-      image1: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Block03.webp",
+      image1: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Block03.png",
     },
 
     {
       title1: "DAY 9–11 — PROSECCO HILLS & VENICE: WINE, CULTURE & ICONIC FINALE",
       description1:
 "Travel to the renowned Prosecco region, exploring the rolling hills of Conegliano and Valdobbiadene through private tastings at boutique wineries.\n\nEnjoy immersive culinary experiences, including local cheese-making traditions paired with premium prosecco, offering an authentic taste of the region.\n\nContinue to Venice, where your arrival is marked by a private water taxi transfer through the city’s iconic canals.\n\nDiscover Venice through curated private experiences, from guided explorations of historic landmarks to leisurely moments along quiet canals and hidden corners.\n\nYour journey concludes with a final day at leisure, allowing you to soak in the timeless beauty of Venice before your departure.",
-      image1: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Block04.webp",
+      image1: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Block04.png",
     }
   ],
 
   hotels: [
     {
       name: "HOTEL DUE TORRI – VERONA",
-      image: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Hotel01.webp",
+      image: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Hotel01.png",
       desc: "A historic luxury hotel offering classical elegance and a prime location in Verona’s cultural heart.",
     },
     {
       name: "LEFAY RESORT & SPA – LAKE GARDA",
-      image: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Hotel02.webp",
+      image: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Hotel02.png",
       desc: "A serene lakeside retreat combining wellness, panoramic views, and contemporary luxury.",
     },
     {
       name: "ROSA ALPINA – DOLOMITES",
-      image: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Hotel03.webp",
+      image: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Hotel03.png",
       desc: "An exclusive alpine lodge known for its refined design, Michelin-starred dining, and mountain setting.",
     },
     {
       name: "AMAN VENICE / GRITTI PALACE – VENICE",
-      image: "/images/packages/GRAND_NORTHERN_ITALY_ESCAPE_Hotel04.webp",
+      image: "/images/packages/THEGRANDNORTHERNITALYESCAPE-Hotel04.png",
       desc: "Iconic Venetian properties offering historic grandeur, private canal access, and exceptional luxury.",
     }
   ],
@@ -4135,7 +4134,7 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
   slug: "italy",
   packageSlug: "ULTIMATE_SICILIAN_ESCAPE",
   title: "THE ULTIMATE SICILIAN ESCAPE: ANCIENT WONDERS, COASTAL LUXURY & AUTHENTIC INDULGENCE",
-  heroImage: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_HERO.webp",
+  heroImage: "/images/packages/THEULTIMATESICILIANESCAPE-HERO.png",
 
   heroMeta: {
     country: "SICILY",
@@ -4155,55 +4154,56 @@ headline: "This extraordinary honeymoon journey is designed for couples seeking 
       title1: "DAY 1–3 — PALERMO: COASTAL LUXURY & CULTURAL IMMERSION",
       description1:
 "Arrive in Palermo, where a private transfer welcomes you to your coastal retreat such as Villa Igiea, offering panoramic views of the Mediterranean and refined Sicilian elegance.\n\nDiscover Palermo’s rich heritage through curated experiences, exploring historic landmarks, grand piazzas, and architectural treasures that reflect centuries of cultural influence.\n\nA highlight of your stay is a private sunset cruise, where you sail along the coastline, enjoying champagne while taking in the warm hues of the Mediterranean sky.\n\nExperience the vibrant spirit of the city with a Vespa tour through Palermo’s markets and streets, paired with a guided street food experience that introduces authentic Sicilian flavours in an intimate and engaging way.",
-      image1: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Block01.webp",
+      image1: "/images/packages/THEULTIMATESICILIANESCAPE-Block01.png",
     },
 
     {
       title1: "DAY 4–6 — SICILIAN COUNTRYSIDE: FARM LIFE & CULINARY HERITAGE",
       description1:
 "Journey into the heart of the Sicilian countryside, arriving at a charming estate such as Masseria Mandranova, surrounded by olive groves and rolling landscapes.\n\nThis tranquil retreat offers a slower pace of life, where authenticity and luxury blend seamlessly.\n\nEnjoy a private olive oil tasting, discovering the region’s renowned produce, followed by a hands-on Sicilian pasta-making experience, guided by local experts.\n\nMoments of leisure allow you to unwind within serene surroundings, with optional activities including farm experiences, nature walks, or simply relaxing by the pool while enjoying the peaceful countryside atmosphere.",
-      image1: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Block02.webp",
+      image1: "/images/packages/THEULTIMATESICILIANESCAPE-Block02.png",
     },
 
     {
       title1: "DAY 7–8 — AGRIGENTO: ANCIENT WONDERS & TIMELESS LANDSCAPES",
       description1:
 "Travel to Agrigento, home to one of Sicily’s most iconic archaeological sites, and check into an elegant property such as Villa Athena, located near the Valley of the Temples.\n\nExplore the extraordinary Valley of the Temples through a private guided experience, where ancient Greek ruins stand majestically against the Sicilian landscape.\n\nFollowing your exploration, enjoy a curated “chic-nic” experience, where refined dining meets scenic surroundings, offering a unique and memorable way to connect with the region’s history and natural beauty.",
-      image1: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Block03.webp",
+      image1: "/images/packages/THEULTIMATESICILIANESCAPE-Block03.png",
     },
 
     {
       title1: "DAY 9–10 — TAORMINA: COASTAL ELEGANCE & MEDITERRANEAN FINALE",
       description1:
 "Continue to the enchanting town of Taormina, perched above the Ionian Sea, and check into an iconic hotel such as Grand Hotel Timeo, offering breathtaking coastal views.\n\nYour time here is designed for relaxation and exploration, with opportunities to enjoy beachside leisure, wellness experiences, or curated excursions.\n\nDiscover nearby highlights such as Isola Bella, where crystal-clear waters and scenic landscapes create the perfect Mediterranean escape.\n\nStroll through Taormina’s charming streets, lined with boutiques and cafés, or simply unwind while taking in panoramic views of the coastline.\n\nYour journey concludes with a final morning at leisure before your departure, marking the end of a beautifully curated Sicilian escape.",
-      image1: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Block04.webp",
+      image1: "/images/packages/THEULTIMATESICILIANESCAPE-Block04.png",
     }
   ],
 
   hotels: [
     {
       name: "VILLA IGIEA – PALERMO",
-      image: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Hotel01.webp",
+      image: "/images/packages/THEULTIMATESICILIANESCAPE-Hotel01.png",
       desc: "A historic seaside palace offering timeless elegance, lush gardens, and stunning Mediterranean views.",
     },
     {
       name: "MASSERIA MANDRANOVA – SICILIAN COUNTRYSIDE",
-      image: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Hotel02.webp",
+      image: "/images/packages/THEULTIMATESICILIANESCAPE-Hotel02.png",
       desc: "A boutique farmhouse retreat combining rustic charm, authentic experiences, and serene natural surroundings.",
     },
     {
       name: "VILLA ATHENA – AGRIGENTO",
-      image: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Hotel03.webp",
+      image: "/images/packages/THEULTIMATESICILIANESCAPE-Hotel03.png",
       desc: "An elegant property set near ancient ruins, offering a unique blend of history and luxury.",
     },
     {
       name: "GRAND HOTEL TIMEO – TAORMINA",
-      image: "/images/packages/ULTIMATE_SICILIAN_ESCAPE_Hotel04.webp",
+      image: "/images/packages/THEULTIMATESICILIANESCAPE-Hotel04.png",
       desc: "An iconic luxury hotel with panoramic coastal views, refined interiors, and exceptional Sicilian hospitality.",
     }
   ],
 
   similarPackages: []
 }
+
 
 ];
