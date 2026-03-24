@@ -329,7 +329,7 @@ export const PACKAGES: Package[] = [
 
   // ---------------------------------------------------------------------------
 
-  // japan package 1 -- okinawa blue serenity
+  // japan package 1 -- okinawa blue serenity -- DONE
    {
     slug: "japan",
     packageSlug: "OKINAWA_BLUE_SERENITY",
@@ -397,38 +397,38 @@ export const PACKAGES: Package[] = [
     similarPackages: [
   {
     slug: "japan",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "IMPERIAL_JAPAN",
+    title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+    heroImage: "/images/packages/ImperialJapanHeroImage.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "10 NIGHTS",
+      headline: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "JAPAN_WINTER_JOURNEY",
+    title: "Japan Winter Journey: Culture & Legendary Powder",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "12 NIGHTS",
+      headline: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
+    packageSlug: "YIN_YAG_JAPAN",
+    title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "8 NIGHTS",
+      headline: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo..."
     }
   }
 ]
   },
 
-  // Japan package 2 -- imperial japan
+  // Japan package 2 -- imperial japan -- DONE
    {
     slug: "japan",
     packageSlug: "IMPERIAL_JAPAN",
@@ -493,41 +493,42 @@ export const PACKAGES: Package[] = [
       },
     ],
 
+
     similarPackages: [
   {
     slug: "japan",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "OKINAWA_BLUE_SERENITY",
+    title: "OKINAWA BLUE SERENITY",
+    heroImage: "/images/packages/OkinawaBlueSerenityHeroImage.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "6 NIGHTS",
+      headline: "Discover Japan’s tropical side through a journey that blends Ryukyu culture, pristine coral lagoons..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "JAPAN_WINTER_JOURNEY",
+    title: "Japan Winter Journey: Culture & Legendary Powder",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "12 NIGHTS",
+      headline: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
+    packageSlug: "YIN_YAG_JAPAN",
+    title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "8 NIGHTS",
+      headline: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo..."
     }
   }
 ]
   },
 
-  // Japan package 3 -- japan winter journey
+  // Japan package 3 -- japan winter journey  --  DONE
    {
     slug: "japan",
     packageSlug: "JAPAN_WINTER_JOURNEY",
@@ -592,41 +593,42 @@ export const PACKAGES: Package[] = [
       },
     ],
 
+
     similarPackages: [
   {
     slug: "japan",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "IMPERIAL_JAPAN",
+    title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+    heroImage: "/images/packages/ImperialJapanHeroImage.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "10 NIGHTS",
+      headline: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa..."
+    }
+  },
+{
+    slug: "japan",
+    packageSlug: "OKINAWA_BLUE_SERENITY",
+    title: "OKINAWA BLUE SERENITY",
+    heroImage: "/images/packages/OkinawaBlueSerenityHeroImage.webp",
+    heroMeta: {
+      duration: "6 NIGHTS",
+      headline: "Discover Japan’s tropical side through a journey that blends Ryukyu culture, pristine coral lagoons..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "YIN_YAG_JAPAN",
+    title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
-    }
-  },
-  {
-    slug: "japan",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
-    heroImage: "/images/triple-creek-ranch.avif",
-    heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "8 NIGHTS",
+      headline: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo..."
     }
   }
 ]
   },
 
-  // Japan package 4-- the essence of japan
+  // Japan package 4-- Yin & Yang of Japan: Tokyo to Kyoto Slow Luxury   -- DONE
    {
     slug: "japan",
     packageSlug: "YIN_YAG_JAPAN",
@@ -691,41 +693,42 @@ export const PACKAGES: Package[] = [
       },
     ],
 
+
     similarPackages: [
   {
     slug: "japan",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "IMPERIAL_JAPAN",
+    title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+    heroImage: "/images/packages/ImperialJapanHeroImage.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "10 NIGHTS",
+      headline: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "JAPAN_WINTER_JOURNEY",
+    title: "Japan Winter Journey: Culture & Legendary Powder",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "12 NIGHTS",
+      headline: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "OKINAWA_BLUE_SERENITY",
+    title: "OKINAWA BLUE SERENITY",
+    heroImage: "/images/packages/OkinawaBlueSerenityHeroImage.webp",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "6 NIGHTS",
+      headline: "Discover Japan’s tropical side through a journey that blends Ryukyu culture, pristine coral lagoons..."
     }
-  }
+  },
 ]
   },
 
-   // Japan package 5-- the soul of japan
+   // Japan package 5-- the soul of japan  -- DONE
    {
     slug: "japan",
     packageSlug: "SOUL_OF_JAPAN",
@@ -790,41 +793,42 @@ export const PACKAGES: Package[] = [
       },
     ],
 
+
     similarPackages: [
   {
     slug: "japan",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "IMPERIAL_JAPAN",
+    title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+    heroImage: "/images/packages/ImperialJapanHeroImage.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "10 NIGHTS",
+      headline: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "JAPAN_WINTER_JOURNEY",
+    title: "Japan Winter Journey: Culture & Legendary Powder",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "12 NIGHTS",
+      headline: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
+    packageSlug: "YIN_YAG_JAPAN",
+    title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "8 NIGHTS",
+      headline: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo..."
     }
   }
 ]
   },
 
-  // Japan package 6 -- echoes of old japan
+  // Japan package 6 -- echoes of old japan -- DONE
    {
     slug: "japan",
     packageSlug: "ECHOES_OF_OLD_JAPAN",
@@ -889,41 +893,42 @@ export const PACKAGES: Package[] = [
       },
     ],
 
+ 
     similarPackages: [
   {
     slug: "japan",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "IMPERIAL_JAPAN",
+    title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+    heroImage: "/images/packages/ImperialJapanHeroImage.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "10 NIGHTS",
+      headline: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "JAPAN_WINTER_JOURNEY",
+    title: "Japan Winter Journey: Culture & Legendary Powder",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "12 NIGHTS",
+      headline: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
+    packageSlug: "YIN_YAG_JAPAN",
+    title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "8 NIGHTS",
+      headline: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo..."
     }
   }
 ]
   },
 
-   // Japan package 7 -- falvour of japan
+   // Japan package 7 -- falvour of japan -- DONE
    {
     slug: "japan",
     packageSlug: "FLAVOURS_OF_JAPAN",
@@ -988,35 +993,36 @@ export const PACKAGES: Package[] = [
       },
     ],
 
+
     similarPackages: [
   {
     slug: "japan",
-    packageSlug: "interlaken-adventure",
-    title: "Interlaken Adventure",
-    heroImage: "/images/triple-creek-ranch.avif",
+    packageSlug: "IMPERIAL_JAPAN",
+    title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+    heroImage: "/images/packages/ImperialJapanHeroImage.webp",
     heroMeta: {
-      duration: "5 DAYS",
-      headline: "Explore lakes and alpine adventures in Interlaken."
+      duration: "10 NIGHTS",
+      headline: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "jungfrau-glacier",
-    title: "Jungfrau Glacier Escape",
+    packageSlug: "JAPAN_WINTER_JOURNEY",
+    title: "Japan Winter Journey: Culture & Legendary Powder",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "4 DAYS",
-      headline: "Experience the Top of Europe and stunning glacier views."
+      duration: "12 NIGHTS",
+      headline: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes..."
     }
   },
   {
     slug: "japan",
-    packageSlug: "lucerne-lake-tour",
-    title: "Lucerne Lake Journey",
+    packageSlug: "YIN_YAG_JAPAN",
+    title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
     heroImage: "/images/triple-creek-ranch.avif",
     heroMeta: {
-      duration: "3 DAYS",
-      headline: "Historic bridges, lakeside beauty, and mountain scenery."
+      duration: "8 NIGHTS",
+      headline: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo..."
     }
   }
 ]
@@ -1426,7 +1432,7 @@ desc: "A refined wilderness lodge set within a private concession between Tarang
 },
 {
 name: "ZURI ZANZIBAR – ZANZIBAR",
-image: "/images/packages/CLASSIC_SERENGETI_TARANGIRE_ZANZIBAR_COASTLINE_Hotel03.webp",
+image: "/images/packages/CLASSICSERENGETI-Hotel03.webp",
 desc: "A luxury beachfront resort surrounded by tropical gardens and turquoise waters of the Indian Ocean.",
 }
 ],
