@@ -1361,7 +1361,7 @@ desc: "A private island retreat offering barefoot luxury, coral reefs, and prist
 },
 
 
-// TANZANIA PACKAGE 4 -- CLASSIC SERENGETI, TARANGIRE & ZANZIBAR -- hotel03 pending
+// TANZANIA PACKAGE 4 -- CLASSIC SERENGETI, TARANGIRE & ZANZIBAR -- DONE
 {
   slug: "tanzania",
   packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",

@@ -203,6 +203,7 @@ return (
                 src={hotel.image}
                 alt={hotel.name}
                 fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -224,7 +225,7 @@ return (
 
       {/* LEFT TEXT */}
       <div className="lg:col-span-1">
-        <h2 className="text-3xl uppercase sm:text-4xl lg:text-6xl font-extralight leading-tight">
+        <h2 className="text-5xl uppercase font-extralight leading-tight">
           Similar
           <br />
           Journeys
@@ -308,6 +309,7 @@ return (
     src="/images/packages/PACKAGESCTA.webp"
     alt="Start your journey"
     fill
+     sizes="100vw"
     className="object-cover"
   />
 
