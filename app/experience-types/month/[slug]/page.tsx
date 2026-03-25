@@ -63,119 +63,95 @@ export default function MonthPage() {
         </section>
 
         {/* PACKAGES */}
-        <section
-          id="journey"
-          className="py-16 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/Backdrop.webp')" }}
-        >
-          <div className="max-w-7xl mx-auto px-5">
-            <div className="flex flex-col lg:flex-row gap-8 items-start">
-              {/* LEFT TEXT */}
-              <div className="lg:w-[35%] text-white pt-4">
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-alternate tracking-[1.2]">
-                  THE INSIDER'S 2026
-                </h2>
+      <section
+  id="journey"
+  className="py-16 bg-cover bg-center bg-no-repeat"
+  style={{ backgroundImage: "url('/images/Backdrop.webp')" }}
+>
+  {/* ✅ MOBILE TEXT (top) */}
+  <div className="lg:hidden px-4 sm:px-6 text-white mb-6">
+    <h2 className="text-3xl font-extrabold">
+      THE INSIDER'S 2026
+    </h2>
+    <p className="mt-3 italic text-white/70">
+      Exclusive access to the world's best-kept secrets...
+    </p>
+  </div>
 
-                <p className="mt-4 italic text-white/70 max-w-md">
-                  Exclusive access to the world's best-kept secrets...
-                </p>
+  {/* ✅ SCROLL CONTAINER */}
+  <div
+    className="
+      flex gap-4 sm:gap-6
+      overflow-x-auto
+      pb-6
+      px-4 sm:px-6
+      scroll-smooth
+      [&::-webkit-scrollbar]:hidden
+    "
+  >
+    {/* ❌ HIDE TEXT INSIDE SCROLL ON MOBILE */}
+    <div className="hidden lg:block min-w-[320px] shrink-0 text-white pt-6">
+      <h2 className="text-4xl lg:text-5xl font-extrabold">
+        THE INSIDER'S 2026
+      </h2>
+      <p className="mt-4 italic text-white/70">
+        Exclusive access to the world's best-kept secrets...
+      </p>
+    </div>
 
-                <button
-                  className="
-                  mt-6 border border-white
-                  px-6 py-2 text-xs tracking-widest
-                  text-white transition
-                  hover:bg-white hover:text-black
-                "
-                >
-                  VIEW ALL
-                </button>
-              </div>
+    {/* CARDS */}
+    {month.packages.map((pkg, idx) => (
+      <div
+        key={idx}
+        className="
+          min-w-[75%] sm:min-w-[260px] md:min-w-[300px] lg:min-w-[320px]
+          aspect-[3/5]
+          shrink-0
+          relative
+          overflow-hidden
+          rounded-lg
+        "
+      >
+        <Image
+          src={pkg.image}
+          alt={pkg.title}
+          fill
+          className="object-cover"
+        />
 
-              {/* RIGHT SLIDER */}
-              <div className="lg:w-[65%]">
-                <div
-                  className="
-                  flex gap-4 sm:gap-6
-                  overflow-x-auto
-                  pb-6
-                  [&::-webkit-scrollbar]:hidden
-                  [-ms-overflow-style:none]
-                  [scrollbar-width:none]
-                "
-                >
-                  {month.packages.map((pkg, idx) => (
-                    <div
-                      key={idx}
-                      className="
-                        group relative
-                        min-w-[240px] sm:min-w-[280px] md:min-w-[320px]
-                        aspect-[2/3]
-                        overflow-hidden
-                        rounded-lg
-                        shrink-0
-                      "
-                    >
-                      {/* Image */}
-                      <Image
-                        src={pkg.image}
-                        alt={pkg.title}
-                        fill
-                        sizes="(max-width: 640px) 240px, (max-width: 1024px) 280px, 320px"
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
+        <div className="absolute inset-0 bg-black/50" />
 
-                      {/* Gradient */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+        <div className="absolute bottom-0 p-4 text-white">
+          <p className="text-xs font-bold">{pkg.duration}</p>
+          <p className="text-2xl font-extrabold">{pkg.title}</p>
+          <p className="text-sm text-white/80">{pkg.description}</p>
+       <Link             href={`/experience-types/destination/${pkg.destinationSlug}/packages/${pkg.packageSlug}`}
 
-                      {/* Content */}
-                      <div className="absolute bottom-0 p-4 sm:p-5 text-white w-full">
-                        <p className="text-xs tracking-widest font-bold">
-                          {pkg.duration}
-                        </p>
+  className="
+    inline-block
+    mt-2 sm:mt-4
+    relative overflow-hidden
+    border border-white
+    px-3 sm:px-4 py-1 sm:py-2
+    text-xs tracking-widest text-white
 
-                        <h3 className="mt-1 text-3xl font-extralight tracking-wide">
-                          {pkg.title}
-                        </h3>
+    transition-all duration-300 ease-out
+    hover:text-black hover:scale-[1.03]
 
-                        {/* {pkg.duration && (
-                          <p className="mt-1 text-xs text-white/70">
-                            {pkg.duration}
-                          </p>
-                        )} */}
-
-                        <p className="mt-2 text-lg text-white/80 line-clamp-3">
-                          {pkg.description}
-                        </p>
-
-                        {/* CTA */}
-                        <Link href={pkg.link}>
-                          <button
-                            className="
-                              mt-4 relative overflow-hidden
-                              border border-white
-                              px-4 py-2
-                              text-[10px] tracking-widest font-bold text-white
-                              transition-all duration-300
-                              hover:text-black hover:scale-[1.03]
-                              before:absolute before:inset-0
-                              before:bg-white
-                              before:translate-y-full
-                              before:transition-transform before:duration-300
-                              hover:before:translate-y-0
-                            "
-                          >
-                            <span className="relative z-10">VIEW DETAILS</span>
-                          </button>
-                        </Link>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    before:absolute before:inset-0
+    before:bg-white
+    before:translate-y-full
+    before:transition-transform before:duration-300 before:ease-out
+    hover:before:translate-y-0
+  "
+>
+  <span className="relative z-10">EXPLORE TRIP</span>
+</Link>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
 
         {/* FOLLOWING MONTHS */}
         <section className="mx-auto px-5 py-10 my-20 bg-gray-300">

@@ -368,7 +368,7 @@ export const DESTINATIONS: Destination[] = [
   },
 
 
-//   japan
+//   japan -- done
   {
     slug: "japan",
     title: "Not Just Japan. Your Balance of Old and New.",
@@ -974,12 +974,6 @@ export const DESTINATIONS: Destination[] = [
         title: "THE ULTIMATE CELEBRATION ESCAPE: PRIVATE ADVENTURE, WILDLIFE & LUXURY ISLANDS",
         duration: "14 NIGHTS",
         description: "This dynamic New Zealand journey is designed as the ultimate celebration of adventure, nature, and refined luxury.",
-      },
-       {
-        image: "/images/triple-creek-ranch.avif",
-        title: "Kilimanjaro & Zanzibar: An Adventure from Summit to Sea",
-        duration: "1 Day",
-        description: "Challenge meets reward on this exhilarating private trek to the summit of Mount Kilimanjaro...",
       },
     ],
     topDestinations: [

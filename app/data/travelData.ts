@@ -20,9 +20,10 @@ export type Experience = {
 export type SoloTrip = {
   image: string;
   title: string;
-  subtitle?: string;
+  destinationSlug?: string;
   duration: string;
   description: string;
+  packageSlug?: string; // optional, for linking to a detailed page
    soloTrips?: SoloTrip[];
    topDestinations?: TopDestination[];
 };
@@ -110,48 +111,52 @@ export const EXPERIENCES: Experience[] = [
   },
   soloTrips: [
     
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+    {  destinationSlug: "italy",
+        packageSlug:"ULTIMATE_ITALIAN_HONEYMOON",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+        duration: "12 NIGHTS",
+        description: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+      },
+   {
+        destinationSlug: "italy",
+        packageSlug: "GRAND_NORTHERN_ITALY_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE GRAND NORTHERN ITALY ESCAPE: LAKES, ALPINE PEAKS & PROSECCO INDULGENCE",
+        duration: "11 NIGHTS",
+        description: "This refined journey through Northern Italy blends romantic cities, serene lakes, dramatic alpine landscapes, and world-renowned wine regions into one seamless and immersive experience.",
+      },
      {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
+        destinationSlug: "japan",
+        packageSlug: "YIN_YAG_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
+        duration: "8 Nights",
+        description: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo and the serene traditions of Kyoto...",
+      },
+      {
+        destinationSlug: "new-zealand",
+        packageSlug: "PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+        duration: "14 NIGHTS",
+        description: "This extraordinary journey brings together two of the world’s most breathtaking landscapes...",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+        destinationSlug: "italy",
+        packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+        duration: "12 NIGHTS",
+        description: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+      },
+    // {
+    //   image: "/images/triple-creek-ranch.avif",
+    //   title: "SOLO SAFARI, BOTSWANA",
+    //   duration: "9 NIGHTS",
+    //   description:
+    //     "Private game drives and intimate bush camps designed for one.",
+    // },
   ],
 
 
@@ -197,7 +202,7 @@ export const EXPERIENCES: Experience[] = [
   },
 
 
-// solo-holidays
+// solo-holidays   -- DONE
   {
     slug: "solo-holidays",
     title: "The freedom to wander. The luxury to pause.",
@@ -247,49 +252,54 @@ export const EXPERIENCES: Experience[] = [
     subheading:
 "Whether you want to immerse yourself in a culture and explore a country, or do the very opposite, our solo travel experts have an itinerary you will love."  },
   soloTrips: [
-    
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+   {   
+      destinationSlug: "italy",
+        packageSlug:"WHITE_TRUFFLE_SOCIETY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE WHITE TRUFFLE SOCIETY: A PRIVATE GASTRONOMIC ESCAPE IN PIEDMONT",
+        duration: "5 NIGHTS",
+        description: "This exclusive journey into the heart of Piedmont offers a refined exploration of Italy’s most celebrated gastronomic traditions, set against the rolling vineyards and picturesque landscapes of truffle country.",
+      },
+    { 
+        destinationSlug: "japan",
+        packageSlug: "SOUL_OF_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE SOUL OF JAPAN: A CULTURAL IMMERSION",
+        duration: "12 Nights",
+        description: "Japan reveals itself slowly — not through monuments alone, but through rituals, craftsmanship, and centuries-old traditions that continue to shape everyday life...",
+      },
      {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
+        destinationSlug: "japan",
+        packageSlug: "ECHOES_OF_OLD_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "ECHOES OF OLD JAPAN: A Journey Through Time",
+        duration: "12 Nights",
+        description: "This journey explores the deeper cultural layers of Japan - from the disciplined traditions of samurai and sumo to the quiet...",
+      },
+     {
+        destinationSlug: "new-zealand",
+        packageSlug: "ULTIMATE_CELEBRATION_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE ULTIMATE CELEBRATION ESCAPE: PRIVATE ADVENTURE, WILDLIFE & LUXURY ISLANDS",
+        duration: "14 NIGHTS",
+        description: "This dynamic New Zealand journey is designed as the ultimate celebration of adventure, nature, and refined luxury.",
+      },
+   {
+        destinationSlug: "morocco",
+        packageSlug: "BEYOND_THE_ATLAS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
+        duration: "10 NIGHTS",
+        description: "This extraordinary journey ventures beyond Morocco’s well-known cities into the country’s most remote desert landscapes, ancient caravan routes, and hidden oasis valleys.",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+        destinationSlug: "england",
+        packageSlug: "DOWNTON_TO_MAYFAIR",
+        image: "/images/triple-creek-ranch.avif",
+        title: "DOWNTON TO MAYFAIR: A QUINTESSENTIAL ENGLISH LIFESTYLE ESCAPE",
+        duration: "6 Nights",
+        description: "This elegant journey offers a refined introduction to the English countryside and the sophisticated lifestyle of London...",
+      },
   ],
   topDestinations: [
   {
@@ -337,7 +347,7 @@ export const EXPERIENCES: Experience[] = [
   },
 
 
-// romantic-holidays
+// romantic-holidays  -- DONE
 {
     slug: "romantic-holidays",
     title: "MOMENTS THAT REMIND YOU WHY",
@@ -389,48 +399,54 @@ export const EXPERIENCES: Experience[] = [
   },
   soloTrips: [
     
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
      {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
+        destinationSlug: "italy",
+        packageSlug:"LA_DOLCE_VITA_ELITE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "LA DOLCE VITA ELITE: MILAN COUTURE & PORTOFINO RIVIERA ESCAPE",
+        duration: "5 NIGHTS",
+        description: "This stylish Italian escape seamlessly blends the world of high fashion, refined gastronomy, and Riviera elegance into one sophisticated journey.",
+      },
+     {
+        destinationSlug: "italy",
+        packageSlug: "ULTIMATE_SICILIAN_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE ULTIMATE SICILIAN ESCAPE: ANCIENT WONDERS, COASTAL LUXURY & AUTHENTIC INDULGENCE",
+        duration: "10 NIGHTS",
+        description: "This immersive journey through Sicily reveals a captivating blend of ancient history, Mediterranean beauty, and authentic cultural experiences, all curated with refined luxury and privacy.",
+      },
+     {
+        destinationSlug: "morocco",
+        packageSlug: "IMPERIAL_CITIES_SAHARA_STARS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+        duration: "13 NIGHTS",
+        description: "This extraordinary journey through Morocco reveals a captivating blend of imperial cities, desert landscapes, ancient kasbahs, and refined luxury experiences.",
+      },
+     {
+        destinationSlug: "switzerland",
+        packageSlug: "ALPINE_PEAKS_TO_AMALFI_DREAMS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "ALPINE PEAKS TO AMALFI DREAMS",
+        duration: "12 Nights",
+        description: "This journey combines the dramatic beauty of the Swiss Alps with the effortless elegance of the Italian Riviera...",
+      },
+     {
+        destinationSlug: "new-zealand",
+        packageSlug: "PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+        duration: "14 NIGHTS",
+        description: "This extraordinary journey brings together two of the world’s most breathtaking landscapes...",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+        destinationSlug: "uk",
+        packageSlug: "DOWNTON_TO_MAYFAIR",
+        image: "/images/triple-creek-ranch.avif",
+        title: "DOWNTON TO MAYFAIR: A QUINTESSENTIAL ENGLISH LIFESTYLE ESCAPE",
+        duration: "6 Nights",
+        description: "This elegant journey offers a refined introduction to the English countryside and the sophisticated lifestyle of London...",
+      },
   ],
 
 
@@ -470,7 +486,7 @@ export const EXPERIENCES: Experience[] = [
   },
 
 
-// family-holidays
+// family-holidays  -- DONE
    {
     slug: "family-holidays",
     title: "LUXURY FAMILY HOLIDAYS THAT BRING YOU CLOSER",
@@ -522,47 +538,53 @@ export const EXPERIENCES: Experience[] = [
   soloTrips: [
     
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
+        destinationSlug: "italy",
+        packageSlug: "GRAND_ITALIAN_ODYSSEY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+        duration: "12 NIGHTS",
+        description: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+        destinationSlug: "switzerland",
+        packageSlug: "SWISS_STORYBOOK_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "SWISS STORYBOOK ESCAPE",
+        duration: "6 Nights",
+        description: "Switzerland feels like a storybook brought to life — alpine villages, sparkling lakes, mountain railways...",
+      },
      {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
+        destinationSlug: "japan",
+        packageSlug: "JAPAN_WINTER_JOURNEY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "Japan Winter Journey: Culture & Legendary Powder",
+        duration: "12 Nights",
+        description: "Japan’s winter season reveals a magical contrast of ancient temples, snow-covered landscapes and world-renowned alpine adventure....",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
+        destinationSlug: "tanzania",
+        packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+        image: "/images/triple-creek-ranch.avif",
+        title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
+        duration: "11 Nights",
+        description: "This classic East African journey captures the essence of Tanzania’s legendary safari landscapes before transitioning to the turquoise waters of the Indian Ocean.",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+        destinationSlug: "uk",
+        packageSlug: "CROWNED_KINGDOM_ROYAL_JOURNEY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "CROWNED KINGDOM ROYAL JOURNEY",
+        duration: "9 Nights",
+        description: "This elegant journey through England and Scotland celebrates the grandeur of Britain’s royal heritage, combining historic palaces, refined city living, and iconic countryside estates.",
+      },
+    {
+        destinationSlug: "greece",
+        packageSlug: "FROM_POLIS_TO_PARADISE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "FROM POLIS TO PARADISE: A TIMELESS GREEK ESCAPE",
+        duration: "8 Nights",
+        description: " This elegant journey through mainland Greece and the Saronic islands reveals a timeless blend of classical heritage, coastal beauty...",
+      },
   ],
   topDestinations: [
   {
@@ -610,7 +632,7 @@ export const EXPERIENCES: Experience[] = [
   },
 
 
-  // group-holidays
+  // group-holidays  -- DONE
   {
     slug: "group-holidays",
     title: " LUXURY HOLIDAYS DESIGNED FOR YOUR INNER CIRCLE",
@@ -657,48 +679,54 @@ export const EXPERIENCES: Experience[] = [
 "Use these suggested itineraries as a prompt and get in touch to plan something your whole group will enjoy."  },
   soloTrips: [
     
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
      {
-      image: "/images/triple-creek-ranch.avif",
-      title: "A JOURNEY INTO JAPAN",
-      duration: "10 NIGHTS",
-      description:
-        "Japan — with its tightly-packed islands — offers extraordinary contrast and depth.",
-    },
+        destinationSlug: "italy",
+        packageSlug: "GRAND_ITALIAN_ODYSSEY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+        duration: "12 NIGHTS",
+        description: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+      },
+   {
+        destinationSlug: "italy",
+        packageSlug: "GRAND_NORTHERN_ITALY_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE GRAND NORTHERN ITALY ESCAPE: LAKES, ALPINE PEAKS & PROSECCO INDULGENCE",
+        duration: "11 NIGHTS",
+        description: "This refined journey through Northern Italy blends romantic cities, serene lakes, dramatic alpine landscapes, and world-renowned wine regions into one seamless and immersive experience.",
+      },
+   {
+        destinationSlug: "morocco",
+        packageSlug: "IMPERIAL_CITIES_SAHARA_STARS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+        duration: "13 NIGHTS",
+        description: "This extraordinary journey through Morocco reveals a captivating blend of imperial cities, desert landscapes, ancient kasbahs, and refined luxury experiences.",
+      },
+     {
+        destinationSlug: "japan",
+        packageSlug: "IMPERIAL_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+        duration: "10 Nights",
+        description: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa...",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "COSTA RICA UNPLUGGED",
-      duration: "13 NIGHTS",
-      description:
-        "Rainforests, wildlife encounters and remote eco-lodges.",
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "SOLO SAFARI, BOTSWANA",
-      duration: "9 NIGHTS",
-      description:
-        "Private game drives and intimate bush camps designed for one.",
-    },
+        destinationSlug: "tanzania",
+        packageSlug: "SERENGETI_TARANGIRE_ZANZIBAR",
+        image: "/images/triple-creek-ranch.avif",
+        title: "CLASSIC SERENGETI, TARANGIRE & ZANZIBAR COASTLINE",
+        duration: "11 Nights",
+        description: "This classic East African journey captures the essence of Tanzania’s legendary safari landscapes before transitioning to the turquoise waters of the Indian Ocean.",
+      },
+   {
+        destinationSlug: "uk",
+        packageSlug: "BIG_SMOKE_TO_WILD_GLENS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "BIG SMOKE TO WILD GLENS",
+        duration: "14 Nights",
+        description: "This grand journey through Britain blends royal heritage, storybook countryside, and dramatic Highland wilderness into an unforgettable luxury travel experience.",
+      },
   ],
   topDestinations: [
   {

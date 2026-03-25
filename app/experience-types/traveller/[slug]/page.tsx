@@ -170,8 +170,7 @@ export default function ExperiencePage() {
                     >
                       {trip.description}
                     </p>
-
-                    <button
+<Link href={`/experience-types/destination/${trip.destinationSlug}/packages/${trip.packageSlug}`}                
                       className="
                         mt-4 inline-block
                         relative overflow-hidden
@@ -186,7 +185,7 @@ export default function ExperiencePage() {
                       "
                     >
                       <span className="relative z-10">GET IN TOUCH</span>
-                    </button>
+              </Link>
                   </div>
                 </div>
               ))}

@@ -3,7 +3,9 @@ export type MonthPackage = {
   title: string;
   duration: string;
   description: string;
-  link: string;
+  link ?: string;
+   destinationSlug ?: string;
+  packageSlug?: string;
 };
 
 export type FollowingMonth = {
@@ -27,7 +29,7 @@ export type MonthPage = {
 };
 
 export const MONTH_DATA: MonthPage[] = [
-
+// jan -- DONE
 {
   slug: "january",
   title: "A New Year, A New Beginning",
@@ -43,25 +45,68 @@ export const MONTH_DATA: MonthPage[] = [
   packages: [
     {
       image: "/images/triple-creek-ranch.avif",
-      title: "Maldives Winter Escape",
-      duration: "5 Nights / 6 Days",
-      description: "Overwater villas, calm seas, private luxury living.",
-      link: "/packages/maldives-winter"
+      title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+      duration: "12 NIGHTS",
+      description: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
+      destinationSlug: "italy",
+  packageSlug: "ULTIMATE_ITALIAN_HONEYMOON",
     },
     {
       image: "/images/triple-creek-ranch.avif",
-      title: "Swiss Snow Experience",
-      duration: "7 Nights / 8 Days",
-      description: "Alps, ski towns, winter villages and frozen lakes.",
-      link: "/packages/switzerland-snow"
+      title: "VOLCANIC LUXURY: SICILY & AEOLIAN ISLAND HOPPING EXPERIENCE",
+      duration: "9 NIGHTS",
+      description: "This extraordinary journey through Sicily and the Aeolian Islands combines coastal elegance, volcanic landscapes, and island-hopping adventure into a truly unique Mediterranean experience.",
+      destinationSlug: "italy",
+      packageSlug: "VOLCANIC_LUXURY"
     },
     {
       image: "/images/triple-creek-ranch.avif",
-      title: "Dubai Luxury Break",
-      duration: "4 Nights / 5 Days",
-      description: "Perfect weather, festivals, desert experiences.",
-      link: "/packages/dubai-january"
+      title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
+      duration: "8 NIGHTS",
+      description: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo and the serene traditions of Kyoto...",
+      destinationSlug: "japan",
+      packageSlug: "YIN_YAG_JAPAN"
     },
+    {
+        destinationSlug: "japan",
+        packageSlug:"IMPERIAL_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+        duration: "10 Nights",
+        description: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa...",
+      },
+    {
+        destinationSlug: "tanzania",
+        packageSlug: "FROM_CRATERS_TO_CORAL",
+        image: "/images/triple-creek-ranch.avif",
+        title: "FROM CRATERS TO CORAL: TANZANIA’S ULTIMATE WILD-TO-WATER ESCAPE",
+        duration: "12 Nights",
+        description: "This extraordinary journey through Tanzania combines some of Africa’s most dramatic wildlife...",
+      },
+      {
+        destinationSlug: "tanzania",
+        packageSlug: "KILIMANJARO_SUMMIT",
+        image: "/images/triple-creek-ranch.avif",
+        title: "KILIMANJARO SUMMIT & ZANZIBAR RECOVERY ESCAPE",
+        duration: "12 Nights",
+        description: "This journey combines one of the world’s most iconic mountain climbs with the serene beauty of the Indian Ocean.",
+      },
+       {
+        destinationSlug: "new-zealand",
+        packageSlug:"ULTIMATE_PACIFIC_PRIVATE_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE ULTIMATE PACIFIC PRIVATE ESCAPE: FROM VOLCANIC WONDERS TO ISLAND PARADISE",
+        duration: "14 NIGHTS",
+        description: "This extraordinary Pacific journey is crafted for travellers seeking a seamless blend of dramatic landscapes, cultural depth...",
+      },
+      {
+        destinationSlug: "new-zealand",
+        packageSlug:"PRIVATE_HELI_ULTRA_ISLAND_ESCAPE",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE PRIVATE HELI & ULTRA-ISLAND ESCAPE: FROM ALPINE ADVENTURE TO THE BRANDO PARADISE",
+        duration: "14 NIGHTS",
+        description: "This extraordinary journey brings together two of the world’s most breathtaking landscapes...",
+      },
   ],
 
   followingMonths: [
@@ -73,6 +118,7 @@ export const MONTH_DATA: MonthPage[] = [
   ],
 },
 
+// february
 {
   slug: "february",
   title: "Romance, Warmth, and Escape",
@@ -88,11 +134,28 @@ export const MONTH_DATA: MonthPage[] = [
   packages: [
     {
       image: "/images/triple-creek-ranch.avif",
-      title: "Romantic Greece Escape",
-      duration: "6 Nights / 7 Days",
-      description: "Santorini, Athens, private sailing, slow living.",
-      link: "/packages/greece-february"
+      title: "LA DOLCE VITA ELITE: MILAN COUTURE & PORTOFINO RIVIERA ESCAPE",
+      duration: "5 NIGHTS",
+      description: "This stylish Italian escape seamlessly blends the world of high fashion, refined gastronomy, and Riviera elegance into one sophisticated journey.",
+      destinationSlug: "italy",
+      packageSlug: "LA_DOLCE_VITA_ELITE"
     },
+    {
+      destinationSlug: "japan",
+      packageSlug: "IMPERIAL_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "IMPERIAL JAPAN: Cities, Culture & Quiet Luxury",
+        duration: "10 NIGHTS",
+        description: "From the neon-lit avenues of Tokyo to the quiet temples of Kyoto and the samurai heritage of Kanazawa...",
+      },
+   {
+        destinationSlug: "japan",
+        packageSlug:"YIN_YAG_JAPAN",
+        image: "/images/triple-creek-ranch.avif",
+        title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
+        duration: "8 Nights",
+        description: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo and the serene traditions of Kyoto...",
+      },
     {
       image: "/images/triple-creek-ranch.avif",
       title: "Japan Winter Culture",
@@ -101,19 +164,13 @@ export const MONTH_DATA: MonthPage[] = [
       link: "/packages/japan-february"
     },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "Japan Winter Culture",
-      duration: "8 Nights / 9 Days",
-      description: "Kyoto temples, Tokyo, hot springs, winter festivals.",
-      link: "/packages/japan-february"
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "Japan Winter Culture",
-      duration: "8 Nights / 9 Days",
-      description: "Kyoto temples, Tokyo, hot springs, winter festivals.",
-      link: "/packages/japan-february"
-    },
+        destinationSlug: "morocco",
+        packageSlug:"IMPERIAL_CITIES_SAHARA_STARS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+        duration: "13 NIGHTS",
+        description: "This extraordinary journey through Morocco reveals a captivating blend of imperial cities, desert landscapes, ancient kasbahs, and refined luxury experiences.",
+      },
   ],
 
   followingMonths: [
@@ -124,8 +181,6 @@ export const MONTH_DATA: MonthPage[] = [
 
   ],
 },
-
-
 
 // march
 {
@@ -142,26 +197,29 @@ export const MONTH_DATA: MonthPage[] = [
 
   packages: [
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "Romantic Greece Escape",
-      duration: "6 Nights / 7 Days",
-      description: "Santorini, Athens, private sailing, slow living.",
-      link: "/packages/greece-february"
-    },
+      destinationSlug: "morocco",
+        packageSlug:"IMPERIAL_CITIES_SAHARA_STARS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "FROM IMPERIAL CITIES TO SAHARA STARS: A GRAND MOROCCAN JOURNEY",
+        duration: "13 NIGHTS",
+        description: "This extraordinary journey through Morocco reveals a captivating blend of imperial cities, desert landscapes, ancient kasbahs, and refined luxury experiences.",
+      },
     {
-      image: "/images/triple-creek-ranch.avif",
-      title: "Japan Winter Culture",
-      duration: "8 Nights / 9 Days",
-      description: "Kyoto temples, Tokyo, hot springs, winter festivals.",
-      link: "/packages/japan-february"
-    },
-    {
-      image: "/images/triple-creek-ranch.avif",
-      title: "Japan Winter Culture",
-      duration: "8 Nights / 9 Days",
-      description: "Kyoto temples, Tokyo, hot springs, winter festivals.",
-      link: "/packages/japan-february"
-    },
+        destinationSlug: "morocco",
+        packageSlug: "BEYOND_THE_ATLAS",
+        image: "/images/triple-creek-ranch.avif",
+        title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
+        duration: "10 NIGHTS",
+        description: "This extraordinary journey ventures beyond Morocco’s well-known cities into the country’s most remote desert landscapes, ancient caravan routes, and hidden oasis valleys.",
+      },
+   {
+        destinationSlug: "italy",
+        packageSlug:"GRAND_ITALIAN_ODYSSEY",
+        image: "/images/triple-creek-ranch.avif",
+        title: "THE GRAND ITALIAN ODYSSEY: PRIVATE VILLAS, VINTAGE DRIVES & COASTAL ELEGANCE",
+        duration: "12 NIGHTS",
+        description: "This exceptional journey captures the very essence of Italy, weaving together the refined beauty of Lake Como, the timeless charm of Tuscany, the cultural richness of Rome, and the breathtaking coastal elegance of the Amalfi Coast.",
+      },
     {
       image: "/images/triple-creek-ranch.avif",
       title: "Japan Winter Culture",
