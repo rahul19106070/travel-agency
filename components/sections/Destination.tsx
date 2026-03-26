@@ -76,7 +76,7 @@ export default function DestinationSlider() {
           </div> */}
 
           {/* Header - Only on lg */}
-          <div className="hidden lg:flex relative min-w-[320px] aspect-4/5 overflow-hidden shrink-0">
+          <div className="hidden lg:flex relative min-w-[320px] aspect-5/5 overflow-hidden shrink-0">
             <div className="text-white flex flex-col mt-12 pb-8 px-0">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-[1.2] font-alternate">
                  THE INSIDER'S 2026
@@ -89,7 +89,7 @@ export default function DestinationSlider() {
           {TRIPS.map((trip, index) => (
             <div
               key={index}
-className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min-w-[240px] aspect-[3/4] overflow-hidden shrink-0"            >
+className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min-w-[240px] aspect-[2/4] overflow-hidden shrink-0"            >
               {/* Image */}
               <Image
                 src={trip.imageUrl}
@@ -102,7 +102,7 @@ className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
               {/* Duration */}
-              <div className="absolute top-2 sm:top-4 right-2 sm:right-4 text-xs tracking-widest text-white font-bold">
+              <div className="absolute top-2 sm:top-4 right-2 sm:right-4 text-xs tracking-widest text-white font-extrabold">
                 {trip.duration}
               </div>
 
@@ -111,12 +111,6 @@ className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min
                 <h1 className="font-brandon text-xxs sm:text-sm font-semibold tracking-widest text-white line-clamp-2 font-alternate font-bold">
                   {trip.title}
                 </h1>
-
-                {trip.subtitle && (
-                  <p className="mt-1 text-xxs text-white/80 line-clamp-1">
-                    {trip.subtitle}
-                  </p>
-                )}
 
                 {/* Hidden on default */}
                 <div className="max-h-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:max-h-40 group-hover:opacity-100">

@@ -113,7 +113,7 @@ if (!destination)
 
 
 
-      {/* ===== IMAGE + TEXT SPLIT SECTION ===== */}
+      {/* ============================ IMAGE + TEXT SPLIT SECTION (  ENQUIRE  ) ====================== */}
       {destination.SplitSection && (
         <section className="mx-auto px-8 py-17 lg:mb-20 sm:mb-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -171,15 +171,13 @@ if (!destination)
             </div>
 
           </div>
-
-
           </div>
         </section>
       )}
 
 
 
-        {/* ===== HIGHLIGHTS ===== */}
+        {/* ========================== PACKAGES  =============================== */}
          {destination.soloTrips && (
                 <section className="mx-auto px-5 py-7  lg:py-7">
                   <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
@@ -200,13 +198,13 @@ if (!destination)
                     )}
         
                     {/* RIGHT CARDS */}
-                    <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6">
                         {destination.soloTrips.map((trip, idx) => (
                                     <div
                                       key={idx}
                                       className="
-                                        group relative overflow-hidden rounded-lg
-                                        aspect-[3/4] sm:aspect-[2/3] lg:aspect-[2/4]
+                                        group relative overflow-hidden cursor-pointer
+                                        aspect-[3/4] sm:aspect-[2/3] lg:aspect-[3/5]
                                       "
                                     >
                                       <Image
@@ -225,9 +223,9 @@ if (!destination)
                                       </div>
                     
                                       <div className="absolute bottom-0 p-5 text-white">
-                                        <p className="font-extralight tracking-widest lg:text-1xl text-xl sm:text-base">
+                                        <h1 className="font-brandon text-xxs sm:text-sm font-semibold tracking-widest text-white line-clamp-2 font-alternate font-bold">
                                           {trip.title}
-                                        </p>
+                                        </h1>
                     
                                         {/* SHOW ON MOBILE, HOVER ON DESKTOP */}
                                         <p
@@ -270,7 +268,7 @@ if (!destination)
                 </section>
               )}
        
-       {/* cTA */}
+       {/*================== cTA ====================*/}
        <section className="relative w-full h-[40vh] sm:h-[25vh] lg:h-[38vh] flex items-center justify-center">
        
          {/* Background Image */}

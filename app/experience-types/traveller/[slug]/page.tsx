@@ -154,9 +154,9 @@ export default function ExperiencePage() {
                   </div>
 
                   <div className="absolute bottom-0 p-5 text-white">
-                    <p className="font-bold tracking-widest text-sm sm:text-base">
+                <h1 className="font-brandon text-xxs sm:text-sm font-semibold tracking-widest text-white line-clamp-2 font-alternate font-bold">
                       {trip.title}
-                    </p>
+                    </h1>
 
                     {/* SHOW ON MOBILE, HOVER ON DESKTOP */}
                     <p
@@ -169,7 +169,8 @@ export default function ExperiencePage() {
                     >
                       {trip.description}
                     </p>
-<Link href={`/experience-types/destination/${trip.destinationSlug}/packages/${trip.packageSlug}`}                
+                    
+                  <Link href={`/experience-types/destination/${trip.destinationSlug}/packages/${trip.packageSlug}`}                
                       className="
                         mt-4 inline-block
                         relative overflow-hidden
