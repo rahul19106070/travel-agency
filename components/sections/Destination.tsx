@@ -1,9 +1,12 @@
 "use client";
 
+import  Link  from "next/link";
 import Image from "next/image";
 
 interface Trip {
   imageUrl: string;
+  packageSlug?: string;
+  destinationSlug?: string;
   title: string;
   subtitle?: string;
   duration: string;
@@ -13,61 +16,41 @@ interface Trip {
 
 const TRIPS: Trip[] = [
   {
+    destinationSlug: "italy",
+    packageSlug:"ULTIMATE_ITALIAN_HONEYMOON",
     imageUrl: "/images/triple-creek-ranch.avif",
-    title: "ROME, FLORENCE & PUGLIA",
-    subtitle: "A Luxury Family Italy Holiday",
-    duration: "9 NIGHTS",
-    description: "Experience Italy’s most iconic cities with tailored family moments.",
+    title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
+    duration: "12 NIGHTS",
+    priceFrom: "$15,900 per couple (excluding international flights)",
+    description: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
   },
   {
+    destinationSlug:"new-zealand",
+    packageSlug:"PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
     imageUrl: "/images/triple-creek-ranch.avif",
-    title: "A JOURNEY INTO JAPAN",
+        title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
     duration: "10 NIGHTS",
-    priceFrom: "From £6,500 per person excl. flights",
-    description: "Japan — with its 3,000 tightly-packed islands — can easily exceed expectations.",
+    priceFrom: "$15,900 per person (excluding international flights)",
+        description: "This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.",
   },
   {
+      destinationSlug:"morocco",
+      packageSlug:"BEYOND_THE_ATLAS",
     imageUrl: "/images/triple-creek-ranch.avif",
-    title: "AN ADVENTURE THROUGH",
-    subtitle: "COSTA RICA",
-    duration: "13 NIGHTS",
-    description: "Rainforests, wildlife and thrilling outdoor adventures.",
-  },
+      title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
+        duration: "10 NIGHTS",
+        priceFrom:"$11,400 per person (excluding international flights)",
+        description: "This extraordinary journey ventures beyond Morocco’s well-known cities into the country’s most remote desert landscapes, ancient caravan routes, and hidden oasis valleys.",
+   },
   {
+      destinationSlug:"japan",
+      packageSlug:"YIN_YAG_JAPAN",
     imageUrl: "/images/triple-creek-ranch.avif",
-    title: "ATHENS, MYKONOS & CRETE",
-    subtitle: "Luxury Family Discovery in Greece",
-    duration: "11 NIGHTS",
-    description: "Island hopping with culture, beaches and bespoke stays.",
-  },
-  // {
-  //   imageUrl: "/images/triple-creek-ranch.avif",
-  //   title: "ROME, FLORENCE & PUGLIA",
-  //   subtitle: "A Luxury Family Italy Holiday",
-  //   duration: "9 NIGHTS",
-  //   description: "Experience Italy’s most iconic cities with tailored family moments.",
-  // },
-  // {
-  //   imageUrl: "/images/triple-creek-ranch.avif",
-  //   title: "A JOURNEY INTO JAPAN",
-  //   duration: "10 NIGHTS",
-  //   priceFrom: "From £6,500 per person excl. flights",
-  //   description: "Japan — with its 3,000 tightly-packed islands — can easily exceed expectations.",
-  // },
-  // {
-  //   imageUrl: "/images/triple-creek-ranch.avif",
-  //   title: "AN ADVENTURE THROUGH",
-  //   subtitle: "COSTA RICA",
-  //   duration: "13 NIGHTS",
-  //   description: "Rainforests, wildlife and thrilling outdoor adventures.",
-  // },
-  // {
-  //   imageUrl: "/images/triple-creek-ranch.avif",
-  //   title: "ATHENS, MYKONOS & CRETE",
-  //   subtitle: "Luxury Family Discovery in Greece",
-  //   duration: "11 NIGHTS",
-  //   description: "Island hopping with culture, beaches and bespoke stays.",
-  // },
+     title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
+        duration: "8 Nights",
+        priceFrom: "$14,500 per person (excluding international flights)",
+        description: "This journey explores the beautiful contrast that defines Japan — the vibrant energy of Tokyo and the serene traditions of Kyoto...",
+       },
 ];
 
 export default function DestinationSlider() {
@@ -87,10 +70,10 @@ export default function DestinationSlider() {
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-0">
         {/* Horizontal Scroll */}
-        <div className="flex gap-3 sm:gap-4 md:gap-6 overflow-x-scroll pb-6 px-4 sm:px-6 md:px-0 md:pr-8 lg:pr-40 flex-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <div className="flex gap-3 sm:gap-4 md:gap-6 overflow-x-scroll ms-10 pb-6 px-4 sm:px-6 md:px-0 md:pr-8 lg:pr-40 flex-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {/* Blank Div - Only on lg */}
-          <div className="hidden lg:flex relative min-w-[10px] aspect-3/5 overflow-hidden shrink-0">
-          </div>
+          {/* <div className="hidden lg:flex relative min-w-[10px] aspect-3/5 overflow-hidden shrink-0">
+          </div> */}
 
           {/* Header - Only on lg */}
           <div className="hidden lg:flex relative min-w-[320px] aspect-4/5 overflow-hidden shrink-0">
@@ -150,8 +133,9 @@ export default function DestinationSlider() {
                 </div>
 
                 {/* CTA */}
-                <button
+                <Link  href={`/experience-types/destination/${trip.destinationSlug}/packages/${trip.packageSlug}`}
                   className="
+                  inline-block
                     mt-2 sm:mt-4
                     relative overflow-hidden
                     border border-white
@@ -169,15 +153,11 @@ export default function DestinationSlider() {
                   "
                 >
                   <span className="relative z-10">EXPLORE TRIP</span>
-                </button>
+                </Link>
               </div>
             </div>
           ))}
-          <div className="shrink-0 flex items-end pb-6 px-2">
-            <button className="border border-white px-4 sm:px-8 md:px-12 py-1 sm:py-2 text-xs tracking-widest text-white transition hover:bg-white hover:text-black whitespace-nowrap">
-               view all
-            </button>
-          </div>
+         
         </div>
       </div>
 

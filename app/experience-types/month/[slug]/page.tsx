@@ -1,20 +1,35 @@
-"use client";
-
-import { useParams } from "next/navigation";
+// import { useParams } from "next/navigation";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { MONTH_DATA } from "@/app/data/monthData";
 import Link from "next/link";
 
-export default function MonthPage() {
-  const params = useParams<{ slug: string }>();
-  const slug = params?.slug;
+async function getMonthData(slug: string) {
+  await new Promise((res) => setTimeout(res, 1000));
+  return MONTH_DATA.find((m) => m.slug === slug);
+}
 
-  const month = MONTH_DATA.find((m) => m.slug === slug);
+export default async function MonthPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  const month = await getMonthData(slug);
 
   if (!month) {
     return <div className="pt-32 text-center text-xl">Month not found</div>;
   }
+// export default async function MonthPage({params}) {
+    // const params = useParams<{ slug: string }>();
+  // const slug = params?.slug;
+
+  // const month = MONTH_DATA.find((m) => m.slug === slug);
+
+  // if (!month) {
+  //   return <div className="pt-32 text-center text-xl">Month not found</div>;
+  // }
 
   return (
     <>
@@ -125,7 +140,7 @@ export default function MonthPage() {
           <p className="text-xs font-bold">{pkg.duration}</p>
           <p className="text-2xl font-extrabold">{pkg.title}</p>
           <p className="text-sm text-white/80">{pkg.description}</p>
-       <Link             href={`/experience-types/destination/${pkg.destinationSlug}/packages/${pkg.packageSlug}`}
+       <Link  href={`/experience-types/destination/${pkg.destinationSlug}/packages/${pkg.packageSlug}`}
 
   className="
     inline-block
