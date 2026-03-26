@@ -41,6 +41,7 @@ useEffect(() => {
 
   return () => observer.disconnect();
 }, []);
+const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
 
 return (
@@ -254,7 +255,7 @@ return (
             </div>
 
             <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-extralight tracking-widest text-xl">
+              <p className="font-extralight tracking-widest text-sm">
                 {trip.title}
               </p>
 

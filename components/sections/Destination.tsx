@@ -70,7 +70,7 @@ export default function DestinationSlider() {
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-0">
         {/* Horizontal Scroll */}
-        <div className="flex gap-3 sm:gap-4 md:gap-6 overflow-x-scroll ms-10 pb-6 px-4 sm:px-6 md:px-0 md:pr-8 lg:pr-40 flex-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <div className="flex gap-2 sm:gap-3 md:gap-4 overflow-x-scroll ms-10 pb-6 px-4 sm:px-6 md:px-0 md:pr-8 lg:pr-40  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {/* Blank Div - Only on lg */}
           {/* <div className="hidden lg:flex relative min-w-[10px] aspect-3/5 overflow-hidden shrink-0">
           </div> */}
@@ -89,8 +89,7 @@ export default function DestinationSlider() {
           {TRIPS.map((trip, index) => (
             <div
               key={index}
-              className="group relative min-w-[180px] xs:min-w-[220px] sm:min-w-[260px] md:min-w-[300px] lg:min-w-[320px] aspect-3/5 lg:aspect-[3/4] overflow-hidden shrink-0"
-            >
+className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min-w-[240px] aspect-[3/4] overflow-hidden shrink-0"            >
               {/* Image */}
               <Image
                 src={trip.imageUrl}

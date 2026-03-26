@@ -249,25 +249,55 @@ export default function ExperiencePage() {
 )}
 
 
-     {/* ================= GALLERY ================= */}
-{experience.topDestinations && (() => {
-  const headingItem = experience.topDestinations.find(
-    d => d.heading && d.heading.length > 0
-  );
 
-  const destinations = experience.topDestinations.filter(
-    d => !d.heading || d.heading.length === 0
-  );
+{/* ================= CTA ================= */}
+{experience.ctaSection && (
+  <section className="relative mx-auto px-5 py-20 flex justify-center items-center text-center overflow-hidden">
 
-  return (
-    <TopDestinationsSection
-  heading={headingItem?.heading?.[0]?.heading ?? ""}
-  destinations={destinations}
-/>
+    {/* BACKGROUND IMAGE */}
+    <Image
+      src="/images/month/last_sect.webp"
+      alt="cta background"
+      fill
+      className="object-cover"
+    />
 
-  );
-})()}
+    {/* DARK OVERLAY (mandatory, not optional) */}
+    <div className="absolute inset-0 bg-black/60" />
 
+    {/* CONTENT */}
+    <div className="relative z-10 max-w-3xl w-full text-white flex flex-col sm:flex-row items-center justify-center gap-6">
+  
+  <p className="text-lg sm:text-xl lg:text-xl font-extralight leading-relaxed">
+    {experience.ctaSection.desc}
+  </p>
+
+  <Link
+    href={experience.ctaSection.buttonLink}
+    className="
+      relative overflow-hidden
+       bg-black text-white
+      px-6 py-2
+      text-[11px] font-bold tracking-[1.2px]
+      transition-all duration-300
+      hover:text-black
+      before:absolute before:inset-0
+      before:bg-white before:opacity-0
+      hover:before:opacity-100
+      whitespace-nowrap
+    "
+  >
+    <span className="relative z-10">
+      {experience.ctaSection.buttonText}
+    </span>
+  </Link>
+
+</div>
+
+  </section>
+)}
+
+     
     </main>
   </>
   );

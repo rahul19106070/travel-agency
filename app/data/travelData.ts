@@ -16,6 +16,7 @@ export type Experience = {
   soloSectionIntro?: SectionIntro; 
    soloTrips?: SoloTrip[];
    topDestinations?: TopDestination[];
+   ctaSection?:ctaSection;
 };
 export type SoloTrip = {
   image: string;
@@ -57,6 +58,11 @@ export type ImageTextSection = {
   horizontal?: "left" | "center" | "right";
   vertical?: "top" | "center" | "bottom";
 };
+export type ctaSection={
+  desc: string;
+  buttonText: string;
+  buttonLink: string;
+}
 
 
 export const EXPERIENCES: Experience[] = [
@@ -198,7 +204,11 @@ export const EXPERIENCES: Experience[] = [
 //     description:
 // "From coral reefs to plunging waterfalls, these islands evoke entire worlds of hibiscus flowers, double-hulled canoes, and the culture of native Polynesia. Just the two of you, on a secluded island at the end of the earth. It’s exactly how a honeymoon should be."  },
 ],
-
+  ctaSection:{
+   desc:"HONEYMOON AS RARE AND BEAUTIFUL AS YOUR LOVE",
+   buttonLink:"/",
+   buttonText:"START HERE"
+  },
   },
 
 
@@ -343,7 +353,11 @@ export const EXPERIENCES: Experience[] = [
   //     "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
   // },
 ],
-
+ctaSection:{
+    buttonLink:"",
+    desc:"THE WORLD, CURATED JUST FOR YOU",
+    buttonText:"START HERE"
+}
   },
 
 
@@ -483,6 +497,11 @@ export const EXPERIENCES: Experience[] = [
 "Whether you prefer luxury resorts, scenic road trips, or secluded island retreats, Australia's sun-soaked beaches, lush vineyards and vibrant cities provide the perfect backdrop for a memorable couples’ holiday."
   },
 ],
+ctaSection:{
+    buttonLink:"",
+    desc:"ESCAPE TO PLACES WHERE TIME SLOW DOWN - TOGETHER",
+    buttonText:"START HERE"
+}
   },
 
 
@@ -628,7 +647,11 @@ export const EXPERIENCES: Experience[] = [
   //     "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
   // },
 ],
-
+ ctaSection:{
+    buttonLink:"",
+    desc:"AN INNER CIRCLE ESCAPE, CREATED FOR YOUR FAMILY",
+    buttonText:"START HERE"
+}
   },
 
 
@@ -770,7 +793,11 @@ export const EXPERIENCES: Experience[] = [
   //     "Canada captivates solo travellers with its expansive landscapes and rich experiences...",
   // },
 ],
-
+ctaSection:{
+    buttonLink:"",
+    desc:"YOUR CREW. YOUR VIBE. OUR CONCIERGE TOUCH",
+    buttonText:"START HERE"
+}
   },
 
 ];

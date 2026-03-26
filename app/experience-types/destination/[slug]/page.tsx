@@ -270,6 +270,43 @@ if (!destination)
                 </section>
               )}
        
+       {/* cTA */}
+       <section className="relative w-full h-[40vh] sm:h-[25vh] lg:h-[38vh] flex items-center justify-center">
+       
+         {/* Background Image */}
+         <Image
+           src="/images/packages/PACKAGESCTA.webp"
+           alt="Start your journey"
+           fill
+            sizes="100vw"
+           className="object-cover"
+         />
+       
+         {/* Dark Overlay */}
+         <div className="absolute inset-0 bg-black/20" />
+       
+         {/* Content */}
+         <div className="relative text-center text-white px-6">
+       
+           <h2 className="text-3xl lg:text-5xl font-light mb-6">
+             Ready to Start?
+           </h2>
+       
+           <button
+             className="
+               border border-white
+               px-8 py-3
+               text-sm tracking-widest
+               hover:bg-white hover:text-black
+               transition
+             "
+           >
+             START
+           </button>
+       
+         </div>
+       
+       </section>
            </main>
          </>
   );
