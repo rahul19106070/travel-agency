@@ -72,7 +72,6 @@ export default function ExperiencePage() {
     </div>
   )}
 
-  <div className="absolute inset-0 bg-black/30" />
 </section>
 
 
@@ -111,9 +110,9 @@ export default function ExperiencePage() {
 
 
 
-      {/* ================= HIGHLIGHTS ================= */}
+      {/* ================= PACKAGES ================= */}
       {experience.soloTrips && (
-        <section className="mx-auto px-5 py-7  lg:py-7">
+        <section className="mx-auto  ms-20 ml-10 px-5 py-7  lg:py-7">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
 
             {/* LEFT TEXT */}
@@ -137,8 +136,8 @@ export default function ExperiencePage() {
                 <div
                     key={idx}
                     className="
-                    group relative overflow-hidden rounded-lg cursor-pointer
-                    aspect-[3/4] sm:aspect-[2/3] lg:aspect-[2/4]
+                    group relative overflow-hidden cursor-pointer
+                    aspect-[3/4] sm:aspect-[2/3] lg:aspect-[3/5]
                   "
                 >
                   <Image
@@ -148,7 +147,7 @@ export default function ExperiencePage() {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/40 to-transparent" />
 
                   <div className="absolute top-4 right-4 text-xs tracking-widest text-white font-bold">
                     {trip.duration}
@@ -263,7 +262,7 @@ export default function ExperiencePage() {
     />
 
     {/* DARK OVERLAY (mandatory, not optional) */}
-    <div className="absolute inset-0 bg-black/60" />
+    {/* <div className="absolute inset-0 bg-black/200" /> */}
 
     {/* CONTENT */}
     <div className="relative z-10 max-w-3xl w-full text-white flex flex-col sm:flex-row items-center justify-center gap-6">
