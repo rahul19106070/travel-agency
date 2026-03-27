@@ -56,7 +56,7 @@ const BY_MONTH: TravelItem[] = [
   { title: "MAY", imageUrl: "/images/month/May.webp", slug: "may" },
   { title: "JUNE", imageUrl: "/images/month/June.webp", slug: "june" },
   { title: "JULY", imageUrl: "/images/month/July.webp", slug: "july" },
-  { title: "AUGUST", imageUrl: "/images/month/AUGUST.webp", slug: "august" },
+  { title: "AUGUST", imageUrl: "/images/month/August.webp", slug: "august" },
   {
     title: "SEPTEMBER",
     imageUrl: "/images/month/Sept.webp",

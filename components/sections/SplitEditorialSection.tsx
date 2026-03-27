@@ -4,10 +4,10 @@ import type { JSX } from "react";
 export default function SplitEditorialSection(): JSX.Element {
   return (
     <section className="w-full bg-[#E3D3C9]">
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
         {/* Image */}
-        <div className="relative w-full h-[75vh] md:h-screen lg:m-10 sm:m-6">
-          <Image
+<div className="relative w-full h-[70vh] md:h-[70vh] lg:h-[90vh] lg:m-10 sm:m-6">
+            <Image
             src="/images/tree.webp"
             alt="Quiet travel moment"
             fill
@@ -46,7 +46,7 @@ export default function SplitEditorialSection(): JSX.Element {
         </div>
 
         {/* Text Section */}
-        <div className="flex flex-col justify-center px-6 md:px-16 py-16">
+        <div className="flex flex-col justify-center px-10 md:px-16 py-8 lg:py-16 sm:py-0 md:py-15">
           <div className="max-w-xl">
             <h2 className="text-4xl lg:text-5xl font-medium tracking-wider font-alternate mb-6">
               OUR WAY OF TRAVELLING

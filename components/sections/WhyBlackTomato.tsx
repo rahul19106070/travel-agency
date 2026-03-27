@@ -13,7 +13,7 @@ export default function WhyBlackTomato(): JSX.Element {
       <section
           className=" lg:mb-10
             relative w-full
-            min-h-[25vh] sm:min-h-[30vh] md:min-h-[30vh] lg:min-h-[60vh]
+            min-h-[25vh] sm:min-h-[30vh] md:min-h-[30vh] lg:min-h-[50vh]
             bg-center bg-no-repeat bg-contain
           "
           style={{

@@ -12,40 +12,45 @@ interface Trip {
   duration: string;
   priceFrom?: string;
   description: string;
+  country?:string;
 }
 
 const TRIPS: Trip[] = [
   {
+    country:"ITALY",
     destinationSlug: "italy",
     packageSlug:"ULTIMATE_ITALIAN_HONEYMOON",
-    imageUrl: "/images/triple-creek-ranch.avif",
+    imageUrl: "/images/THEULTIMATEITALIANHONEYMOON-COVER.webp",
     title: "THE ULTIMATE ITALIAN HONEYMOON: VINTAGE ROMANCE, PRIVATE EXPERIENCES & COASTAL ELEGANCE",
     duration: "12 NIGHTS",
     priceFrom: "$15,900 per couple (excluding international flights)",
     description: "This extraordinary honeymoon journey is designed for couples seeking a seamless blend of romance, privacy, and timeless Italian elegance across the country’s most iconic destinations.",
   },
   {
+    country:"NEW ZEALAND",
     destinationSlug:"new-zealand",
     packageSlug:"PRIVATE_HELI_JOURNEY_SOUTH_ISLAND",
-    imageUrl: "/images/triple-creek-ranch.avif",
+    imageUrl: "/images/PRIVATEHELIJOURNEY-COVER.webp",
         title: "PRIVATE HELI JOURNEY: ALPINE WONDERS TO MARLBOROUGH INDULGENCE",
     duration: "10 NIGHTS",
     priceFrom: "$15,900 per person (excluding international flights)",
         description: "This extraordinary South Island journey is designed for travellers seeking the pinnacle of privacy, exclusivity, and immersive natural beauty—experienced through seamless helicopter transfers and handpicked luxury retreats.",
   },
   {
+    country:"MOROCCO",
       destinationSlug:"morocco",
       packageSlug:"BEYOND_THE_ATLAS",
-    imageUrl: "/images/triple-creek-ranch.avif",
+    imageUrl: "/images/BEYONDTHEATLAS-COVER.webp",
       title: "BEYOND THE ATLAS: MOROCCO’S HIDDEN DESERT KINGDOM",
         duration: "10 NIGHTS",
         priceFrom:"$11,400 per person (excluding international flights)",
         description: "This extraordinary journey ventures beyond Morocco’s well-known cities into the country’s most remote desert landscapes, ancient caravan routes, and hidden oasis valleys.",
    },
   {
+    country:"JAPAN",
       destinationSlug:"japan",
       packageSlug:"YIN_YAG_JAPAN",
-    imageUrl: "/images/triple-creek-ranch.avif",
+    imageUrl: "/images/YIN&YANGOFJAPAN-COVER.webp",
      title: "YIN & YANG OF JAPAN: Tokyo to Kyoto Slow Luxury",
         duration: "8 Nights",
         priceFrom: "$14,500 per person (excluding international flights)",
@@ -70,13 +75,13 @@ export default function DestinationSlider() {
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-0">
         {/* Horizontal Scroll */}
-        <div className="flex gap-2 sm:gap-3 md:gap-4 overflow-x-scroll ms-10 pb-6 px-4 sm:px-6 md:px-0 md:pr-8 lg:pr-40  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <div className="flex gap-2 sm:gap-3 md:gap-4 overflow-x-scroll ms-10 pb-6 px-4 sm:px-6 md:px-0 md:pr-8 lg:pr-10  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {/* Blank Div - Only on lg */}
           {/* <div className="hidden lg:flex relative min-w-[10px] aspect-3/5 overflow-hidden shrink-0">
           </div> */}
 
           {/* Header - Only on lg */}
-          <div className="hidden lg:flex relative min-w-[320px] aspect-5/5 overflow-hidden shrink-0">
+          <div className="hidden lg:flex relative min-w-[100px] aspect-5/5 overflow-hidden shrink-0">
             <div className="text-white flex flex-col mt-12 pb-8 px-0">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-[1.2] font-alternate">
                  THE INSIDER'S 2026
@@ -89,7 +94,7 @@ export default function DestinationSlider() {
           {TRIPS.map((trip, index) => (
             <div
               key={index}
-className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min-w-[240px] aspect-[2/4] overflow-hidden shrink-0"            >
+className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min-w-[280px] aspect-[2/4] overflow-hidden shrink-0"            >
               {/* Image */}
               <Image
                 src={trip.imageUrl}
@@ -108,12 +113,16 @@ className="group relative min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min
 
               {/* Content */}
               <div className="absolute bottom-0 left-0 w-full p-2 sm:p-3 md:p-4 transition-all duration-300">
+                   <p className="mt-2 sm:mt-3 text-xs font-bold leading-5 mb-2 text-white/80">
+                    {trip.country}
+                  </p>
                 <h1 className="font-brandon text-xxs sm:text-sm font-semibold tracking-widest text-white line-clamp-2 font-alternate font-bold">
                   {trip.title}
                 </h1>
 
                 {/* Hidden on default */}
                 <div className="max-h-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:max-h-40 group-hover:opacity-100">
+
                   <p className="mt-2 sm:mt-3 text-xs leading-5 text-white/80">
                     {trip.description}
                   </p>
