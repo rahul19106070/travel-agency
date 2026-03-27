@@ -56,7 +56,7 @@ const BY_MONTH: TravelItem[] = [
   { title: "MAY", imageUrl: "/images/month/May.webp", slug: "may" },
   { title: "JUNE", imageUrl: "/images/month/June.webp", slug: "june" },
   { title: "JULY", imageUrl: "/images/month/July.webp", slug: "july" },
-  { title: "AUGUST", imageUrl: "/images/month/August.webp", slug: "august" },
+  { title: "AUGUST", imageUrl: "/images/month/AUGUST.webp", slug: "august" },
   {
     title: "SEPTEMBER",
     imageUrl: "/images/month/Sept.webp",
@@ -223,8 +223,6 @@ export default function HowDoYouTravel() {
           </div>
         ) : (
           <div className="mt-16">
-
-
             {/* Mobile */}
             <div className="md:hidden grid grid-cols-1 gap-10">
               {data.map((item, index) => (
@@ -238,7 +236,7 @@ export default function HowDoYouTravel() {
                     src={item.imageUrl}
                     alt={item.title}
                     fill
-                     sizes="(max-width: 768px) 92vw"
+                    sizes="(max-width: 768px) 92vw"
                     className={`object-cover ${item.pos ?? "object-center"}`}
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition" />

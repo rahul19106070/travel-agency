@@ -88,7 +88,7 @@ export default function Hero() {
 
   transition-colors duration-300 ease-in-out
   hover:text-black
-
+ cursor-pointer
   before:absolute before:inset-0
   before:bg-white
   before:opacity-0
@@ -116,10 +116,10 @@ const ScrollIndicator: React.FC<{ onClick: () => void }> = ({ onClick }) => {
       className="absolute bottom-0 mt-2 cursor-pointer left-1/2 z-10 transform -translate-x-1/2 flex flex-col items-center gap-2 text-white/50 hover:text-white transition-all duration-300"
       aria-label="Scroll to content"
     >
-      <span className="text-xs sm:text-sm uppercase tracking-widest mt-4 font-brandon">
+      <span className="text-xs sm:text-sm text-white uppercase tracking-widest mt-4 font-brandon">
         More
       </span>
-      <div className="w-[2px] h-12 bg-white/50 animate-pulse-scale origin-top"></div>
+      <div className="w-[2px] h-12 bg-white animate-pulse-scale origin-top"></div>
       <style jsx>{`
         @keyframes pulse-scale {
           0%, 100% {
