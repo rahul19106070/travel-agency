@@ -20,6 +20,7 @@ const similarPackages = pkg?.similarPackages || [];
   if (!pkg) {
     return <div style={{ padding: 200 }}>Package not found</div>;
   }
+  console.log("helo",pkg);
 const [active, setActive] = useState(0);
 
 useEffect(() => {
@@ -41,7 +42,7 @@ useEffect(() => {
 
   return () => observer.disconnect();
 }, []);
-const [activeIndex, setActiveIndex] = useState<number | null>(null);
+const [activeIndex, setActiveIndex] = useState(null);
 
 
 return (
