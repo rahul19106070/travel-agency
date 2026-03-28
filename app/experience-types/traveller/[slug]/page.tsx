@@ -198,7 +198,7 @@ export default function ExperiencePage() {
 
 {/* ================= IMAGE GRID SECTIONS ================= */}
 {experience.imageContentSections && (
-  <section className=" mx-auto px-5 pb-7 pt-2 my-16 lg:mt-25 sm:mt-15 bg-[#E1E2E2]">
+  <section className=" mx-auto px-5 pb-7 pt-2 mt-10 lg:mt-10 sm:mt-15 bg-[#E1E2E2]">
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
       {experience.imageContentSections.map((section, idx) => (
         <div key={idx} className="flex flex-col">
