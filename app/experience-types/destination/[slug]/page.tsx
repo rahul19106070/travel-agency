@@ -76,7 +76,7 @@ if (!destination)
 
 
       {/* ================= INTRO ================= */}
-      <section className="mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15 lg:pb-25">
+      <section className="mx-auto px-5 py-10 md:py-10 sm:py:20 lg:py-15 lg:pb-20">
         <div className="text-center max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-3xl lg:text-4xl font-light mb-5">
             {destination.title}
@@ -115,7 +115,7 @@ if (!destination)
 
       {/* ============================ IMAGE + TEXT SPLIT SECTION (  ENQUIRE  ) ====================== */}
       {destination.SplitSection && (
-        <section className="mx-auto px-8 py-17 lg:mb-20 sm:mb-10">
+        <section className="mx-auto px-8 py-10  sm:mb-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
             {/* LEFT TEXT */}
