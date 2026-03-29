@@ -21,8 +21,8 @@ export default async function MonthPage({
   if (!month) {
     return <div className="pt-32 text-center text-xl">Month not found</div>;
   }
-// export default async function MonthPage({params}) {
-    // const params = useParams<{ slug: string }>();
+  // export default async function MonthPage({params}) {
+  // const params = useParams<{ slug: string }>();
   // const slug = params?.slug;
 
   // const month = MONTH_DATA.find((m) => m.slug === slug);
@@ -35,7 +35,8 @@ export default async function MonthPage({
     <>
       <Navbar appearance="home-scroll" />
       <main className="w-full overflow-x-hidden">
-        {/* HERO */}
+
+        {/* -------------------HERO */}
         <section className="relative h-[70vh] sm:h-[85vh] lg:h-[96vh] w-full">
           <Image
             src={month.heroImage}
@@ -54,7 +55,7 @@ export default async function MonthPage({
           </div>
         </section>
 
-        {/* CONTENT */}
+        {/*------------------------ CONTENT */}
         <section className="max-w-5xl mx-auto px-5 py-16 text-center">
           <h2 className="text-3xl sm:text-4xl font-light mb-6">
             {month.title}
@@ -77,25 +78,23 @@ export default async function MonthPage({
           </Link>
         </section>
 
-        {/* PACKAGES */}
-      <section
-  id="journey"
-  className="py-16 bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('/images/Backdrop.webp')" }}
->
-  {/* ✅ MOBILE TEXT (top) */}
-  <div className="lg:hidden px-4 sm:px-6 text-white mb-6">
-    <h2 className="text-3xl font-extrabold">
-      THE INSIDER'S 2026
-    </h2>
-    <p className="mt-3 italic text-white/70">
-      Exclusive access to the world's best-kept secrets...
-    </p>
-  </div>
+        {/*------------------------ PACKAGES */}
+        <section
+          id="journey"
+          className="py-16 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/images/Backdrop.webp')" }}
+        >
+          {/* ✅ MOBILE TEXT (top) */}
+          <div className="lg:hidden px-4 sm:px-6 text-white mb-6">
+            <h2 className="text-3xl font-extrabold">THE INSIDER'S 2026</h2>
+            <p className="mt-3 italic text-white/70">
+              Exclusive access to the world's best-kept secrets...
+            </p>
+          </div>
 
-  {/* ✅ SCROLL CONTAINER */}
-  <div
-    className="
+          {/* ✅ SCROLL CONTAINER */}
+          <div
+            className="
       flex gap-4 sm:gap-6
       overflow-x-auto
       pb-6
@@ -103,22 +102,22 @@ export default async function MonthPage({
       scroll-smooth
       [&::-webkit-scrollbar]:hidden
     "
-  >
-    {/* ❌ HIDE TEXT INSIDE SCROLL ON MOBILE */}
-    <div className="hidden lg:block min-w-[320px] shrink-0 text-white pt-6">
-      <h2 className="text-4xl lg:text-5xl font-extrabold">
-        THE INSIDER'S 2026
-      </h2>
-      <p className="mt-4 italic text-white/70">
-        Exclusive access to the world's best-kept secrets...
-      </p>
-    </div>
+          >
+            {/* ❌ HIDE TEXT INSIDE SCROLL ON MOBILE */}
+            <div className="hidden lg:block min-w-[320px] shrink-0 text-white pt-6">
+              <h2 className="text-4xl lg:text-5xl font-extrabold">
+                THE INSIDER'S 2026
+              </h2>
+              <p className="mt-4 italic text-white/70">
+                Exclusive access to the world's best-kept secrets...
+              </p>
+            </div>
 
-    {/* CARDS */}
-    {month.packages.map((pkg, idx) => (
-      <div
-        key={idx}
-        className="
+            {/* CARDS */}
+            {month.packages.map((pkg, idx) => (
+              <div
+                key={idx}
+                className="
           min-w-[75%] sm:min-w-[260px] md:min-w-[300px] lg:min-w-[320px]
           aspect-[3/5]
           shrink-0
@@ -126,23 +125,23 @@ export default async function MonthPage({
           overflow-hidden
           rounded-lg
         "
-      >
-        <Image
-          src={pkg.image}
-          alt={pkg.title}
-          fill
-          className="object-cover"
-        />
+              >
+                <Image
+                  src={pkg.image}
+                  alt={pkg.title}
+                  fill
+                  className="object-cover"
+                />
 
-        <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute inset-0 bg-black/50" />
 
-        <div className="absolute bottom-0 p-4 text-white">
-          <p className="text-xs font-bold">{pkg.duration}</p>
-          <p className="text-2xl font-extrabold">{pkg.title}</p>
-          <p className="text-sm text-white/80">{pkg.description}</p>
-       <Link  href={`/experience-types/destination/${pkg.destinationSlug}/packages/${pkg.packageSlug}`}
-
-  className="
+                <div className="absolute bottom-0 p-4 text-white">
+                  <p className="text-xs font-bold">{pkg.duration}</p>
+                  <p className="text-2xl font-extrabold">{pkg.title}</p>
+                  <p className="text-sm text-white/80">{pkg.description}</p>
+                  <Link
+                    href={`/experience-types/destination/${pkg.destinationSlug}/packages/${pkg.packageSlug}`}
+                    className="
     inline-block
     mt-2 sm:mt-4
     relative overflow-hidden
@@ -159,17 +158,17 @@ export default async function MonthPage({
     before:transition-transform before:duration-300 before:ease-out
     hover:before:translate-y-0
   "
->
-  <span className="relative z-10">EXPLORE TRIP</span>
-</Link>
-        </div>
-      </div>
-    ))}
-  </div>
-</section>
+                  >
+                    <span className="relative z-10">EXPLORE TRIP</span>
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
-        {/* FOLLOWING MONTHS */}
-        <section className="mx-auto px-5 py-10 my-20 bg-gray-300">
+        {/*------------------------------ MORE SEASONS */}
+        <section className="mx-auto px-5 py-10  pb-18 sm:pb-15 bg-gray-300">
           <h3 className="text-4xl font-light text-center mb-10">
             MORE SEASONS ?
           </h3>
@@ -222,11 +221,11 @@ export default async function MonthPage({
           </div>
         </section>
 
-        {/* ===== FINAL STORY SECTION ===== */}
-        <section className="relative w-full h-[30vh] py-30 md:py-8 sm:py-20 sm:h-[40vh] lg:h-[50vh] overflow-hidden">
+        {/* =====------------------------------- CTA ===== */}
+        <section className="relative w-full h-[30vh] py-36 md:py-8 sm:py-20 sm:h-[40vh] lg:h-[50vh] overflow-hidden">
           {/* Background Image */}
           <Image
-            src="/images/month/last_sect.webp" // 👈 change this path
+            src="/images/month/last_sect.webp" // 
             alt="Experience"
             fill
             sizes="100vw"
