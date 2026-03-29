@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/experience-types/destination/[slug]/packages/[packageSlug]/PackageClient.tsx"  ],
   "exclude": ["node_modules"]
 }

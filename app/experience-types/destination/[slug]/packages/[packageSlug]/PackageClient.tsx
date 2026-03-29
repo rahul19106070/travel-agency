@@ -1,27 +1,68 @@
 "use client";
 
-
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-// import type { Package } from "@/app/data/packageData";
 
-export default function PackageClient({ pkg }) {
+interface Section {
+  title1: string;
+  description1: string;
+  image1: string;
+}
+
+interface Hotel {
+  image: string;
+  name: string;
+  desc: string;
+}
+
+interface SimilarPackage {
+  slug: string;
+  packageSlug: string;
+  heroImage: string;
+  title: string;
+  heroMeta: {
+    duration: string;
+    headline: string;
+  };
+}
+
+interface PackageType {
+  title: string;
+  heroImage: string;
+  intro: string;
+
+  heroMeta: {
+    country: string;
+    headline: string;
+    when: string;
+    duration: string;
+    price: {
+      label: string;
+    };
+  };
+
+  sections: Section[];
+  hotels: Hotel[];
+  similarPackages?: SimilarPackage[];
+}
+
+interface Props {
+  pkg: PackageType;
+}
+
+export default function PackageClient({ pkg }:Props) {
  
-
-//   const similarPackages = PACKAGES.filter(
-//   (p) =>
-//     p.slug === slug && // same destination
-//     p.packageSlug !== packageSlug // exclude current
-// ); 
 const similarPackages = pkg?.similarPackages || [];
 
   if (!pkg) {
     return <div style={{ padding: 200 }}>Package not found</div>;
   }
-  console.log("helo",pkg);
-const [active, setActive] = useState(0);
+
+  const [active, setActive] = useState<number>(0);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
 
 useEffect(() => {
   const sections = document.querySelectorAll(".story-section");
@@ -42,7 +83,6 @@ useEffect(() => {
 
   return () => observer.disconnect();
 }, []);
-const [activeIndex, setActiveIndex] = useState(null);
 
 
 return (
@@ -101,7 +141,7 @@ return (
 
 
 {/* STORY SECTIONS */}
-<section className="max-w-6xl mx-auto px-7 pb-20 md:pb-25 lg:pb-20">
+<section className="max-w-6xl mx-auto px-7 pb-20 ">
 
   {/* DESKTOP LAYOUT */}
   <div className="hidden lg:grid grid-cols-2 gap-16">
